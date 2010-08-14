@@ -242,7 +242,7 @@ using-agile:
     
 red:
     date: Thu 01:00PM
-    title: Dr W. Edwards Deming's Famous Red Bead Experiment
+    title: CCH3 - Dr W. Edwards Deming's Famous Red Bead Experiment
     speakers: david-joyce
     description: |
         <p>Come along and participate in Dr W. Edwards Deming's famous Red Bead Experiment. This classic learning tool helps illustrate the impact that a system, and traditional management approaches, can have on individuals who work within an organisation.</p>
@@ -254,20 +254,20 @@ red:
 
 trials-tribulations:
     date: Thu 01:45PM
-    title: Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
+    title: CCH1 - Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
     speakers: john-sullivan
     description: 
 
 distributed-panel:
     date: Thu 01:45PM
-    title: Transcending Culture, Timezones and Countries
+    title: CCH2 - Transcending Culture, Timezones and Countries
     speakers: mahesh-baxi, dave-thomas, nigel-dalton, philip-abernathy
     description: |
         <p>How do you overcome the challenges of implementing Agile in a distributed environment? Panellists will call on their own experiences of being involved in distributed agile projects, the added complexities of communicating across distributed teams, how to tackle customer collaboration, trust and technical issues and most importantly, the ingredients to making it work!</p>
 
 achieving-quality:
     date: Thu 01:45PM
-    title: Building Quality into the Lifecycle - All the Way Through
+    title: CCH3 - Building Quality into the Lifecycle - All the Way Through
     speakers: sharon-robson
     description: |
         <p> Sharon Robson discusses how to integrate testing into an Agile project to enhance the final quality of the product, right from the start. This is done initially by high level examination of test objectives by both the business and the technical team members so that all agree and understand the key quality criteria for the product. The Agile approach is then overlaid to show how the integration of "traditional" testing methods, levels and techniques are appropriate and applicable to build quality of the product into the entire life cycle. The focus on regression testing, risk analysis and automation is considered in conjunction with the need for appropriate UAT at both the delivery team level and the business acceptance level. The common pitfalls and hurdles to look out for when implementing in an Agile testing strategy are also outlined, as well as how to deal with them.</p> 
@@ -281,7 +281,7 @@ achieving-quality:
         </ul>
 open-space:
     date: Thu 03:00PM
-    title: Open Space
+    title: CCH1 - Open Space
     speakers:
     description: |
         <p>Open Space is a chance for you to drive part of the Agile Australia conference! If we've missed an important topic you'd like to discuss, or haven't addressed one of your burning questions, Open Space will provide the opportunity for you to discuss or have discussed any question or topic you like!</p>
@@ -291,13 +291,13 @@ open-space:
 
 running-company-agile:
     date: Thu 03:00PM
-    title: Running a Company Agile
+    title: CCH2 - Running a Company Agile
     speakers: tim-hunt-smith
     description: |
         <p>The retail energy industry in Australia is one of the most competitive in the world and characterised by complex systems and processes which constrain speed to market. Tim Hunt-Smith shares his experience of transforming an energy retail company into a nimble and effective competitor by implementing lean/agile techniques as a management system for the company</p>
 
 dev-ops:
-    date: Thu 3:00PM
+    date: CCH3 - Thu 3:00PM
     title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
     speakers: jez-humble
     description: |
@@ -306,13 +306,13 @@ dev-ops:
 
 technical-debt:
     date: Thu 03:45PM
-    title: Paying Down Technical Debt Panel
+    title: CCH2 - Paying Down Technical Debt Panel
     speakers: adam-boas, martin-kearns, craig-smith, andy-marks, marina-chiovetti
     description: <p>No matter how hard we try, accumulating some technical debt is inevitable. Yet its nebulous nature often makes it difficult for anyone apart from the development team to appreciate and communicate. Our panel of experts will provide you with a sound understanding of technical debt, its causes and the ramifications. Panelists will give some practical ways of paying down technical debt while still delivering business value.</p>
 
 against-odds:
     date: Thu 03:45PM
-    title: Delivery Ggainst the Odds - How Agile Practices Can Save Your Project
+    title: CCH3 - Delivery Ggainst the Odds - How Agile Practices Can Save Your Project
     speakers: holger-kaufmann
     description: |
         <p>A case study on a large, highly time-critical development project for an iron ore industry client, the talk will describe how Agile practices can be used to achieve delivery against the odds. Topics will include effective on-boarding, no-waste production, and optimal utilisation of time and people.</p>
