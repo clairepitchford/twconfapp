@@ -201,7 +201,7 @@ ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function(session) {
 };
 
 ConferenceDOMBuilder.prototype.buildSessionDOM = function(sessionID, session) {
-    var currentDate = new Date();
+    var currentDate = new Date(2010, 9, 15, 10, 0, 0, 0);//new Date();
     var skipRatingWidget = null;
     if (session.date < currentDate) {
         var currentRating = localStorage.getItem(sessionID+'-rating');
