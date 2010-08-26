@@ -8,7 +8,6 @@ require 'rubygems'
 require 'json'
 
 class Main
-
   def check_speakers
     puts "Loading topics"
     topics = YAML::load(File.open('data/topics.yml'))
@@ -49,23 +48,9 @@ class Main
     
     return valid
   end
-
-  def build_iphone_app
-    iphone_app_project_dir = 'iphone/AgileAus2010'
-    FileUtils.remove_dir(iphone_app_project_dir + '/www', force = true)
-    FileUtils.makedirs(iphone_app_project_dir + '/www/themes')
-    FileUtils.cp_r(%w(index.html jqtouch/), iphone_app_project_dir + '/www')
-    FileUtils.cp_r(%w(themes/agile2010), iphone_app_project_dir + '/www/themes')
-    FileUtils.cp('themes/agile2010/icon.png', iphone_app_project_dir + '/icon.png')
-    FileUtils.cp('themes/agile2010/startup.png', iphone_app_project_dir + '/Default.png')
-    #TODO: invoke the xcode build script for 'release'
-  end
-
 end
 
 if __FILE__ == $0
   main = Main.new
   main.check_speakers
-  main.build_iphone_app
 end
-
