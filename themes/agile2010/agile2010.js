@@ -201,12 +201,25 @@ ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function(session) {
 };
 
 ConferenceDOMBuilder.prototype.buildSessionDOM = function(sessionID, session) {
+    var currentDate = new Date();
+    var skipRatingWidget = null;
+    if (session.date < currentDate) {
+        var currentRating = localStorage.getItem(sessionID+'-rating');
+        if (localStorage.getItem(sessionID+'-rating')) {
+            skipRatingWidget = '<img src="themes/agile2010/ratings/'+currentRating+'.jpg" alt="'+currentRating+' stars"/>';
+        } else {
+            skipRatingWidget = '<a href="#addrating"><img src="themes/agile2010/addRating.jpg" alt="rate this session"/>';
+        }
+    } else {
+        skipRatingWidget = '<input type="checkbox" topic="' + sessionID + '" class="attend-slider touch"/>';
+    }
+    
     var sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>');
     sessionDiv.append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
     var contentDiv = $('<div class="scroll"></div>');
     sessionDiv.append(contentDiv);
-	  contentDiv.append($('<div class="description"><span class="session-header">' + session.title + '</span><span style=""><span class="toggle go-skip" style="display: inline-block;"><input type="checkbox" topic="' + sessionID + '" class="attend-slider touch"/></span></span></div>'));
-	  contentDiv.append($('div class="topic">' + session.topic + '</div>'));
+    contentDiv.append($('<div class="description"><span class="session-header">' + session.title + '</span><span><span class="toggle go-skip" style="display: inline-block;">'+skipRatingWidget+'</span></span></div>'));
+    contentDiv.append($('div class="topic">' + session.topic + '</div>'));
     contentDiv.append(this.buildSessionSpeakerList(session));
     contentDiv.append($('<div class="description">' + session.description + '</div>'));
     return sessionDiv;
