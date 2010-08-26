@@ -1,6 +1,6 @@
 
 Given /I open the app/ do
-  $browser.goto "#{Dir.getwd}/index.html"
+  $browser.goto "file:///#{Dir.getwd}/index.html"
 end
 
 When /the home page appears/ do

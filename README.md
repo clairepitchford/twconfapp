@@ -27,14 +27,18 @@ You know how to deploy that, right?
 Testing
 ---------
 
-    rake features
+    rake
 
-That runs Safari. And then does integration tests. What the customer will be
+That runs firefox. And then does integration tests. What the customer will be
 able see, you'll be able to test.
+
+You want chrome?
+
+    rake BROWSER=chrome
 
 But you'll need:
 
-  * [watir](http://watir.com/).
+  * [watir-webdriver](http://github.com/jarib/watir-webdriver/).
 
 (Wow. A bullet-list. This is in preparation for you, the **star**, to make an even
 more comple-- err, functional test infrastructure. You're gonna do that,

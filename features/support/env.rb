@@ -1,9 +1,7 @@
 require 'spec/expectations'
-require "watir"
+require 'watir-webdriver'
 
-Watir::Browser.default = 'safari'
-
-$browser = Watir::Browser.new
+$browser = Watir::Browser.new (ENV['BROWSER']||'firefox')
 
 Kernel::at_exit do 
   $browser.close
