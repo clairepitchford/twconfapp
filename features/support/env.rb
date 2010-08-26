@@ -1,2 +1,2 @@
 require 'spec/expectations'
-require 'safariwatir'
+require 'watir-webdriver'

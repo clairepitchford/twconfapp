@@ -2,7 +2,7 @@ XPATH_CURRENT = "//div[contains(@class, 'current')]"
 XPATH_SCHEDULE = "#{XPATH_CURRENT}//ul[contains(@class, 'schedule')]"
 
 Given /I open (\w+)/ do |schedule_day|
-  @browser = Watir::Safari.start "#{Dir.getwd}/index.html"
+  @browser = Watir::Browser.start "file:///#{Dir.getwd}/index.html"
   @browser.link(:xpath, "#{XPATH_CURRENT}//div[@class='toolbar']//a[@href='##{schedule_day}']").click
 end
 
