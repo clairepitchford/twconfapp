@@ -207,8 +207,8 @@ ConferenceDOMBuilder.prototype.buildSessionDOM = function(sessionID, session) {
     if (sessionDate < currentDate) {
         var currentRating = localStorage.getItem(sessionID+'-rating');
         if (currentRating) {
-            var redStarImg = '<img src="themes/agile2010/img/red_star.png" alt="'+currentRating+' stars"/>';
-            var grayStarImg = '<img src="themes/agile2010/img/gray_star.png" alt="'+currentRating+' stars"/>';
+            var redStarImg = '<img src="themes/agile2010/img/on_star.png" alt="'+currentRating+' stars"/>';
+            var grayStarImg = '<img src="themes/agile2010/img/off_star.png" alt="'+currentRating+' stars"/>';
             for (var i = 0; i < 3; i++) {
                 if (i < currentRating) {
                     skipRatingWidget += redStarImg;
