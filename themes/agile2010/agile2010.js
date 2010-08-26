@@ -203,11 +203,19 @@ ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function(session) {
 ConferenceDOMBuilder.prototype.buildSessionDOM = function(sessionID, session) {
     var currentDate = new Date(2010, 9, 15, 10, 0, 0, 0);//new Date();
     var sessionDate = new Date(buildDateStringForSession(session));
-    var skipRatingWidget = null;
+    var skipRatingWidget = "";
     if (sessionDate < currentDate) {
         var currentRating = localStorage.getItem(sessionID+'-rating');
-        if (localStorage.getItem(sessionID+'-rating')) {
-            skipRatingWidget = '<img src="themes/agile2010/ratings/'+currentRating+'.jpg" alt="'+currentRating+' stars"/>';
+        if (currentRating) {
+            var redStarImg = '<img src="themes/agile2010/img/red_star.png" alt="'+currentRating+' stars"/>';
+            var grayStarImg = '<img src="themes/agile2010/img/gray_star.png" alt="'+currentRating+' stars"/>';
+            for (var i = 0; i < 3; i++) {
+                if (i < currentRating) {
+                    skipRatingWidget += redStarImg;
+                } else {
+                    skipRatingWidget += grayStarImg;
+                }
+            }
         } else {
             skipRatingWidget = '<a href="#addrating"><img src="themes/agile2010/addRating.jpg" alt="rate this session"/>';
         }
