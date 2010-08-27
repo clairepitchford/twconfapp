@@ -1,71 +1,34 @@
-#!/usr/bin/env ruby
-
-require 'yaml'
-require 'erb'
-require 'time'
-require 'fileutils'
-require 'rubygems'
 require 'json'
+require 'yaml'
 
-class Main
+class JSONConverter
+  attr_reader :topics, :speakers
 
-  def check_speakers
-    puts "Loading topics"
-    topics = YAML::load(File.open('data/topics.yml'))
+  def initialize(topics_yaml, speakers_yaml)
+    @topics = YAML::load(topics_yaml) || {}
+    @speakers = YAML::load(speakers_yaml) || {}
 
-    puts "Loading speakers"
-    speakers = YAML::load(File.open('data/speakers.yml'))
-    valid = true
-    topics.each_key do |id|
-      topic_speakers = topics[id]['speakers']
-      if topic_speakers!=nil
-        topic_speakers.split(',').each do |speaker_id|
-          speaker_id.strip!
-          if speakers[speaker_id] == nil
-            puts "topic #{id} points to speaker #{speaker_id} which is not in speakers.yml"
-            valid = false
-          end
-          raise "Speaker #{speaker_id} does not have a description" unless speakers[speaker_id]['description']
-          raise "Speaker #{speaker_id} does not have a title" unless speakers[speaker_id]['title']
-          raise "Speaker #{speaker_id} does not have a name" unless speakers[speaker_id]['name']
-        end
+    @topics.each_pair do |t_id, data|
+      t = DateTime.strptime(data['date'], '%a %I:%M%p')    # Will throw on parse error
+      raise "Topic #{t_id} is not on Wednesday or Thursday." unless [3, 4].include? t.wday
+
+      speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
+        raise "Topic #{t_id} points to a non-existant speaker #{s_id}" unless @speakers[s_id]
+        raise "Speaker #{s_id} does not have a description" unless @speakers[s_id]['description']
+        raise "Speaker #{s_id} does not have a title" unless @speakers[s_id]['title']
+        raise "Speaker #{s_id} does not have a name" unless @speakers[s_id]['name']
       end
     end
-    
-    now = DateTime.now
-    
-    data = <<-DATA
-    var defaultSpeakerData = { 
-      'timestamp': '#{now}',
-      'data': #{speakers.to_json}
-    }
-    var defaultSessionData = {
-      'timestamp': '#{now}',
-      'data': #{topics.to_json}
-    }
-    DATA
-    
-    File.open("themes/agile2010/defaultData.js", "w") { |f| f.puts data }
-    
-    return valid
   end
 
-  def build_iphone_app
-    iphone_app_project_dir = 'iphone/AgileAus2010'
-    FileUtils.remove_dir(iphone_app_project_dir + '/www', force = true)
-    FileUtils.makedirs(iphone_app_project_dir + '/www/themes')
-    FileUtils.cp_r(%w(index.html jqtouch/), iphone_app_project_dir + '/www')
-    FileUtils.cp_r(%w(themes/agile2010), iphone_app_project_dir + '/www/themes')
-    FileUtils.cp('themes/agile2010/icon.png', iphone_app_project_dir + '/icon.png')
-    FileUtils.cp('themes/agile2010/startup.png', iphone_app_project_dir + '/Default.png')
-    #TODO: invoke the xcode build script for 'release'
+  def write(out)
+    out.write <<-EOF
+      var defaultSpeakerData = { 
+        'data': #{@speakers.to_json}
+      }
+      var defaultSessionData = {
+        'data': #{@topics.to_json}
+      }
+    EOF
   end
-
 end
-
-if __FILE__ == $0
-  main = Main.new
-  main.check_speakers
-  main.build_iphone_app
-end
-

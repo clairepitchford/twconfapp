@@ -1,9 +1,11 @@
-XPATH_CURRENT = "//div[contains(@class, 'current')]"
-XPATH_SCHEDULE = "#{XPATH_CURRENT}//ul[contains(@class, 'schedule')]"
-
 Given /I open (\w+)/ do |schedule_day|
-  @browser = Watir::Browser.start "file:///#{Dir.getwd}/index.html"
-  @browser.link(:xpath, "#{XPATH_CURRENT}//div[@class='toolbar']//a[@href='##{schedule_day}']").click
+  @browser = Watir::Safari.start("file:///#{Dir.getwd}/index.html")
+  @browser.eval_js "$(\"div.current div.toolbar a[href='##{schedule_day}']\").click()"
+  loop do
+    sleep 0.1
+    break if @browser.dom.at('div.current')['id'] == schedule_day
+  end
+  @schedule = parse_schedule()
 end
 
 When /the home page appears/ do
@@ -15,15 +17,14 @@ Then /I should see (\w+) selected/ do |schedule_day|
 end
 
 Then /time slot (\d\d:\d\d(?:AM|PM)) exists/ do |time_slot|
-  @ts_query = "#{XPATH_SCHEDULE}//li[text()='#{time_slot}']"
-
-  @browser.li(:xpath, @ts_query).text.should == time_slot
+  @time_slot = time_slot
+  @schedule[@time_slot].should_not be_empty
 end
 
 Then /the title should be (.+)/ do |title|
-  @browser.link(:xpath, "#{@ts_query}/following-sibling::li//a[contains(@class, 'topic-link')]").text.should == title
+  @schedule[@time_slot].first['title'].should == title
 end
 
 Then /the speaker should be (.+)/ do |speaker|
-  @browser.div(:xpath, "#{@ts_query}/following-sibling::li//div[contains(@class, 'speaker-go')]").text.should == speaker
+  @schedule[@time_slot].first['speaker'].should == speaker
 end
