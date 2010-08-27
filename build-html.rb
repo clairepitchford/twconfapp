@@ -11,7 +11,6 @@ class JSONConverter
     @topics.each_pair do |t_id, data|
       t = DateTime.strptime(data['date'], '%a %I:%M%p')    # Will throw on parse error
       raise "Topic #{t_id} is not on Wednesday or Thursday." unless [3, 4].include? t.wday
-      raise "Topic #{t_id} does not have a description" unless data['description']
 
       speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
         raise "Topic #{t_id} points to a non-existant speaker #{s_id}" unless @speakers[s_id]

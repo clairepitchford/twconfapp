@@ -70,16 +70,6 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
     And the number of speakers should be 2
     And there should be a description
 
-  Scenario: A session without a description shouldn't work.
-    Given a topics YAML of:
-      """
-      open-house:
-          date: Wed 01:23AM
-          title: Something Amazing
-          speakers: bob-jones
-      """
-    Then there should be an error
-
   Scenario: A session with an invalid time shouldn't work.
     Given a topics YAML of:
       """
