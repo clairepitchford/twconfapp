@@ -200,15 +200,46 @@ ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function(session) {
     return speakerList;
 };
 
+function buildRatingStarString(rating, imgHeight) {
+    rating = rating == null ? 0 : rating;
+    var imgString = '<span style="text-align: center; display: block">';
+    var redStarImg = "themes/agile2010/img/on_star.png";
+    var grayStarImg = "themes/agile2010/img/off_star.png";
+    for (var i = 0; i < 3; i++) {
+        if (i < rating) {
+            imgString += '<img src="'+redStarImg+'" height="'+imgHeight+'" alt="'+rating+' stars" class="ratingStar star_'+i+'"/>';
+        } else {
+            imgString += '<img src="'+grayStarImg+'" height="'+imgHeight+'" alt="'+rating+' stars" class="ratingStar star_'+i+'"/>';
+        }
+    }
+    return imgString+"</span>";
+}
+
 ConferenceDOMBuilder.prototype.buildSessionDOM = function(sessionID, session) {
+    var currentDate = new Date();//new Date(2010, 9, 15, 10, 0, 0, 0);
+    var sessionDate = new Date(buildDateStringForSession(session));
+    var skipRatingWidget = "";
+    var currentRating = localStorage.getItem(sessionID+'-rating');
+    if (sessionDate < currentDate) {
+        if (currentRating) {
+            skipRatingWidget = '<p style="font-size: 8pt; margin: 0; padding: 0; float: right">Your rating: ' + buildRatingStarString(currentRating, 10) + '</p>';
+        } else {
+            skipRatingWidget = '<p style="font-size: 10pt; float: right; margin: 3px 0 0 0; font-weight: bold">Rate this session below</p>';
+        }
+    } else {
+        skipRatingWidget = '<span class="toggle go-skip" style="display: inline-block;"><input type="checkbox" topic="' + sessionID + '" class="attend-slider touch"/></span>';
+    }
+    
     var sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>');
     sessionDiv.append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
     var contentDiv = $('<div class="scroll"></div>');
     sessionDiv.append(contentDiv);
-	  contentDiv.append($('<div class="description"><span class="session-header">' + session.title + '</span><span style=""><span class="toggle go-skip" style="display: inline-block;"><input type="checkbox" topic="' + sessionID + '" class="attend-slider touch"/></span></span></div>'));
-	  contentDiv.append($('div class="topic">' + session.topic + '</div>'));
+    contentDiv.append($('<div class="description"><span class="session-header">' + session.title +'</span><span>'+skipRatingWidget+'</span></div>'));
+    contentDiv.append($('div class="topic">' + session.topic + '</div>'));
     contentDiv.append(this.buildSessionSpeakerList(session));
     contentDiv.append($('<div class="description">' + session.description + '</div>'));
+    contentDiv.append($('<div class="feedback">'+buildRatingStarString(currentRating, 30)+'<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="'+currentRating+'"/><input type="submit" value="send" name="'+sessionID+'" class="feedbackform-submit" /></form></div>'));
+    
     return sessionDiv;
 };
 
@@ -325,4 +356,47 @@ $(document).ready(function() {
     buildSessionDom(conference);
     registerJQTouchLiveEvents();
     registerCacheUpdateEvents();
+    
+    $(".feedbackform-submit").click(function() {
+        var sessionID = $(this).attr('name');
+        var rating = localStorage.getItem(sessionID+"-rating");
+        rating = rating == null ? 0 : rating;
+        var feedback = $("textarea", $(this).parent()).val();
+        var url = "https://spreadsheets.google.com/formResponse?formkey=dGFFZndkdmN0NjdTY0l4WWVvOEI1Qmc6MQ&ifq";
+        
+        $.ajax({
+            url: url, 
+            data: {'entry.0.single': feedback, 'entry.1.group': rating, 'entry.2.single': sessionID, 'pageNumber': 0, 'backupCache': '', 'submit':'send'},
+            type: 'POST',
+            error: function(xmlhttp, textStatus, errorThrown) {
+                alert(textStatus);
+                alert(errorThrown);
+            }, 
+            success: function() {
+                alert("success");
+            }
+        });
+    });
+    
+    $(".ratingStar").click(function() {
+        var sessionID = $("#jqt div.current").attr("id");
+        var starImg = $(this);
+        if (starImg.hasClass("star_0")) {
+            localStorage.setItem(sessionID+"-rating", 1);
+        } else if (starImg.hasClass("star_1")) {
+            localStorage.setItem(sessionID+"-rating", 2);
+        } else {
+            localStorage.setItem(sessionID+"-rating", 3);
+        }
+        
+        for (var i = 0; i < 3; i++) {
+            $("#jqt div.current .star_"+i).each(function() {
+                if (i < localStorage.getItem(sessionID+"-rating")) {
+                    $(this).attr("src", "themes/agile2010/img/on_star.png");
+                } else {
+                    $(this).attr("src", "themes/agile2010/img/off_star.png");
+                }
+            })
+        }
+    });
 });

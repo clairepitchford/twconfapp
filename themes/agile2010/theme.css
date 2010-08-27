@@ -109,6 +109,33 @@ div#jqt .toolbar > h1 {
 	font-size:16px;
 }
 
+.feedback {
+    margin: 10px;
+    padding: 10px;
+	background-color:#E0E0E0;
+	border-style:solid;
+	border-width:1px;
+	border-color:#999;
+	font-size:20px;
+	margin:12px;
+	-webkit-border-radius: 8px;
+}
+
+.feedback p {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+
+.feedback textarea {
+    width: 96%;
+    height: 60px;
+}
+
+.feedback .feedbackform-submit {
+    display: block;
+    margin: 5px auto;
+}
+
 .speaker-info {
     padding: 15px;
 	color:#000;
