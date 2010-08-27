@@ -1,10 +1,5 @@
-#!/usr/bin/env ruby
-
-require 'yaml'
 require 'json'
-
-Topic = Struct.new ('Topic', :id, :day, :time, :title, :speakers, :description)
-Speaker = Struct.new ('Speaker', :id, :name, :title, :description)
+require 'yaml'
 
 class JSONConverter
   attr_reader :topics, :speakers
@@ -36,12 +31,5 @@ class JSONConverter
         'data': #{@topics.to_json}
       }
     EOF
-  end
-end
-
-if __FILE__ == $0
-  File.open("themes/agile2010/defaultData.js", "w") do |f|
-    JSONConverter(File.open('data/topics.yml'),
-                  File.open('data/speakers.yml')).write f
   end
 end
