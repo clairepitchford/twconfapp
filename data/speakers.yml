@@ -61,11 +61,6 @@ neal-ford:
     description: |
         <p>Neal Ford is a Software Architect and Meme Wrangler at ThoughtWorks, a global IT consultancy with an exclusive focus on end-to-end software development and delivery. He is also the designer and developer of applications, instructional materials, magazine articles, courseware, video/DVD presentations, and author and/or editor of six books spanning a variety of technologies, including the most recent The Productive Programmer. He focuses on designing and building of large-scale enterprise applications. He is also an internationally acclaimed speaker, speaking at over 100 developer conferences worldwide, delivering more than 600 talks.</p>
 
-derminder-gall:
-    name: Derminder Gall
-    title: General Manager of Business Process Management, ANZ
-    description: |
-
 shane-hastie:
     name: Shane Hastie
     title: Chief Knowledge Engineer, Software Education
@@ -258,7 +253,8 @@ jez-humble:
 steve-lawrence:
     name: Steve Lawrence
     title: Principal Consultant, Solnet Solutions
-    description: N/A
+    description: |
+        <p>Steve Lawrence has 17 years experience in IT with seven years using Agile, including three years as an Agile coach. Steve is the Agile Practice Lead at Solnet Solutions. He regularly delivers presentations to NZ corporate and government clients on the benefits of Agile and enjoys practicing what he preaches on real projects. He is a committee member of the Auckland chapter of the Agile Professionals Network. Steve is passionate about taking Agile forward and delivering maximum value to clients.</p>
     
 michael-bromley:
     name: Michael Bromley
