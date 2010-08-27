@@ -2,12 +2,6 @@ require 'spec/expectations'
 require 'safariwatir'
 require 'nokogiri'
 
-$browser = Watir::Safari.new
-
-at_exit {
-  $browser.close
-}
-
 class Watir::Safari
   def eval_js string
     @scripter.instance_eval { eval_js string }
