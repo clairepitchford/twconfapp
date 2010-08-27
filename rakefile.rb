@@ -4,9 +4,9 @@ require 'build-html'
 task :default => [:schedule, :cucumber]
 
 task :schedule do
-  File.open("themes/agile2010/defaultData.js", "w") do |f|
-    JSONConverter.new(File.open('data/topics.yml'),
-                      File.open('data/speakers.yml')).write f
+  File.open(JSON_DATA_FILENAME, "w") do |f|
+    JSONConverter.new(File.open(TOPIC_YAML_FILENAME ),
+                      File.open(SPEAKER_YAML_FILENAME)).write f
   end
 end
 

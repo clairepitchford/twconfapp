@@ -1,6 +1,10 @@
 require 'json'
 require 'yaml'
 
+JSON_DATA_FILENAME = 'themes/agile2010/defaultData.js'
+SPEAKER_YAML_FILENAME = 'data/speakers.yml'
+TOPIC_YAML_FILENAME = 'data/topics.yml'
+
 class JSONConverter
   attr_reader :topics, :speakers
 
