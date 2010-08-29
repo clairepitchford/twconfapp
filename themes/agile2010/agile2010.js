@@ -60,7 +60,7 @@ function changeIcons(){
 }
 
 function requestTweetsJson() {
-    $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/jqt/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
+    $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/agile2010/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
     $.getScript("http://search.twitter.com/search.json?q=agileaus&callback=rebuildTweets");
 }
 
