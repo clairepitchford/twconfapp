@@ -201,22 +201,23 @@ function buildDOM() {
   };
 
   ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
-    var topicKeys = {
-      "Wed" : getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
-      "Thu" : getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")
-    };
-    var topicList = $('ul.edgetoedge', dayDiv);
-    topicList.empty();
-    var previousDate = null;
-    var dayTopics = topicKeys[day.shortName];
-    for (var sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
-      var session = dayTopics[sessionIndex];
-      var sessionDate = new Date(buildDateStringForSession(session));
+    var topicKeys = {"Wed" : getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
+                     "Thu" : getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")},
+        topicList = $('ul.edgetoedge', dayDiv).empty(),
+        previousDate = null,
+        dayTopics = topicKeys[day.shortName],
+        sessionIndex, session, sessionDate, speakers;
+
+    for (sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
+      session = dayTopics[sessionIndex];
+      sessionDate = new Date(buildDateStringForSession(session));
+
       if (!previousDate || (sessionDate.getTime() !== previousDate.getTime())) {
         topicList.append($('<li class="sep">' + session.date.split(' ')[1].replace(" ", "") + '</li>'));
         previousDate = sessionDate;
       }
-      var speakers = (session.speakers === null ? [] : session.speakers.split(','));
+
+      speakers = (session.speakers === null ? [] : session.speakers.split(','));
       topicList.append($('<li>' +
                            '<div class="arrow">' +
                              '<a href="#' + session.id + '" class="topic-link slide">' + session.title + '</a>' +
@@ -271,8 +272,9 @@ function registerJQTouchLiveEvents() {
   // Running it more than once results in the handlers being called
   // multiple times.
   $('span.go-skip input').tap(function (e) {
-    var id = $(this).attr('topic');
-    var transitioningTo = !this.checked;
+    var id = $(this).attr('topic'),
+        transitioningTo = !this.checked;
+
     if (transitioningTo) {
       addToMySessions(id);
     } else {
@@ -283,8 +285,8 @@ function registerJQTouchLiveEvents() {
   $('div.uses_local_data').live('pageAnimationStart', function (e, info) {
     if (!info || info.direction === "in") {
       $(this).find("input.attend-slider").each(function () {
-        var slider = $(this);
-        var id = slider.attr('topic');
+        var slider = $(this),
+            id = slider.attr('topic');
         slider.attr('checked', isInMySessions(id));
       });
     }
