@@ -272,6 +272,7 @@ ConferenceDOMBuilder.prototype.updateTopicList = function(day, dayDiv) {
     topicList.empty();
     var previousDate = null;
     var dayTopics = topicKeys[day.shortName];
+    var now = new Date();
     for (var sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
         var session = dayTopics[sessionIndex];
         var sessionDate = new Date(buildDateStringForSession(session));
@@ -280,13 +281,16 @@ ConferenceDOMBuilder.prototype.updateTopicList = function(day, dayDiv) {
             previousDate = sessionDate;
         }
         var speakers = (session.speakers === null ? [] : session.speakers.split(','));
-        topicList.append($('<li>'
+        console.log(sessionDate + " vs " + now);
+        topicList.append($('<li id="'+session.id+'-session">'
 			+'<div class="arrow">'
 				+'<a href="#' + session.id + '" class="topic-link slide">' + session.title + '</a>'
 			+'</div>'
 			+'<div class="speaker-go">'
 				+'<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>'
-				+'<span class="toggle go-skip"><input type="checkbox" topic="' + session.id + '" class="attend-slider touch"/></span>'
+				+'<span class="toggle go-skip">'
+				+ (sessionDate.getTime() > now.getTime() ? '<input type="checkbox" topic="' + session.id + '" class="attend-slider touch"/>' : buildRatingStarString(localStorage.getItem(session.id+'-rating'), 20))
+				+ '</span>'
 			+'</div>'
 			+'</li>'));
     }
@@ -379,7 +383,7 @@ $(document).ready(function() {
         });
     });
     
-    $(".ratingStar").click(function() {
+    $(".feedback .ratingStar").click(function() {
         var sessionID = $("#jqt div.current").attr("id");
         var starImg = $(this);
         if (starImg.hasClass("star_0")) {
@@ -391,13 +395,13 @@ $(document).ready(function() {
         }
         
         for (var i = 0; i < 3; i++) {
-            $("#jqt div.current .star_"+i).each(function() {
+            $("#jqt div.current .star_"+i+", #jqt li#"+sessionID+"-session .star_"+i).each(function() {
                 if (i < localStorage.getItem(sessionID+"-rating")) {
                     $(this).attr("src", "themes/agile2010/img/on_star.png");
                 } else {
                     $(this).attr("src", "themes/agile2010/img/off_star.png");
                 }
-            })
+            });
         }
     });
 });
