@@ -34,6 +34,10 @@ div#jqt .toolbar > h1 {
 	background-color: #FFF;
 }
 
+div.content {
+	top: 0px;
+}
+
 .topic {
     padding: 10px;
     padding-bottom: 0;
