@@ -354,13 +354,7 @@
     setInterval(function() { cache.update(); }, 30 * 1000);
   }
 
-  $(document).ready(function() {
-    var conference = new AgileConference();
-    buildSpeakerDom(conference);
-    buildSessionDom(conference);
-    registerJQTouchLiveEvents();
-    registerCacheUpdateEvents();
-    
+  function registerFeedbackEvents() {
     $(".feedbackform-submit").click(function() {
       var sessionID = $(this).attr('name');
       var rating = localStorage.getItem(sessionID+"-rating");
@@ -403,6 +397,14 @@
         })
       }
     });
+  }
+
+  $(document).ready(function() {
+    var conference = new AgileConference();
+    buildSpeakerDom(conference);
+    buildSessionDom(conference);
+    registerJQTouchLiveEvents();
+    registerCacheUpdateEvents();
   });
 
   var jQT = new $.jQTouch({
