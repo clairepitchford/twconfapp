@@ -94,8 +94,9 @@ function buildDateStringForSession(session) {
         dateString += "16, "; //16th of sept
     }
     dateString += "2010 ";
-    var hours = dateParts[1].substr(0, 2);
-    var minutes = dateParts[1].substr(3, 2);
+    var timeParts = dateParts[1].split(":");
+    var hours = timeParts[0];
+    var minutes = timeParts[1].substr(0, 2);
     if (dateParts[1].indexOf("PM") != -1 && hours != 12) {
         hours = (parseInt(hours, 10) + 12) + "";
     }
@@ -272,13 +273,13 @@ ConferenceDOMBuilder.prototype.updateTopicList = function(day, dayDiv) {
         "Thu" : getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")};
     var topicList = $('ul.edgetoedge', dayDiv);
     topicList.empty();
-    var previousDate = '';
+    var previousDate = null;
     var dayTopics = topicKeys[day.shortName];
     for (var sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
         var session = dayTopics[sessionIndex];
-        var sessionDate = session.date.split(' ')[1].replace(" ", "");
-        if (sessionDate != previousDate) {
-            topicList.append($('<li class="sep">' + sessionDate + '</li>'));
+        var sessionDate = new Date(buildDateStringForSession(session));
+        if (!previousDate || (sessionDate.getTime() != previousDate.getTime())) {
+            topicList.append($('<li class="sep">' + session.date.split(' ')[1].replace(" ","") + '</li>'));
             previousDate = sessionDate;
         }
         var speakers = (session.speakers === null ? [] : session.speakers.split(','));
