@@ -49,14 +49,17 @@ function differentialTime(date) {
     return s;
 }
 
-function changeIcons(){
+function changeIcons(path){
 	$("#tabbar img.icon-img").each(function(index, s) {
 		var src = $(this).attr('src');
 		$(this).attr('src', src.replace('on', 'off'));
 	});
-	
-	var src = $(event.target).attr('src');  
-	$(event.target).attr('src', src.replace('off', 'on'));
+
+        if (path) {
+                var target = $('#tabbar a[href=#' + path + '] img.icon-img');
+                var src = target.attr('src');  
+                target.attr('src', src.replace('off', 'on'));
+        }
 }
 
 function requestTweetsJson() {
@@ -340,10 +343,8 @@ function registerJQTouchLiveEvents() {
     $('#twitter').bind('pageAnimationStart', function() {
         requestTweetsJson();
     });
-    
-    $('#tabbar a').tap(function() {
-      changeIcons();
-    });
+
+    $.history.init(changeIcons);
 }
 
 function registerCacheUpdateEvents() {

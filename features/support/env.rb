@@ -32,18 +32,20 @@ module Watir
   end
 end
 
-class SimPhone
-  def initialize(topic_yaml = TOPIC_YAML_FILENAME, speaker_yaml = SPEAKER_YAML_FILENAME)
-    File.open(JSON_DATA_FILENAME, "w") do |f|
-      JSONConverter.new(File.open(topic_yaml),
-                        File.open(speaker_yaml)).write f
-    end
+class CoreView
+  attr_reader :browser
 
-    @browser = Watir::Safari.start("file:///#{Dir.getwd}/index.html")
+  def initialize(browser)
+    @browser = browser
   end
 
-  def title
-    return @browser.title
+  def tab?
+    return @browser.div(:jquery, "div.current h1").text
+  end
+
+  def tab(item)
+    @browser.link(:jquery, "nav#tabbar a:has(> img[alt='#{item}'])").click_jquery()
+    return CoreView.new @browser
   end
 
   def schedule(day)
@@ -52,12 +54,19 @@ class SimPhone
   end
 end
 
-class ScheduleView < SimPhone
-  def initialize(browser)
-    @browser = browser
-  end
+class SimPhone < CoreView
+  def initialize(topic_yaml = TOPIC_YAML_FILENAME, speaker_yaml = SPEAKER_YAML_FILENAME)
+    File.open(JSON_DATA_FILENAME, "w") do |f|
+      JSONConverter.new(File.open(topic_yaml),
+                        File.open(speaker_yaml)).write f
+    end
 
-  def day
+    @browser = Watir::Safari.start("file:///#{Dir.getwd}/index.html")
+  end
+end
+
+class ScheduleView < CoreView
+  def day?
     @browser.div(:jquery, "div.current div.toolbar a.selected").text
   end
 
