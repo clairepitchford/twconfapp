@@ -34,6 +34,10 @@ div#jqt .toolbar > h1 {
 	background-color: #FFF;
 }
 
+div.content {
+	top: 0px;
+}
+
 .topic {
     padding: 10px;
     padding-bottom: 0;
@@ -86,7 +90,7 @@ div#jqt .toolbar > h1 {
 	font-size: 16px; 
 	font-weight:bold; 
 	width: 60%; 
-	display: inline-block;"
+	display: inline-block;
 }
 
 .description {
@@ -104,9 +108,8 @@ div#jqt .toolbar > h1 {
 }
 
 .description p {
-    margin-bottom: 7px;
+    padding-top: 5px;
 	color:#000;
-	font-size:16px;
 }
 
 .feedback {
