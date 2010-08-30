@@ -402,3 +402,21 @@ $(document).ready(function() {
         }
     });
 });
+
+var jQT = new $.jQTouch({
+	icon: 'themes/agile2010/icon.png',
+	addGlossToIcon: false,
+	startupScreen: 'themes/agile2010/startup.png',
+	slideSelector: '.slide',
+	preloadImages: [
+		'themes/agile2010/img/back_button.png',
+		'themes/agile2010/img/back_button_clicked.png',
+		'themes/agile2010/img/button_clicked.png',
+		'themes/agile2010/img/grayButton.png',
+		'themes/agile2010/img/whiteButton.png',
+		'themes/agile2010/img/loading.gif',
+		'themes/agile2010/img/go_skip.png',
+		'themes/agile2010/img/poweredbyTW.png',
+		'themes/agile2010/floorplan.jpg'
+	]
+});
