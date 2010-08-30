@@ -284,7 +284,6 @@ ConferenceDOMBuilder.prototype.updateTopicList = function(day, dayDiv) {
             previousDate = sessionDate;
         }
         var speakers = (session.speakers === null ? [] : session.speakers.split(','));
-        console.log(sessionDate + " vs " + now);
         topicList.append($('<li id="'+session.id+'-session">'
 			+'<div class="arrow">'
 				+'<a href="#' + session.id + '" class="topic-link slide">' + session.title + '</a>'
