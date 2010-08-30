@@ -1,9 +1,9 @@
 Feature: As an Attendee, I want	the app to open on Wednesday schedule, so that I immediately see what sessions are on
 
 	Scenario Outline: Sessions with only one session per time
-		Given I open <schedule_day>
-		When the home page appears
-		And time slot <time_slot> exists
+		Given I open the Schedule tab
+		And open the <schedule_day> schedule
+		When time slot <time_slot> exists
 		Then the title should be <title>
 		And the speaker should be <speaker>
 		
