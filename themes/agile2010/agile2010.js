@@ -411,10 +411,10 @@
   });
 
   var jQT = new $.jQTouch({
-          icon: 'themes/agile2010/icon.png',
-          addGlossToIcon: false,
-          startupScreen: 'themes/agile2010/startup.png',
-          slideSelector: '.slide'
+    icon: 'themes/agile2010/icon.png',
+    addGlossToIcon: false,
+    startupScreen: 'themes/agile2010/startup.png',
+    slideSelector: '.slide'
   });
 })(jQuery);
 
