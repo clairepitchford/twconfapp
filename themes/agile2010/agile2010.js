@@ -302,7 +302,12 @@ function registerIconChangeEvents() {
   $('div.current').live('pageAnimationEnd', function (event) {
     var href = '#' + $('div.current').attr('id');
 
-    $("#tabbar img.icon-img").each(function () {
+    // If no tab is selected, then we select the Schedule.
+    if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
+      href = '#Wednesday';
+    }
+
+    $('#tabbar img.icon-img').each(function () {
       var src = $(this).attr('src').replace('on', 'off');
 
       // TODO: The [0] comparison is ugly. What's the fluent jQuery way of doing this?
