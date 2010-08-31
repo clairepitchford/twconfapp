@@ -40,6 +40,10 @@ class CoreView
   end
 
   def tab?
+    return @browser.link(:jquery, "nav#tabbar a img[src$=_on.png]").attr('alt')
+  end
+
+  def tab_title?
     return @browser.div(:jquery, "div.current h1").text
   end
 
