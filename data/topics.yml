@@ -301,8 +301,8 @@ running-company-agile:
         <p>The retail energy industry in Australia is one of the most competitive in the world and characterised by complex systems and processes which constrain speed to market. Tim Hunt-Smith shares his experience of transforming an energy retail company into a nimble and effective competitor by implementing lean/agile techniques as a management system for the company</p>
 
 dev-ops:
-    date: CCH3 - Thu 3:00PM
-    title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
+    date: Thu 3:00PM
+    title: 'CCH3 - DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
     speakers: jez-humble
     description: |
         <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply undeployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
