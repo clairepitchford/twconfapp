@@ -297,17 +297,15 @@ function registerJQTouchLiveEvents() {
 }
 
 function registerIconChangeEvents() {
-  $.history.init(function (path) {
-    $("#tabbar img.icon-img").each(function (index, s) {
-      var src = $(this).attr('src');
-      $(this).attr('src', src.replace('on', 'off'));
-    });
+  $('#tabbar a').live('click', function(event) {
+    var target = $(event.target).closest('a');
 
-    if (path) {
-      var target = $('#tabbar a[href=#' + path + '] img.icon-img'),
-          src = target.attr('src');
-      target.attr('src', src.replace('off', 'on'));
-    }
+    $("#tabbar img.icon-img").each(function () {
+      var src = $(this).attr('src').replace('on', 'off');
+
+      // TODO: The [0] comparison is ugly. What's the fluent jQuery way of doing this?
+      $(this).attr('src', ($(this).parent()[0] === target[0]) ? src.replace('off', 'on') : src);
+    });
   });
 }
 
