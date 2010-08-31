@@ -466,10 +466,13 @@ var jQT = new $.jQTouch({
   preloadImages: [
     'themes/agile2010/img/about_off.png',
     'themes/agile2010/img/about_on.png',
+    'themes/agile2010/img/back_button.png',
+    'themes/agile2010/img/button.png',
     'themes/agile2010/img/buzz_off.png',
     'themes/agile2010/img/buzz_on.png',
     'themes/agile2010/img/chevron.png',
     'themes/agile2010/img/go_skip.png',
+    'themes/agile2010/img/loading.gif',
     'themes/agile2010/img/map.png',
     'themes/agile2010/img/nav_bg.png',
     'themes/agile2010/img/off_star.png',

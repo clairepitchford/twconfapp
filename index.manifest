@@ -8,31 +8,25 @@ jqtouch/jqtouch.transitions.js
 jqtouch/jquery-1.4.2.min.js
 jqtouch/jquery.json-2.2.min.js
 
-themes/agile2010/defaultData.js
 themes/agile2010/agile2010.js
+themes/agile2010/defaultData.js
 
-themes/agile2010/theme.css
 themes/agile2010/SegmentedMenu.css
+themes/agile2010/theme.css
 
-themes/agile2010/floorplan.jpg
 themes/agile2010/icon.png
 themes/agile2010/startup.png
+
+# Used in normal load.
 
 themes/agile2010/img/about_off.png
 themes/agile2010/img/about_on.png
 themes/agile2010/img/back_button.png
-themes/agile2010/img/back_button_clicked.png
-themes/agile2010/img/blueButton.png
 themes/agile2010/img/button.png
-themes/agile2010/img/button_clicked.png
 themes/agile2010/img/buzz_off.png
 themes/agile2010/img/buzz_on.png
 themes/agile2010/img/chevron.png
-themes/agile2010/img/chevron_circle.png
 themes/agile2010/img/go_skip.png
-themes/agile2010/img/grayButton.png
-themes/agile2010/img/greenButton.png
-themes/agile2010/img/header_bg.png
 themes/agile2010/img/loading.gif
 themes/agile2010/img/map.png
 themes/agile2010/img/nav_bg.png
@@ -40,22 +34,27 @@ themes/agile2010/img/off_star.png
 themes/agile2010/img/on_off.png
 themes/agile2010/img/on_star.png
 themes/agile2010/img/poweredbyTW.png
-themes/agile2010/img/redButton.png
 themes/agile2010/img/reload.gif
-themes/agile2010/img/reload.png
 themes/agile2010/img/rooms.gif
 themes/agile2010/img/rooms_off.png
 themes/agile2010/img/rooms_on.png
-themes/agile2010/img/rowhead.png
 themes/agile2010/img/shed_off.png
 themes/agile2010/img/shed_on.png
-themes/agile2010/img/toggle.png
-themes/agile2010/img/toggleOn.png
-themes/agile2010/img/toolbar.png
 themes/agile2010/img/where_off.png
 themes/agile2010/img/where_on.png
+
+# Mentioned in CSS or otherwise not currently used.
+
+themes/agile2010/img/back_button_clicked.png
+themes/agile2010/img/blueButton.png
+themes/agile2010/img/chevron_circle.png
+themes/agile2010/img/grayButton.png
+themes/agile2010/img/greenButton.png
+themes/agile2010/img/redButton.png
 themes/agile2010/img/whiteButton.png
 themes/agile2010/img/yes_no.png
+
+# Speakers profiles
 
 themes/agile2010/img/speakers/adam-boas.gif
 themes/agile2010/img/speakers/andy-marks.gif
@@ -111,4 +110,4 @@ http://a3.twimg.com/
 http://a4.twimg.com/
 http://a5.twimg.com/
 
-# 5
+# 1283227761
