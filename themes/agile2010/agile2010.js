@@ -74,9 +74,9 @@ function buildDOM() {
     if (speakerIDs.length === 0) {
       return "";
     }
-    var _this = this;
+    var conference = this;
     return $.map(speakerIDs, function (id, i) {
-      var speaker = _this.conferenceSpeakers[cleanSpeakerID(id)];
+      var speaker = conference.conferenceSpeakers[cleanSpeakerID(id)];
       if (!speaker) {
         speaker = { name: "N/A", description: "N/A", title: "N/A" };
       }
@@ -391,11 +391,11 @@ function registerCacheUpdateEvents() {
 
 function registerFeedbackEvents() {
   $(".feedbackform-submit").click(function () {
-    var sessionID = $(this).attr('name');
-    var rating = localStorage.getItem(sessionID + "-rating");
-    rating = (rating === null) ? 0 : rating;
-    var feedback = $("textarea", $(this).parent()).val();
-    var url = "https://spreadsheets.google.com/formResponse?formkey=dGFFZndkdmN0NjdTY0l4WWVvOEI1Qmc6MQ&ifq";
+    var sessionID = $(this).attr('name'),
+        rating = localStorage.getItem(sessionID + "-rating"),
+        feedback = $("textarea", $(this).parent()).val(),
+        url = "https://spreadsheets.google.com/formResponse?formkey=dGFFZndkdmN0NjdTY0l4WWVvOEI1Qmc6MQ&ifq";
+    rating = (rating === null ? 0 : rating);
     
     $.ajax({
       url: url, 
@@ -418,25 +418,26 @@ function registerFeedbackEvents() {
     });
   });
 
-  $(".feedback .ratingStar").click(function() {
-    var sessionID = $("#jqt div.current").attr("id");
-    var starImg = $(this);
+  $(".feedback .ratingStar").click(function () {
+    var sessionID = $("#jqt div.current").attr("id"),
+        starImg = $(this),
+        i;
     if (starImg.hasClass("star_0")) {
-        localStorage.setItem(sessionID+"-rating", 1);
+      localStorage.setItem(sessionID + "-rating", 1);
     } else if (starImg.hasClass("star_1")) {
-        localStorage.setItem(sessionID+"-rating", 2);
+      localStorage.setItem(sessionID + "-rating", 2);
     } else {
       localStorage.setItem(sessionID + "-rating", 3);
     }
 
-    for (var i = 0; i < 3; i++) {
-        $("#jqt div.current .star_"+i+", #jqt li#"+sessionID+"-session .star_"+i).each(function() {
-            if (i < localStorage.getItem(sessionID+"-rating")) {
-                $(this).attr("src", "themes/agile2010/img/on_star.png");
-            } else {
-                $(this).attr("src", "themes/agile2010/img/off_star.png");
-            }
-        });
+    for (i = 0; i < 3; i++) {
+      $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i).each(function () {
+        if (i < localStorage.getItem(sessionID + "-rating")) {
+          $(this).attr("src", "themes/agile2010/img/on_star.png");
+        } else {
+          $(this).attr("src", "themes/agile2010/img/off_star.png");
+        }
+      });
     }
   });
 }
