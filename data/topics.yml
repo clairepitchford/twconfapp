@@ -82,7 +82,7 @@ flavours-panel:
     title: Flavours of Agile panel
     speakers:
     description: |
-    <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why,  how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
+        <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why,  how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
 
 continuous-deployment:
     date: Wed 02:00PM
