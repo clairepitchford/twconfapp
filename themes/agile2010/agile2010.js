@@ -299,7 +299,7 @@ function registerJQTouchLiveEvents() {
 }
 
 function registerIconChangeEvents() {
-  $('#tabbar a').live('click tap', function(event) {
+  $('#tabbar a').live('click tap', function (event) {
     var target = $(event.target).closest('a');
 
     $("#tabbar img.icon-img").each(function () {
