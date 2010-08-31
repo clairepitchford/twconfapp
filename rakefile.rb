@@ -1,7 +1,7 @@
 require 'cucumber/rake/task'
 require 'build-html'
 
-task :default => [:schedule, :cucumber]
+task :default => [:cucumber, :schedule]
 
 task :schedule do
   File.open(JSON_DATA_FILENAME, "w") do |f|
