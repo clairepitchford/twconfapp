@@ -30,14 +30,13 @@ dogs-tricks:
         <p>Agile Organisation, Process and Practice brolly Context is everything - there is no 'one-size-fits-all' approach to project delivery. The Agile umbrella encompasses a wide range of techniques and approaches. This talk briefly examines a variety of the techniques and identifies the "project ecosystem" elements that will enable them to be effective, where they work best, where they are to be avoided and practical advice on how to get the maximum benefit from each of the practices.</p>
         <p>Shane presents a framework for selecting from a variety of techniques to identify the combination that will work most effectively in a specific project environment. This talk doesn't attempt to teach the techniques; rather Shane provides some concrete advice for selecting from techniques such as: brainstorming, mind maps, DeBono's thinking hats, vision box, structured interviews, questionnaires, scriptwriting, snowcards, use cases, user stories, process models, decision tables, data models, planning poker, behaviour driven development, low-fi prototypes, and CRC cards.</p>
         
-technology-transformation:
+using-agile:
     date: Wed 11:30AM
-    title: Delivering technology transformation in parallel with a transition to Agile
-    speakers: daniel-oertli
+    title: Using Agile to Deliver Business Innovation in a Telco Environment
+    speakers: michael-bromley
     description: |
-        <p>Culture, Leadership, People brolly If you need to push through a substantial technology transformation - and are wondering whether a simultaneous transition to Agile will help or hinder your organisation to digest a major technology change - then this talk is for you.</p>
-        <p>In this talk, Daniel Oertli reflects on the experience of rebuilding a major website - realestate.com.au - in under a year on a new platform, running on new infrastructure, delivered with newly-introduced Agile practices. Daniel will answer questions such as: "How do you quickly raise a team's overall tempo?" and "How can a change to Agile reduce change?". The talk includes recommendations for making 'all-in' people, process and technology transformations 'stick' and deliver, and a candid view of the pitfalls and learnings during REA's journey.</p>
-
+        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>
+        
 agile-agile:
     date: Wed 11:30AM
     title: >
