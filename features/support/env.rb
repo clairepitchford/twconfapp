@@ -87,7 +87,17 @@ class ScheduleView < CoreView
         }
       end
     end
-
+    
     return times[time_slot]
+  end
+  
+  def index(time_slot) 
+    times = []
+    @browser.dom.at('div.current ul.schedule').children.each do |child|
+      if child['class'] == 'sep'
+        times << child.inner_text
+      end
+    end
+    return times.index(time_slot)
   end
 end

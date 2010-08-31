@@ -15,7 +15,7 @@ function buildDOM() {
 
     dateString += "2010 ";
 
-    if (time.indexOf("PM") !== -1 && hours !== 12) {
+    if (time.indexOf("PM") !== -1 && hours !== "12") {
       hours = (parseInt(hours, 10) + 12).toString();
     }
 
@@ -25,12 +25,12 @@ function buildDOM() {
   }
 
   function sortSessionsByTime(session1, session2) {
-    var session1Date = new Date(buildDateStringForSession(session1)),
-        session2Date = new Date(buildDateStringForSession(session2));
+    var session1Time = new Date(buildDateStringForSession(session1)).getTime(),
+        session2Time = new Date(buildDateStringForSession(session2)).getTime();
 
-    if (session1Date > session2Date) {
+    if (session1Time > session2Time) {
       return 1;
-    } else if (session1Date === session2Date) {
+    } else if (session1Time === session2Time) {
       return 0;
     } else {
       return -1;
@@ -207,14 +207,16 @@ function buildDOM() {
         previousDate = null,
         dayTopics = topicKeys[day.shortName],
         now = new Date(),
-        sessionIndex, session, sessionDate, speakers;
+        sessionIndex, session, sessionDate, speakers, prettyDate;
 
     for (sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
       session = dayTopics[sessionIndex];
       sessionDate = new Date(buildDateStringForSession(session));
 
       if (!previousDate || (sessionDate.getTime() !== previousDate.getTime())) {
-        topicList.append($('<li class="sep">' + session.date.split(' ')[1].replace(" ", "") + '</li>'));
+        prettyDate = session.date.split(' ')[1].replace(" ", "");
+        prettyDate = (prettyDate.length < 7 ? "0" + prettyDate : prettyDate);
+        topicList.append($('<li class="sep">' + prettyDate + '</li>'));
         previousDate = sessionDate;
       }
 
