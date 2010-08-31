@@ -119,8 +119,11 @@ agile-games:
     date: Wed 04:00PM
     title: Agile games
     speakers: philip-abernathy, kane-mar
-    description:
-
+    description: |
+        <p>"Yes and, Yes but ..."  - A small team exercise to explore how language plays a big part in our behaviour and actions. This short 10 minute exercise will help teams become aware of how their words impact other team members and decision making.</p>
+        <p>"Help me see it ..." - A medium to large team exercise taken from improv theatre to help facilitate understanding and team communication. This short 10 minute exercise will help team members gain an appreciation of different points of view and adopt the language of expressing uncertainty and confusion in a non-threatening way.</p>
+        <p>"The Ball Point Game" -  A classic agile training game that embodies the principles of inspection and adaption in a fun and exciting physical game. The Ball Point Game is a favorite exercise of agile trainers and coaches around the world. 30-45 minutes.</p>
+        
 procurement-panel:
     date: Wed 04:00PM
     title: Procurement panel
@@ -255,7 +258,9 @@ trials-tribulations:
     title: Trials and tribulations of ensuring enterprise architecture with Agile delivery
     speakers: john-sullivan
     description: |
-        <p>Agile Organisation, Process and Practice brolly</p>
+        <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
+        <p>The Architecture team will set up stall saying a project without a formal Architecture is rogue and will fail. On the other side of the fence the developers will say Architects and formal Architecture just inhibit delivery. There has to be some sensible middle ground. One answer to the Architecture function would be to decide that Architecture and Architects aren't needed anymore. Alternatively you could just keep the formal waterfall upfront Architectural phase within your project life cycle.  Both can work, one of the options may be right for you, but they aren't your only choice.</p>
+        <p>In this presentation John talks about the Architecture function, what he’s seen fail, what he’s seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
 
 distributed-panel:
     date: Thu 01:45PM
