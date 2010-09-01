@@ -100,7 +100,7 @@ agile-governance:
 lightning-talks-wed:
     date: Wed 02:45PM
     title: CCH2 - Lightning Talks
-    speakers:
+    speakers: ben-arnott, julian-boot, tania-broome, christopher-mendes, james-wang
     description: |
         <p>Lightning Talks are concise, informal mini-presentations that generate ideas and conversation points for the audience.</p>
         <p>Lightning Talks can be on any topic and are a maximum of FIVE minutes long. The emphasis of these mini-presentations is on knowledge sharing, generating new ideas, and having fun!</p>
