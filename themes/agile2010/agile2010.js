@@ -391,7 +391,6 @@ function registerTwitterEvents() {
   }
 
   $('#twitter').bind('pageAnimationStart', requestTweets);
-  $('#twitter .refresh a').live('click tap', requestTweets);
 }
 
 function registerCacheUpdateEvents() {
