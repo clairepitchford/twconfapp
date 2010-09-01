@@ -30,6 +30,13 @@ dogs-tricks:
         <p>Context is everything - there is no 'one-size-fits-all' approach to project delivery. The Agile umbrella encompasses a wide range of techniques and approaches. This talk briefly examines a variety of the techniques and identifies the "project ecosystem" elements that will enable them to be effective, where they work best, where they are to be avoided and practical advice on how to get the maximum benefit from each of the practices.</p>
         <p>Shane presents a framework for selecting from a variety of techniques to identify the combination that will work most effectively in a specific project environment. This talk doesn't attempt to teach the techniques; rather Shane provides some concrete advice for selecting from techniques such as: brainstorming, mind maps, DeBono's thinking hats, vision box, structured interviews, questionnaires, scriptwriting, snowcards, use cases, user stories, process models, decision tables, data models, planning poker, behaviour driven development, low-fi prototypes, and CRC cards.</p>
         
+using-agile:
+    date: Wed 11:30AM
+    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
+    speakers: michael-bromley
+    description: |
+        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
+
 agile-agile:
     date: Wed 11:30AM
     title: >
@@ -37,13 +44,6 @@ agile-agile:
     speakers: ben-hogan
     description: |
         <p>If you are currently introducing Agile into an organisation or thinking of doing so then this talk is for you. In this talk, Ben Hogan looks at the idea of using an Agile approach to introducing Agile into an organisation in a congruent and incremental way and with the benefits of using an Agile method: early delivery of business value, the flexibility to adapt to organisational constraints. Drawing on Ben's eight years of Agile experience and a number of recent publications this talk gives attendees a practical approach to introducing Agile into their organisation. Ben will answer questions such as: "Where do I start?" and "How do I introduce Agile into a large traditional organisation?" The talk includes an introduction to the most important organisational change models and provides attendees a number of recommendations and tips on what to avoid in their Agile journey.</p>
-
-using-agile:
-    date: Wed 11:30AM
-    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
-    speakers: michael-bromley
-    description: |
-        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
 
 culture-stupid:
     date: Wed 12:15PM
@@ -78,7 +78,7 @@ aconex-case-study:
 flavours-panel:
     date: Wed 02:00PM
     title: CCH2 - Flavours of Agile panel
-    speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan
+    speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan, ben-hogan
     description: |
         <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why, how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
 
