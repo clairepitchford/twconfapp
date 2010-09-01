@@ -9,8 +9,9 @@ div#jqt #about {
 	background-color: #FFF;
 }
 
-#floorplan .description {
-    text-align: center;
+img.center {
+    display: block;
+    margin: auto;
 }
 
 div#jqt .toolbar > h1 {
