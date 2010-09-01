@@ -170,7 +170,7 @@ function buildDOM() {
       .append($('div class="topic">' + session.topic + '</div>'))
       .append(this.buildSessionSpeakerList(session))
       .append($('<div class="description">' + session.description + '</div>'))
-      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 30) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><input type="submit" value="send" name="' + sessionID + '" class="feedbackform-submit" /></form></div>'));
+      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><input type="submit" value="send" name="' + sessionID + '" class="feedbackform-submit" /></form></div>'));
 
     sessionDiv.append(contentDiv);
 
