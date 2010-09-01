@@ -107,7 +107,7 @@ lightning-talks-wed:
 
 agile-adoption:
     date: Wed 02:45PM
-    title: 'CCH3 - Agile Adoption: Real World Lessons on Getting Agile Established in the Enterprise'
+    title: 'Agile Adoption: Real World Lessons on Getting Agile Established in the Enterprise - CCH3'
     speakers: richard-henning
     description: |
         <p>Allianz began to adopt elements of Agile delivery practices a few years ago, and learnt some unique lessons that led to two full blown Agile pilot projects to be established in 2009. The aim was to assess Agile and promote the practice as an acceptable alternate form of software delivery where appropriate. Also embodied in the aim was the establishment of agreed SDLC deliverables and activities to ensure relevant governance and reduce confusion. Consideration was also given to the key behaviours required in the team and how to build broader corporate adoption.</p>
@@ -115,7 +115,7 @@ agile-adoption:
 
 agile-games:
     date: Wed 04:00PM
-    title: CCH1 - Agile Games
+    title: Agile Games - CCH1
     speakers: philip-abernathy, kane-mar
     description:
         <p>Adopting Agile means engaging with a number of organisational stakeholders in an entirely new way. Our experienced panelists will discuss how Agile changes the way organisations approach, including procurement, contracts and budgeting by discussing the options, how cultural issues play out and how corporations can minimise their risk.</p>
@@ -125,7 +125,7 @@ agile-games:
 
 engaging-for-agile:
     date: Wed 04:00PM
-    title: CCH2 - Engaging for Agile Panel
+    title: Engaging for Agile Panel - CCH2
     speakers: todd-porter, ian-crawford, nigel-dalton, chris-murphy
     description: |
         <p>Adopting Agile means engaging with a number of organisational stakeholders in an entirely new way. Our experienced panelists will discuss how Agile changes the way organisations approach, including procurement, contracts and budgeting by discussing the options, how cultural issues play out and how corporations can minimise their risk.</p>
@@ -133,14 +133,14 @@ engaging-for-agile:
 a-team:
     date: Wed 04:00PM
     title: >
-        CCH3 - Building an A-Team: I Love it When a Team Comes Together
+        Building an A-Team: I Love it When a Team Comes Together - CCH3
     speakers: craig-smith
     description: |
         <p>High performing teams are something that all organisations aspire to, but how exactly do you turn a team from good to great? There is much discussion in the community about management versus leadership, working in a factory versus embracing a tribe and how to motivate a new generation of employees. In this presentation we will look at these topics and determine what makes a high performing team, how Agile techniques can help, what tools and techniques you can use to create this environment and how you can measure performance.</p>
 
 government-case-studies:
     date: Wed 04:45PM
-    title: CCH2 - Government Case Studies
+    title: Government Case Studies - CCH2
     speakers: ian-crawford, todd-porter
     description: |
         <p>The story of information management at NOPSA begins in the distant past, at a time when the most advanced form of information is a spreadsheet, and most business activities are completely dependent on the movement of pieces of paper. The inhabitants of this primeval world resolve to create an application that assists their core business processes, reduces their compliance burden and prevents data rot.</p>
@@ -157,7 +157,7 @@ government-case-studies:
         
 engaging-the-business:
     date: Wed 04:45PM
-    title: CCH3 - Engaging the Business on an Agile Project
+    title: Engaging the Business on an Agile Project - CCH3
     speakers: jay-jenkins
     description: |
         <p>In early 2010, ANZ Bank engaged Renewtek to build a reusable process automation solution. The solution was developed using Renewtek’s Agile-BPM and Agile development practices with teams in Melbourne and Vietnam. Since this is a reusable asset across multiple business units, Renewtek had to engage a broad range of stakeholders to prioritise functions and create a foundation for further enhancement.</p> 
@@ -182,14 +182,14 @@ open-house:
         
 essence-agile:
     date: Thu 09:00AM
-    title: CCH - The Essence of Agile Software Development
+    title: The Essence of Agile Software Development - CCH
     speakers: martin-fowler
     description: |
                 <p>Almost ten years ago I had the good fortune to be at a workshop that led to the coining of the term "Agile" and the writing of the "Manifesto for Agile Software Development". Since then I've watched as ThoughtWorks, my employer, has embraced software agility and applied it on projects all over the world. During these years the concept of Agile has become more and more mainstream, but as with any radical idea, popularity tends to introduce diffusion. So I find it's important to revisit the core essence of these ideas, so they don't get lost in the noise of widespread adoption.</p>
 
 legacy-gold:
     date: Thu 10:30AM
-    title: CCH1 - Legacy Gold - Using Lean and Agile to Extract Maximum Value from your Legacy and Enterprise Application Portfolio
+    title: Legacy Gold - Using Lean and Agile to Extract Maximum Value from your Legacy and Enterprise Application Portfolio - CCH1
     speakers: dave-thomas
     description: |
         <p>Successful businesses have large application and product legacies which require care and feeding over their useful lifetime. In major product companies significant revenue comes from customers of existing legacy products and their support revenues. Hence it isn't surprising that 70-85% of the software development budget is allocated to the operation and enhancement Legacy Code. For many companies their most successful product/application has become their worst enemy. Painfully we have learned that languages, tools, methods and practices we have often been unable to replace or even substantially reduce the entropy of our legacy code. Indeed it is generally accepted today that a major rewrite of any large legacy application has way too much risk and way too little business value to be given serious consideration. We have no choice but to live with and improve our Legacy!</p>
@@ -198,7 +198,7 @@ legacy-gold:
 
 about-trust:
     date: Thu 10:30AM
-    title: CCH2 - It's About Trust…
+    title: It's About Trust… - CCH2
     speakers: josh-melville
     description: |
         <p>Agile requires a fundamental change in how we manage projects and lead people. How we motivate and provide structure for project teams requires equal emphasis with what we are delivering.</p>
@@ -207,21 +207,21 @@ about-trust:
 
 maturity-assessment:
     date: Thu 10:30AM
-    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
+    title: You Can Take Your Agile Maturity Assessment and... - CCH3
     speakers: jason-yip, marina-chiovetti
     description: |
         <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
 
 introspection-leadership:
     date: Thu 11:15AM
-    title: CCH1 - Introspection and Leadership
+    title: Introspection and Leadership - CCH1
     speakers: martin-kearns
     description: |
         <p>Who has ever thought about why Agile is such a simple concept that is so difficult to implement? Fact is, it is not simple at all - the problem of creating innovative solutions through the collective effort of a group of individuals is extremely difficult and one that needs significant effort. But the harder question is the one to ask that guy looking at you in the mirror. The hardest and most difficult problem we have is to introspect and understand what I must do. My presentation will consider: what is leadership for an Agile project and how/what are the tools we need to ask ourselves regularly. Introspection is the best tool I have learnt as a coach and my goal is to encourage you to the same.</p>
 
 mars-venus:
     date: Thu 11:15AM
-    title: CCH2 - Developers are from Mars, Product Owners are from Venus
+    title: Developers are from Mars, Product Owners are from Venus - CCH2
     speakers: adam-boas, nick-strybosch
     description: |
         <p>When a business adopts Agile it must quickly learn to get the most from its development teams. High performing teams are highly aligned, aligned from the business right the way through to developers and testers. Achieving such an alignment needs understanding, a clear plan, and skilful execution. Product owners and developers think differently, are motivated by different goals and can often talk at cross-purposes. Each side has its own success and failure stereotypes. Often these are from polar opposites and can have immense difficulty communicating effectively with each other.</p>
@@ -235,14 +235,14 @@ mars-venus:
 
 monster-builds:
     date: Thu 11:15AM
-    title: CCH3 - Monster Builds
+    title: Monster Builds - CCH3
     speakers: chris-mountford
     description: |
         <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
     
 agile-lawyers:
     date: Thu 01:00PM
-    title: CCH1 - Agile Lawyers? The transition from Agile IT to a Radically Agile Organisation at Lonely Planet
+    title: Agile Lawyers? The transition from Agile IT to a Radically Agile Organisation at Lonely Planet - CCH1
     speakers: nigel-dalton
     description: |
         <p>Many Australian organisations are being driven to find a better way to deliver projects at the pace that competition demands in 2010. Lonely Planet started on that journey in their IT group in late 2007, and three years later the petrie dish that was the initial Agile implementation has overflowed with interesting organisms. Agile principles are now evident in teams as variable as legal, HR, guidebook publishing, product development, and IT operations.</p>
@@ -251,7 +251,7 @@ agile-lawyers:
 
 adopting-agile:
     date: Thu 01:00PM
-    title: CCH2 - Adopting Agile for the Second Time
+    title: Adopting Agile for the Second Time - CCH2
     speakers: andy-weir
     description: |
         <p>Andy Weir will share his experiences with going down the Agile journey. Bankwest has embarked on their second attempt to adopt Agile practices and Andy will address what didn't work the first time and what has driven him to give it another serious go in 2010. The early experience in 2010 has been that a project has been delivered in four months, which traditionally would have taken 13 months.</p> 
@@ -265,7 +265,7 @@ adopting-agile:
     
 red:
     date: Thu 01:00PM
-    title: CCH3 - Dr W. Edwards Deming's Famous Red Bead Experiment
+    title: Dr W. Edwards Deming's Famous Red Bead Experiment - CCH3
     speakers: david-joyce
     description: |
         <p>Come along and participate in Dr W. Edwards Deming's famous Red Bead Experiment. This classic learning tool helps illustrate the impact that a system, and traditional management approaches, can have on individuals who work within an organisation.</p>
@@ -277,7 +277,7 @@ red:
 
 trials-tribulations:
     date: Thu 01:45PM
-    title: CCH1 - Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
+    title: Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery - CCH1
     speakers: john-sullivan
     description: |
         <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
@@ -286,14 +286,14 @@ trials-tribulations:
 
 distributed-panel:
     date: Thu 01:45PM
-    title: CCH2 - Transcending Culture, Timezones and Countries
+    title: Transcending Cultures, Timezones and Countries - cch2
     speakers: mahesh-baxi, dave-thomas, nigel-dalton, philip-abernathy
     description: |
         <p>How do you overcome the challenges of implementing Agile in a distributed environment? Panellists will call on their own experiences of being involved in distributed agile projects, the added complexities of communicating across distributed teams, how to tackle customer collaboration, trust and technical issues and most importantly, the ingredients to making it work!</p>
 
 achieving-quality:
     date: Thu 01:45PM
-    title: CCH3 - Building Quality into the Lifecycle - All the Way Through
+    title: Building Quality into the Lifecycle - All the Way Through - CCH3
     speakers: sharon-robson
     description: |
         <p> Sharon Robson discusses how to integrate testing into an Agile project to enhance the final quality of the product, right from the start. This is done initially by high level examination of test objectives by both the business and the technical team members so that all agree and understand the key quality criteria for the product. The Agile approach is then overlaid to show how the integration of "traditional" testing methods, levels and techniques are appropriate and applicable to build quality of the product into the entire life cycle. The focus on regression testing, risk analysis and automation is considered in conjunction with the need for appropriate UAT at both the delivery team level and the business acceptance level. The common pitfalls and hurdles to look out for when implementing in an Agile testing strategy are also outlined, as well as how to deal with them.</p> 
@@ -307,7 +307,7 @@ achieving-quality:
         </ul>
 open-space:
     date: Thu 03:00PM
-    title: CCH1 - Open Space
+    title: Open Space - CCH1
     speakers:
     description: |
         <p>Open Space is a chance for you to drive part of the Agile Australia conference! If we've missed an important topic you'd like to discuss, or haven't addressed one of your burning questions, Open Space will provide the opportunity for you to discuss or have discussed any question or topic you like!</p>
@@ -317,14 +317,14 @@ open-space:
 
 running-company-agile:
     date: Thu 03:00PM
-    title: CCH2 - Running a Company Agile
+    title: Running a Company Agile - CCH2
     speakers: tim-hunt-smith
     description: |
         <p>The retail energy industry in Australia is one of the most competitive in the world and characterised by complex systems and processes which constrain speed to market. Tim Hunt-Smith shares his experience of transforming an energy retail company into a nimble and effective competitor by implementing lean/agile techniques as a management system for the company</p>
 
 dev-ops:
     date: Thu 3:00PM
-    title: 'CCH3 - DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
+    title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration - CCH3'
     speakers: jez-humble
     description: |
         <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply undeployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
@@ -332,13 +332,13 @@ dev-ops:
 
 technical-debt:
     date: Thu 03:45PM
-    title: CCH2 - Paying Down Technical Debt Panel
+    title: Paying Down Technical Debt Panel - CCH2
     speakers: adam-boas, martin-kearns, craig-smith, andy-marks, marina-chiovetti
     description: <p>No matter how hard we try, accumulating some technical debt is inevitable. Yet its nebulous nature often makes it difficult for anyone apart from the development team to appreciate and communicate. Our panel of experts will provide you with a sound understanding of technical debt, its causes and the ramifications. Panelists will give some practical ways of paying down technical debt while still delivering business value.</p>
 
 against-odds:
     date: Thu 03:45PM
-    title: CCH3 - Delivery Against the Odds - How Agile Practices Can Save Your Project
+    title: Delivery Against the Odds - How Agile Practices Can Save Your Project - CCH3
     speakers: holger-kaufmann
     description: |
         <p>A case study on a large, highly time-critical development project for an iron ore industry client, the talk will describe how Agile practices can be used to achieve delivery against the odds. Topics will include effective on-boarding, no-waste production, and optimal utilisation of time and people.</p>
