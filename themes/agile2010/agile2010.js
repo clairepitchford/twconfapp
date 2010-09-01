@@ -485,7 +485,7 @@ var jQT = new $.jQTouch({
     'themes/agile2010/img/buzz_on.png',
     'themes/agile2010/img/chevron.png',
     'themes/agile2010/img/go_skip.png',
-    'themes/agile2010/img/map.png',
+    'themes/agile2010/img/map.jpg',
     'themes/agile2010/img/nav_bg.png',
     'themes/agile2010/img/off_star.png',
     'themes/agile2010/img/on_off.png',
