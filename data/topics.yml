@@ -61,6 +61,13 @@ applying-agile:
         <p>This case study examines the positive impact of introducing Agile development processes in an environment that is made up of regulatory requirements, extension of legacy systems, tight and non-negotiable deadlines, old technology, multiple vendors, traditional methodologies, and integration with external and market systems.</p>
         <p>This presentation outlines the way in which DIUS computing and Energy Utility - Jemena, have overcome many of the issues confronting large complex projects, by applying agile techniques such as behaviour and test driven development (BDD and TDD).</p>
 
+emergent-design:
+    date: Wed 12:15PM
+    title: CCH3 - Implementing Emergent Design
+    speakers: neal-ford
+    description: |
+        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
+
 maturity-assessment:
     date: Wed 12:15PM
     title: CCH3 - You Can Take Your Agile Maturity Assessment and...
@@ -198,13 +205,6 @@ about-trust:
         <p>Agile requires a fundamental change in how we manage projects and lead people. How we motivate and provide structure for project teams requires equal emphasis with what we are delivering.</p>
         <p>Accordingly, our view of project managers is changing. In contrast to more traditional approaches, Agile promotes project management into the realms of business management as a truly valued capability in its own right. Underscoring this increased profile is a need to quickly establish credibility and trust - in that context, an Agile approach is particularly effective.</p>
         <p>I will be elaborating on the changing role of project managers within organisations and the application of Agile practices with business teams. Specifically, the new skills required by project managers to become more effective facilitators of change and delivery along with some of the challenges of adopting Agile with business teams.</p>
-
-emergent-design:
-    date: Thu 10:30AM
-    title: CCH3 - Implementing Emergent Design
-    speakers: neal-ford
-    description: |
-        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
 
 introspection-leadership:
     date: Thu 11:15AM
