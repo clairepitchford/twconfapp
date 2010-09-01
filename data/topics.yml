@@ -68,13 +68,6 @@ emergent-design:
     description: |
         <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
 
-maturity-assessment:
-    date: Wed 12:15PM
-    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
-    speakers: jason-yip, marina-chiovetti
-    description: |
-        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
-
 aconex-case-study:
     date: Wed 02:00PM
     title: CCH1 - Transitioning to Agile While Growing Fast
@@ -196,6 +189,13 @@ legacy-gold:
         <p>Successful businesses have large application and product legacies which require care and feeding over their useful lifetime. In major product companies significant revenue comes from customers of existing legacy products and their support revenues. Hence it isn't surprising that 70-85% of the software development budget is allocated to the operation and enhancement Legacy Code. For many companies their most successful product/application has become their worst enemy. Painfully we have learned that languages, tools, methods and practices we have often been unable to replace or even substantially reduce the entropy of our legacy code. Indeed it is generally accepted today that a major rewrite of any large legacy application has way too much risk and way too little business value to be given serious consideration. We have no choice but to live with and improve our Legacy!</p>
         <p>Unfortunately major Legacy Systems is an area where most in Agile community fear to tread. This is due in part to their lack of experience in these environments. It is also due to their expectations for tool chains and deployment models which are matched to the Agile expectations of incremental OO development and associated tool chains.</p>
         <p>In this talk we discuss how Lean thinking and Agile have been applied to real legacy systems spanning mainframe, military, embedded and multi-vendor integration of legacy and EAP applications. We illustrate by example how organisations can benefit by using Lean and Agile to reduce the entropy (improve Agility) of their legacy systems and hence maximize the value they can get from them. We discuss appropriate investments in training, tooling and practices for different legacy environments.</p>
+
+maturity-assessment:
+    date: Thu 10:30AM
+    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
+    speakers: jason-yip, marina-chiovetti
+    description: |
+        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
 
 about-trust:
     date: Thu 10:30AM
