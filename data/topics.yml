@@ -9,7 +9,7 @@ breakfast:
 beyond-scope-schedule-cost:
     date: Wed 09:00AM
     title: > 
-        CCH - Beyond Scope, Schedule, and Cost: Rethinking Agile Performance Measures
+        Beyond Scope, Schedule, and Cost: Rethinking Agile Performance Measures - CCH
     speakers: jim-highsmith
     description: |
         <p>A March 2009 Business Week article proclaims, "There is no more Normal." In the throws of such pervasive change the traditional emphasis on "following the plan with minimal changes," needs to be supplanted by an agile stress on "adapting successfully to inevitable changes." Furthermore, if agility is about delivering customer value by being flexible, then how can adherence to a traditional scope, schedule, and cost plan be the best way to measure performance? It can't. We need to move beyond the classic Iron Triangle measures to an Agile Triangle that focuses on Value, Quality, and Constraints.</p>
@@ -17,14 +17,14 @@ beyond-scope-schedule-cost:
 
 delivering-business-value:
     date: Wed 10:00AM
-    title: CCH - Delivering Business Value with Agile
+    title: Delivering Business Value with Agile - CCH
     speakers: jeff-smith
     description: |
         <p>Suncorp's business and technology teams have a strong track record of deploying solutions for competitive advantage and being able to drive business value faster with a strong return on investment. Key to this approach is their commitment to collaborate on projects using the Agile values, principles and practices to optimise the broader team performance and meet business needs. Jeff Smith, Group Executive, Suncorp Business Services, sees the Agile development methodology as not just about making good technology but as an approach that can be applied by any successful business.</p>
 
 dogs-tricks:
     date: Wed 11:30AM
-    title: CCH1 - Old Tricks for New Dogs and New Tricks for Old Dogs
+    title: Old Tricks for New Dogs and New Tricks for Old Dogs - CCH1
     speakers: shane-hastie
     description: |
         <p>Context is everything - there is no 'one-size-fits-all' approach to project delivery. The Agile umbrella encompasses a wide range of techniques and approaches. This talk briefly examines a variety of the techniques and identifies the "project ecosystem" elements that will enable them to be effective, where they work best, where they are to be avoided and practical advice on how to get the maximum benefit from each of the practices.</p>
@@ -32,7 +32,7 @@ dogs-tricks:
         
 using-agile:
     date: Wed 11:30AM
-    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
+    title: Using Agile to Deliver Business Innovation in a Telco Environment - CCH2
     speakers: michael-bromley
     description: |
         <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
@@ -40,14 +40,14 @@ using-agile:
 agile-agile:
     date: Wed 11:30AM
     title: >
-        CCH3 - Agile Agile: Using Agile Techniques to Adopt Agile
+        Agile Agile: Using Agile Techniques to Adopt Agile - CCH3
     speakers: ben-hogan
     description: |
         <p>If you are currently introducing Agile into an organisation or thinking of doing so then this talk is for you. In this talk, Ben Hogan looks at the idea of using an Agile approach to introducing Agile into an organisation in a congruent and incremental way and with the benefits of using an Agile method: early delivery of business value, the flexibility to adapt to organisational constraints. Drawing on Ben's eight years of Agile experience and a number of recent publications this talk gives attendees a practical approach to introducing Agile into their organisation. Ben will answer questions such as: "Where do I start?" and "How do I introduce Agile into a large traditional organisation?" The talk includes an introduction to the most important organisational change models and provides attendees a number of recommendations and tips on what to avoid in their Agile journey.</p>
 
 culture-stupid:
     date: Wed 12:15PM
-    title: CCH1 - It's the Culture, Stupid! - Agile as an Organisational Paradigm
+    title: It's the Culture, Stupid! - Agile as an Organisational Paradigm - CCH1
     speakers: rob-thomsett
     description: |
         <p>Too many organisations and some Agilists see Agile as a "quick fix". In searching for a "silver bullet" as Fred Brooks stated so many years ago, the disruptive nature of Agile to an organisation's processes, management models and culture is too often ignored until too late.</p>
@@ -55,7 +55,7 @@ culture-stupid:
 
 applying-agile:
     date: Wed 12:15PM
-    title: CCH2 - Applying Agile to Large Complex Projects
+    title: Applying Agile to Large Complex Projects - CCH2
     speakers: paula-ngov, david-musson
     description: |
         <p>This case study examines the positive impact of introducing Agile development processes in an environment that is made up of regulatory requirements, extension of legacy systems, tight and non-negotiable deadlines, old technology, multiple vendors, traditional methodologies, and integration with external and market systems.</p>
@@ -63,28 +63,28 @@ applying-agile:
 
 emergent-design:
     date: Wed 12:15PM
-    title: CCH3 - Implementing Emergent Design
+    title: Implementing Emergent Design - CCH3
     speakers: neal-ford
     description: |
         <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
 
 aconex-case-study:
     date: Wed 02:00PM
-    title: CCH1 - Transitioning to Agile While Growing Fast
+    title: Transitioning to Agile while Growing Fast - CCH1
     speakers: leigh-jasper
     description: |
         <p>By 2008, Aconex had established itself as one of Australia's largest and fastest growing SaaS companies, yet it needed to evolve to remain successful in its over sixty overseas markets. Despite facing unprecedented global economic uncertainty, Aconex made the decision to transition to Agile. CEO Leigh Jasper will present on how Agile aligned with the company's core values, how it helped them navigate the global financial crisis and has now positioned Aconex well for future growth.</p>
 
 flavours-panel:
     date: Wed 02:00PM
-    title: CCH2 - Flavours of Agile panel
+    title: Flavours of Agile panel - CCH2
     speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan, ben-hogan
     description: |
         <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why, how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
 
 continuous-deployment:
     date: Wed 02:00PM
-    title: CCH3 - Working with Continuous Deployment to Reduce Cycle Time
+    title: Working with Continuous Deployment to Reduce Cycle Time - CCH3
     speakers: kane-mar
     description: |
         <p>Continuous Deployment (CD) is becoming fashionable, driven primarily by both the Agile and Lean communities to deliver online services more rapidly. But what is CD? How can CD be used to get feedback on our services? And, what are the business advantages of adopting CD?</p>
@@ -92,14 +92,14 @@ continuous-deployment:
 
 agile-governance:
     date: Wed 02:45PM
-    title: CCH1 - Agile Governance - The Key to Doing More with Less
+    title: Agile Governance - The Key to Doing More with Less - CCH1
     speakers: philip-abernathy
     description: |
         <p>BFC! Better Faster Cheaper! Pick any three! This talk will address how organisations can leverage Lean and Agile principle and techniques to govern the funnel of work in an efficient and effective manner thus getting more bang for buck. Phil Abernathy will draw on case studies and experience to show how Agile governance is key to the successful implementation of Agile within an organisation and how it can deliver business value faster and more cost effectively. It will also address the steps needed to make the transformation and its impact on the way of working.</p>
 
 lightning-talks-wed:
     date: Wed 02:45PM
-    title: CCH2 - Lightning Talks
+    title: Lightning Talks - CCH2
     speakers: ben-arnott, julian-boot, tania-broome, christopher-mendes, james-wang
     description: |
         <p>Lightning Talks are concise, informal mini-presentations that generate ideas and conversation points for the audience.</p>
@@ -233,15 +233,13 @@ mars-venus:
             <li>Be prioritized to allow a trade off between scope and time while maintaining value</li>
         </ul>
 
-truly-agile:
+monster-builds:
     date: Thu 11:15AM
-    title: >
-        CCH3 - Truly Agile : Building Agile Software Using Agile Techniques
-    speakers: jean-christophe-huet
+    title: CCH3 - Monster Builds
+    speakers: chris-mountford
     description: |
-        <p>GreenHopper, an Agile planning tool from Atlassian, began as a one-man show three years ago. GreenHopper is now a team of five with customers spread across the globe and over 10,000 licenses sold. GreenHopper customers have enjoyed more than 30 releases in less than three years, making this a product which truly reflects the needs of our users.</p>
-        <p>I will share my 10 priceless tips for building a successful product - and team - using Agile techniques. You will hear first-hand the challenges and lessons learned over the past three years, my experiences with listening and responding to the changing needs of customers and our continued focus on delivering quality, fast.</p>
-
+    <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
+    
 agile-lawyers:
     date: Thu 01:00PM
     title: CCH1 - Agile Lawyers? The transition from Agile IT to a Radically Agile Organisation at Lonely Planet
