@@ -23,8 +23,6 @@ class JSONConverter
 
       speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
         raise "Topic #{t_id} points to a non-existant speaker #{s_id}" unless @speakers[s_id]
-        raise "Speaker #{s_id} does not have a description" unless @speakers[s_id]['description']
-        raise "Speaker #{s_id} does not have a title" unless @speakers[s_id]['title']
         raise "Speaker #{s_id} does not have a name" unless @speakers[s_id]['name']
       end
     end

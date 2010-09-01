@@ -21,9 +21,6 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
       """
       scott-robinson:
           name: Scott Robinson
-          title: Pop Singer, ThoughtWorks
-          description: |
-              <p>Breakdancing queen.</p>
       """
     And a topics YAML of:
       """
@@ -116,43 +113,6 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
               <p>YOUR EARS WILL HEAL</p>
       """
       Then there should be an error
-
-  Scenario: A speaker without a description shouldn't work.
-    Given a speakers YAML of:
-      """
-      scott-robinson:
-          name: Scott Robinson
-          title: Pop Singer, ThoughtWorks
-      """
-    And a topics YAML of:
-      """
-      professional-training:
-          date: Thu 11:22PM
-          title: Crooning and Swooning
-          speakers: scott-robinson
-          description: |
-              <p>YOUR EARS WILL BLEED</p>
-      """
-    Then there should be an error
-
-  Scenario: A speaker without a title shouldn't work.
-    Given a speakers YAML of:
-      """
-      scott-robinson:
-          name: Scott Robinson
-          description: |
-              <p>Breakdancing queen.</p>
-      """
-    And a topics YAML of:
-      """
-      professional-training:
-          date: Thu 11:22PM
-          title: Crooning and Swooning
-          speakers: scott-robinson
-          description: |
-              <p>YOUR EARS WILL BLEED</p>
-      """
-    Then there should be an error
 
   Scenario: A speaker without a name shouldn't work.
     Given a speakers YAML of:
