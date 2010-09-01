@@ -13,7 +13,12 @@ class JSONConverter
     @speakers = YAML::load(speakers_yaml) || {}
 
     @topics.each_pair do |t_id, data|
-      t = DateTime.strptime(data['date'], '%a %I:%M%p')    # Will throw on parse error
+      begin
+        t = DateTime.strptime(data['date'], '%a %I:%M%p')    # Will throw on parse error
+      rescue
+        puts "Topic #{t_id} has invalid date of '#{data['date']}'"
+        raise
+      end
       raise "Topic #{t_id} is not on Wednesday or Thursday." unless [3, 4].include? t.wday
 
       speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
