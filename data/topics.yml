@@ -38,6 +38,13 @@ agile-agile:
     description: |
         <p>If you are currently introducing Agile into an organisation or thinking of doing so then this talk is for you. In this talk, Ben Hogan looks at the idea of using an Agile approach to introducing Agile into an organisation in a congruent and incremental way and with the benefits of using an Agile method: early delivery of business value, the flexibility to adapt to organisational constraints. Drawing on Ben's eight years of Agile experience and a number of recent publications this talk gives attendees a practical approach to introducing Agile into their organisation. Ben will answer questions such as: "Where do I start?" and "How do I introduce Agile into a large traditional organisation?" The talk includes an introduction to the most important organisational change models and provides attendees a number of recommendations and tips on what to avoid in their Agile journey.</p>
 
+using-agile:
+    date: Wed 11:30AM
+    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
+    speakers: michael-bromley
+    description: |
+        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
+
 culture-stupid:
     date: Wed 12:15PM
     title: CCH1 - It's the Culture, Stupid! - Agile as an Organisational Paradigm
