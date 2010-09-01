@@ -171,14 +171,15 @@ open-house:
     description: |
         <p>Following on from the success of the ThoughtWorks Open House last year, we will be opening the doors of our Melbourne office which will be filled with food, drinks and Agile enthusiasts. Join us at our office after the last session finishes on Wednesday evening.</p>
         <p>Activities will include:</p>
+        <ul>
         <li>Pairing with the Stars</li>
         <li>Lego Game</li>
         <li>One-on-One Consulting Sessions</li>
         <li>Mingle Demonstration</li>
+        </ul>
         <p>ThoughtWorks Melbourne Office is located at 303 Collins Street, Melbourne</p>
         <p>Make sure you register at the ThoughtWorks booth.</p>
         
-
 essence-agile:
     date: Thu 09:00AM
     title: CCH - The Essence of Agile Software Development
@@ -195,13 +196,6 @@ legacy-gold:
         <p>Unfortunately major Legacy Systems is an area where most in Agile community fear to tread. This is due in part to their lack of experience in these environments. It is also due to their expectations for tool chains and deployment models which are matched to the Agile expectations of incremental OO development and associated tool chains.</p>
         <p>In this talk we discuss how Lean thinking and Agile have been applied to real legacy systems spanning mainframe, military, embedded and multi-vendor integration of legacy and EAP applications. We illustrate by example how organisations can benefit by using Lean and Agile to reduce the entropy (improve Agility) of their legacy systems and hence maximize the value they can get from them. We discuss appropriate investments in training, tooling and practices for different legacy environments.</p>
 
-maturity-assessment:
-    date: Thu 10:30AM
-    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
-    speakers: jason-yip, marina-chiovetti
-    description: |
-        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
-
 about-trust:
     date: Thu 10:30AM
     title: CCH2 - It's About Trust…
@@ -210,6 +204,13 @@ about-trust:
         <p>Agile requires a fundamental change in how we manage projects and lead people. How we motivate and provide structure for project teams requires equal emphasis with what we are delivering.</p>
         <p>Accordingly, our view of project managers is changing. In contrast to more traditional approaches, Agile promotes project management into the realms of business management as a truly valued capability in its own right. Underscoring this increased profile is a need to quickly establish credibility and trust - in that context, an Agile approach is particularly effective.</p>
         <p>I will be elaborating on the changing role of project managers within organisations and the application of Agile practices with business teams. Specifically, the new skills required by project managers to become more effective facilitators of change and delivery along with some of the challenges of adopting Agile with business teams.</p>
+
+maturity-assessment:
+    date: Thu 10:30AM
+    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
+    speakers: jason-yip, marina-chiovetti
+    description: |
+        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
 
 introspection-leadership:
     date: Thu 11:15AM
@@ -250,11 +251,19 @@ agile-lawyers:
         <p>A field trip to Lonely Planet starts to answer the question "what happens when a whole company starts adopting Agile methods?" Since not everyone can come to Footscray however, in this presentation you will see which Agile principles work for each team, how groups work together, whether 'competitive Agile' can work, and the flywheel effect on the productivity of core IT teams from widespread understanding of Agile principles - now that their colleagues across the business use card walls, talk about stories and conduct daily stand-ups.</p>
         <p>You will also hear how key steps in the broader adoption of Agile, how the insistence of uniformity of Agile process can be a killer of innovation, and how Agile underpinned the delivery of a new iPad digital product from the day Apple called to say "we've announced the iPad, we've emailed your SDK - we expect a product in iTunes when we hit the market in a month".</p>
 
-using-agile:
+adopting-agile:
     date: Thu 01:00PM
-    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
-    speakers: michael-bromley
-    description: <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>
+    title: CCH2 - Adopting Agile for the Second Time
+    speakers: andy-weir
+    description: |
+        <p>Andy Weir will share his experiences with going down the Agile journey. Bankwest has embarked on their second attempt to adopt Agile practices and Andy will address what didn't work the first time and what has driven him to give it another serious go in 2010. The early experience in 2010 has been that a project has been delivered in four months, which traditionally would have taken 13 months.</p> 
+        <p>Andy will discuss:</p>
+        <ul>
+        <li>Why Agile and why now, the strategic drivers
+        <li>The evolution in terms of process and methodology
+        <li>The change management challenges
+        <li>The lessons learned
+        </ul>
     
 red:
     date: Thu 01:00PM
