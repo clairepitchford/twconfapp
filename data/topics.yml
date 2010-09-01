@@ -56,7 +56,7 @@ culture-stupid:
 applying-agile:
     date: Wed 12:15PM
     title: CCH2 - Applying Agile to Large Complex Projects
-    speakers: paula-ngov
+    speakers: paula-ngov, david-musson
     description: |
         <p>This case study examines the positive impact of introducing Agile development processes in an environment that is made up of regulatory requirements, extension of legacy systems, tight and non-negotiable deadlines, old technology, multiple vendors, traditional methodologies, and integration with external and market systems.</p>
         <p>This presentation outlines the way in which DIUS computing and Energy Utility - Jemena, have overcome many of the issues confronting large complex projects, by applying agile techniques such as behaviour and test driven development (BDD and TDD).</p>
@@ -281,7 +281,10 @@ trials-tribulations:
     date: Thu 01:45PM
     title: CCH1 - Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
     speakers: john-sullivan
-    description: 
+    description: |
+        <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
+        <p>The Architecture team will set up stall saying a project without a formal Architecture is rogue and will fail. On the other side of the fence the developers will say Architects and formal Architecture just inhibit delivery. There has to be some sensible middle ground. One answer to the Architecture function would be to decide that Architecture and Architects aren't needed anymore. Alternatively you could just keep the formal waterfall upfront Architectural phase within your project life cycle.  Both can work, one of the options may be right for you, but they aren't your only choice.</p>
+        <p>In this presentation John talks about the Architecture function, what he’s seen fail, what he’s seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
 
 distributed-panel:
     date: Thu 01:45PM

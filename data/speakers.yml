@@ -85,13 +85,6 @@ ben-hogan:
     description: |
         <p>Ben Hogan is an independent consultant, Agile coach, trainer and facilitator based in Sydney and more recently in Melbourne. Ben has over 12 years experience in IT and over eight years of experience using Lean, Agile, Scrum and eXtreme Programming methods to introduce Agile into large corporate environments. Ben is actively involved with the local and international Agile community. He is a founding board member of the Agile Alliance Australia, a speaker at the Sydney Scrum Users Group, a facilitator of the Sydney XP Activities Club, a long-standing member of the London XP community, a Certified Scrum Master and a reviewer, committee member, participant and speaker at a number of international conferences.</p>
 
-jean-christophe-huet:
-    name: Jean-Christophe Huet
-    title: Team Lead, Atlassian
-    description: |
-        <p>Jean-Christophe Huet began his career in the world of high finance as an actuary within the financial industry in Canada. JC subsequently moved to the Agile sphere in 2003 joining Pyxis Technology, an Agile consultancy in French-speaking countries.</p>
-        <p>At Pyxis, JC began developing an Agile project management tool based upon the hugely popular issue tracker, Atlassian JIRA. The market was demanding a tool such as this and JC delivered GreenHopper at the right time. GreenHopper quickly became the most popular plugin for Atlassian's JIRA and in May 2009 Atlassian acquired that product. JC subsequently moved to Sydney to head up GreenHopper development and has ensured the continued success of the product, watching the number of customers increase by over 10,000 in the past 12 months.</p>
-
 tim-hunt-smith:
     name: Tim Hunt-Smith
     title: Chief Executive Officer, Neighbourhood Energy
@@ -290,3 +283,12 @@ david-musson:
     description: |
         <p>David Musson has over 18 years experience in the Australian energy industry in a range of roles from IT to marketing. David is currently responsible for the IT program of work supporting Jemena’s NSW gas network and has been involved in a number of key application developments driving organisational capability.</p>
         <p>David holds a Bachelor degree in Information Technology, and has subsequently completed a MBA and a Master of Law and Legal Practice.</p>
+
+chris-mountford:
+    name: Chris Mountford
+    title: Senior Developer, Atlassian
+    description: |
+        <p>Chris started programming when he was eight years old on a Vic-20, tediously typing in games in BASIC and wishing for a cassette drive. Since then he has worked on a range of development projects from startups to multinationals, from finance to education and currently works on JIRA at Atlassian in Sydney.</p>
+
+jean-christophe-huet:
+    name: Jean Christophe Huet
