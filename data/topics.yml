@@ -238,7 +238,7 @@ monster-builds:
     title: CCH3 - Monster Builds
     speakers: chris-mountford
     description: |
-    <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
+        <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
     
 agile-lawyers:
     date: Thu 01:00PM
