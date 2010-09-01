@@ -56,6 +56,14 @@ class CoreView
     @browser.link(:jquery, "div.current div.toolbar a[href='##{day}']").click_jquery()
     return ScheduleView.new @browser
   end
+
+  def session_checked?(session_id)
+    @browser.checkbox(:jquery, 'div.current ul.schedule li#' + session_id + "-session .go-skip p.attending").exists?
+  end
+  
+  def toggle_session_reminder(session_id)
+    @browser.link(:jquery, "div.current ul.schedule li#" + session_id + "-session .go-skip p").click_jquery()
+  end
 end
 
 class SimPhone < CoreView

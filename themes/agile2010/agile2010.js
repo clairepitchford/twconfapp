@@ -160,7 +160,7 @@ function buildDOM() {
         skipRatingWidget = '<p style="font-size: 10pt; float: right; margin: 3px 0 0 0; font-weight: bold">Rate this session below</p>';
       }
     } else {
-      skipRatingWidget = '<span class="toggle go-skip" style="display: inline-block;"><input type="checkbox" topic="' + sessionID + '" class="attend-slider touch"/></span>';
+      skipRatingWidget = '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
     }
     
     sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
@@ -228,7 +228,7 @@ function buildDOM() {
                            '<div class="speaker-go">' +
                              '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
                              '<span class="toggle go-skip">' +
-                               (sessionDate.getTime() > now.getTime() ? '<input type="checkbox" topic="' + session.id + '" class="attend-slider touch"/>' : buildRatingStarString(localStorage.getItem(session.id + '-rating'), 20)) +
+                               (sessionDate.getTime() > now.getTime() ? '<p topic="' + session.id + '" class="attend-slider touch"></p>' : buildRatingStarString(localStorage.getItem(session.id + '-rating'), 20)) +
                              '</span>' +
                            '</div>' +
                          '</li>'));
@@ -271,28 +271,39 @@ function registerJQTouchLiveEvents() {
     localStorage.removeItem(id);
   }
 
-  // Live events will be added to elements that match the selector
-  // when those elements are added to the DOM. Because of that,
-  // this method only needs to be run once for the document.
-  // Running it more than once results in the handlers being called
-  // multiple times.
-  $('span.go-skip input').tap(function (e) {
-    var id = $(this).attr('topic'),
-        transitioningTo = !this.checked;
-
+  $('.attend-slider').live('click tap', function (event) {
+    var target = $(event.target),
+        id = target.attr('topic'),
+        transitioningTo = !isInMySessions(id);
+        
     if (transitioningTo) {
       addToMySessions(id);
+      $(".attend-slider[topic='" + id + "']").each(function () { 
+        $(this).addClass('attending'); 
+      });
+      target.text('attend');
     } else {
       removeFromMySessions(id);
+      $(".attend-slider[topic='" + id + "']").each(function () { 
+        $(this).removeClass('attending'); 
+      });
+      target.text('skip');
     }
   });
 
   $('div.uses_local_data').live('pageAnimationStart', function (e, info) {
     if (!info || info.direction === "in") {
-      $(this).find("input.attend-slider").each(function () {
+      $(this).find(".attend-slider").each(function () {
         var slider = $(this),
-            id = slider.attr('topic');
-        slider.attr('checked', isInMySessions(id));
+            id = slider.attr('topic'),
+            isChecked = isInMySessions(id);
+            
+        if (isChecked) {
+          slider.text('attend');
+          slider.addClass("attending");
+        } else {
+          slider.text('skip');
+        }
       });
     }
   });
@@ -435,14 +446,18 @@ function registerFeedbackEvents() {
       localStorage.setItem(sessionID + "-rating", 3);
     }
 
-    for (i = 0; i < 3; i++) {
-      $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i).each(function () {
+    function toggleStarImages(i, elements) {
+      elements.each(function () {
         if (i < localStorage.getItem(sessionID + "-rating")) {
           $(this).attr("src", "themes/agile2010/img/on_star.png");
         } else {
           $(this).attr("src", "themes/agile2010/img/off_star.png");
         }
       });
+    }
+    
+    for (i = 0; i < 3; i++) {
+      toggleStarImages(i, $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i));
     }
   });
 }
