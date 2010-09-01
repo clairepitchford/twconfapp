@@ -30,6 +30,13 @@ dogs-tricks:
         <p>Context is everything - there is no 'one-size-fits-all' approach to project delivery. The Agile umbrella encompasses a wide range of techniques and approaches. This talk briefly examines a variety of the techniques and identifies the "project ecosystem" elements that will enable them to be effective, where they work best, where they are to be avoided and practical advice on how to get the maximum benefit from each of the practices.</p>
         <p>Shane presents a framework for selecting from a variety of techniques to identify the combination that will work most effectively in a specific project environment. This talk doesn't attempt to teach the techniques; rather Shane provides some concrete advice for selecting from techniques such as: brainstorming, mind maps, DeBono's thinking hats, vision box, structured interviews, questionnaires, scriptwriting, snowcards, use cases, user stories, process models, decision tables, data models, planning poker, behaviour driven development, low-fi prototypes, and CRC cards.</p>
         
+using-agile:
+    date: Wed 11:30AM
+    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
+    speakers: michael-bromley
+    description: |
+        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
+
 agile-agile:
     date: Wed 11:30AM
     title: >
@@ -49,17 +56,17 @@ culture-stupid:
 applying-agile:
     date: Wed 12:15PM
     title: CCH2 - Applying Agile to Large Complex Projects
-    speakers: paula-ngov
+    speakers: paula-ngov, david-musson
     description: |
         <p>This case study examines the positive impact of introducing Agile development processes in an environment that is made up of regulatory requirements, extension of legacy systems, tight and non-negotiable deadlines, old technology, multiple vendors, traditional methodologies, and integration with external and market systems.</p>
         <p>This presentation outlines the way in which DIUS computing and Energy Utility - Jemena, have overcome many of the issues confronting large complex projects, by applying agile techniques such as behaviour and test driven development (BDD and TDD).</p>
 
-maturity-assessment:
+emergent-design:
     date: Wed 12:15PM
-    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
-    speakers: jason-yip, marina-chiovetti
+    title: CCH3 - Implementing Emergent Design
+    speakers: neal-ford
     description: |
-        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
+        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
 
 aconex-case-study:
     date: Wed 02:00PM
@@ -71,9 +78,9 @@ aconex-case-study:
 flavours-panel:
     date: Wed 02:00PM
     title: CCH2 - Flavours of Agile panel
-    speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan
+    speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan, ben-hogan
     description: |
-        <p>This panel session will provide attendees with an understanding of the different flavours of Agile. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will outline the various approaches to Agile, how they differ and how they overlap. Understand terms such as - Scrum, Lean and Kanban, Feature Driven Development, Extreme Programming.</p>
+        <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why, how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
 
 continuous-deployment:
     date: Wed 02:00PM
@@ -93,7 +100,7 @@ agile-governance:
 lightning-talks-wed:
     date: Wed 02:45PM
     title: CCH2 - Lightning Talks
-    speakers:
+    speakers: ben-arnott, julian-boot, tania-broome, christopher-mendes, james-wang
     description: |
         <p>Lightning Talks are concise, informal mini-presentations that generate ideas and conversation points for the audience.</p>
         <p>Lightning Talks can be on any topic and are a maximum of FIVE minutes long. The emphasis of these mini-presentations is on knowledge sharing, generating new ideas, and having fun!</p>
@@ -111,6 +118,10 @@ agile-games:
     title: CCH1 - Agile Games
     speakers: philip-abernathy, kane-mar
     description:
+        <p>Adopting Agile means engaging with a number of organisational stakeholders in an entirely new way. Our experienced panelists will discuss how Agile changes the way organisations approach, including procurement, contracts and budgeting by discussing the options, how cultural issues play out and how corporations can minimise their risk.</p>
+        <p>"Yes and, Yes but ..."  - A small team exercise to explore how language plays a big part in our behaviour and actions. This short 10 minute exercise will help teams become aware of how their words impact other team members and decision making.</p>
+        <p>"Help me see it ..." - A medium to large team exercise taken from improv theatre to help facilitate understanding and team communication. This short 10 minute exercise will help team members gain an appreciation of different points of view and adopt the language of expressing uncertainty and confusion in a non-threatening way.</p>
+        <p>"The Ball Point Game" -  A classic agile training game that embodies the principles of inspection and adaption in a fun and exciting physical game. The Ball Point Game is a favorite exercise of agile trainers and coaches around the world. 30-45 minutes.</p>
 
 engaging-for-agile:
     date: Wed 04:00PM
@@ -158,11 +169,17 @@ open-house:
     title: Open House - ThoughtWorks Offices
     speakers:
     description: |
-        <p>Following on from the success of the ThoughtWorks Open House last year, we will be opening the doors of our Melbourne office which will be filled with food, drinks and Agile enthusiasts. Join us after Agile10 on Wednesday evening at 6.00pm. 
+        <p>Following on from the success of the ThoughtWorks Open House last year, we will be opening the doors of our Melbourne office which will be filled with food, drinks and Agile enthusiasts. Join us at our office after the last session finishes on Wednesday evening.</p>
+        <p>Activities will include:</p>
+        <ul>
+        <li>Pairing with the Stars</li>
+        <li>Lego Game</li>
+        <li>One-on-One Consulting Sessions</li>
+        <li>Mingle Demonstration</li>
+        </ul>
         <p>ThoughtWorks Melbourne Office is located at 303 Collins Street, Melbourne</p>
-        <p>Register at the ThoughtWorks booth.</p>
+        <p>Make sure you register at the ThoughtWorks booth.</p>
         
-
 essence-agile:
     date: Thu 09:00AM
     title: CCH - The Essence of Agile Software Development
@@ -188,12 +205,12 @@ about-trust:
         <p>Accordingly, our view of project managers is changing. In contrast to more traditional approaches, Agile promotes project management into the realms of business management as a truly valued capability in its own right. Underscoring this increased profile is a need to quickly establish credibility and trust - in that context, an Agile approach is particularly effective.</p>
         <p>I will be elaborating on the changing role of project managers within organisations and the application of Agile practices with business teams. Specifically, the new skills required by project managers to become more effective facilitators of change and delivery along with some of the challenges of adopting Agile with business teams.</p>
 
-emergent-design:
+maturity-assessment:
     date: Thu 10:30AM
-    title: CCH3 - Implementing Emergent Design
-    speakers: neal-ford
+    title: CCH3 - You Can Take Your Agile Maturity Assessment and...
+    speakers: jason-yip, marina-chiovetti
     description: |
-        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
+        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
 
 introspection-leadership:
     date: Thu 11:15AM
@@ -234,15 +251,23 @@ agile-lawyers:
         <p>A field trip to Lonely Planet starts to answer the question "what happens when a whole company starts adopting Agile methods?" Since not everyone can come to Footscray however, in this presentation you will see which Agile principles work for each team, how groups work together, whether 'competitive Agile' can work, and the flywheel effect on the productivity of core IT teams from widespread understanding of Agile principles - now that their colleagues across the business use card walls, talk about stories and conduct daily stand-ups.</p>
         <p>You will also hear how key steps in the broader adoption of Agile, how the insistence of uniformity of Agile process can be a killer of innovation, and how Agile underpinned the delivery of a new iPad digital product from the day Apple called to say "we've announced the iPad, we've emailed your SDK - we expect a product in iTunes when we hit the market in a month".</p>
 
-using-agile:
+adopting-agile:
     date: Thu 01:00PM
-    title: CCH2 - Using Agile to Deliver Business Innovation in a Telco Environment
-    speakers: michael-bromley
-    description: <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>
+    title: CCH2 - Adopting Agile for the Second Time
+    speakers: andy-weir
+    description: |
+        <p>Andy Weir will share his experiences with going down the Agile journey. Bankwest has embarked on their second attempt to adopt Agile practices and Andy will address what didn't work the first time and what has driven him to give it another serious go in 2010. The early experience in 2010 has been that a project has been delivered in four months, which traditionally would have taken 13 months.</p> 
+        <p>Andy will discuss:</p>
+        <ul>
+        <li>Why Agile and why now, the strategic drivers
+        <li>The evolution in terms of process and methodology
+        <li>The change management challenges
+        <li>The lessons learned
+        </ul>
     
 red:
     date: Thu 01:00PM
-    title: Dr W. Edwards Deming's Famous Red Bead Experiment
+    title: CCH3 - Dr W. Edwards Deming's Famous Red Bead Experiment
     speakers: david-joyce
     description: |
         <p>Come along and participate in Dr W. Edwards Deming's famous Red Bead Experiment. This classic learning tool helps illustrate the impact that a system, and traditional management approaches, can have on individuals who work within an organisation.</p>
@@ -254,20 +279,23 @@ red:
 
 trials-tribulations:
     date: Thu 01:45PM
-    title: Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
+    title: CCH1 - Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery
     speakers: john-sullivan
-    description: 
+    description: |
+        <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
+        <p>The Architecture team will set up stall saying a project without a formal Architecture is rogue and will fail. On the other side of the fence the developers will say Architects and formal Architecture just inhibit delivery. There has to be some sensible middle ground. One answer to the Architecture function would be to decide that Architecture and Architects aren't needed anymore. Alternatively you could just keep the formal waterfall upfront Architectural phase within your project life cycle.  Both can work, one of the options may be right for you, but they aren't your only choice.</p>
+        <p>In this presentation John talks about the Architecture function, what he’s seen fail, what he’s seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
 
 distributed-panel:
     date: Thu 01:45PM
-    title: Transcending Culture, Timezones and Countries
+    title: CCH2 - Transcending Culture, Timezones and Countries
     speakers: mahesh-baxi, dave-thomas, nigel-dalton, philip-abernathy
     description: |
         <p>How do you overcome the challenges of implementing Agile in a distributed environment? Panellists will call on their own experiences of being involved in distributed agile projects, the added complexities of communicating across distributed teams, how to tackle customer collaboration, trust and technical issues and most importantly, the ingredients to making it work!</p>
 
 achieving-quality:
     date: Thu 01:45PM
-    title: Building Quality into the Lifecycle - All the Way Through
+    title: CCH3 - Building Quality into the Lifecycle - All the Way Through
     speakers: sharon-robson
     description: |
         <p> Sharon Robson discusses how to integrate testing into an Agile project to enhance the final quality of the product, right from the start. This is done initially by high level examination of test objectives by both the business and the technical team members so that all agree and understand the key quality criteria for the product. The Agile approach is then overlaid to show how the integration of "traditional" testing methods, levels and techniques are appropriate and applicable to build quality of the product into the entire life cycle. The focus on regression testing, risk analysis and automation is considered in conjunction with the need for appropriate UAT at both the delivery team level and the business acceptance level. The common pitfalls and hurdles to look out for when implementing in an Agile testing strategy are also outlined, as well as how to deal with them.</p> 
@@ -281,7 +309,7 @@ achieving-quality:
         </ul>
 open-space:
     date: Thu 03:00PM
-    title: Open Space
+    title: CCH1 - Open Space
     speakers:
     description: |
         <p>Open Space is a chance for you to drive part of the Agile Australia conference! If we've missed an important topic you'd like to discuss, or haven't addressed one of your burning questions, Open Space will provide the opportunity for you to discuss or have discussed any question or topic you like!</p>
@@ -291,14 +319,14 @@ open-space:
 
 running-company-agile:
     date: Thu 03:00PM
-    title: Running a Company Agile
+    title: CCH2 - Running a Company Agile
     speakers: tim-hunt-smith
     description: |
         <p>The retail energy industry in Australia is one of the most competitive in the world and characterised by complex systems and processes which constrain speed to market. Tim Hunt-Smith shares his experience of transforming an energy retail company into a nimble and effective competitor by implementing lean/agile techniques as a management system for the company</p>
 
 dev-ops:
     date: Thu 3:00PM
-    title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
+    title: 'CCH3 - DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration'
     speakers: jez-humble
     description: |
         <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply undeployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
@@ -306,13 +334,13 @@ dev-ops:
 
 technical-debt:
     date: Thu 03:45PM
-    title: Paying Down Technical Debt Panel
+    title: CCH2 - Paying Down Technical Debt Panel
     speakers: adam-boas, martin-kearns, craig-smith, andy-marks, marina-chiovetti
     description: <p>No matter how hard we try, accumulating some technical debt is inevitable. Yet its nebulous nature often makes it difficult for anyone apart from the development team to appreciate and communicate. Our panel of experts will provide you with a sound understanding of technical debt, its causes and the ramifications. Panelists will give some practical ways of paying down technical debt while still delivering business value.</p>
 
 against-odds:
     date: Thu 03:45PM
-    title: Delivery Ggainst the Odds - How Agile Practices Can Save Your Project
+    title: CCH3 - Delivery Against the Odds - How Agile Practices Can Save Your Project
     speakers: holger-kaufmann
     description: |
         <p>A case study on a large, highly time-critical development project for an iron ore industry client, the talk will describe how Agile practices can be used to achieve delivery against the odds. Topics will include effective on-boarding, no-waste production, and optimal utilisation of time and people.</p>
