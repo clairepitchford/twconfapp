@@ -788,3 +788,35 @@ div#jqt.landscape .toolbar > h1 {
     font-style: normal;
 }
 /* @end */
+
+#install {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    -webkit-transform: translateY(800px);
+    -webkit-transition: 0.7s ease;
+}
+
+#install #bubble {
+    width: 75%;
+    margin: 0px auto;
+    border: 2px solid white;
+
+    padding: 10px;
+    padding-bottom: 0px;
+
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 8px;
+
+    background-size: 100% 8px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom;
+    background-color: #E0E0E0;
+    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#FFF), to(#E0E0E0));
+}
+
+#jqt.fullscreen #install {
+    display: none;
+}

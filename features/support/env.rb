@@ -61,7 +61,7 @@ class CoreView
 
   def tab(item)
     @browser.link(:jquery, "nav#tabbar a:has(> img[alt='#{item}'])").click_jquery()
-    return CoreView.new @browser
+    return self
   end
 
   def schedule(day)
@@ -76,6 +76,10 @@ class CoreView
   def toggle_session_reminder(session_id)
     @browser.link(:jquery, "div.current ul.schedule li#" + session_id + "-session .go-skip p").click_jquery()
   end
+
+  def bookmark_reminder
+    return BookmarkReminderView.new @browser
+  end
 end
 
 class SimPhone < CoreView
@@ -86,6 +90,11 @@ class SimPhone < CoreView
     end
 
     @browser = Watir::Safari.start("file:///#{Dir.getwd}/index.html")
+  end
+
+  def fullscreen=(value)
+    action = value ? 'add' : 'remove'
+    @browser.eval_js(%|$('#jqt').#{action}Class('fullscreen');|)
   end
 end
 
@@ -119,5 +128,15 @@ class ScheduleView < CoreView
       end
     end
     return times.index(time_slot)
+  end
+end
+
+class BookmarkReminderView < CoreView
+  def visible?
+    return @browser.div(:jquery, '#install:visible').exists?
+  end
+
+  def click
+    @browser.link(:jquery, '#install').click_jquery()
   end
 end

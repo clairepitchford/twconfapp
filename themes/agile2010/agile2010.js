@@ -498,12 +498,20 @@ function registerFeedbackEvents() {
   });
 }
 
+function registerBookmarkReminderPopup() {
+  var height = $('div.current .scroll').height() + $('#tabbar').height() - $('#install').height() - 10;
+
+  $('#install').css('-webkit-transform', 'translateY(' + height + 'px)');
+  $('#install').one('click tap', function () {
+    $(this).css('-webkit-transform', 'translateY(-' + $('#install').height() + 'px)').fadeOut(1000);
+  });
+}
+
 $(document).ready(function () {
   buildDOM();
   registerJQTouchLiveEvents();
   registerIconChangeEvents();
   registerTwitterEvents();
-  registerCacheUpdateEvents();
   registerFeedbackEvents();
 });
 
@@ -512,6 +520,8 @@ $(document).ready(function () {
 $(window).load(function () {
   $(document.body).trigger('orientationchange');
   $('#Wednesday.current').trigger('pageAnimationStart');
+
+  registerBookmarkReminderPopup();
 });
 
 var jQT = new $.jQTouch({
