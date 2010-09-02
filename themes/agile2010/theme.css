@@ -6,7 +6,12 @@ div#jqt #about {
     text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
     font-size: 13px;
     text-align: center;
-	background-color: #FFF;
+    background-color: #FFF;
+}
+
+img.center {
+    display: block;
+    margin: auto;
 }
 
 div#jqt .toolbar > h1 {
@@ -24,18 +29,16 @@ div#jqt .toolbar > h1 {
    text-decoration: none;
 }
 
-#twitter-feed
-{
-	margin-top: 10px;
+#twitter-feed {
+    margin-top: 10px;
 }
 
-#floorplan-container
-{
-	background-color: #FFF;
+#floorplan-container {
+    background-color: #FFF;
 }
 
 div.content {
-	top: 0px;
+    top: 0px;
 }
 
 .topic {
@@ -47,7 +50,7 @@ div.content {
 
 .attending {
     font-size: 10pt;
-	vertical-align: -5px;
+    vertical-align: -5px;
 }
 
 .speaker {
@@ -55,8 +58,8 @@ div.content {
 }
 
 .speaker-names{
-	margin-top: 5px;
-	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .speaker-title {
@@ -87,41 +90,40 @@ div.content {
 }
 
 .session-header {
-	font-size: 16px; 
-	font-weight:bold; 
-	width: 60%; 
-	display: inline-block;
+    font-size: 16px; 
+    font-weight:bold; 
+    width: 60%; 
+    display: inline-block;
 }
 
 .description {
-    
     margin: 10px;
     padding: 10px;
-	background-color:#E0E0E0;
-	border-style:solid;
-	border-width:1px;
-	border-color:#999;
-	font-size:20px;
-	margin:12px;
-	-webkit-border-radius: 8px;
-	
+    background-color:#E0E0E0;
+    border-style:solid;
+    border-width:1px;
+    border-color:#999;
+    font-size:16px;
+    margin:12px;
+    -webkit-border-radius: 8px;
+    
 }
 
 .description > p {
     padding-top: 5px;
-	color:#000;
+    color:#000;
 }
 
 .feedback {
     margin: 10px;
     padding: 10px;
-	background-color:#E0E0E0;
-	border-style:solid;
-	border-width:1px;
-	border-color:#999;
-	font-size:20px;
-	margin:12px;
-	-webkit-border-radius: 8px;
+    background-color:#E0E0E0;
+    border-style:solid;
+    border-width:1px;
+    border-color:#999;
+    font-size:20px;
+    margin:12px;
+    -webkit-border-radius: 8px;
 }
 
 .feedback p {
@@ -141,8 +143,8 @@ div.content {
 
 .speaker-info {
     padding: 15px;
-	color:#000;
-	font-size:16px;
+    color:#000;
+    font-size:16px;
 }
 
 .speaker-info p {
@@ -156,7 +158,7 @@ div.content {
 }
 
 .speaker-go {
-	padding-top: 5px;
+    padding-top: 5px;
 }
 
 .attend-button {
@@ -167,7 +169,7 @@ div.content {
 }
 
 .ratingStar {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 #jqt .toggle.yes-no input[type="checkbox"] {
@@ -252,9 +254,11 @@ a:active {
     /*overflow: hidden;*/
     line-height: 0;
 }
+
 #tabbar ul li a {
     margin: 0 !important;
 }
+
 #tabbar ul li a img {
     margin-top: -30px;
 }
@@ -271,19 +275,23 @@ body {
     color: #000;
     margin: 0px;
 }
+
 /* @group Toolbar */
 #jqt .toolbar {
-	-webkit-box-sizing: border-box;
-	height: 46px;
-	position: relative;
-	background-image: url(img/nav_bg.png);
+    -webkit-box-sizing: border-box;
+    height: 46px;
+    position: relative;
+    background-image: url(img/nav_bg.png);
 }
+
 #jqt .toolbar.bottom {
-	background-image: url(img/nav_bg.png);
+    background-image: url(img/nav_bg.png);
 }
+
 #jqt .black-translucent .toolbar {
-	margin-top: 20px;
+    margin-top: 20px;
 }
+
 div#jqt .toolbar > h1 {
     position: absolute;
     overflow: hidden;
@@ -300,10 +308,12 @@ div#jqt .toolbar > h1 {
     white-space: nowrap;
     color: #CCC;
 }
+
 div#jqt.landscape .toolbar > h1 {
     margin-left: -125px;
     width: 250px;
 }
+
 #jqt .button, #jqt .back, #jqt .cancel, #jqt .add {
     position: absolute;
     overflow: hidden;
@@ -332,20 +342,17 @@ div#jqt.landscape .toolbar > h1 {
     top: 8px;
     right: 10px;
     padding: 0 3px;
-
-   
-
 }
-
-
 
 #jqt .button.active, #jqt .cancel.active, #jqt .add.active, #jqt .back.active {
     color: #aaa;
 }
+
 #jqt .blueButton {
     -webkit-border-image: url(img/blueButton.png) 0 5 0 5;
     border-width: 0 5px;
 }
+
 #jqt .back {
     left: 6px;
     right: auto;
@@ -354,19 +361,23 @@ div#jqt.landscape .toolbar > h1 {
     border-width: 0 8px 0 14px;
     -webkit-border-image: url(img/back_button.png) 0 8 0 14;
 }
+
 #jqt .back.active {
     -webkit-border-image: url(img/back_button_clicked.png) 0 8 0 14;
     color: #fff;
 }
+
 #jqt .leftButton, #jqt .cancel {
     left: 6px;
     right: auto;
 }
+
 #jqt .add {
     font-size: 24px;
     line-height: 24px;
     font-weight: bold;
 }
+
 #jqt .whiteButton,
 #jqt .grayButton, #jqt .redButton, #jqt .blueButton, #jqt .greenButton {
     display: block;
@@ -383,10 +394,12 @@ div#jqt.landscape .toolbar > h1 {
 #jqt .whiteButton:active, #jqt .grayButton:active, #jqt .redButton:active, #jqt .blueButton:active, #jqt .greenButton:active {
     -webkit-border-image: url(img/activeButton.png) 0 12 0 12;
 }
+
 #jqt .whiteButton {
     -webkit-border-image: url(img/whiteButton.png) 0 12 0 12;
     text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
 }
+
 #jqt .grayButton {
     -webkit-border-image: url(img/grayButton.png) 0 12 0 12;
     color: #FFFFFF;
@@ -401,56 +414,62 @@ div#jqt.landscape .toolbar > h1 {
     -webkit-border-image: url(img/greenButton.png) 0 12 0 12;
     color: #FFFFFF;
 }
-
 /* @end */
+
 /* @group Lists */
 #jqt h1 + ul, #jqt h2 + ul, #jqt h3 + ul, #jqt h4 + ul, #jqt h5 + ul, #jqt h6 + ul {
     margin-top: 0;
 }
+
 #jqt ul {
     color: #aaa;
     font: bold 18px "Helvetica Neue", Helvetica;
     padding: 0;
     margin: 15px 10px 17px 10px;
 }
+
 #jqt ul.rounded {
     -webkit-border-radius: 8px;
     -webkit-box-shadow: rgba(0,0,0,.3) 1px 1px 3px;
 }
+
 #jqt ul.rounded li:first-child, #jqt ul.rounded li:first-child a {
     border-top: 0;
     -webkit-border-top-left-radius: 8px;
     -webkit-border-top-right-radius: 8px;
 }
+
 #jqt ul.rounded li:last-child, #jqt ul.rounded li:last-child a {
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
 }
+
 #jqt ul li {
     list-style-type: none;
     padding: 10px 10px 10px 10px;
     overflow: hidden;
 }
+
 #jqt ul li.arrow {
     background-image: url(img/chevron.png);
     background-position: right center;
     background-repeat: no-repeat;
-	background-color:#E0E0E0;
-	border-style:solid;
-	border-width:1px;
-	font-size:20px;
-	-webkit-border-radius: 8px;
+    background-color:#E0E0E0;
+    border-style:solid;
+    border-width:1px;
+    font-size:20px;
+    -webkit-border-radius: 8px;
 }
 
 #jqt div.arrow {
-	background-image: url(img/chevron.png);
+    background-image: url(img/chevron.png);
     background-position: right center;
     background-repeat: no-repeat;
-	padding-right: 30px;
+    padding-right: 30px;
 }
 
 #jqt ul li.arrow a {
-	padding: 12px 22px 12px 10px;
+    padding: 12px 22px 12px 10px;
 }
 
 #jqt ul li.forward {
@@ -458,42 +477,46 @@ div#jqt.landscape .toolbar > h1 {
     background-position: right center;
     background-repeat: no-repeat;
 }
+
 /* universal links on list */
 #jqt ul li a, #jqt li.img a + a {
     color: #000;
     text-decoration: none;
     text-overflow: ellipsis;
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
     display: block;
     padding: 10px 10px 10px 10px;
     margin: -10px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-
 }
+
 #jqt ul li a.active, #jqt ul li a.button {
     color: #fff;
 }
+
 #jqt ul li a.active.loading {
     background-image: url(img/loading.gif);
     background-position: 95% center;
     background-repeat: no-repeat;
 }
+
 #jqt ul li.arrow a.active {
     background-image: url(img/chevron.png);
     background-position: right center;
     background-repeat: no-repeat;
 }
+
 #jqt ul li.forward a.active {
     background-image: url(img/chevron_circle.png);
     background-position: right center;
     background-repeat: no-repeat;
 }
+
 #jqt ul li.img a + a {
     margin: -10px 10px -20px -5px;
     font-size: 17px;
     font-weight: bold;
 }
+
 #jqt ul li.img a + a + a {
     font-size: 14px;
     font-weight: normal;
@@ -501,9 +524,11 @@ div#jqt.landscape .toolbar > h1 {
     margin-bottom: -10px;
     margin-top: 0;
 }
+
 #jqt ul li.img a + small + a {
     margin-left: -5px;
 }
+
 #jqt ul li.img a + small + a + a {
     margin-left: -10px;
     margin-top: -20px;
@@ -511,42 +536,44 @@ div#jqt.landscape .toolbar > h1 {
     font-size: 14px;
     font-weight: normal;
 }
+
 #jqt ul li.img a + small + a + a + a {
     margin-left: 0px !important;
     margin-bottom: 0;
 }
+
 #jqt ul li a + a {
     color: #000;
     font: 14px "Helvetica Neue", Helvetica;
     text-overflow: ellipsis;
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
     display: block;
     margin: 0;
     padding: 0;
 }
+
 #jqt ul li a + a + a, #jqt ul li.img a + a + a + a, #jqt ul li.img a + small + a + a + a {
     color: #666;
     font: 13px "Helvetica Neue", Helvetica;
     margin: 0;
-    /*text-overflow: ellipsis;*/
-    /*white-space: nowrap;*/
     overflow: hidden;
     display: block;
     padding: 0;
 }
-/*
-@end */
+/* @end */
+
 /* @group Forms */
 #jqt ul.form li {
     padding: 7px 10px;
 }
+
 #jqt ul.form li.error {
     border: 2px solid red;
 }
+
 #jqt ul.form li.error + li.error {
     border-top: 0;
 }
+
 #jqt ul li input[type="text"],
 #jqt ul li input[type="password"],
 #jqt ul li input[type="tel"],
@@ -566,11 +593,13 @@ div#jqt.landscape .toolbar > h1 {
     width: 100%;
     -webkit-appearance: textarea;
 }
+
 #jqt ul li textarea {
     height: 120px;
     padding: 0;
     text-indent: -2px;
 }
+
 #jqt ul li select {
     text-indent: 0px;
     background: transparent url(img/chevron.png) no-repeat right center;
@@ -578,10 +607,12 @@ div#jqt.landscape .toolbar > h1 {
     margin-left: -6px;
     width: 104%;
 }
+
 #jqt ul li input[type="checkbox"], #jqt ul li input[type="radio"] {
     margin: 0;
     padding: 10px 10px;
 }
+
 #jqt ul li input[type="checkbox"]:after, #jqt ul li input[type="radio"]:after {
     content: attr(title);
     font: 17px "Helvetica Neue", Helvetica;
@@ -591,22 +622,23 @@ div#jqt.landscape .toolbar > h1 {
     margin: -12px 0 0 17px;
 }
 /* @end */
+
 /* @group Mini Label */
 #jqt ul li small {
     color: #64c114;
     font: 17px "Helvetica Neue", Helvetica;
     text-align: right;
     text-overflow: ellipsis;
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
     display: block;
     width: 23%;
     float: right;
     padding: 0;
 }
+
 #jqt ul li.arrow small {
     padding: 0 15px;
 }
+
 #jqt ul li small.counter {
     font-size: 17px;
     line-height: 13px;
@@ -620,10 +652,12 @@ div#jqt.landscape .toolbar > h1 {
     margin-top: -22px;
     -webkit-box-shadow: rgba(255,255,255,.1) 0 1px 0;
 }
+
 #jqt ul li.arrow small.counter {
     margin-right: 15px;
 }
 /* @end */
+
 /* @group Individual */
 #jqt ul.individual {
     border: 0;
@@ -633,8 +667,9 @@ div#jqt.landscape .toolbar > h1 {
     padding-bottom: 3px;
     -webkit-box-shadow: none;
 }
+
 #jqt ul.individual li {
-     background: #4c4d4e;
+    background: #4c4d4e;
     border: 1px solid #333;
     font-size: 14px;
     text-align: center;
@@ -647,9 +682,11 @@ div#jqt.landscape .toolbar > h1 {
     -webkit-box-shadow: rgba(0,0,0,.2) 1px 1px 3px;
     background: (linear, 0% 0%, 0% 100%, from(#4c4d4e), to(#404142));
 }
+
 #jqt ul.individual li + li {
     float: right;
 }
+
 #jqt ul.individual li a {
     color: #fff;
     line-height: 16px;
@@ -658,15 +695,18 @@ div#jqt.landscape .toolbar > h1 {
     -webkit-border-radius: 8px;
 }
 /* @end */
+
 /* @group Toggle */
 #jqt .toggle {
     float: right;
 }
+
 #jqt .go-skip p.attending {
     background-color: green;
     color: #fff;
     -webkit-transition: background-color .1s ease-in;
 }
+
 #jqt .go-skip p {
     -webkit-border-radius: 5px;
     -webkit-transition: background-color .1s ease-in;
@@ -684,6 +724,7 @@ div#jqt.landscape .toolbar > h1 {
 }
 
 /* @end */
+
 /* @group Info */
 #jqt .info {
      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#aaa), color-stop(.6,#CCCCCC));
@@ -697,137 +738,34 @@ div#jqt.landscape .toolbar > h1 {
     font-weight: bold;
 }
 /* @end */
+
 /* @group Edge to edge */
 #jqt ul.edgetoedge {
     border-width: 1px 0;
     margin: 0;
     padding: 0;
-	background-color:white;
+    background-color:white;
 }
+
 #jqt ul.edgetoedge li {
     background-color:#E0E0E0;
-	border-style:solid;
-	border-width:1px;
-	font-size:20px;
-	margin:12px;
-	-webkit-border-radius: 8px;
-
+    border-style:solid;
+    border-width:1px;
+    font-size:20px;
+    margin:12px;
+    -webkit-border-radius: 8px;
 }
+
 #jqt ul.edgetoedge li.sep {
     border: 0px;
     color: #CC0000;
     font-size: 12px;
     padding: 2px 10px;
-	background-color: #FFF;
+    background-color: #FFF;
 }
+
 #jqt ul.edgetoedge li em {
     font-weight: normal;
     font-style: normal;
 }
 /* @end */
-/* @group Plastic */
-#jqt #plastic {
-    background: #17181a;
-}
-#jqt ul.plastic {
-    background: #17181a;
-    color: #aaa;
-    font: bold 18px "Helvetica Neue", Helvetica;
-    margin: 0;
-    padding: 0;
-    border-width: 0 0 1px 0;
-}
-#jqt ul.plastic li {
-    border-width: 1px 0;
-    border-style: solid;
-    border-top-color: #222;
-    border-bottom-color: #000;
-    color: #666;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 10px 10px 10px 10px;
-}
-#jqt ul.plastic li a.active.loading {
-    background-image: url(img/loading.gif);
-    background-position: 95% center;
-    background-repeat: no-repeat;
-}
-#jqt ul.plastic li small {
-    color: #888;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 24px;
-    text-transform: uppercase;
-}
-#jqt ul.plastic li:nth-child(odd) {
-    background-color: #1c1c1f;
-}
-#jqt ul.plastic li.arrow {
-    background-image: url(img/chevron.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-}
-#jqt ul.plastic li.arrow a.active {
-    background-image: url(img/chevron.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-}
-#jqt ul.plastic li.forward {
-    background-image: url(img/chevron_circle.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-}
-#jqt ul.plastic li.forward a.active {
-    background-image: url(img/chevron_circle.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-}
-/* @group Metal */
-#jqt ul.metal {
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    margin: 0;
-}
-#jqt ul.metal li {
-    background-image: none;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #666;
-    font-size: 26px;
-    background:  (linear, 0% 0%, 0% 100%, from(rgba(238,238,238,1)), to(rgba(156,158,160,1)));
-}
-#jqt ul.metal li a {
-    line-height: 26px;
-    margin: 0;
-    text-shadow: #fff 0 1px 0;
-    padding: 13px 0;
-}
-#jqt ul.metal li a em {
-    display: block;
-    font-size: 14px;
-    font-style: normal;
-    color: #444;
-    width: 50%;
-    line-height: 14px;
-}
-#jqt ul.metal li a.active {
-    color: rgb(0,0,0);
-}
-#jqt ul.metal li small {
-    float: right;
-    position: relative;
-    margin-top: 10px;
-    font-weight: bold;
-}
-#jqt ul.metal li.arrow {
-    background-image: url(img/chevron.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-}
-#jqt ul.metal li.arrow a small {
-    padding-right: 15px;
-    line-height: 17px;
-}
-/* @end */
-/* @end "copy of jqt/themes.css" */

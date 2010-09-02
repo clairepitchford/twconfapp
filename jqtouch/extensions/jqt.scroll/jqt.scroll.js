@@ -38,6 +38,20 @@
 					$('div.current .scroll > div').addClass('m').removeClass('m'); // quick hack so far...
 				});
 			}
+
+			jQTouch.scroll = function () {
+				var currentContainer = $('div.current > .touchScroll')[0],
+				    sidx;
+
+				for (sidx in scrollers) {
+					if (scrollers.hasOwnProperty(sidx) &&
+					    scrollers[sidx].scrollers.container === currentContainer) {
+						return scrollers[sidx];
+					}
+				}
+
+				return null;
+			};
 			
 			return doMagic();
 		});

@@ -27,6 +27,7 @@ div.content {
 	bottom: 0;
 	width: 100%;
 	height: 48px;
+	border-top: 1px solid #000;
 	background-image: url(../../../themes/agile2010/img/nav_bg.png);
 }
 
@@ -49,20 +50,6 @@ div.content {
 	text-decoration: none;
 	font-weight: normal;
 	letter-spacing: 1px;
-}
-
-#tabbar a.current {
-	/*color: #fff;*/
-	/*-webkit-border-radius: 3px;*/
-	/*background-image:*/
-	/*-webkit-gradient(*/
-		/*linear,*/
-		/*0 0,*/
-		/*0 100%,*/
-		/*color-stop(0.0, #494949),*/
-		/*color-stop(0.5, #353535),*/
-		/*color-stop(0.5, #252525)*/
-	/*);*/
 }
 
 #tabbar a:before {
