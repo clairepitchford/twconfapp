@@ -19,7 +19,7 @@ module Watir
   end
 
   class AppleScripter 
-    def click_link_jquery(element = @element)      
+    def click_link_jquery(element = @element)
       page_load do
         execute(element.operate { %|$(element).trigger('click');| })
       end
@@ -37,6 +37,22 @@ class CoreView
 
   def initialize(browser)
     @browser = browser
+  end
+
+  def session?
+    return @browser.span(:jquery, ".current .description .session-header").text
+  end
+  
+  def click_rate_session(session_id)
+    @browser.link(:jquery, ".current li##{session_id}-session .feedbackLink").click_jquery()
+  end
+  
+  def click_2_star_rating
+    @browser.link(:jquery, ".current .feedback .star_1").click_jquery();
+  end
+  
+  def red_stars?
+    @browser.dom.xpath('//div[@class="uses_local_data content current"]//div[@class="feedback"]//img[@src="themes/agile2010/img/on_star.png"]').length
   end
 
   def tab?

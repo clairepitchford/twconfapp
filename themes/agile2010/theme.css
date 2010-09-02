@@ -97,7 +97,7 @@ div.content {
 }
 
 .description {
-    margin: 10px;
+    margin: 15px 10px;
     padding: 10px;
     background-color:#E0E0E0;
     border-style:solid;
@@ -139,6 +139,21 @@ div.content {
 .feedback .feedbackform-submit {
     display: block;
     margin: 5px auto;
+}
+
+.feedbackLink span {
+  font-size: 8pt;
+  font-weight: bold;
+  width: 60px;
+  text-align: right;
+  float: left;
+  color: #aaa;
+  height: 26px;
+}
+
+.feedbackLink img {
+  height: 25px;
+  float: right;
 }
 
 .speaker-info {
@@ -721,6 +736,10 @@ div#jqt.landscape .toolbar > h1 {
     line-height: 25px;
     font-weight: bold;
     border-color: #000;
+}
+
+#jqt .go-skip img {
+  margin: 2px 3px;
 }
 
 /* @end */
