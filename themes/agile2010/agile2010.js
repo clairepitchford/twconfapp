@@ -466,7 +466,7 @@ function registerBookmarkReminderPopup() {
 
   $('#install').css('-webkit-transform', 'translateY(' + height + 'px)');
   $('#install').one('click tap', function () {
-    $('#install').css('-webkit-transform', 'translateY(-' + $('#install').height() + 'px)');
+    $(this).css('-webkit-transform', 'translateY(-' + $('#install').height() + 'px)').fadeOut(1000);
   });
 }
 
