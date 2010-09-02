@@ -145,23 +145,27 @@ function buildDOM() {
 
     return imgString + "</span>";
   }
-
-  ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {
-    var currentDate = new Date(),       //new Date(2010, 9, 15, 10, 0, 0, 0);
-        sessionDate = new Date(buildDateStringForSession(session)),
-        skipRatingWidget = "",
-        currentRating = localStorage.getItem(sessionID + '-rating'),
-        sessionDiv, contentDiv;
-
-    if (sessionDate < currentDate) {
-      if (currentRating) {
-        skipRatingWidget = '<p style="font-size: 8pt; margin: 0; padding: 0; float: right">Your rating: ' + buildRatingStarString(currentRating, 10) + '</p>';
-      } else {
-        skipRatingWidget = '<p style="font-size: 10pt; float: right; margin: 3px 0 0 0; font-weight: bold">Rate this session below</p>';
-      }
-    } else {
-      skipRatingWidget = '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
+  
+  function buildRatingWidget(sessionID, sessionDate, starIconSize) {
+    var currentDate = new Date(2010, 8, 15, 10, 0, 0, 0);
+        currentRating = localStorage.getItem(sessionID + "-rating");
+        
+    if (sessionDate.getTime() > currentDate.getTime()) {
+      return '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
     }
+    
+    if (currentRating == null) {
+      return '<a href="#'+sessionID+'" class="feedbackLink">Give feedback</a>';
+    }
+    
+    return '<p>Your rating: ' + buildRatingStarString(currentRating, starIconSize) + '</p>';
+  }
+
+  ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {    
+    var sessionDate = new Date(buildDateStringForSession(session)),
+        currentRating = localStorage.getItem(sessionID + '-rating'),
+        skipRatingWidget = buildRatingWidget(sessionID, sessionDate, 10),
+        sessionDiv, contentDiv;
     
     sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
       .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
