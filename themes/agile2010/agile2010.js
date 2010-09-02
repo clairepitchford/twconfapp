@@ -1,3 +1,49 @@
+var NOW;
+
+(function setNOW() {
+  var fake_time_string = localStorage.getItem("_watir_tests_fake_time_string");
+  if (fake_time_string !== null) {
+    NOW = new Date(fake_time_string);
+    localStorage.removeItem("_watir_tests_fake_time_string")
+  } else {
+    NOW = new Date();
+  }
+})();
+
+function buildRatingStarString(rating, imgHeight) {
+  var imgString = '<div style="text-align: center; display: block">',
+      redStarImg = "themes/agile2010/img/on_star.png",
+      grayStarImg = "themes/agile2010/img/off_star.png",
+      i;
+
+  rating = (rating === null) ? 0 : rating;
+
+  for (i = 0; i < 3; i++) {
+    if (i < rating) {
+      imgString += '<img src="' + redStarImg + '" height="' + imgHeight + '" alt="' + rating + ' stars" class="ratingStar star_' + i + '"/>';
+    } else {
+      imgString += '<img src="' + grayStarImg + '" height="' + imgHeight + '" alt="' + rating + ' stars" class="ratingStar star_' + i + '"/>';
+    }
+  }
+
+  return imgString + "</div>";
+}
+
+function buildRatingWidget(sessionID, sessionInFuture, starIconSize) {
+  var currentDate = new Date(2010, 8, 15, 10, 0, 0, 0),
+      currentRating = localStorage.getItem(sessionID + "-rating");
+      
+  if (sessionInFuture) {
+    return '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
+  }
+  
+  if (currentRating == null) {
+    return '<span class="toggle go-skip"><span topic="#'+sessionID+'" class="feedbackLink"><span>Rate this session</span><img src="themes/agile2010/img/rate_this.png" alt="Rate this" /></span></span>';
+  }
+  
+  return '<span class="toggle go-skip">' + buildRatingStarString(currentRating, starIconSize) + '</span>';
+}
+
 function buildDOM() {
   function buildDateStringForSession(session) {
     var dateString = "September ",
@@ -127,44 +173,11 @@ function buildDOM() {
     return speakerList;
   };
 
-  function buildRatingStarString(rating, imgHeight) {
-    var imgString = '<span style="text-align: center; display: block">',
-        redStarImg = "themes/agile2010/img/on_star.png",
-        grayStarImg = "themes/agile2010/img/off_star.png",
-        i;
-
-    rating = (rating === null) ? 0 : rating;
-
-    for (i = 0; i < 3; i++) {
-      if (i < rating) {
-        imgString += '<img src="' + redStarImg + '" height="' + imgHeight + '" alt="' + rating + ' stars" class="ratingStar star_' + i + '"/>';
-      } else {
-        imgString += '<img src="' + grayStarImg + '" height="' + imgHeight + '" alt="' + rating + ' stars" class="ratingStar star_' + i + '"/>';
-      }
-    }
-
-    return imgString + "</span>";
-  }
-  
-  function buildRatingWidget(sessionID, sessionDate, starIconSize) {
-    var currentDate = new Date(2010, 8, 15, 10, 0, 0, 0);
-        currentRating = localStorage.getItem(sessionID + "-rating");
-        
-    if (sessionDate.getTime() > currentDate.getTime()) {
-      return '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
-    }
-    
-    if (currentRating == null) {
-      return '<a href="#'+sessionID+'" class="feedbackLink">Give feedback</a>';
-    }
-    
-    return '<p>Your rating: ' + buildRatingStarString(currentRating, starIconSize) + '</p>';
-  }
-
   ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {    
     var sessionDate = new Date(buildDateStringForSession(session)),
         currentRating = localStorage.getItem(sessionID + '-rating'),
-        skipRatingWidget = buildRatingWidget(sessionID, sessionDate, 10),
+        sessionInFuture = NOW.getTime() < sessionDate.getTime(),
+        skipRatingWidget = buildRatingWidget(sessionID, sessionInFuture, 20),
         sessionDiv, contentDiv;
     
     sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
@@ -210,7 +223,6 @@ function buildDOM() {
         topicList = $('ul.edgetoedge', dayDiv).empty(),
         previousDate = null,
         dayTopics = topicKeys[day.shortName],
-        now = new Date(),
         sessionIndex, session, sessionDate, speakers, prettyDate;
 
     for (sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
@@ -231,9 +243,7 @@ function buildDOM() {
                            '</div>' +
                            '<div class="speaker-go">' +
                              '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
-                             '<span class="toggle go-skip">' +
-                               (sessionDate.getTime() > now.getTime() ? '<p topic="' + session.id + '" class="attend-slider touch"></p>' : buildRatingStarString(localStorage.getItem(session.id + '-rating'), 20)) +
-                             '</span>' +
+                            buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
                            '</div>' +
                          '</li>'));
     }
@@ -275,20 +285,20 @@ function registerJQTouchLiveEvents() {
     localStorage.removeItem(id);
   }
 
-  $('.attend-slider').live('click tap', function (event) {
+  $('p.attend-slider').live('click tap', function (event) {
     var target = $(event.target),
         id = target.attr('topic'),
         transitioningTo = !isInMySessions(id);
         
     if (transitioningTo) {
       addToMySessions(id);
-      $(".attend-slider[topic='" + id + "']").each(function () { 
+      $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).addClass('attending'); 
       });
       target.text('attend');
     } else {
       removeFromMySessions(id);
-      $(".attend-slider[topic='" + id + "']").each(function () { 
+      $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).removeClass('attending'); 
       });
       target.text('skip');
@@ -297,7 +307,7 @@ function registerJQTouchLiveEvents() {
 
   $('div.uses_local_data').live('pageAnimationStart', function (e, info) {
     if (!info || info.direction === "in") {
-      $(this).find(".attend-slider").each(function () {
+      $(this).find("p.attend-slider").each(function () {
         var slider = $(this),
             id = slider.attr('topic'),
             isChecked = isInMySessions(id);
@@ -462,6 +472,29 @@ function registerFeedbackEvents() {
     for (i = 0; i < 3; i++) {
       toggleStarImages(i, $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i));
     }
+    
+    $("#jqt ul li#"+sessionID+"-session .go-skip").html(buildRatingWidget(sessionID, false, 20));
+  });
+  
+  $(".feedbackLink").live("click tap", function(event) {
+    // uses JQT to slide to session page, then scroll to feedback section
+    // JQT fires a pageAnimationEnd event once the slide animation is complete
+    // however after firing this event does other logic affects our scrolling
+    // code, most likely updating location.hash. wrapping the call to scroll()
+    // in a setTimeout with 0 waits for JQT to finish its magic.
+    var sessionID = $(this).attr("topic");
+        
+    if (location.hash === sessionID) {
+      jQT.scroll().scrollTo(0, $(".current .scroll").attr("scrollHeight"));
+    } else {
+      if (jQT.goTo(sessionID, "slide")) {
+        $(sessionID).one('pageAnimationEnd', function() {
+          setTimeout(function() {
+            jQT.scroll().scrollTo(0, $(".current .scroll").attr("scrollHeight"));
+          }, 100);
+        });
+      }
+    }
   });
 }
 
@@ -502,6 +535,7 @@ var jQT = new $.jQTouch({
     'themes/agile2010/img/on_off.png',
     'themes/agile2010/img/on_star.png',
     'themes/agile2010/img/poweredbyTW.png',
+    'themes/agile2010/img/rate_this.png',
     'themes/agile2010/img/reload.gif',
     'themes/agile2010/img/rooms.gif',
     'themes/agile2010/img/rooms_off.png',
