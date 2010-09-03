@@ -324,8 +324,10 @@ function registerJQTouchLiveEvents() {
 }
 
 function registerIconChangeEvents() {
-  $('div.current').live('pageAnimationEnd', function (event) {
-    var href = '#' + $('div.current').attr('id');
+  
+  $('.content').live('pageAnimationStart', function (event) {
+    if ($(this).hasClass("current")) return;
+    var href = '#'+$(this).attr('id');
 
     // If no tab is selected, then we select the Schedule.
     if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
@@ -400,8 +402,6 @@ function registerTwitterEvents() {
   function requestTweets() {
     $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/agile2010/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
     $.getScript("http://search.twitter.com/search.json?q=agileaus&callback=rebuildTweets");
-
-    return false;
   }
 
   $('#twitter').bind('pageAnimationStart', requestTweets);
