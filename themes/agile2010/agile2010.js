@@ -205,7 +205,7 @@ function buildDOM() {
       .append($('div class="topic">' + session.topic + '</div>'))
       .append(this.buildSessionSpeakerList(session))
       .append($('<div class="description">' + session.description + '</div>'))
-      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><input type="submit" value="send" name="' + sessionID + '" class="feedbackform-submit" /></form></div>'));
+      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><p name="' + sessionID + '" class="feedbackform-submit">Send</p></div>'));
 
     sessionDiv.append(contentDiv);
 
@@ -443,7 +443,7 @@ function registerFeedbackEvents() {
     var sessionID = $(this).attr('name'),
         rating = localStorage.getItem(sessionID + "-rating"),
         feedback = $("textarea", $(this).parent()).val(),
-        url = "https://spreadsheets.google.com/formResponse?formkey=dGFFZndkdmN0NjdTY0l4WWVvOEI1Qmc6MQ&ifq";
+        url = "https://spreadsheets.google.com/formResponse?formkey=dF9QTGhGeEJ1OEw0QU9yaW45SHZUenc6MQ&ifq";
     rating = (rating === null ? 0 : rating);
     
     $.ajax({
