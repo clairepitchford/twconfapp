@@ -158,16 +158,28 @@ function buildDOM() {
   ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function (session) {
     var speakers = (session.speakers === null ? [] : session.speakers.split(',')),
         speakerList = $('<ul class="speaker" speakers="' + this.conference.getPrettySpeakersList(speakers) + '"></ul>'),
-        i, speakerID, speaker;
+        i, speakerID, speaker, speakerItem;
 
     for (i = 0; i < speakers.length; i++) {
       speakerID = cleanSpeakerID(speakers[i]);
       speaker = this.conference.conferenceSpeakers[speakerID];
 
-      if (!speaker) {
-        speaker = { name: "N/A", description: "N/A", title: "N/A" };
+      if (!speaker) continue;
+      speaker.name = (speaker.name ? speaker.name : "N/A");
+    
+      speakerItem = $('<li class="speaker-names"></li>');
+      if (speaker.description) {
+        speakerItem.addClass("arrow");
+        speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name + '</a>'));
+      } else {
+        speakerItem.append($("<span>" + speaker.name + "</span>"));
       }
-      speakerList.append('<li class="arrow speaker-names"><a href="#' + speakerID + '" class="slide">' + speaker.name + '<div class="speaker-title">' + speaker.title + '</div></li>');
+      
+      if (speaker.title) {
+        speakerItem.append($('<div class="speaker-title">' + speaker.title + '</div>'));
+      }
+      
+      speakerList.append(speakerItem);
     }
 
     return speakerList;
