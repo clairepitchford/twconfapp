@@ -113,7 +113,7 @@ class ScheduleView < CoreView
         times[time] ||= []
         times[time] << {
           'speaker' => child.at('span.speaker-title3').inner_text,
-          'title' => child.at('a.topic-link').inner_text
+          'title' => child.at('a.topic-link > div').inner_text
         }
       end
     end
