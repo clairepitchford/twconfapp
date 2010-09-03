@@ -295,13 +295,13 @@ function registerJQTouchLiveEvents() {
       $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).addClass('attending'); 
       });
-      target.text('attend');
+      target.text('Attend');
     } else {
       removeFromMySessions(id);
       $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).removeClass('attending'); 
       });
-      target.text('skip');
+      target.text('Skip');
     }
   });
 
@@ -313,10 +313,10 @@ function registerJQTouchLiveEvents() {
             isChecked = isInMySessions(id);
             
         if (isChecked) {
-          slider.text('attend');
+          slider.text('Attend');
           slider.addClass("attending");
         } else {
-          slider.text('skip');
+          slider.text('Skip');
         }
       });
     }
@@ -324,8 +324,9 @@ function registerJQTouchLiveEvents() {
 }
 
 function registerIconChangeEvents() {
-  $('div.current').live('pageAnimationEnd', function (event) {
-    var href = '#' + $('div.current').attr('id');
+  $('.content').live('pageAnimationStart', function (event) {
+    if ($(this).hasClass("current")) return;
+    var href = '#'+$(this).attr('id');
 
     // If no tab is selected, then we select the Schedule.
     if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
@@ -334,8 +335,6 @@ function registerIconChangeEvents() {
 
     $('#tabbar img.icon-img').each(function () {
       var src = $(this).attr('src').replace('on', 'off');
-
-      // TODO: The [0] comparison is ugly. What's the fluent jQuery way of doing this?
       $(this).attr('src', ($(this).parent().attr('href') === href) ? src.replace('off', 'on') : src);
     });
   });
@@ -400,8 +399,6 @@ function registerTwitterEvents() {
   function requestTweets() {
     $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/agile2010/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
     $.getScript("http://search.twitter.com/search.json?q=agileaus&callback=rebuildTweets");
-
-    return false;
   }
 
   $('#twitter').bind('pageAnimationStart', requestTweets);
