@@ -266,6 +266,10 @@ a:active {
     color: black;
 }
 
+#tabbar {
+    background-color: #000;
+}
+
 #tabbar a.button.icon {
     height: 49px;
     width: 62px;
@@ -304,6 +308,7 @@ body {
     -webkit-box-sizing: border-box;
     height: 46px;
     position: relative;
+    background-color: #000;
     background-image: url(img/nav_bg.png);
 }
 

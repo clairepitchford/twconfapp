@@ -537,33 +537,7 @@ var jQT = new $.jQTouch({
   icon: 'themes/agile2010/icon.png',
   addGlossToIcon: false,
   startupScreen: 'themes/agile2010/startup.png',
-  slideSelector: '.slide',
-  preloadImages: [
-    'themes/agile2010/img/about_off.png',
-    'themes/agile2010/img/about_on.png',
-    'themes/agile2010/img/back_button.png',
-    'themes/agile2010/img/button.png',
-    'themes/agile2010/img/buzz_off.png',
-    'themes/agile2010/img/buzz_on.png',
-    'themes/agile2010/img/chevron.png',
-    'themes/agile2010/img/go_skip.png',
-    'themes/agile2010/img/loading.gif',
-    'themes/agile2010/img/map.jpg',
-    'themes/agile2010/img/nav_bg.png',
-    'themes/agile2010/img/off_star.png',
-    'themes/agile2010/img/on_off.png',
-    'themes/agile2010/img/on_star.png',
-    'themes/agile2010/img/poweredbyTW.png',
-    'themes/agile2010/img/rate_this.png',
-    'themes/agile2010/img/reload.gif',
-    'themes/agile2010/img/rooms.gif',
-    'themes/agile2010/img/rooms_off.png',
-    'themes/agile2010/img/rooms_on.png',
-    'themes/agile2010/img/shed_off.png',
-    'themes/agile2010/img/shed_on.png',
-    'themes/agile2010/img/where_off.png',
-    'themes/agile2010/img/where_on.png'
-  ]
+  slideSelector: '.slide'
 });
 
 /*jslint white: true, browser: true, devel: true, onevar: true, undef: true, nomen: true, eqeqeq: true, bitwise: true, regexp: true, newcap: true, immed: true, indent: 2 */
