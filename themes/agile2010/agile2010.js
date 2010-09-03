@@ -324,7 +324,6 @@ function registerJQTouchLiveEvents() {
 }
 
 function registerIconChangeEvents() {
-  
   $('.content').live('pageAnimationStart', function (event) {
     if ($(this).hasClass("current")) return;
     var href = '#'+$(this).attr('id');
@@ -336,8 +335,6 @@ function registerIconChangeEvents() {
 
     $('#tabbar img.icon-img').each(function () {
       var src = $(this).attr('src').replace('on', 'off');
-
-      // TODO: The [0] comparison is ugly. What's the fluent jQuery way of doing this?
       $(this).attr('src', ($(this).parent().attr('href') === href) ? src.replace('off', 'on') : src);
     });
   });

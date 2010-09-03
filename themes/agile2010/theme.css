@@ -260,18 +260,14 @@ a:active {
 
 #tabbar a.button.icon {
     position: relative;
-    /*float: right;*/
-    height:auto;
+    height: 49px;
+    width: 62px;
     top:0;
-    -webkit-border-image: none;
     line-height: 0;
     padding: 0;
 }
 
 #tabbar .logo {
-    /*background-image: url(img/footer_logo.png);*/
-    /*float:left;*/
-    /*overflow: hidden;*/
     line-height: 0;
 }
 
