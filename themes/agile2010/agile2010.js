@@ -259,8 +259,8 @@ function buildDOM() {
 			   '<a href="#' + session.id + '" class="topic-link slide">' +
                              '<div class="arrow">' + session.title + '</div>' +
                              '<div class="speaker-go">' +
-                               '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
                               buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
+                              '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
                              '</div>' +
                            '</a>' +
                          '</li>'));

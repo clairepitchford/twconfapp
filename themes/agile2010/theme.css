@@ -186,7 +186,7 @@ div.content {
 
 .speaker-go {
     border-top: 1px solid #AAA;
-    padding: 10px;
+    padding: 5px 8px 12px 10px;
 }
 
 .attend-button {
@@ -757,7 +757,7 @@ li.speaker-names span {
     font-size: 12pt;
     text-align: center;
     border: 0;
-    margin: 0;
+    margin: 0 0 0 5px;
     height: 27px;
     width: 94px;
     line-height: 25px;
