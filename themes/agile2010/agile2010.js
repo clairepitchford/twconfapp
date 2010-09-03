@@ -1,14 +1,14 @@
 var NOW;
 
-(function setNOW() {
+(function () {
   var fake_time_string = localStorage.getItem("_watir_tests_fake_time_string");
   if (fake_time_string !== null) {
     NOW = new Date(fake_time_string);
-    localStorage.removeItem("_watir_tests_fake_time_string")
+    localStorage.removeItem("_watir_tests_fake_time_string");
   } else {
     NOW = new Date();
   }
-})();
+}());
 
 function buildRatingStarString(rating, imgHeight) {
   var imgString = '<div style="text-align: center; display: block">',
@@ -30,15 +30,14 @@ function buildRatingStarString(rating, imgHeight) {
 }
 
 function buildRatingWidget(sessionID, sessionInFuture, starIconSize) {
-  var currentDate = new Date(2010, 8, 15, 10, 0, 0, 0),
-      currentRating = localStorage.getItem(sessionID + "-rating");
+  var currentRating = localStorage.getItem(sessionID + "-rating");
       
   if (sessionInFuture) {
     return '<span class="toggle go-skip"><p topic="' + sessionID + '" class="attend-slider touch"></p></span>';
   }
   
-  if (currentRating == null) {
-    return '<span class="toggle go-skip"><span topic="#'+sessionID+'" class="feedbackLink"><span>Rate this session</span><img src="themes/agile2010/img/rate_this.png" alt="Rate this" /></span></span>';
+  if (currentRating === null) {
+    return '<span class="toggle go-skip"><span topic="#' + sessionID + '" class="feedbackLink"><span>Rate this session</span><img src="themes/agile2010/img/rate_this.png" alt="Rate this" /></span></span>';
   }
   
   return '<span class="toggle go-skip">' + buildRatingStarString(currentRating, starIconSize) + '</span>';
@@ -164,7 +163,10 @@ function buildDOM() {
       speakerID = cleanSpeakerID(speakers[i]);
       speaker = this.conference.conferenceSpeakers[speakerID];
 
-      if (!speaker) continue;
+      if (!speaker) {
+        continue;
+      }
+      
       speaker.name = (speaker.name ? speaker.name : "N/A");
     
       speakerItem = $('<li class="speaker-names"></li>');
@@ -195,7 +197,7 @@ function buildDOM() {
     sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
       .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
     contentDiv = $('<div class="scroll"></div>')
-      .append($('<div class="description"><span class="session-header">' + session.title + '</span><span>' + skipRatingWidget + '</span></div>'))
+      .append($('<div class="description"><span class="session-header">' + session.title + '</span><span class="session-header-rating">' + skipRatingWidget + '</span></div>'))
       .append($('div class="topic">' + session.topic + '</div>'))
       .append(this.buildSessionSpeakerList(session))
       .append($('<div class="description">' + session.description + '</div>'))
@@ -337,8 +339,11 @@ function registerJQTouchLiveEvents() {
 
 function registerIconChangeEvents() {
   $('.content').live('pageAnimationStart', function (event) {
-    if ($(this).hasClass("current")) return;
-    var href = '#'+$(this).attr('id');
+    if ($(this).hasClass("current")) {
+      return;
+    }
+    
+    var href = '#' + $(this).attr('id');
 
     // If no tab is selected, then we select the Schedule.
     if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
@@ -482,10 +487,10 @@ function registerFeedbackEvents() {
       toggleStarImages(i, $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i));
     }
     
-    $("#jqt ul li#"+sessionID+"-session .go-skip").html(buildRatingWidget(sessionID, false, 20));
+    $("#jqt ul li#" + sessionID + "-session .go-skip").html(buildRatingWidget(sessionID, false, 20));
   });
   
-  $(".feedbackLink").live("click tap", function(event) {
+  $(".feedbackLink").live("click tap", function (event) {
     // uses JQT to slide to session page, then scroll to feedback section
     // JQT fires a pageAnimationEnd event once the slide animation is complete
     // however after firing this event does other logic affects our scrolling
@@ -497,8 +502,8 @@ function registerFeedbackEvents() {
       jQT.scroll().scrollTo(0, $(".current .scroll").attr("scrollHeight"));
     } else {
       if (jQT.goTo(sessionID, "slide")) {
-        $(sessionID).one('pageAnimationEnd', function() {
-          setTimeout(function() {
+        $(sessionID).one('pageAnimationEnd', function () {
+          setTimeout(function () {
             jQT.scroll().scrollTo(0, $(".current .scroll").attr("scrollHeight"));
           }, 100);
         });

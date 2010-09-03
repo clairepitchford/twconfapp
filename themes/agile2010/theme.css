@@ -96,26 +96,34 @@ div.content {
 .session-header {
     font-size: 16px; 
     font-weight:bold; 
-    width: 60%; 
+    width: 55%; 
     display: inline-block;
+    padding: 10px;
+}
+
+.session-header-rating {
+  display: inline-block;
+  float: right;
+  margin: 10px;
 }
 
 .description {
-    margin: 15px 10px;
-    padding: 10px;
+    margin: 10px;
     background-color:#E0E0E0;
     border-style:solid;
     border-width:1px;
     border-color:#999;
     font-size:16px;
-    margin:10px;
     -webkit-border-radius: 8px;
-    
 }
 
-.description > p {
-    padding-top: 5px;
-    color:#000;
+.description > p, .description h3 {
+    padding: 0px 10px;
+    color: #000;
+}
+
+.description img {
+  margin-top: 10px;
 }
 
 .feedback {
@@ -263,7 +271,6 @@ a:active {
 }
 
 #tabbar a.button.icon {
-    position: relative;
     height: 49px;
     width: 62px;
     top:0;
