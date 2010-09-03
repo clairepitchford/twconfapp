@@ -172,15 +172,19 @@ function buildDOM() {
       speakerItem = $('<li class="speaker-names"></li>');
       if (speaker.description) {
         speakerItem.addClass("arrow");
-        speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name + '</a>'));
+
+        if (speaker.title) {
+          speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name +
+                                 '<div class="speaker-title">' + speaker.title + '</div>' +
+                               '</a>'));
+        } else {
+          speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name + '</a>'));
+        }
+
       } else {
         speakerItem.append($("<span>" + speaker.name + "</span>"));
       }
-      
-      if (speaker.title) {
-        speakerItem.append($('<div class="speaker-title">' + speaker.title + '</div>'));
-      }
-      
+
       speakerList.append(speakerItem);
     }
 
@@ -252,13 +256,13 @@ function buildDOM() {
 
       speakers = (session.speakers === null ? [] : session.speakers.split(','));
       topicList.append($('<li id="' + session.id + '-session">' +
-                           '<div class="arrow">' +
-                             '<a href="#' + session.id + '" class="topic-link slide">' + session.title + '</a>' +
-                           '</div>' +
-                           '<div class="speaker-go">' +
-                             '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
-                            buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
-                           '</div>' +
+			   '<a href="#' + session.id + '" class="topic-link slide">' +
+                             '<div class="arrow">' + session.title + '</div>' +
+                             '<div class="speaker-go">' +
+                               '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
+                              buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
+                             '</div>' +
+                           '</a>' +
                          '</li>'));
     }
   };
@@ -317,6 +321,8 @@ function registerJQTouchLiveEvents() {
       });
       target.text('Skip');
     }
+
+    return false;
   });
 
   $('div.uses_local_data').live('pageAnimationStart', function (e, info) {
