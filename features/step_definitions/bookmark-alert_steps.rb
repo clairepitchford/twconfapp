@@ -11,8 +11,8 @@ Then /^it should disappear$/ do
   @reminder.visible?.should be false
 end
 
-Given /^I'm running as a web app$/ do
-  @phone.fullscreen = true
+Given /^I'm running in Safari$/ do
+  @phone.fullscreen = false
 end
 
 Then /^I should not see a bookmark reminder popup$/ do

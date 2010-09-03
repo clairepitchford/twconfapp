@@ -508,11 +508,19 @@ function registerFeedbackEvents() {
 }
 
 function registerBookmarkReminderPopup() {
-  var height = $('div.current .scroll').height() + $('#tabbar').height() - $('#install').height() - 10;
+  $(document.body).bind('orientationchange', function () {
+    if ($('#install').is(':visible')) {
+      var height = ($('div.current').height() / 2) - ($('#install #bubble').height() / 2);
 
-  $('#install').css('-webkit-transform', 'translateY(' + height + 'px)');
+      $('#install #bubble').css('-webkit-transform', 'translateY(' + height + 'px)');
+    }
+  });
+
+  $(document.body).trigger('orientationchange');
+
   $('#install').one('click tap', function () {
-    $(this).css('-webkit-transform', 'translateY(-' + $('#install').height() + 'px)').fadeOut(1000);
+    $('#install #bubble').css('-webkit-transform', 'translateY(-' + $(this).height() + 'px)');
+    $(this).fadeOut();
   });
 }
 

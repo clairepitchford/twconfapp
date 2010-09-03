@@ -90,6 +90,7 @@ class SimPhone < CoreView
     end
 
     @browser = Watir::Safari.start("file:///#{Dir.getwd}/index.html")
+    self.fullscreen = true
   end
 
   def fullscreen=(value)
