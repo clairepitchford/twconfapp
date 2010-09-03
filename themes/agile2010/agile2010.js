@@ -195,7 +195,7 @@ function buildDOM() {
     sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
       .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
     contentDiv = $('<div class="scroll"></div>')
-      .append($('<div class="description"><span class="session-header">' + session.title + '</span><span>' + skipRatingWidget + '</span></div>'))
+      .append($('<div class="description"><span class="session-header">' + session.title + '</span><span class="session-header-rating">' + skipRatingWidget + '</span></div>'))
       .append($('div class="topic">' + session.topic + '</div>'))
       .append(this.buildSessionSpeakerList(session))
       .append($('<div class="description">' + session.description + '</div>'))
