@@ -295,13 +295,13 @@ function registerJQTouchLiveEvents() {
       $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).addClass('attending'); 
       });
-      target.text('attend');
+      target.text('Attend');
     } else {
       removeFromMySessions(id);
       $("p.attend-slider[topic='" + id + "']").each(function () { 
         $(this).removeClass('attending'); 
       });
-      target.text('skip');
+      target.text('Skip');
     }
   });
 
@@ -313,10 +313,10 @@ function registerJQTouchLiveEvents() {
             isChecked = isInMySessions(id);
             
         if (isChecked) {
-          slider.text('attend');
+          slider.text('Attend');
           slider.addClass("attending");
         } else {
-          slider.text('skip');
+          slider.text('Skip');
         }
       });
     }
