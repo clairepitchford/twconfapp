@@ -1,6 +1,7 @@
 var NOW;
 
 (function () {
+  // sample fake time string: Wed Sep 15 2010 10:00:00
   var fake_time_string = localStorage.getItem("_watir_tests_fake_time_string");
   if (fake_time_string !== null) {
     NOW = new Date(fake_time_string);
@@ -205,7 +206,7 @@ function buildDOM() {
       .append($('div class="topic">' + session.topic + '</div>'))
       .append(this.buildSessionSpeakerList(session))
       .append($('<div class="description">' + session.description + '</div>'))
-      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><input type="submit" value="send" name="' + sessionID + '" class="feedbackform-submit" /></form></div>'));
+      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><p name="' + sessionID + '" class="feedbackform-submit">Send</p></div>'));
 
     sessionDiv.append(contentDiv);
 
@@ -259,8 +260,8 @@ function buildDOM() {
 			   '<a href="#' + session.id + '" class="topic-link slide">' +
                              '<div class="arrow">' + session.title + '</div>' +
                              '<div class="speaker-go">' +
-                               '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
                               buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
+                              '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
                              '</div>' +
                            '</a>' +
                          '</li>'));
@@ -443,7 +444,7 @@ function registerFeedbackEvents() {
     var sessionID = $(this).attr('name'),
         rating = localStorage.getItem(sessionID + "-rating"),
         feedback = $("textarea", $(this).parent()).val(),
-        url = "https://spreadsheets.google.com/formResponse?formkey=dGFFZndkdmN0NjdTY0l4WWVvOEI1Qmc6MQ&ifq";
+        url = "https://spreadsheets.google.com/formResponse?formkey=dF9QTGhGeEJ1OEw0QU9yaW45SHZUenc6MQ&ifq";
     rating = (rating === null ? 0 : rating);
     
     $.ajax({
@@ -493,7 +494,8 @@ function registerFeedbackEvents() {
       toggleStarImages(i, $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i));
     }
     
-    $("#jqt ul li#" + sessionID + "-session .go-skip").html(buildRatingWidget(sessionID, false, 20));
+    var inTheFuture = $("#jqt ul li#" + sessionID + "-session").has(".star_0").length == 0;
+    $("#jqt ul li#" + sessionID + "-session .go-skip").html(buildRatingWidget(sessionID, inTheFuture, 20));
   });
   
   $(".feedbackLink").live("click tap", function (event) {

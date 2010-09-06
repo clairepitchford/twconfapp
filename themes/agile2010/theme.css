@@ -96,7 +96,7 @@ div.content {
 .session-header {
     font-size: 16px; 
     font-weight:bold; 
-    width: 55%; 
+    width: 53%; 
     display: inline-block;
     padding: 10px;
 }
@@ -186,7 +186,7 @@ div.content {
 
 .speaker-go {
     border-top: 1px solid #AAA;
-    padding: 10px;
+    padding: 5px 8px 12px 10px;
 }
 
 .attend-button {
@@ -757,7 +757,7 @@ li.speaker-names span {
     font-size: 12pt;
     text-align: center;
     border: 0;
-    margin: 0;
+    margin: 0 0 0 5px;
     height: 27px;
     width: 94px;
     line-height: 25px;
@@ -767,6 +767,21 @@ li.speaker-names span {
 
 #jqt .go-skip img {
   margin: 2px 3px;
+}
+
+.feedbackform-submit {
+  -webkit-border-radius: 5px;
+  background-color: #aaa;
+  padding: 3px 20px;
+  font-size: 12pt;
+  border: 1px solid #777;
+  text-align: center;
+  font-weight: bold;
+  background-size: 100% 8px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom;
+  background-color: #E0E0E0;
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#FFF), to(#E0E0E0));
 }
 
 /* @end */
