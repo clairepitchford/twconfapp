@@ -14,7 +14,7 @@ end
 
 task :schedule do
   File.open(JSON_DATA_FILENAME, "w") do |f|
-    JSONConverter.new(File.open(TOPIC_YAML_FILENAME ),
+    JSONConverter.new(File.open(TOPIC_YAML_FILENAME),
                       File.open(SPEAKER_YAML_FILENAME)).write f
   end
 
