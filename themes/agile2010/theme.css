@@ -9,6 +9,10 @@ div#jqt #about {
     background-color: #FFF;
 }
 
+div#jqt #about a {
+  font-weight: bold;
+}
+
 img.center {
     display: block;
     margin: auto;
