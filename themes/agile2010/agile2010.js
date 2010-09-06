@@ -126,7 +126,7 @@ function buildDOM() {
         speaker = { name: "N/A", description: "N/A", title: "N/A" };
       }
       return speaker.name;
-    }).join(' and ');
+    }).join(', ').replace(/, ([^,]+)$/, ', and $1');
   };
 
   function ConferenceDOMBuilder(conference) {
