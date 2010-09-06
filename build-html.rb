@@ -60,7 +60,7 @@ class ManifestProcessor
     end
 
     raise "MANIFEST template doesn't end with '.manifest.in'" unless manifest_in.end_with? '.manifest.in'
-    @manifest_fn = manifest_in[/.*(?=\.manifest\.in)/]
+    @manifest_fn = manifest_in[/.*(?=\.in)/]
   end
 
   def write
