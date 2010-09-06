@@ -1,6 +1,7 @@
 var NOW;
 
 (function () {
+  // sample fake time string: Wed Sep 15 2010 10:00:00
   var fake_time_string = localStorage.getItem("_watir_tests_fake_time_string");
   if (fake_time_string !== null) {
     NOW = new Date(fake_time_string);
@@ -493,7 +494,8 @@ function registerFeedbackEvents() {
       toggleStarImages(i, $("#jqt div.current .star_" + i + ", #jqt li#" + sessionID + "-session .star_" + i));
     }
     
-    $("#jqt ul li#" + sessionID + "-session .go-skip").html(buildRatingWidget(sessionID, false, 20));
+    var inTheFuture = $("#jqt ul li#" + sessionID + "-session").has(".star_0").length == 0;
+    $("#jqt ul li#" + sessionID + "-session .go-skip").html(buildRatingWidget(sessionID, inTheFuture, 20));
   });
   
   $(".feedbackLink").live("click tap", function (event) {
