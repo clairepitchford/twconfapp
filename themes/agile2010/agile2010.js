@@ -44,246 +44,255 @@ function buildRatingWidget(sessionID, sessionInFuture, starIconSize) {
   return '<span class="toggle go-skip">' + buildRatingStarString(currentRating, starIconSize) + '</span>';
 }
 
-function buildDOM() {
-  function buildDateStringForSession(session) {
-    var dateString = "September ",
-        dateParts = session.date.split(' '),
-        time = dateParts[1],
-        timeParts = time.split(":"),
-        hours = timeParts[0],
-        minutes = timeParts[1].substr(0, 2);
+function AgileConference(speakerData, sessionData) {
+  this.days = [
+    {'full': "Wednesday", 'shortName': "Wed", 'cssClass': "current"},
+    {'full': "Thursday", 'shortName': "Thu"}
+  ];
+  
+  this.conferenceSpeakers = speakerData;
+  this.conferenceSessions = sessionData;
+  
+  this.buildSessions();
+}
 
-    if (dateParts[0] === "Wed") {
-      dateString += "15, "; //15th of sept
-    } else {
-      dateString += "16, "; //16th of sept
-    }
+AgileConference.prototype.buildSessions = function () {
+  for (sessionID in this.conferenceSessions) {
+    if (this.conferenceSessions.hasOwnProperty(sessionID)) {
+      this.conferenceSessions[sessionID].dateString = function () {
+        var dateString = "September ",
+            dateParts = this.date.split(' '),
+            time = dateParts[1],
+            timeParts = time.split(":"),
+            hours = timeParts[0],
+            minutes = timeParts[1].substr(0, 2);
 
-    dateString += "2010 ";
-
-    if (time.indexOf("PM") !== -1 && hours !== "12") {
-      hours = (parseInt(hours, 10) + 12).toString();
-    }
-
-    dateString += hours + ":" + minutes + ":00";
-
-    return dateString;
-  }
-
-  function sortSessionsByTime(session1, session2) {
-    var session1Time = new Date(buildDateStringForSession(session1)).getTime(),
-        session2Time = new Date(buildDateStringForSession(session2)).getTime();
-
-    if (session1Time > session2Time) {
-      return 1;
-    } else if (session1Time === session2Time) {
-      return 0;
-    } else {
-      return -1;
-    }
-  }
-
-  function getSortedSessionsForDay(sessions, day) {
-    var sessionsForDay = [],
-        sessionID, session;
-
-    for (sessionID in sessions) {
-      if (sessions.hasOwnProperty(sessionID)) {
-        session = sessions[sessionID];
-
-        if (session.date.indexOf(day) !== -1) {
-          session.id = sessionID;
-          sessionsForDay.push(session);
-        }
-      }
-    }
-
-    sessionsForDay.sort(sortSessionsByTime);
-
-    return sessionsForDay;
-  }
-
-  function cleanSpeakerID(speakerID) {
-    return speakerID.replace(" ", "").replace("%20", "");
-  }
-
-  function AgileConference() {
-    this.days = [
-      {'full': "Wednesday", 'shortName': "Wed", 'cssClass': "current"},
-      {'full': "Thursday", 'shortName': "Thu"}
-    ];
-    this.conferenceSpeakers = defaultSpeakerData.data;
-    this.conferenceSessions = defaultSessionData.data;
-  }
-
-  AgileConference.prototype.getPrettySpeakersList = function (speakerIDs) {
-    if (speakerIDs.length === 0) {
-      return "";
-    }
-    var conference = this;
-    return $.map(speakerIDs, function (id, i) {
-      var speaker = conference.conferenceSpeakers[cleanSpeakerID(id)];
-      if (!speaker) {
-        speaker = { name: "N/A", description: "N/A", title: "N/A" };
-      }
-      return speaker.name;
-    }).join(', ').replace(/, ([^,]+)$/, ', and $1');
-  };
-
-  function ConferenceDOMBuilder(conference) {
-    this.conference = conference;
-  }
-
-  ConferenceDOMBuilder.prototype.buildSpeakerDOM = function (speakerID, speaker) {
-    var speakerDiv = $('<div id="' + speakerID + '" class="content"></div>')
-                      .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + speaker.name + '</h1></div>')),
-        contentDiv = $('<div class="scroll"></div>')
-                      .append($('<div class="speaker-info description"><img src="themes/agile2010/img/speakers/' + speakerID + '.gif" width="80" height="120" class="speaker-photo"/><div class="speaker-title2">' + speaker.title + '</div>' + speaker.description + '</div>'));
-    speakerDiv.append(contentDiv);
-    return speakerDiv;
-  };
-
-  ConferenceDOMBuilder.prototype.updateSpeakersDOM = function () {
-    var speakerID, cleanID;
-
-    for (speakerID in this.conference.conferenceSpeakers) {
-      if (this.conference.conferenceSpeakers.hasOwnProperty(speakerID)) {
-        cleanID = cleanSpeakerID(speakerID);
-        $("#" + cleanID).remove();
-        this.buildSpeakerDOM(cleanID, this.conference.conferenceSpeakers[cleanID]).insertBefore("#Wednesday");
-      }
-    }
-  };
-
-  ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function (session) {
-    var speakers = (session.speakers === null ? [] : session.speakers.split(',')),
-        speakerList = $('<ul class="speaker" speakers="' + this.conference.getPrettySpeakersList(speakers) + '"></ul>'),
-        i, speakerID, speaker, speakerItem;
-
-    for (i = 0; i < speakers.length; i++) {
-      speakerID = cleanSpeakerID(speakers[i]);
-      speaker = this.conference.conferenceSpeakers[speakerID];
-
-      if (!speaker) {
-        continue;
-      }
-      
-      speaker.name = (speaker.name ? speaker.name : "N/A");
-    
-      speakerItem = $('<li class="speaker-names"></li>');
-      if (speaker.description) {
-        speakerItem.addClass("arrow");
-
-        if (speaker.title) {
-          speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name +
-                                 '<div class="speaker-title">' + speaker.title + '</div>' +
-                               '</a>'));
+        if (dateParts[0] === "Wed") {
+          dateString += "15, "; //15th of sept
         } else {
-          speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name + '</a>'));
+          dateString += "16, "; //16th of sept
         }
 
-      } else {
-        speakerItem.append($("<span>" + speaker.name + "</span>"));
+        dateString += "2010 ";
+
+        if (time.indexOf("PM") !== -1 && hours !== "12") {
+          hours = (parseInt(hours, 10) + 12).toString();
+        }
+
+        dateString += hours + ":" + minutes + ":00";
+
+        return dateString;
       }
-
-      speakerList.append(speakerItem);
     }
+  }
+}
 
-    return speakerList;
-  };
+AgileConference.prototype.sortSessionsByTime = function (session1, session2) {
+  var session1Time = new Date(session1.dateString()).getTime(),
+      session2Time = new Date(session2.dateString()).getTime();
 
-  ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {    
-    var sessionDate = new Date(buildDateStringForSession(session)),
-        currentRating = localStorage.getItem(sessionID + '-rating'),
-        sessionInFuture = NOW.getTime() < sessionDate.getTime(),
-        skipRatingWidget = buildRatingWidget(sessionID, sessionInFuture, 20),
-        sessionDiv, contentDiv;
+  if (session1Time > session2Time) {
+    return 1;
+  } else if (session1Time === session2Time) {
+    return 0;
+  } else {
+    return -1;
+  }
+}
+
+AgileConference.prototype.getSortedSessionsForDay = function (sessions, day) {
+  var sessionsForDay = [],
+      sessionID, session;
+
+  for (sessionID in sessions) {
+    if (sessions.hasOwnProperty(sessionID)) {
+      session = sessions[sessionID];
+
+      if (session.date.indexOf(day) !== -1) {
+        session.id = sessionID;
+        sessionsForDay.push(session);
+      }
+    }
+  }
+
+  sessionsForDay.sort(this.sortSessionsByTime);
+
+  return sessionsForDay;
+}
+
+AgileConference.prototype.cleanSpeakerID = function (speakerID) {
+  return speakerID.replace(" ", "").replace("%20", "");
+}
+
+AgileConference.prototype.getPrettySpeakersList = function (speakerIDs) {
+  if (speakerIDs.length === 0) {
+    return "";
+  }
+  var conference = this;
+  return $.map(speakerIDs, function (id, i) {
+    var speaker = conference.conferenceSpeakers[conference.cleanSpeakerID(id)];
+    if (!speaker) {
+      speaker = { name: "N/A", description: "N/A", title: "N/A" };
+    }
+    return speaker.name;
+  }).join(', ').replace(/, ([^,]+)$/, ', and $1');
+};
+
+function ConferenceDOMBuilder(conference) {
+  this.conference = conference;
+}
+
+ConferenceDOMBuilder.prototype.buildSpeakerDOM = function (speakerID, speaker) {
+  var speakerDiv = $('<div id="' + speakerID + '" class="content"></div>')
+                    .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + speaker.name + '</h1></div>')),
+      contentDiv = $('<div class="scroll"></div>')
+                    .append($('<div class="speaker-info description"><img src="themes/agile2010/img/speakers/' + speakerID + '.gif" width="80" height="120" class="speaker-photo"/><div class="speaker-title2">' + speaker.title + '</div>' + speaker.description + '</div>'));
+  speakerDiv.append(contentDiv);
+  return speakerDiv;
+};
+
+ConferenceDOMBuilder.prototype.updateSpeakersDOM = function () {
+  var speakerID, cleanID;
+
+  for (speakerID in this.conference.conferenceSpeakers) {
+    if (this.conference.conferenceSpeakers.hasOwnProperty(speakerID)) {
+      cleanID = this.conference.cleanSpeakerID(speakerID);
+      $("#" + cleanID).remove();
+      this.buildSpeakerDOM(cleanID, this.conference.conferenceSpeakers[cleanID]).insertBefore("#Wednesday");
+    }
+  }
+};
+
+ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function (session) {
+  var speakers = (session.speakers === null ? [] : session.speakers.split(',')),
+      speakerList = $('<ul class="speaker" speakers="' + this.conference.getPrettySpeakersList(speakers) + '"></ul>'),
+      i, speakerID, speaker, speakerItem;
+
+  for (i = 0; i < speakers.length; i++) {
+    speakerID = this.conference.cleanSpeakerID(speakers[i]);
+    speaker = this.conference.conferenceSpeakers[speakerID];
+
+    if (!speaker) {
+      continue;
+    }
     
-    sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
-      .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
-    contentDiv = $('<div class="scroll"></div>')
-      .append($('<div class="description"><span class="session-header">' + session.title + '</span><span class="session-header-rating">' + skipRatingWidget + '</span></div>'))
-      .append($('div class="topic">' + session.topic + '</div>'))
-      .append(this.buildSessionSpeakerList(session))
-      .append($('<div class="description">' + session.description + '</div>'))
-      .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><p name="' + sessionID + '" class="feedbackform-submit">Send</p></div>'));
+    speaker.name = (speaker.name ? speaker.name : "N/A");
+  
+    speakerItem = $('<li class="speaker-names"></li>');
+    if (speaker.description) {
+      speakerItem.addClass("arrow");
 
-    sessionDiv.append(contentDiv);
-
-    return sessionDiv;
-  };
-
-  ConferenceDOMBuilder.prototype.updateSessionsDOM = function () {
-    for (var sessionID in this.conference.conferenceSessions) {
-      if (this.conference.conferenceSessions.hasOwnProperty(sessionID)) {
-        $("#" + sessionID).remove();
-        this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Wednesday");
-      }
-    }
-  };
-
-  ConferenceDOMBuilder.prototype.updateDayMenu = function (day, dayDiv) {
-    var dayList = $('ul.segmented', dayDiv).empty(),
-        numberOfDays = this.conference.days.length,
-        dayIndex, day_button_header;
-
-    for (dayIndex = 0; dayIndex < numberOfDays; ++dayIndex) {
-      day_button_header = this.conference.days[dayIndex];
-      dayList.append($('<li style="width:' + 100 / numberOfDays + '%">' +
-                       '<a class="dissolve ' + (day === day_button_header ? "selected" : "") + '"' +
-                       ' href="#' + day_button_header.full +
-                       '">' + day_button_header.full + '</a></li>'));
-    }
-  };
-
-  ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
-    var topicKeys = {"Wed" : getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
-                     "Thu" : getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")},
-        topicList = $('ul.edgetoedge', dayDiv).empty(),
-        previousDate = null,
-        dayTopics = topicKeys[day.shortName],
-        sessionIndex, session, sessionDate, speakers, prettyDate;
-
-    for (sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
-      session = dayTopics[sessionIndex];
-      sessionDate = new Date(buildDateStringForSession(session));
-
-      if (!previousDate || (sessionDate.getTime() !== previousDate.getTime())) {
-        prettyDate = session.date.split(' ')[1].replace(" ", "");
-        prettyDate = (prettyDate.length < 7 ? "0" + prettyDate : prettyDate);
-        topicList.append($('<li class="sep">' + prettyDate + '</li>'));
-        previousDate = sessionDate;
+      if (speaker.title) {
+        speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name +
+                               '<div class="speaker-title">' + speaker.title + '</div>' +
+                             '</a>'));
+      } else {
+        speakerItem.append($('<a href="#' + speakerID + '" class="slide">' + speaker.name + '</a>'));
       }
 
-      speakers = (session.speakers === null ? [] : session.speakers.split(','));
-      topicList.append($('<li id="' + session.id + '-session">' +
-			   '<a href="#' + session.id + '" class="topic-link slide">' +
-                             '<div class="arrow">' + session.title + '</div>' +
-                             '<div class="speaker-go">' +
-                              buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
-                              '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
-                             '</div>' +
-                           '</a>' +
-                         '</li>'));
+    } else {
+      speakerItem.append($("<span>" + speaker.name + "</span>"));
     }
-  };
 
-  ConferenceDOMBuilder.prototype.updateConferenceDaySchedule = function (day) {
-    var dayDiv = $("#" + day.full);
-    if (day.cssClass !== undefined) {
-      dayDiv.addClass(day.cssClass);
+    speakerList.append(speakerItem);
+  }
+
+  return speakerList;
+};
+
+ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {    
+  var sessionDate = new Date(session.dateString()),
+      currentRating = localStorage.getItem(sessionID + '-rating'),
+      sessionInFuture = NOW.getTime() < sessionDate.getTime(),
+      skipRatingWidget = buildRatingWidget(sessionID, sessionInFuture, 20),
+      sessionDiv, contentDiv;
+  
+  sessionDiv = $('<div id="' + sessionID + '" class="uses_local_data content"></div>')
+    .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + session.date + '</h1></div>'));
+  contentDiv = $('<div class="scroll"></div>')
+    .append($('<div class="description"><span class="session-header">' + session.title + '</span><span class="session-header-rating">' + skipRatingWidget + '</span></div>'))
+    .append($('div class="topic">' + session.topic + '</div>'))
+    .append(this.buildSessionSpeakerList(session))
+    .append($('<div class="description">' + session.description + '</div>'))
+    .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><p name="' + sessionID + '" class="feedbackform-submit">Send</p></div>'));
+
+  sessionDiv.append(contentDiv);
+
+  return sessionDiv;
+};
+
+ConferenceDOMBuilder.prototype.updateSessionsDOM = function () {
+  for (var sessionID in this.conference.conferenceSessions) {
+    if (this.conference.conferenceSessions.hasOwnProperty(sessionID)) {
+      $("#" + sessionID).remove();
+      this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Wednesday");
     }
-    this.updateDayMenu(day, dayDiv);
-    this.updateTopicList(day, dayDiv);
-  };
+  }
+};
 
-  ConferenceDOMBuilder.prototype.updateIndexPageDOM = function () {
-    for (var dayIndex = 0; dayIndex < this.conference.days.length; ++dayIndex) {
-      this.updateConferenceDaySchedule(this.conference.days[dayIndex]);
+ConferenceDOMBuilder.prototype.updateDayMenu = function (day, dayDiv) {
+  var dayList = $('ul.segmented', dayDiv).empty(),
+      numberOfDays = this.conference.days.length,
+      dayIndex, day_button_header;
+
+  for (dayIndex = 0; dayIndex < numberOfDays; ++dayIndex) {
+    day_button_header = this.conference.days[dayIndex];
+    dayList.append($('<li style="width:' + 100 / numberOfDays + '%">' +
+                     '<a class="dissolve ' + (day === day_button_header ? "selected" : "") + '"' +
+                     ' href="#' + day_button_header.full +
+                     '">' + day_button_header.full + '</a></li>'));
+  }
+};
+
+ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
+  var topicKeys = {"Wed" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
+                   "Thu" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")},
+      topicList = $('ul.edgetoedge', dayDiv).empty(),
+      previousDate = null,
+      dayTopics = topicKeys[day.shortName],
+      sessionIndex, session, sessionDate, speakers, prettyDate;
+
+  for (sessionIndex = 0; sessionIndex < dayTopics.length; sessionIndex++) {
+    session = dayTopics[sessionIndex];
+    sessionDate = new Date(session.dateString());
+
+    if (!previousDate || (sessionDate.getTime() !== previousDate.getTime())) {
+      prettyDate = session.date.split(' ')[1].replace(" ", "");
+      prettyDate = (prettyDate.length < 7 ? "0" + prettyDate : prettyDate);
+      topicList.append($('<li class="sep">' + prettyDate + '</li>'));
+      previousDate = sessionDate;
     }
-  };
 
-  var conference = new AgileConference(),
+    speakers = (session.speakers === null ? [] : session.speakers.split(','));
+    topicList.append($('<li id="' + session.id + '-session">' +
+		   '<a href="#' + session.id + '" class="topic-link slide">' +
+                           '<div class="arrow">' + session.title + '</div>' +
+                           '<div class="speaker-go">' +
+                            buildRatingWidget(session.id, NOW.getTime() < sessionDate.getTime(), 20) +
+                            '<span class="speaker-title3">' + this.conference.getPrettySpeakersList(speakers) + '</span>' +
+                           '</div>' +
+                         '</a>' +
+                       '</li>'));
+  }
+};
+
+ConferenceDOMBuilder.prototype.updateConferenceDaySchedule = function (day) {
+  var dayDiv = $("#" + day.full);
+  if (day.cssClass !== undefined) {
+    dayDiv.addClass(day.cssClass);
+  }
+  this.updateDayMenu(day, dayDiv);
+  this.updateTopicList(day, dayDiv);
+};
+
+ConferenceDOMBuilder.prototype.updateIndexPageDOM = function () {
+  for (var dayIndex = 0; dayIndex < this.conference.days.length; ++dayIndex) {
+    this.updateConferenceDaySchedule(this.conference.days[dayIndex]);
+  }
+};
+
+function buildDOM() {
+  var conference = new AgileConference(defaultSpeakerData.data, defaultSessionData.data),
       domBuilder = new ConferenceDOMBuilder(conference);
 
   domBuilder.updateSessionsDOM();
