@@ -121,7 +121,7 @@ AgileConference.prototype.getSortedSessionsForDay = function (sessions, day) {
 }
 
 AgileConference.prototype.cleanSpeakerID = function (speakerID) {
-  return speakerID.replace(" ", "").replace("%20", "");
+  return speakerID.replace(/\s/gi, "");
 }
 
 AgileConference.prototype.getPrettySpeakersList = function (speakerIDs) {
@@ -135,7 +135,7 @@ AgileConference.prototype.getPrettySpeakersList = function (speakerIDs) {
       speaker = { name: "N/A", description: "N/A", title: "N/A" };
     }
     return speaker.name;
-  }).join(', ').replace(/, ([^,]+)$/, ', and $1');
+  }).join(', ').replace(/, ([^,]+)$/, ' and $1');
 };
 
 function ConferenceDOMBuilder(conference) {
