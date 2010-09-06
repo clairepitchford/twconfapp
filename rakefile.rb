@@ -17,4 +17,6 @@ task :schedule do
     JSONConverter.new(File.open(TOPIC_YAML_FILENAME ),
                       File.open(SPEAKER_YAML_FILENAME)).write f
   end
+
+  ManifestProcessor.new(MANIFEST_IN_FILENAME).write
 end
