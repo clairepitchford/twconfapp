@@ -868,6 +868,10 @@ li.speaker-names span {
     opacity: 1;
 }
 
+#install #bubble ol {
+  padding-left: 27px;
+}
+
 #jqt #install {
     display: block;
 }
