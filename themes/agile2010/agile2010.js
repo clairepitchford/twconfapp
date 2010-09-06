@@ -44,6 +44,39 @@ function buildRatingWidget(sessionID, sessionInFuture, starIconSize) {
   return '<span class="toggle go-skip">' + buildRatingStarString(currentRating, starIconSize) + '</span>';
 }
 
+function ConferenceSession(sessionID, rawSessionData) {
+  this.sessionID = sessionID;
+  this.title = rawSessionData['title'];
+  this.description = rawSessionData['description'];
+  this.date = rawSessionData['date'];
+  this.speakers = rawSessionData['speakers'];
+}
+
+ConferenceSession.prototype.dateString = function () {
+  var dateString = "September ",
+      dateParts = this.date.split(' '),
+      time = dateParts[1],
+      timeParts = time.split(":"),
+      hours = timeParts[0],
+      minutes = timeParts[1].substr(0, 2);
+      
+  if (dateParts[0] === "Wed") {
+    dateString += "15, "; //15th of sept
+  } else {
+    dateString += "16, "; //16th of sept
+  }
+
+  dateString += "2010 ";
+
+  if (time.indexOf("PM") !== -1 && hours !== "12") {
+    hours = (parseInt(hours, 10) + 12).toString();
+  }
+
+  dateString += hours + ":" + minutes + ":00";
+
+  return dateString;
+}
+
 function AgileConference(speakerData, sessionData) {
   this.days = [
     {'full': "Wednesday", 'shortName': "Wed", 'cssClass': "current"},
@@ -51,40 +84,17 @@ function AgileConference(speakerData, sessionData) {
   ];
   
   this.conferenceSpeakers = speakerData;
-  this.conferenceSessions = sessionData;
-  
-  this.buildSessions();
+  this.conferenceSessions = this.buildSessions(sessionData);
 }
 
-AgileConference.prototype.buildSessions = function () {
-  for (sessionID in this.conferenceSessions) {
-    if (this.conferenceSessions.hasOwnProperty(sessionID)) {
-      this.conferenceSessions[sessionID].dateString = function () {
-        var dateString = "September ",
-            dateParts = this.date.split(' '),
-            time = dateParts[1],
-            timeParts = time.split(":"),
-            hours = timeParts[0],
-            minutes = timeParts[1].substr(0, 2);
-
-        if (dateParts[0] === "Wed") {
-          dateString += "15, "; //15th of sept
-        } else {
-          dateString += "16, "; //16th of sept
-        }
-
-        dateString += "2010 ";
-
-        if (time.indexOf("PM") !== -1 && hours !== "12") {
-          hours = (parseInt(hours, 10) + 12).toString();
-        }
-
-        dateString += hours + ":" + minutes + ":00";
-
-        return dateString;
-      }
+AgileConference.prototype.buildSessions = function (sessionData) {
+  var conferenceSessions = {};
+  for (sessionID in sessionData) {
+    if (sessionData.hasOwnProperty(sessionID)) {
+      conferenceSessions[sessionID] = new ConferenceSession(sessionID, sessionData[sessionID]);
     }
   }
+  return conferenceSessions;
 }
 
 AgileConference.prototype.sortSessionsByTime = function (session1, session2) {

@@ -1,19 +1,19 @@
 describe('AgileConference', function () {
-  var morningSession = {'title':'test', 'date':'Wed 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'},
-      afternoonSession = {'title':'test', 'date':'Wed 05:30PM', 'description': 'afternoon session', 'speakers':'scott-robinson'},
-      thursdaySession = {'title':'thurs', 'date':'Thu 09:00AM', 'description': 'trhusday', 'speakers':'sam-tardif'},
-  
-      sessionData = 
-        {"morningSession" : morningSession,
-        "afternoonSession" : afternoonSession,
-        "thursdaySession" : thursdaySession},
+  var sessionData = 
+        {"morningSession" : {'title':'test', 'date':'Wed 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'},
+        "afternoonSession" : {'title':'test', 'date':'Wed 05:30PM', 'description': 'afternoon session', 'speakers':'scott-robinson'},
+        "thursdaySession" : {'title':'thurs', 'date':'Thu 09:00AM', 'description': 'trhusday', 'speakers':'sam-tardif'}},
     
       speakerData = 
         {'sam-tardif' : {'name':'Sam Tardif', 'title':'dev', 'description':'dev'},
         'scott-robinson' : {'name':'Scott Robinson', 'title': 'dev', 'description':'dev'},
         'claire-pitchford' : {'name':'Claire Pitchford', 'title':'customer', 'description':'customer'}},
     
-      conference = new AgileConference(speakerData, sessionData);
+      conference = new AgileConference(speakerData, sessionData),
+      
+      morningSession = conference.conferenceSessions['morningSession'],
+      afternoonSession = conference.conferenceSessions['afternoonSession'],
+      thursdaySession = conference.conferenceSessions['thursdaySession'];
 
   it("should sort the wednesday morning session before the wednesday afternoon session", function () {
     var sessions = [afternoonSession, morningSession];
