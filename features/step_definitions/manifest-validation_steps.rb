@@ -7,6 +7,7 @@ Then /^all files in it should exist$/ do
     mode = :start
 
     f.readlines.each do |ln|
+      ln = ln[0 ... ln.rindex('#')] if ln.rindex('#')
       ln.strip!
 
       if mode == :start
