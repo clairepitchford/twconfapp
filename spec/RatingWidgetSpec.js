@@ -31,21 +31,21 @@ describe("Rating widget", function () {
     
     it("should create a go-skip slider widget when the session date is in the future", function () {
       var isInFuture = true;
-      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, 40);
+      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, starImageHeight);
       expect(widgetString).toContain('class="attend-slider touch"');
     });
     
     it("should create a rate-this-session widget when the session date is in the past and no rating has been given", function () {
       localStorage.removeItem(breakfastSessionID + "-rating");
       var isInFuture = false;
-      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, 40);
+      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, starImageHeight);
       expect(widgetString).toContain('class="feedbackLink"');
     });
     
     it("should create a rating-star widget when the session date is in the past and a previous rating exists", function () {
       localStorage.setItem(breakfastSessionID + "-rating", 2);
       var isInFuture = false;
-      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, 40);
+      var widgetString = buildRatingWidget(breakfastSessionID, isInFuture, starImageHeight);
       expect(widgetString).toContain('class="ratingStar star_0"');
     });
   });
