@@ -44,6 +44,23 @@ function buildRatingWidget(sessionID, sessionInFuture, starIconSize) {
   return '<span class="toggle go-skip">' + buildRatingStarString(currentRating, starIconSize) + '</span>';
 }
 
+function ConferenceSpeaker(speakerID, rawSpeakerData) {
+  this.speakerID = speakerID;
+  this.name = rawSpeakerData['name'];
+  this.description = rawSpeakerData['description'];
+  this.title = rawSpeakerData['title'];
+}
+
+ConferenceSpeaker.prototype.toString = function () {
+  return '<div id="' + this.speakerID + '" class="content">' +
+          '<div class="toolbar"><a href="#" class="back">Back</a><h1>' + this.name + '</h1></div>' + 
+          '<div class="scroll">' +
+          '<div class="speaker-info description">' +
+          '<img src="themes/agile2010/img/speakers/' + this.speakerID + '.gif" width="80" height="120" class="speaker-photo"/>' + 
+          '<div class="speaker-title2">' + this.title + '</div>' + this.description + '</div>' +
+          '</div></div>';
+}
+
 function ConferenceSession(sessionID, rawSessionData) {
   this.sessionID = sessionID;
   this.title = rawSessionData['title'];
@@ -83,7 +100,7 @@ function AgileConference(speakerData, sessionData) {
     {'full': "Thursday", 'shortName': "Thu"}
   ];
   
-  this.conferenceSpeakers = speakerData;
+  this.conferenceSpeakers = this.buildSpeakers(speakerData);
   this.conferenceSessions = this.buildSessions(sessionData);
 }
 
@@ -95,6 +112,17 @@ AgileConference.prototype.buildSessions = function (sessionData) {
     }
   }
   return conferenceSessions;
+}
+
+AgileConference.prototype.buildSpeakers = function (speakerData) {
+  var conferenceSpeakers = {}, cleanID;
+  for (speakerID in speakerData) {
+    if (speakerData.hasOwnProperty(speakerID)) {
+      cleanID = this.cleanSpeakerID(speakerID);
+      conferenceSpeakers[cleanID] = new ConferenceSpeaker(cleanID, speakerData[speakerID]);
+    }
+  }
+  return conferenceSpeakers;
 }
 
 AgileConference.prototype.sortSessionsByTime = function (session1, session2) {
@@ -152,23 +180,22 @@ function ConferenceDOMBuilder(conference) {
   this.conference = conference;
 }
 
-ConferenceDOMBuilder.prototype.buildSpeakerDOM = function (speakerID, speaker) {
-  var speakerDiv = $('<div id="' + speakerID + '" class="content"></div>')
-                    .append($('<div class="toolbar"><a href="#" class="back">Back</a><h1>' + speaker.name + '</h1></div>')),
-      contentDiv = $('<div class="scroll"></div>')
-                    .append($('<div class="speaker-info description"><img src="themes/agile2010/img/speakers/' + speakerID + '.gif" width="80" height="120" class="speaker-photo"/><div class="speaker-title2">' + speaker.title + '</div>' + speaker.description + '</div>'));
-  speakerDiv.append(contentDiv);
-  return speakerDiv;
+ConferenceDOMBuilder.prototype.removeElement = function (elementID) {
+  $("#" + elementID).remove();
+}
+
+ConferenceDOMBuilder.prototype.buildSpeakerDOM = function (speaker) {
+  return $(speaker.toString());
 };
 
 ConferenceDOMBuilder.prototype.updateSpeakersDOM = function () {
-  var speakerID, cleanID;
+  var speakerID, speaker;
 
   for (speakerID in this.conference.conferenceSpeakers) {
     if (this.conference.conferenceSpeakers.hasOwnProperty(speakerID)) {
-      cleanID = this.conference.cleanSpeakerID(speakerID);
-      $("#" + cleanID).remove();
-      this.buildSpeakerDOM(cleanID, this.conference.conferenceSpeakers[cleanID]).insertBefore("#Wednesday");
+      speaker = this.conference.conferenceSpeakers[speakerID];
+      this.removeElement(speaker.speakerID);
+      this.buildSpeakerDOM(speaker).insertBefore("#Wednesday");
     }
   }
 };
