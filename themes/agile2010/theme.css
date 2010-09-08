@@ -204,10 +204,6 @@ div.content {
     margin: 0 10px;
 }
 
-#jqt .toggle.yes-no input[type="checkbox"] {
-    background-image: url(img/yes_no.png);
-}
-
 .toggle-caption {
     color: white;
 }
@@ -748,25 +744,23 @@ li.speaker-names span {
 }
 
 #jqt .go-skip p.attending {
-    background-color: green;
-    color: #fff;
-    -webkit-transition: background-color .1s ease-in;
+    -webkit-border-image: url(img/greenButton.png) 0 12 0 12;
+    -webkit-transition: -webkit-border-image .1s ease-in;
 }
 
 #jqt .go-skip p {
-    -webkit-border-radius: 5px;
+    -webkit-border-image: url(img/grayButton.png) 0 12 0 12;
     -webkit-transition: background-color .1s ease-in;
-    background-color: #aaa;
-    color: #000;
+    background-color: #e0e0e0;
+    color: #fff;
     font-size: 12pt;
     text-align: center;
-    border: 0;
     margin: 0 0 0 5px;
     height: 27px;
     width: 94px;
     line-height: 25px;
     font-weight: bold;
-    border-color: #000;
+    border-width: 0px 6px;
 }
 
 #jqt .go-skip img {
