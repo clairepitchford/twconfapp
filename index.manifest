@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-index.html # 7d743e8b808ebf8a4390aacb5c9eb3ba96cd51eb80683ae6e17f5c7ea8e374b8
+index.html # 1856a0570bf0da983a6cf28846b5fec1ed020bd0935d2787170d52a66b2c0514
 
 jqtouch/extensions/jqt.scroll/jqt.scroll.css # ef2438724471334b2e3f0f0de75d300abeb2d5bb02a42b1251e161eb697772c6
 jqtouch/extensions/jqt.scroll/jqt.scroll.js # db1300ab4d964f8df59c9020320bd14136b94650e17e24c8398380eaaa584ebf
@@ -60,8 +60,8 @@ themes/agile2010/img/yes_no.png # 2fd4c1c70ec3ad6c2c197be6a57fa24ad9f503a334e803
 # Speakers profiles
 
 themes/agile2010/img/speakers/adam-boas.gif # d795c1b9d0d24ed50df227efbc3f1e5113ed51a8675b58cb38577ea90f1315b8
-themes/agile2010/img/speakers/andy-marks.gif # adcb218f3c5827da1fc5184bcc30857d8c1358c16ecc99e5cbca5a7bd04decbc
-themes/agile2010/img/speakers/andy-weir.gif # adcb218f3c5827da1fc5184bcc30857d8c1358c16ecc99e5cbca5a7bd04decbc
+themes/agile2010/img/speakers/andy-marks.gif # 91360fc3f8488f3b617cf4f7a903d59b67ef1e76ffde787117ab756393e706f1
+themes/agile2010/img/speakers/andy-weir.gif # a0fa71013be67d1368b57cc3b67889471089ce7414357048f2fb3c2995ed690e
 themes/agile2010/img/speakers/ben-arnott.gif # adcb218f3c5827da1fc5184bcc30857d8c1358c16ecc99e5cbca5a7bd04decbc
 themes/agile2010/img/speakers/ben-hogan.gif # e1d40f0a599e3e5f18f216094a9e41176e9b14c21518aa02688b878de61d9370
 themes/agile2010/img/speakers/bruce-taylor.gif # ee59f15b5d61e28bfbff8df076565f20fe854e0d50621db48f908cd5884f229f
@@ -83,7 +83,7 @@ themes/agile2010/img/speakers/jason-yip.gif # 8ff29ee0308cb5f688ad865ca2e4b3c262
 themes/agile2010/img/speakers/jay-jenkins.gif # 989e2f9ee5e2b9d1689b5908ef5ae24d650eec8e098dc9c192479b5c0c6b2138
 themes/agile2010/img/speakers/jean-christophe-huet.gif # 8f06750b571527eb6086c02fb65b8f77a9194c35472a0b40c528ddbc95c52fd2
 themes/agile2010/img/speakers/jeff-smith.gif # d90d755f48166ba635e6701a4d69caa04c87b2b977e0fbeb63b37cd64cc0a280
-themes/agile2010/img/speakers/jez-humble.gif # adcb218f3c5827da1fc5184bcc30857d8c1358c16ecc99e5cbca5a7bd04decbc
+themes/agile2010/img/speakers/jez-humble.gif # c46e5864cb13309b8e53a061355d25e35b37725a553d2d5d20812254e655ad47
 themes/agile2010/img/speakers/jim-highsmith.gif # 49a8c8c6cda65270ad10c419d4c7b37c1b1dd4e3f2d7eff2cb14ead739815f1d
 themes/agile2010/img/speakers/john-sullivan.gif # e0c8b0537cab17bfa49d712f54839a5c207ebe942a46b1c636bb9c3f6578d568
 themes/agile2010/img/speakers/josh-melville.gif # c685542108c2c661c54fc80a62ba060b2b7c6b74c9c827200cf6c94421f36db6
