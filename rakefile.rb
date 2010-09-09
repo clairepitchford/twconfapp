@@ -20,3 +20,7 @@ task :schedule do
 
   ManifestProcessor.new(MANIFEST_IN_FILENAME).write
 end
+
+task :minify do
+  system("java -jar bin/closure-compiler.jar --js themes/agile2010/defaultData.js --js themes/agile2010/agile2010.js --js_output_file=themes/agile2010/agile2010.compiled.js")
+end
