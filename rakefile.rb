@@ -23,4 +23,5 @@ end
 
 task :minify do
   system("java -jar bin/closure-compiler.jar --js themes/agile2010/defaultData.js --js themes/agile2010/agile2010.js --js_output_file=themes/agile2010/agile2010.compiled.js")
+  system("java -jar bin/closure-compiler.jar --js jqtouch/jqtouch.js --js jqtouch/extensions/jqt.scroll/jqt.scroll.js --js_output_file=jqtouch/jqt_with_scroll.compiled.js")
 end

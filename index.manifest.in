@@ -3,9 +3,8 @@ CACHE MANIFEST
 index.html
 
 jqtouch/extensions/jqt.scroll/jqt.scroll.css
-jqtouch/extensions/jqt.scroll/jqt.scroll.js
 jqtouch/jqtouch.css
-jqtouch/jqtouch.js
+jqtouch/jqt_with_scroll.compiled.js
 jqtouch/jqtouch.transitions.js
 jqtouch/jquery-1.4.2.min.js
 jqtouch/jquery.json-2.2.min.js
