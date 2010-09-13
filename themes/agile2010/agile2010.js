@@ -368,7 +368,6 @@ function registerJQTouchLiveEvents() {
       });
       target.text('Skip');
     }
-
     return false;
   });
 

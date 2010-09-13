@@ -3,17 +3,14 @@ CACHE MANIFEST
 index.html
 
 jqtouch/extensions/jqt.scroll/jqt.scroll.css
-jqtouch/extensions/jqt.scroll/jqt.scroll.js
 jqtouch/jqtouch.css
-jqtouch/jqtouch.js
+jqtouch/jqt_with_scroll.compiled.js
 jqtouch/jqtouch.transitions.js
 jqtouch/jquery-1.4.2.min.js
 jqtouch/jquery.json-2.2.min.js
 
-themes/agile2010/agile2010.js
-themes/agile2010/defaultData.js
+themes/agile2010/agile2010.compiled.js
 
-themes/agile2010/SegmentedMenu.css
 themes/agile2010/theme.css
 
 themes/agile2010/icon.png
@@ -45,14 +42,6 @@ themes/agile2010/img/shed_off.png
 themes/agile2010/img/shed_on.png
 themes/agile2010/img/where_off.png
 themes/agile2010/img/where_on.png
-
-# Mentioned in CSS or otherwise not currently used.
-
-themes/agile2010/img/back_button_clicked.png
-themes/agile2010/img/blueButton.png
-themes/agile2010/img/chevron_circle.png
-themes/agile2010/img/redButton.png
-themes/agile2010/img/whiteButton.png
 
 # Speakers profiles
 
