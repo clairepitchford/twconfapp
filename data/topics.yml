@@ -245,7 +245,7 @@ agile-lawyers:
     title: Agile Lawyers? The transition from Agile IT to a Radically Agile Organisation at Lonely Planet - CCH1
     speakers: nigel-dalton
     description: |
-        <p>Many Australian organisations are being driven to find a better way to deliver projects at the pace that competition demands in 2010. Lonely Planet started on that journey in their IT group in late 2007, and three years later the petrie dish that was the initial Agile implementation has overflowed with interesting organisms. Agile principles are now evident in teams as variable as legal, HR, guidebook publishing, product development, and IT operations.</p>
+        <p>Many Australian organisations are being driven to find a better way to deliver projects at the pace that competition demands in 2010. Lonely Planet started on that journey in their IT group in late 2007, and three years later the petri dish that was the initial Agile implementation has overflowed with interesting organisms. Agile principles are now evident in teams as variable as legal, HR, guidebook publishing, product development, and IT operations.</p>
         <p>A field trip to Lonely Planet starts to answer the question "what happens when a whole company starts adopting Agile methods?" Since not everyone can come to Footscray however, in this presentation you will see which Agile principles work for each team, how groups work together, whether 'competitive Agile' can work, and the flywheel effect on the productivity of core IT teams from widespread understanding of Agile principles - now that their colleagues across the business use card walls, talk about stories and conduct daily stand-ups.</p>
         <p>You will also hear how key steps in the broader adoption of Agile, how the insistence of uniformity of Agile process can be a killer of innovation, and how Agile underpinned the delivery of a new iPad digital product from the day Apple called to say "we've announced the iPad, we've emailed your SDK - we expect a product in iTunes when we hit the market in a month".</p>
 
@@ -282,11 +282,11 @@ trials-tribulations:
     description: |
         <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
         <p>The Architecture team will set up stall saying a project without a formal Architecture is rogue and will fail. On the other side of the fence the developers will say Architects and formal Architecture just inhibit delivery. There has to be some sensible middle ground. One answer to the Architecture function would be to decide that Architecture and Architects aren't needed anymore. Alternatively you could just keep the formal waterfall upfront Architectural phase within your project life cycle.  Both can work, one of the options may be right for you, but they aren't your only choice.</p>
-        <p>In this presentation John talks about the Architecture function, what he’s seen fail, what he’s seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
+        <p>In this presentation John talks about the Architecture function, what he's seen fail, what he's seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
 
 distributed-panel:
     date: Thu 01:45PM
-    title: Transcending Cultures, Timezones and Countries - cch2
+    title: Transcending Cultures, Timezones and Countries - CCH2
     speakers: mahesh-baxi, dave-thomas, nigel-dalton, philip-abernathy
     description: |
         <p>How do you overcome the challenges of implementing Agile in a distributed environment? Panellists will call on their own experiences of being involved in distributed agile projects, the added complexities of communicating across distributed teams, how to tackle customer collaboration, trust and technical issues and most importantly, the ingredients to making it work!</p>
@@ -327,7 +327,7 @@ dev-ops:
     title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration - CCH3'
     speakers: jez-humble
     description: |
-        <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply undeployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
+        <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply un-deployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
         <p>Jez will discuss the nascent DevOps movement, and present the deployment pipeline - a pattern for modeling your organisation's value stream, getting fast feedback on the production readiness of your software, and enabling incremental automation of the delivery process.</p>
 
 technical-debt:
