@@ -100,7 +100,7 @@ div.content {
 .session-header {
     font-size: 16px; 
     font-weight:bold; 
-    width: 53%; 
+    width: 50%; 
     display: inline-block;
     padding: 10px;
 }
@@ -202,10 +202,6 @@ div.content {
 
 .ratingStar {
     margin: 0 10px;
-}
-
-#jqt .toggle.yes-no input[type="checkbox"] {
-    background-image: url(img/yes_no.png);
 }
 
 .toggle-caption {
@@ -748,25 +744,21 @@ li.speaker-names span {
 }
 
 #jqt .go-skip p.attending {
-    background-color: green;
-    color: #fff;
-    -webkit-transition: background-color .1s ease-in;
+    -webkit-border-image: url(img/greenButton.png) 0 12 0 12;
 }
 
 #jqt .go-skip p {
-    -webkit-border-radius: 5px;
-    -webkit-transition: background-color .1s ease-in;
-    background-color: #aaa;
-    color: #000;
+    -webkit-border-image: url(img/button.png) 0 5 0 5;
+    background-color: #e0e0e0;
+    color: #fff;
     font-size: 12pt;
     text-align: center;
-    border: 0;
-    margin: 0 0 0 5px;
+    margin: 0;
     height: 27px;
     width: 94px;
     line-height: 25px;
     font-weight: bold;
-    border-color: #000;
+    border-width: 0px 6px;
 }
 
 #jqt .go-skip img {

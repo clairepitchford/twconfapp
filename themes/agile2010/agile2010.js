@@ -496,7 +496,7 @@ function registerFeedbackEvents() {
     $.ajax({
       url: url, 
       data: {
-        'entry.0.single': feedback,
+        'entry.0.single': feedback.substr(0, 500),
         'entry.1.group': rating,
         'entry.2.single': sessionID,
         'pageNumber': 0,
@@ -505,11 +505,10 @@ function registerFeedbackEvents() {
       },
       type: 'POST',
       error: function (xmlhttp, textStatus, errorThrown) {
-        alert(textStatus);
-        alert(errorThrown);
+        alert("An error occurred. Please try submitting again later.");
       }, 
       success: function () {
-        alert("success");
+        alert("Your feedback has been saved. Thanks!");
       }
     });
   });

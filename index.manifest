@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-index.html # 7d743e8b808ebf8a4390aacb5c9eb3ba96cd51eb80683ae6e17f5c7ea8e374b8
+index.html # 1856a0570bf0da983a6cf28846b5fec1ed020bd0935d2787170d52a66b2c0514
 
 jqtouch/extensions/jqt.scroll/jqt.scroll.css # ef2438724471334b2e3f0f0de75d300abeb2d5bb02a42b1251e161eb697772c6
 jqtouch/extensions/jqt.scroll/jqt.scroll.js # db1300ab4d964f8df59c9020320bd14136b94650e17e24c8398380eaaa584ebf
@@ -10,11 +10,11 @@ jqtouch/jqtouch.transitions.js # 46236dd51f6eb26f037b1ea8f07449e3a0114925e54dc09
 jqtouch/jquery-1.4.2.min.js # e23a2a4e2d7c2b41ebcdd8ffc0679df7140eb7f52e1eebabf827a88182643c59
 jqtouch/jquery.json-2.2.min.js # 17499c3aa1c1ccede6c8b1e21b19a3dd01b518ccfd1c63205d4f9dc36edc060f
 
-themes/agile2010/agile2010.js # 9cf2eeef2b11a4a561b0a6c32b282c59d9579f249fc4d9e9925c42a19b0361af
+themes/agile2010/agile2010.js # 61356366e330dc2477767893711b3eefdd42b8a34e593dc2aef8c7ab1665bddc
 themes/agile2010/defaultData.js # 21b8b93c63ae1fedbd61ad897b34b3591f90b06aa83d45dcc05150eb63900fe0
 
 themes/agile2010/SegmentedMenu.css # 17863ca1256b27ed5e0488baf0e2cc6b94c6b05f7c6721a005e4225e5e0bae27
-themes/agile2010/theme.css # baf1db6402a0c54bb2d30a75d95a989b8325884cc0886138e880e9ac2bbfd2d1
+themes/agile2010/theme.css # a6a51ab7823fc1ce7859034aef20c15c53019b583298b14b7871d376d8e90b84
 
 themes/agile2010/icon.png # 603259b3818b65b0182f1a592c4cccdda4c691e64e24e7441d5cfc1a2deb802b
 themes/agile2010/startup.png # 218b27c4c29b57795d3ba000cbdcdcd46c03500f4a7bc403061e34921c0beb85
@@ -28,12 +28,12 @@ themes/agile2010/img/button.png # c97deb0be80de696083ad33edf5b58b8ef62586cb88fa9
 themes/agile2010/img/buzz_off.png # e0d4e2798bb59df4d453c888427ada84457c2834bfd122cd165b5702d8a498f5
 themes/agile2010/img/buzz_on.png # 8a4dba0598bb6a58ab86ceb9e43d5203c3215b9b905688ac2e54286ce0ccc451
 themes/agile2010/img/chevron.png # 486b8f5a825dca50dece553b34125d8e523fb1d5198e7e47e0ff14e66b50660d
-themes/agile2010/img/go_skip.png # 5a7430fe0997275f1328185ba6cfc5d1f09d961cbeb1ad2b52f29f614c2e8780
+themes/agile2010/img/grayButton.png # 039b9ffdab362c9129869b961dd2a5930976b90d61145f714ae7d43039bb0ed6
+themes/agile2010/img/greenButton.png # e4c4c3ce81202eeeb53d98d87a9d9bceaacf54216404a8835009fde7718005fc
 themes/agile2010/img/loading.gif # 67305df6f9eac36e0e22721187c6c13d5430fff281daa3a82ed287a6b2c995f1
 themes/agile2010/img/map.jpg # 54497d362b361588b20f77e93de554078a1c9191b660b4ad9072c600781383d2
 themes/agile2010/img/nav_bg.png # 78273ccce11868423a60bafa113e208b356d26a9eca7830346e3048b8d92bc8a
 themes/agile2010/img/off_star.png # 4bc267bc968b3de49f6bb67baf8ec0b1f8bf3ef6544e388294278da1749cb665
-themes/agile2010/img/on_off.png # 86dd5e708d404d68360d85f227e707cbf659cf3316029fcdf9c1280a116902a1
 themes/agile2010/img/on_star.png # a04d672215f5f444e7a7142ae2187eb31258d5b9921192122d72589f925e45f5
 themes/agile2010/img/poweredbyTW.png # e033ec8068e331781b9f11f19dcde6f65ccac8f331669f9587384173af41aeb3
 themes/agile2010/img/rate_this.png # 35f32120735dc98656bb27076c2727b9ab9e801a99d2ed35b13d8840564f091d
@@ -51,11 +51,8 @@ themes/agile2010/img/where_on.png # 461674ef2049f7383266759128ef5b8478dedeec5767
 themes/agile2010/img/back_button_clicked.png # f1480ae600687fbc6c247961576cbb66267c4c333dc855d3a0ed982320ef1e16
 themes/agile2010/img/blueButton.png # 6b44ae4f1b5ecaf69f477168d2a1f31a8144addacaadd204c69a04772b6c9047
 themes/agile2010/img/chevron_circle.png # 211b6226979778fa8df8e8720b7b7cc8cb7f5c560456e33d3817fe7b1c5debf8
-themes/agile2010/img/grayButton.png # 039b9ffdab362c9129869b961dd2a5930976b90d61145f714ae7d43039bb0ed6
-themes/agile2010/img/greenButton.png # e4c4c3ce81202eeeb53d98d87a9d9bceaacf54216404a8835009fde7718005fc
 themes/agile2010/img/redButton.png # de1f9ea5ca6682ade9348e8b2a2416836fce2dd789d7f43b24ec5db958028173
 themes/agile2010/img/whiteButton.png # 2dd701a9d6c3650c7b24e57f82d10a0b7671607965c67a3f8aaac2e3e03a591d
-themes/agile2010/img/yes_no.png # 2fd4c1c70ec3ad6c2c197be6a57fa24ad9f503a334e8037b267987c6d4d2aefd
 
 # Speakers profiles
 
