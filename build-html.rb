@@ -59,7 +59,7 @@ class ManifestProcessor
       end
     end
 
-    raise "MANIFEST template doesn't end with '.manifest.in'" unless manifest_in.end_with? '.manifest.in'
+    raise "MANIFEST template doesn't end with '.manifest.in'" unless /\.manifest\.in$/.match manifest_in
     @manifest_fn = manifest_in[/.*(?=\.in)/]
   end
 
