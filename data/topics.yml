@@ -1,345 +1,121 @@
-breakfast:
-    date: Wed 07:00AM
-    title: Executive Breakfast with Jim Highsmith
-    speakers: jim-highsmith
-    description: |
-        <p><a href="https://www.slatteryit.com.au/RegoPages/Agile2010Breakfast.aspx" target="_blank">Register for this session</a></p>
-        <p>Join us for an exclusive breakfast with your peers as Jim Highsmith, co-author of the Agile manifesto, provides his perspectives on what executives and leaders need to do to make their organisations Agile. This is a wonderful opportunity for you to gain insights from a global Agile leader while networking with other CIOs and executives.</p>
+registration:
+    date: Thu 08:00AM
+    title: Registration
+    
+welcome:
+    date: Thu 08:30AM
+    title: Welcome
 
-beyond-scope-schedule-cost:
-    date: Wed 09:00AM
-    title: > 
-        Beyond Scope, Schedule, and Cost: Rethinking Agile Performance Measures - CCH
-    speakers: jim-highsmith
+kenote-address:    
+    date: Thu 09:00AM
+    title: Keynote Address - Things I Wish I'd Known
+    speakers: rod-johnson
     description: |
-        <p>A March 2009 Business Week article proclaims, "There is no more Normal." In the throws of such pervasive change the traditional emphasis on "following the plan with minimal changes," needs to be supplanted by an agile stress on "adapting successfully to inevitable changes." Furthermore, if agility is about delivering customer value by being flexible, then how can adherence to a traditional scope, schedule, and cost plan be the best way to measure performance? It can't. We need to move beyond the classic Iron Triangle measures to an Agile Triangle that focuses on Value, Quality, and Constraints.</p>
-        <p>Agile teams are asked to be agile, flexible, and adaptive, but then are told to conform to planned scope, schedule, and cost goals. They are asked to adapt, but inside a very small box. If we are to scale agility to large projects and bring agile values to organizations, then we must change performance measures. To mirror the Agile Manifesto, it's not that scope, schedule, and cost are unimportant, but that value and quality are more important. This keynote explores the necessity for and the rationale behind moving to this new set of agile performance measures.</p>
+        <p>Australian technologist and entrepreneur Rod Johnson will talk candidly about some of the lessons he's learnt over 15 years in IT, some of the mistakes he's made and observed others making, and some of the things that proved to work. The talk will cover both business and technical topics and reflect Rod's experience writing books on Java programming, creating and leading the popular Spring Framework and building a successful venture-funded software company, acquired in 2009 by VMware, where Rod is today an executive.</p>
 
-delivering-business-value:
-    date: Wed 10:00AM
-    title: Delivering Business Value with Agile - CCH
-    speakers: jeff-smith
+morning-tea:
+    date: Thu 10:00AM
+    title: Morning Tea
+            
+extreme-java:
+    date: Thu 10:15AM
+    title: Extreme Java Productivity: Enterprise Applications in Just Minutes
+    speakers: ben-alex
     description: |
-        <p>Suncorp's business and technology teams have a strong track record of deploying solutions for competitive advantage and being able to drive business value faster with a strong return on investment. Key to this approach is their commitment to collaborate on projects using the Agile values, principles and practices to optimise the broader team performance and meet business needs. Jeff Smith, Group Executive, Suncorp Business Services, sees the Agile development methodology as not just about making good technology but as an approach that can be applied by any successful business.</p>
-
-dogs-tricks:
-    date: Wed 11:30AM
-    title: Old Tricks for New Dogs and New Tricks for Old Dogs - CCH1
-    speakers: shane-hastie
-    description: |
-        <p>Context is everything - there is no 'one-size-fits-all' approach to project delivery. The Agile umbrella encompasses a wide range of techniques and approaches. This talk briefly examines a variety of the techniques and identifies the "project ecosystem" elements that will enable them to be effective, where they work best, where they are to be avoided and practical advice on how to get the maximum benefit from each of the practices.</p>
-        <p>Shane presents a framework for selecting from a variety of techniques to identify the combination that will work most effectively in a specific project environment. This talk doesn't attempt to teach the techniques; rather Shane provides some concrete advice for selecting from techniques such as: brainstorming, mind maps, DeBono's thinking hats, vision box, structured interviews, questionnaires, scriptwriting, snowcards, use cases, user stories, process models, decision tables, data models, planning poker, behaviour driven development, low-fi prototypes, and CRC cards.</p>
+        <p>Enterprise Java</p>
+        <p>Delight your customers and impress your colleagues by delivering enterprise Java applications faster than ever before. In this session we'll introduce Spring Roo, an open source tool that makes it easy to build applications using the Java language, standards and technologies you already know. In this demonstration-oriented session, we will cover:</p>
+        <ul>    
+            <li>Support for Java standards including JPA, Servlet Spec, JSP, JavaBean Validation, JavaMail, JMS etc</li>
+            <li>Transparently reverse engineering and synchronising database schemas - Automatic Google Web Toolkit (GWT) UIs</li>
+            <li>Automatic JUnit tests, Maven builds, JSP pages, toString() methods etc - Deploying to clouds such as Google App Engine</li>
+            <li>Extending Roo with add-ons - Removing Roo from your project in four clicks</l>
+        </ul>
+        <p>This session assumes basic Enterprise Java development knowledge.</p>
+        <p>Keywords: Java, JavaBean, JSP, EnterpriseComputing, Spring</p>
+        <p>Target Audience: Application developers, Java developers</p>        
         
-using-agile:
-    date: Wed 11:30AM
-    title: Using Agile to Deliver Business Innovation in a Telco Environment - CCH2
-    speakers: michael-bromley
+state-art:
+    date: Thu 10:15AM
+    title: The State of the Art .NET: 12 Months of Things to Learn
+    speakers: amanda-laucher, josh-graham
     description: |
-        <p>Like many large enterprises, Telstra's business aspirations greatly exceeded the responsiveness of its IT capability. In the highly competitive market in which Telstra operates, innovation and speed to market are critical to the organisation's success. As Director of Online for Telstra Business, Michael Bromley saw an opportunity to enhance the Telstra delivery process and introduced Agile software development practices to meet the needs of the business. Michael also recruited a new Solutions Delivery Manager who had just delivered a major change program using Agile in a similarly large Melbourne based enterprise. The two decided to test Agile with a critical development requirement and the result was a success.</p>    
-
-agile-agile:
-    date: Wed 11:30AM
-    title: >
-        Agile Agile: Using Agile Techniques to Adopt Agile - CCH3
-    speakers: ben-hogan
+        <p>MS.NET</p>
+        <p>For some people the .NET ecosystem comes along with some negative connotations related to closed-source, prescriptive, narrow solution architectures.</p>
+        <p>Nonetheless, there is a rich array of interesting technology available when using .NET  whether on Windows or on Mono. Microsoft is investing in languages and frameworks, open-source innovations are being applied from other platforms, and very smart people using .NET as the best choice for their circumstance.</p>
+        <p>This talk will showcase some of the very interesting languages, development tools, frameworks and architectural approaches (whether from Microsoft or from the Alpha Geeks in the .NET community) that you should have on your list of things to research, learn, and use over the next 12 months.</p>
+        <p>Keywords: .NET, OpenSource, Innovation, Mono, Tools, Languages, LINQ, F#, C#</p>
+        <p>Target Audience: MSDN subscribers looking for something more, .NET architects and developers, the .NET-curious</p>
+    
+the-rich:
+    date: Thu 10:15AM
+    title: The Rich Get Richer: Rails 3
+    speakers: obie-fernandez
     description: |
-        <p>If you are currently introducing Agile into an organisation or thinking of doing so then this talk is for you. In this talk, Ben Hogan looks at the idea of using an Agile approach to introducing Agile into an organisation in a congruent and incremental way and with the benefits of using an Agile method: early delivery of business value, the flexibility to adapt to organisational constraints. Drawing on Ben's eight years of Agile experience and a number of recent publications this talk gives attendees a practical approach to introducing Agile into their organisation. Ben will answer questions such as: "Where do I start?" and "How do I introduce Agile into a large traditional organisation?" The talk includes an introduction to the most important organisational change models and provides attendees a number of recommendations and tips on what to avoid in their Agile journey.</p>
-
-culture-stupid:
-    date: Wed 12:15PM
-    title: It's the Culture, Stupid! - Agile as an Organisational Paradigm - CCH1
-    speakers: rob-thomsett
+        <p>Ruby</p>
+        <p>You will learn about the changes in Rails 3 that make your life as a web developer easier. Most of the significant changes have to do with the implementation of Rails under the covers. We'll look at what those changes are and how they affect you. We'll also take a look at which APIs changed, from initialization hooks to query generation with Arel, a relational algebra library. Other topics include the new ActiveModel library, the influence of Merb on Rails 3, its overall Modularity and Bundler.</p>
+        <p>Keywords: Ruby, RubyonRails, XP</p>
+        <p>Target audience: Developers with at least minimal knowledge of Rails that haven't kept up to date with what's new in Rails 3</p>
+    
+connectivity-complex:
+    date: Thu 11:20AM
+    title: Connectivity for Today's Complex World
+    speakers: rachel-reinitz
     description: |
-        <p>Too many organisations and some Agilists see Agile as a "quick fix". In searching for a "silver bullet" as Fred Brooks stated so many years ago, the disruptive nature of Agile to an organisation's processes, management models and culture is too often ignored until too late.</p>
-        <p>Agile is not a new method for project development, it is a total re-definition of how an organisation delivers change. In this session, Rob will present a systemic view of Agile and how two leading organisations have used Agile sponsorship, Agile project management, and Agile development as a critical part of building a new organisational paradigm.</p>
-
-applying-agile:
-    date: Wed 12:15PM
-    title: Applying Agile to Large Complex Projects - CCH2
-    speakers: paula-ngov, david-musson
+        <p>Rachel works with many clients architecting and implementing connectivity solutions, particularly focused on Enterprise Service Bus.  In this session, Rachel will explore established architectures for ESB and new emerging architectures for connectivity/ESB including connectivity in and to the Cloud, federated service management, expanding role of appliances, hybrid buses using multiple technologies, and dynamic policy-driven ESBs.  She will use client examples to illustrate these relatively new connectivity architectures.</p>
+        <p>Keywords: SOA, Architecture, ESB, Connectivity, Management, ApplicationServer, CaseStudy</p>
+        <p>Target Audience: Architects, technical leads, and IT managers who have experience with messaging, connectivity, B2B, SOA or ESB.</p>
+        
+rx-curing:
+    date: Thu 11:20AM
+    title: Rx: Curing Your Asynchronous Programming Blues
+    speakers: erik-meijer
     description: |
-        <p>This case study examines the positive impact of introducing Agile development processes in an environment that is made up of regulatory requirements, extension of legacy systems, tight and non-negotiable deadlines, old technology, multiple vendors, traditional methodologies, and integration with external and market systems.</p>
-        <p>This presentation outlines the way in which DIUS computing and Energy Utility - Jemena, have overcome many of the issues confronting large complex projects, by applying agile techniques such as behaviour and test driven development (BDD and TDD).</p>
-
-emergent-design:
-    date: Wed 12:15PM
-    title: Implementing Emergent Design - CCH3
+        <p>MS.Net</p>
+        <p>Asynchronous, event-driven "reactive" programming is way too hard in today's world of development tools and frameworks. The huge amount of manual and error-prone plumbing leads to incomprehensible and hard to maintain code. As we reach out to services in the cloud, the desire for asynchronous computation is ever increasing, requiring a fresh look on the problems imposed by reactive programming. Centered around the concept of observable data sources, Rx provides a framework that takes care of the hard parts of reactive programming. Instead of focusing on the hard parts, you now can start dreaming about the endless possibilities of composing queries over asynchronous data sources, piggybacking on convenient LINQ syntax. In this session, we'll cover the design philosophy of Rx, rooted on the deep duality between the interactive IEnumerable interface and the new reactive IObservable interface in .NET 4. From this core understanding, we'll start looking at various combinators and operators defined over observable collections, as provided by Rx, driving concepts home by a bunch of samples. Finally, if time permits, we'll look at the Reactive Extensions for JavaScript which allows us to take the concepts we already know from Rx and apply them to JavaScript and have deep integration with libraries such as jQuery.  Democratizing asynchronous programming starts today. Don't miss out on it!</p>
+        <p>Keywords: Concurrency, JavaScript, C#, LINQ, NoSQL, Web2.0, EnterpriseComputing, CloudComputing, .NET</p>
+        <p>Target audience: Anyone that writes code that involves UI or Web services</p>
+        
+largest-rails:
+    date: Thu 11:20AM
+    title: Rails in the Large: How We're Building (One of) the Largest Rails Apps in the World (for an Enterprise)
     speakers: neal-ford
     description: |
-        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers three areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualisations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilising them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping you code in sync with the problem domain. This talk shows lots of examples of how to make this concept work in your environment.</p>
+        <p>Ruby</p>
+        <p>While others have been debating whether Rails can scale to enterprise levels, we've been demonstrating it. ThoughtWorks is running one of the largest Rails projects in the world, for an Enterprise. This session discusses tactics, techniques, best practices, and other things we've learned from scaling rails development. I discuss infrastructure, testing, messaging, optimization, performance, and the results of lots of lessons learned, including killer rock-scissors-paper tricks to help you avoid babysitting the view tests!</p>
+        <p>Keywords: Ruby, Ruby on Rails, Process, Agile, BestPractices, Architecture, Design, Craftsmanship</p>
+        <p>Target Audience:  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
 
-aconex-case-study:
-    date: Wed 02:00PM
-    title: Transitioning to Agile while Growing Fast - CCH1
-    speakers: leigh-jasper
+lunch:
+    date: Thu 12:20AM
+    title: Lunch
+    
+failed-soa:
+    date: Thu 1:00PM
+    title: Avoid a Failed SOA - Business and Autonomous Components to the Rescue
+    speakers: udi-dahan
     description: |
-        <p>By 2008, Aconex had established itself as one of Australia's largest and fastest growing SaaS companies, yet it needed to evolve to remain successful in its over sixty overseas markets. Despite facing unprecedented global economic uncertainty, Aconex made the decision to transition to Agile. CEO Leigh Jasper will present on how Agile aligned with the company's core values, how it helped them navigate the global financial crisis and has now positioned Aconex well for future growth.</p>
-
-flavours-panel:
-    date: Wed 02:00PM
-    title: Flavours of Agile panel - CCH2
-    speakers: bruce-taylor, steve-lawrence, james-brett, john-sullivan, ben-hogan
-    description: |
-        <p>This panel session will provide attendees with an understanding of how the different flavours of Agile work in practice. Agile is an umbrella terms for several software development methodologies which share the spirit of the Agile Manifesto while differing in how they are implemented. Panelists will share their experiences of which approach they use when and why, how the different approaches can be combined, and perspectives on the major strengths and weaknesses of the various flavours in practice - in particular Scrum, Kanban, Feature Driven Development, Extreme Programming.</p>
-
-continuous-deployment:
-    date: Wed 02:00PM
-    title: Working with Continuous Deployment to Reduce Cycle Time - CCH3
-    speakers: kane-mar
-    description: |
-        <p>Continuous Deployment (CD) is becoming fashionable, driven primarily by both the Agile and Lean communities to deliver online services more rapidly. But what is CD? How can CD be used to get feedback on our services? And, what are the business advantages of adopting CD?</p>
-        <p>In this presentation, Kane would like to introduce the concept of CD, discuss real world instances of CD in use, and why for a certain niche of product the use of CD represents a compelling business advantage.</p>
-
-agile-governance:
-    date: Wed 02:45PM
-    title: Agile Governance - The Key to Doing More with Less - CCH1
-    speakers: philip-abernathy
-    description: |
-        <p>BFC! Better Faster Cheaper! Pick any three! This talk will address how organisations can leverage Lean and Agile principle and techniques to govern the funnel of work in an efficient and effective manner thus getting more bang for buck. Phil Abernathy will draw on case studies and experience to show how Agile governance is key to the successful implementation of Agile within an organisation and how it can deliver business value faster and more cost effectively. It will also address the steps needed to make the transformation and its impact on the way of working.</p>
-
-lightning-talks-wed:
-    date: Wed 02:45PM
-    title: Lightning Talks - CCH2
-    speakers: ben-arnott, julian-boot, tania-broome, christopher-mendes, james-wang
-    description: |
-        <p>Lightning Talks are concise, informal mini-presentations that generate ideas and conversation points for the audience.</p>
-        <p>Lightning Talks can be on any topic and are a maximum of FIVE minutes long. The emphasis of these mini-presentations is on knowledge sharing, generating new ideas, and having fun!</p>
-
-agile-adoption:
-    date: Wed 02:45PM
-    title: 'Agile Adoption: Real World Lessons on Getting Agile Established in the Enterprise - CCH3'
-    speakers: richard-henning
-    description: |
-        <p>Allianz began to adopt elements of Agile delivery practices a few years ago, and learnt some unique lessons that led to two full blown Agile pilot projects to be established in 2009. The aim was to assess Agile and promote the practice as an acceptable alternate form of software delivery where appropriate. Also embodied in the aim was the establishment of agreed SDLC deliverables and activities to ensure relevant governance and reduce confusion. Consideration was also given to the key behaviours required in the team and how to build broader corporate adoption.</p>
-        <p>This talk will provide insight into Enterprise Agile Adoption from an experience view, sharing how Agile was adopted at Allianz Australia Insurance. We will discuss lessons learnt and tips on how to overcome inertia, what would be done differently with hindsight and how you can go about getting Agile accepted as a way of meeting ever expanding expectations.</p>
-
-agile-games:
-    date: Wed 04:00PM
-    title: Agile Games - CCH1
-    speakers: philip-abernathy, kane-mar
-    description:
-        <p>Adopting Agile means engaging with a number of organisational stakeholders in an entirely new way. Our experienced panelists will discuss how Agile changes the way organisations approach, including procurement, contracts and budgeting by discussing the options, how cultural issues play out and how corporations can minimise their risk.</p>
-        <p>"Yes and, Yes but ..."  - A small team exercise to explore how language plays a big part in our behaviour and actions. This short 10 minute exercise will help teams become aware of how their words impact other team members and decision making.</p>
-        <p>"Help me see it ..." - A medium to large team exercise taken from improv theatre to help facilitate understanding and team communication. This short 10 minute exercise will help team members gain an appreciation of different points of view and adopt the language of expressing uncertainty and confusion in a non-threatening way.</p>
-        <p>"The Ball Point Game" -  A classic agile training game that embodies the principles of inspection and adaption in a fun and exciting physical game. The Ball Point Game is a favorite exercise of agile trainers and coaches around the world. 30-45 minutes.</p>
-
-engaging-for-agile:
-    date: Wed 04:00PM
-    title: Engaging for Agile Panel - CCH2
-    speakers: todd-porter, ian-crawford, nigel-dalton, chris-murphy
-    description: |
-        <p>Adopting Agile means engaging with a number of organisational stakeholders in an entirely new way. Our experienced panelists will discuss how Agile changes the way organisations approach, including procurement, contracts and budgeting by discussing the options, how cultural issues play out and how corporations can minimise their risk.</p>
-
-a-team:
-    date: Wed 04:00PM
-    title: >
-        Building an A-Team: I Love it When a Team Comes Together - CCH3
-    speakers: craig-smith
-    description: |
-        <p>High performing teams are something that all organisations aspire to, but how exactly do you turn a team from good to great? There is much discussion in the community about management versus leadership, working in a factory versus embracing a tribe and how to motivate a new generation of employees. In this presentation we will look at these topics and determine what makes a high performing team, how Agile techniques can help, what tools and techniques you can use to create this environment and how you can measure performance.</p>
-
-government-case-studies:
-    date: Wed 04:45PM
-    title: Government Case Studies - CCH2
-    speakers: ian-crawford, todd-porter
-    description: |
-        <p>The story of information management at NOPSA begins in the distant past, at a time when the most advanced form of information is a spreadsheet, and most business activities are completely dependent on the movement of pieces of paper. The inhabitants of this primeval world resolve to create an application that assists their core business processes, reduces their compliance burden and prevents data rot.</p>
-        <p>Unfortunately, the project faces some challenges.</p>
-        <li>The defining legislation is being added to and amended at unpredictable intervals - by three or four governments.</li>
-        <li>Some of the business processes have never been agreed on.</li>
-        <li>Senior management believe that 80% of software development projects end in catastrophic failure and financial waste.</li>
-        <li>… and a minor cargo cult has developed around the project, with each stakeholder believing that their specialised requirements will be delivered.</li>
-        <br/>
-        <p>Recognising that a classic sequential project would waste resources from day one, NOPSA began a search for a development capability that would be flexible, achieve results quickly and focus relentlessly on user needs.</p>
-        <p>This is the story of how we delivered less software, but more business value than we expected. It is also a story of how management skepticism evolved into commitment, and how our inspectors' anxiety gave way to ownership.</p>
-        <p>There is a brief discussion of what worked well, particularly those characteristics of NOPSA that were useful to the process (yes, they can exist in a government agency !).</p>
-        <p>This session finishes with a summary of the factors that have made Agile 'the way we do things' at NOPSA.</p>
+        <p>Enterprise</p>
+        <p>Calling everything a service makes the term meaningless. Now, we've got 13 different kinds of services and no clue when to use which one. Is a single operation a service? Is a single endpoint a service? What about cross cutting functions like authorization and data access? If you've been wondering about these sorts of questions, then this talk is for you. If you've been looking for a top-down analysis and design process, then this talk is for you. If you've been looking for concrete guidance on how to choose technology for SOA, then this talk is for you. Join Udi as he describes the "missing links" in SOA: Business Components and Autonomous Components. It turns out that components are more important than ever in this new, service-oriented world.</p>
+        <p>Keywords: Architecture, SOA, .NET, BestPractices, Experience</p>
+        <p>Target Audience: Developers, architects, managers</p>
         
-engaging-the-business:
-    date: Wed 04:45PM
-    title: Engaging the Business on an Agile Project - CCH3
-    speakers: jay-jenkins
+integrated-tests:
+    date: Thu 1:00PM
+    title: Integrated Tests are a Scam
+    speakers: j-rainsberger
     description: |
-        <p>In early 2010, ANZ Bank engaged Renewtek to build a reusable process automation solution. The solution was developed using Renewtek’s Agile-BPM and Agile development practices with teams in Melbourne and Vietnam. Since this is a reusable asset across multiple business units, Renewtek had to engage a broad range of stakeholders to prioritise functions and create a foundation for further enhancement.</p> 
-        <p>The solution itself is unique in that it takes a business value and Agile approach to deliver small working solutions on an incremental and regular basis. The business was engaged throughout the development process and empowered to make decisions to ensure the high level of business value is delivered within the project budget. Toolsets for rapid process composition and management were vital to the success of this approach.</p> 
-        <p>This solution has won a 2010 AIIA iAward Commendation in the Financial Industry Applications and has been entered as a finalist in the National iAwards.</p> 
-    
-open-house:
-    date: Wed 05:30PM
-    title: Open House - ThoughtWorks Offices
-    speakers:
-    description: |
-        <p>Following on from the success of the ThoughtWorks Open House last year, we will be opening the doors of our Melbourne office which will be filled with food, drinks and Agile enthusiasts. Join us at our office after the last session finishes on Wednesday evening.</p>
-        <p>Activities will include:</p>
-        <ul>
-        <li>Pairing with the Stars</li>
-        <li>Lego Game</li>
-        <li>One-on-One Consulting Sessions</li>
-        <li>Mingle Demonstration</li>
-        </ul>
-        <p>ThoughtWorks Melbourne Office is located at 303 Collins Street, Melbourne</p>
-        <p>Make sure you register at the ThoughtWorks booth.</p>
-        
-essence-agile:
-    date: Thu 09:00AM
-    title: The Essence of Agile Software Development - CCH
-    speakers: martin-fowler
-    description: |
-                <p>Almost ten years ago I had the good fortune to be at a workshop that led to the coining of the term "Agile" and the writing of the "Manifesto for Agile Software Development". Since then I've watched as ThoughtWorks, my employer, has embraced software agility and applied it on projects all over the world. During these years the concept of Agile has become more and more mainstream, but as with any radical idea, popularity tends to introduce diffusion. So I find it's important to revisit the core essence of these ideas, so they don't get lost in the noise of widespread adoption.</p>
+        <p>Best Practices</p>
+        <p>Integrated tests are a scam -- a self-replicating virus that threatens to infect your code base, your project, and your team with endless pain and suffering. In this session you will learn the reasons integrated tests will let you down and a simple, two-part strategy to regain control of your defect rate and your design.</p>
+        <p>Keywords: Craftsmanship, Design, IntegrationTesting, Agile, BestPractices, TDD, Testing</p>
+        <p>Target Audience:  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
 
-legacy-gold:
-    date: Thu 10:30AM
-    title: Legacy Gold - Using Lean and Agile to Extract Maximum Value from your Legacy and Enterprise Application Portfolio - CCH1
-    speakers: dave-thomas
+fully-modular:
+    date: Thu 1:00PM
+    title: Fully Modular, Statically Typed, Symmetric Multimethod Dispatch
+    speakers: guy-steele
     description: |
-        <p>Successful businesses have large application and product legacies which require care and feeding over their useful lifetime. In major product companies significant revenue comes from customers of existing legacy products and their support revenues. Hence it isn't surprising that 70-85% of the software development budget is allocated to the operation and enhancement Legacy Code. For many companies their most successful product/application has become their worst enemy. Painfully we have learned that languages, tools, methods and practices we have often been unable to replace or even substantially reduce the entropy of our legacy code. Indeed it is generally accepted today that a major rewrite of any large legacy application has way too much risk and way too little business value to be given serious consideration. We have no choice but to live with and improve our Legacy!</p>
-        <p>Unfortunately major Legacy Systems is an area where most in Agile community fear to tread. This is due in part to their lack of experience in these environments. It is also due to their expectations for tool chains and deployment models which are matched to the Agile expectations of incremental OO development and associated tool chains.</p>
-        <p>In this talk we discuss how Lean thinking and Agile have been applied to real legacy systems spanning mainframe, military, embedded and multi-vendor integration of legacy and EAP applications. We illustrate by example how organisations can benefit by using Lean and Agile to reduce the entropy (improve Agility) of their legacy systems and hence maximize the value they can get from them. We discuss appropriate investments in training, tooling and practices for different legacy environments.</p>
-
-about-trust:
-    date: Thu 10:30AM
-    title: It's About Trust… - CCH2
-    speakers: josh-melville
-    description: |
-        <p>Agile requires a fundamental change in how we manage projects and lead people. How we motivate and provide structure for project teams requires equal emphasis with what we are delivering.</p>
-        <p>Accordingly, our view of project managers is changing. In contrast to more traditional approaches, Agile promotes project management into the realms of business management as a truly valued capability in its own right. Underscoring this increased profile is a need to quickly establish credibility and trust - in that context, an Agile approach is particularly effective.</p>
-        <p>I will be elaborating on the changing role of project managers within organisations and the application of Agile practices with business teams. Specifically, the new skills required by project managers to become more effective facilitators of change and delivery along with some of the challenges of adopting Agile with business teams.</p>
-
-maturity-assessment:
-    date: Thu 10:30AM
-    title: You Can Take Your Agile Maturity Assessment and... - CCH3
-    speakers: jason-yip, marina-chiovetti
-    description: |
-        <p>It's a common and understandable request to want to know how "Agile" you are but there is a great risk of being distracted by process compliance rather than staying focused on improvement and delivering business value. Agile Maturity Assessments typically take a few people's opinions of where the team is at, then dictates how to change - but that rarely 'sticks.' The problem still exists that we need to know how well we are doing and what to do next, and teams will buy in and drive this change if they assess the situation themselves. This presentation will discuss how to do this in a way that stays focused on our goals and not on our Agile score.</p>
-
-introspection-leadership:
-    date: Thu 11:15AM
-    title: Introspection and Leadership - CCH1
-    speakers: martin-kearns
-    description: |
-        <p>Who has ever thought about why Agile is such a simple concept that is so difficult to implement? Fact is, it is not simple at all - the problem of creating innovative solutions through the collective effort of a group of individuals is extremely difficult and one that needs significant effort. But the harder question is the one to ask that guy looking at you in the mirror. The hardest and most difficult problem we have is to introspect and understand what I must do. My presentation will consider: what is leadership for an Agile project and how/what are the tools we need to ask ourselves regularly. Introspection is the best tool I have learnt as a coach and my goal is to encourage you to the same.</p>
-
-mars-venus:
-    date: Thu 11:15AM
-    title: Developers are from Mars, Product Owners are from Venus - CCH2
-    speakers: adam-boas, nick-strybosch
-    description: |
-        <p>When a business adopts Agile it must quickly learn to get the most from its development teams. High performing teams are highly aligned, aligned from the business right the way through to developers and testers. Achieving such an alignment needs understanding, a clear plan, and skilful execution. Product owners and developers think differently, are motivated by different goals and can often talk at cross-purposes. Each side has its own success and failure stereotypes. Often these are from polar opposites and can have immense difficulty communicating effectively with each other.</p>
-        <p>Resolving this dichotomy requires teams to speak the same language and to speak it fluently. That language is expressed in User Stories. They must:</p>
-        <ul>
-            <li>Articulate the business need in a language everyone appreciates</li>
-            <li>Incorporate technical value in business speak</li>
-            <li>Require consistent dialogue leading to less assumptions and errors</li>
-            <li>Be prioritized to allow a trade off between scope and time while maintaining value</li>
-        </ul>
-
-monster-builds:
-    date: Thu 11:15AM
-    title: Monster Builds - CCH3
-    speakers: chris-mountford
-    description: |
-        <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
-    
-agile-lawyers:
-    date: Thu 01:00PM
-    title: Agile Lawyers? The transition from Agile IT to a Radically Agile Organisation at Lonely Planet - CCH1
-    speakers: nigel-dalton
-    description: |
-        <p>Many Australian organisations are being driven to find a better way to deliver projects at the pace that competition demands in 2010. Lonely Planet started on that journey in their IT group in late 2007, and three years later the petri dish that was the initial Agile implementation has overflowed with interesting organisms. Agile principles are now evident in teams as variable as legal, HR, guidebook publishing, product development, and IT operations.</p>
-        <p>A field trip to Lonely Planet starts to answer the question "what happens when a whole company starts adopting Agile methods?" Since not everyone can come to Footscray however, in this presentation you will see which Agile principles work for each team, how groups work together, whether 'competitive Agile' can work, and the flywheel effect on the productivity of core IT teams from widespread understanding of Agile principles - now that their colleagues across the business use card walls, talk about stories and conduct daily stand-ups.</p>
-        <p>You will also hear how key steps in the broader adoption of Agile, how the insistence of uniformity of Agile process can be a killer of innovation, and how Agile underpinned the delivery of a new iPad digital product from the day Apple called to say "we've announced the iPad, we've emailed your SDK - we expect a product in iTunes when we hit the market in a month".</p>
-
-adopting-agile:
-    date: Thu 01:00PM
-    title: Adopting Agile for the Second Time - CCH2
-    speakers: andy-weir
-    description: |
-        <p>Andy Weir will share his experiences with going down the Agile journey. Bankwest has embarked on their second attempt to adopt Agile practices and Andy will address what didn't work the first time and what has driven him to give it another serious go in 2010. The early experience in 2010 has been that a project has been delivered in four months, which traditionally would have taken 13 months.</p> 
-        <p>Andy will discuss:</p>
-        <ul>
-        <li>Why Agile and why now, the strategic drivers
-        <li>The evolution in terms of process and methodology
-        <li>The change management challenges
-        <li>The lessons learned
-        </ul>
-    
-red:
-    date: Thu 01:00PM
-    title: Dr W. Edwards Deming's Famous Red Bead Experiment - CCH3
-    speakers: david-joyce
-    description: |
-        <p>Come along and participate in Dr W. Edwards Deming's famous Red Bead Experiment. This classic learning tool helps illustrate the impact that a system, and traditional management approaches, can have on individuals who work within an organisation.</p>
-        <p>The experiment introduces many of Deming's ideas about management, including his 14 Points for Management. It also introduces the Statistical Process Control Chart.</p>
-        <p>Originally used by Dr Deming as part of his four-day seminar, the experiment represents a corporation formed of "willing workers", quality control personnel, a data recorder, a Project Manager and a Product Owner, each of which is staffed by volunteers from the audience.</p>
-        <p>The corporation's aim is to produce white beads. The production of beads is controlled by an approved procedure to ensure the removal of defective red beads.</p>
-        <p>After the experiment there will be a discussion of the issues addressed by the experiment, including: understanding variation in work, the role of the system on the performance of the workers, the effectiveness of managing with slogans, the usefulness of targets, annual appraisals and financial rewards, and how to improve quality.</p>
-        <p>We will also relate this experiment to approaches to Software Development and the management of software development teams.</p>
-
-trials-tribulations:
-    date: Thu 01:45PM
-    title: Trials and Tribulations of Ensuring Enterprise Architecture with Agile Delivery - CCH1
-    speakers: john-sullivan
-    description: |
-        <p>Your software delivery team is undertaking a transformation to using Agile! Throughout your journey you’re going to have to answer some hard questions, and one of the major company functions that needs answers is Architecture.   To get the role of Architecture right you’re going to have to answer questions like: What is the role of Architecture? What benefit does Architecture provide? When do I perform the Architectural phase of a project? How do I know that a built system is deigned correctly? Who does Architecture? Can I save reams of paper?</p>
-        <p>The Architecture team will set up stall saying a project without a formal Architecture is rogue and will fail. On the other side of the fence the developers will say Architects and formal Architecture just inhibit delivery. There has to be some sensible middle ground. One answer to the Architecture function would be to decide that Architecture and Architects aren't needed anymore. Alternatively you could just keep the formal waterfall upfront Architectural phase within your project life cycle.  Both can work, one of the options may be right for you, but they aren't your only choice.</p>
-        <p>In this presentation John talks about the Architecture function, what he's seen fail, what he's seen work, walk through the role of Architecture within Agile projects and provide insights into options for your company.  The aim is to prove, to you, that Architecture should exist within an Agile delivery but like everything else within a transformation, it needs to change from its current formal role into something more Agile.</p>
-
-distributed-panel:
-    date: Thu 01:45PM
-    title: Transcending Cultures, Timezones and Countries - CCH2
-    speakers: mahesh-baxi, dave-thomas, nigel-dalton, philip-abernathy
-    description: |
-        <p>How do you overcome the challenges of implementing Agile in a distributed environment? Panellists will call on their own experiences of being involved in distributed agile projects, the added complexities of communicating across distributed teams, how to tackle customer collaboration, trust and technical issues and most importantly, the ingredients to making it work!</p>
-
-achieving-quality:
-    date: Thu 01:45PM
-    title: Building Quality into the Lifecycle - All the Way Through - CCH3
-    speakers: sharon-robson
-    description: |
-        <p> Sharon Robson discusses how to integrate testing into an Agile project to enhance the final quality of the product, right from the start. This is done initially by high level examination of test objectives by both the business and the technical team members so that all agree and understand the key quality criteria for the product. The Agile approach is then overlaid to show how the integration of "traditional" testing methods, levels and techniques are appropriate and applicable to build quality of the product into the entire life cycle. The focus on regression testing, risk analysis and automation is considered in conjunction with the need for appropriate UAT at both the delivery team level and the business acceptance level. The common pitfalls and hurdles to look out for when implementing in an Agile testing strategy are also outlined, as well as how to deal with them.</p> 
-        <p>Attend to discover:</p>
-        <ul>
-        <li>How to ensure quality in an Agile development environment</li>
-        <li>What traditional testing can be done in an Agile development world</li>
-        <li>How to build effective and efficient testing into an Agile development effort</li>
-        <li>When to apply the various test techniques and levels in an Agile team</li>
-        <li>What can the tester contribute to the Agile team.</li>
-        </ul>
-open-space:
-    date: Thu 03:00PM
-    title: Open Space - CCH1
-    speakers:
-    description: |
-        <p>Open Space is a chance for you to drive part of the Agile Australia conference! If we've missed an important topic you'd like to discuss, or haven't addressed one of your burning questions, Open Space will provide the opportunity for you to discuss or have discussed any question or topic you like!</p>
-        <p>Participating in Open Space</p>
-        <p>We will be collecting issues, questions, topics, thoughts, ideas and challenges on the butcher's paper in the foyer. Please contribute! We ask you to help us group the contributions into common themes during the conference. The Open Space will be lots of small groups talking on a specific topic. Each group will be allocated a facilitator, whose only task is to keep the discussion flowing. It's an open and collaborative space, which allows all perspectives to be heard and respected. You may stay put in the one group or you may choose to be a "butterfly" and flutter around the groups listening to what is going on, or be a "bee" and visit various groups and contribute to each.</p>
-        <p>The Open Space session at Agile Australia 2010 will be a great opportunity for you share your ideas and experiences, and learn from the experiences of others!</p>
-
-running-company-agile:
-    date: Thu 03:00PM
-    title: Running a Company Agile - CCH2
-    speakers: tim-hunt-smith
-    description: |
-        <p>The retail energy industry in Australia is one of the most competitive in the world and characterised by complex systems and processes which constrain speed to market. Tim Hunt-Smith shares his experience of transforming an energy retail company into a nimble and effective competitor by implementing lean/agile techniques as a management system for the company</p>
-
-dev-ops:
-    date: Thu 3:00PM
-    title: 'DevOps and Agile Release Management: Rapid, Reliable Software Releases Through Automation and Collaboration - CCH3'
-    speakers: jez-humble
-    description: |
-        <p>Many organisations struggle with getting valuable, working software released to users frequently and reliably. Often, software is found to be unfit for purpose or simply un-deployable late in the delivery process. Jez discusses how automation of the build, deploy, test and release process, automated infrastructure and database management, and better collaboration between developers, testers, and operations enables rapid, reliable software releases.</p> 
-        <p>Jez will discuss the nascent DevOps movement, and present the deployment pipeline - a pattern for modeling your organisation's value stream, getting fast feedback on the production readiness of your software, and enabling incremental automation of the delivery process.</p>
-
-technical-debt:
-    date: Thu 03:45PM
-    title: Paying Down Technical Debt Panel - CCH2
-    speakers: adam-boas, martin-kearns, craig-smith, andy-marks, marina-chiovetti
-    description: <p>No matter how hard we try, accumulating some technical debt is inevitable. Yet its nebulous nature often makes it difficult for anyone apart from the development team to appreciate and communicate. Our panel of experts will provide you with a sound understanding of technical debt, its causes and the ramifications. Panelists will give some practical ways of paying down technical debt while still delivering business value.</p>
-
-against-odds:
-    date: Thu 03:45PM
-    title: Delivery Against the Odds - How Agile Practices Can Save Your Project - CCH3
-    speakers: holger-kaufmann
-    description: |
-        <p>A case study on a large, highly time-critical development project for an iron ore industry client, the talk will describe how Agile practices can be used to achieve delivery against the odds. Topics will include effective on-boarding, no-waste production, and optimal utilisation of time and people.</p>
-        <p>Team organisation, iteration planning, monitoring and reporting for a large team (>15) will be presented and the effectiveness of different Agile tools and practices in the context of a large (>$40 M) integration project with a predictive PM methodology will be discussed.</p>
+     <p>Languages and Concurrency</p>
+     <p>The Fortress programming language integrates traditional mathematical notation into an object-oriented framework based on traits with multiple inheritance, overloading (of both methods and functions) resolved by symmetric dynamic dispatch, static types, and separately compiled modules. A component/API system governs visibility of traits, objects, and functions, but it is desirable to regard overloadings that are visible to the callee as part of its implementation, even though they may not be visible to the caller. This complicates the rules for dispatch. Simply put, the same method name may refer to different methods in different compilation units, depending on the import and export declarations, and the implementation has to make it all work.</p>
+     <p>Moreover, a longstanding problem with multiple inheritance is what to do when methods inherited from several parents conflict. Many approaches have been explored in the literature; some unfortunately violate the intuitively desirable requirement that the function or method invoked be the uniquely most specific one that is both accessible and applicable. Fortress detects potential overloading ambiguity at compile time and issues error messages explaining to the programmer what additional overloadings are needed to resolve the problem; therefore it is impossible for any function or method call to be ambiguous. This idea goes back nearly two decades, but Fortress appears to be the first programming language to adopt the idea and enforce it statically, even in the face of separate compilation. It enables a distributed implementation of dispatching that is easy to explain and allows selective export and selective optimization. In this way a single strategy meets the requirements of both the multimethod dispatch and the component visibility rules.</p>
+     <p>Keywords: Languages, Java, Fortress, ScientificComputing</p>
+     <p>Target Audience:  Developers with an interest in next-generation object-oriented languages</p>
