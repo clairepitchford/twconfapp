@@ -38,6 +38,9 @@ erik-meijer:
         <p>Prior to joining Microsoft he was an associate professor at Utrecht University and adjunct professor at the Oregon Graduate Institute.</p>
         <p>Erik is one of the designers of the standard functional programming language Haskell98 and more recently the Cw language.</p>
 
+guy-steele:
+    name: Guy L. Steele, Jr. 
+
 josh-graham:
     name: Josh Graham
     title: |
@@ -95,7 +98,7 @@ obie-fernandez:
     title: |
         <p> Author of "The Rails Way" and Editor of Addison-Wesley Professional Ruby Series</p>
         <p>CEO and Founder of Hashrocket</p>
-    description:
+    description: |
         <p>Obie Fernandez is Founder and CEO of Hashrocket, one of the world's leading Rails-based web design and development consultancies, headquartered in Jacksonville, FL. He is a widely recognized technology leader and frequent speaker at industry events and is Addison Wesley's Series Editor for the bestselling Professional Ruby Series. Prior to Hashrocket, as a senior consultant at ThoughtWorks, Obie specialized in complex custom enterprise software projects. He has been hacking computers since he got his first Commodore VIC-20 in the eighties, and found himself in the right place and time as a programmer on some of the first Java enterprise projects of the mid-nineties.</p>
         <p>Software Passion: I have a passion for making the world of software development a more fun and productive place!</p>
         <p>Links for Obie:</p>
@@ -145,7 +148,7 @@ udi-dahan:
     name: Udi Dahan
     title: |
         <p>The Software Simplist Enterprise Development Expert & SOA Specialist</p>
-    description: 
+    description: |
         <p>Udi Dahan is The Software Simplist, an internationally renowned expert on software architecture and design. A solutions architecture and connected systems MVP, 5 years in a row, Mr. Dahan is also one of 33 experts in Europe recognized by the International .NET Association, an author and trainer for the International Association of Software Architects, and an SOA, Web Services, and XML Guru recommended by Dr. Dobb’s – the world’s largest software magazine.</p>
         <p>When not consulting, speaking, or training, Udi leads the development of NServiceBus, the most popular open-source service bus for .NET</p>
         <p>Links for Udi:<p>

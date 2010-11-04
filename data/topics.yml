@@ -19,7 +19,7 @@ morning-tea:
             
 extreme-java:
     date: Thu 10:15AM
-    title: Extreme Java Productivity: Enterprise Applications in Just Minutes
+    title: "Extreme Java Productivity: Enterprise Applications in Just Minutes"
     speakers: ben-alex
     description: |
         <p>Enterprise Java</p>
@@ -36,7 +36,7 @@ extreme-java:
         
 state-art:
     date: Thu 10:15AM
-    title: The State of the Art .NET: 12 Months of Things to Learn
+    title: "The State of the Art .NET: 12 Months of Things to Learn"
     speakers: amanda-laucher, josh-graham
     description: |
         <p>MS.NET</p>
@@ -48,7 +48,7 @@ state-art:
     
 the-rich:
     date: Thu 10:15AM
-    title: The Rich Get Richer: Rails 3
+    title: "The Rich Get Richer: Rails 3"
     speakers: obie-fernandez
     description: |
         <p>Ruby</p>
@@ -67,7 +67,7 @@ connectivity-complex:
         
 rx-curing:
     date: Thu 11:20AM
-    title: Rx: Curing Your Asynchronous Programming Blues
+    title: "Rx: Curing Your Asynchronous Programming Blues"
     speakers: erik-meijer
     description: |
         <p>MS.Net</p>
@@ -77,7 +77,7 @@ rx-curing:
         
 largest-rails:
     date: Thu 11:20AM
-    title: Rails in the Large: How We're Building (One of) the Largest Rails Apps in the World (for an Enterprise)
+    title: "Rails in the Large: How We're Building (One of) the Largest Rails Apps in the World (for an Enterprise)"
     speakers: neal-ford
     description: |
         <p>Ruby</p>
@@ -111,7 +111,7 @@ integrated-tests:
 
 fully-modular:
     date: Thu 1:00PM
-    title: Fully Modular, Statically Typed, Symmetric Multimethod Dispatch
+    title: "Fully Modular, Statically Typed, Symmetric Multimethod Dispatch"
     speakers: guy-steele
     description: |
      <p>Languages and Concurrency</p>
