@@ -187,4 +187,12 @@ embracing-concurrency:
         <p>That discussion will focus on methods for designing and building robust fundamentally-concurrent distributed systems. These approaches have been learned through building user-facing web applications, data storage and processing systems, and server management tools. We will look at practices that are "common knowledge" but too often forgotten, at lessons that the software industry at large has somehow missed, and at general "good practices" and rules that must be thrown away when moving into a distributed and concurrent world.</p>
         <p>Keywords: DistributedComputing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
         <p>Target Audience: programmers and system designers</p>
-    
+ 
+distributed-programming:
+    date: Thu 4:25PM
+    title: Distributed Programming the Google Way
+    speakers: gregor-hohpe
+    description: |
+       <p>Cloud Computing</p>
+       <p>Google is known to operate one of the largest civilian computing infrastructures. These hardware resources are managed by a vast collection of software frameworks and tools, which form the basis for highly parallelized, reliable, low-latency, high-throughput applications. They also provide useful programming abstractions that speed up development and debugging. Some parts of this infrastructure, such as MapReduce, GFS, Sawzall, Chubby, Protocol Buffers, are available as open source projects or published in academic papers, while others are proprietary. Rather than dive into the dark corners of each of these tools, this talk tries to distill key design themes and patterns, which enable these unique capabilities, and can be re-used in other contexts.</p>
+       <p>Keywords: CloudComputing, DistributedComputing, Concurrency, BigTable, MapReduce</p>

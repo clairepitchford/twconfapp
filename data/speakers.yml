@@ -88,7 +88,23 @@ emil-eifrem:
             <li>Blog: http://blogs.neotechnology.com/emil</li>
             <li>Software: Neo4j</li>
         </ul>
-        
+
+gregor-hohpe:
+    name: Gregor Hohpe
+    title: |
+        <p>Author "Enterprise Integration Patterns"</p>
+        <p>Software Engineer and Architect</p>
+        <p>Google, Japan</p>
+    description: |
+        <p>Gregor Hohpe is a software architect with Google, Inc. Gregor is a widely recognized thought leader on asynchronous messaging and service-oriented architectures. He co-authored the seminal book "Enterprise Integration Patterns"(Addison-Wesley, 2004), followed by "Integration Patterns" and "Enterprise Solution Patterns", both published by Microsoft Press. He was nominated a Microsoft MVP (Most Valuable Professional) Solution Architect for his contributions to the developer community and recognized as an active member of the patterns community by the Hillside Group. In 2005, Joel Spolsky selected Gregor's article "Starbucks Does Not Use Two-phase Commit" for his "Best Software Writing" (APress).</p>
+        <p>Gregor speaks regularly at technical conferences around the world. He likes to cut through the hype surrounding service-oriented architectures and captures nuggets of advice in the form of design patterns that can help developers avoid costly mistakes. Find out more about his work at eaipatterns.com</p>
+        <p>Links for Gregor:</p>
+        <ul>
+            <li>Website:  http://www.hohpe.com/Gregor/Work/index.html</li>
+            <li>Books:  Enterprise Integration Patterns</li>
+            <li>Presentations:  Hooking Stuff Together - Programming the Cloud</li>
+        </ul>
+
 guy-steele:
     name: Guy L. Steele, Jr. 
     title: |
