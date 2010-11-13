@@ -56,6 +56,23 @@ erik-meijer:
         <p>Prior to joining Microsoft he was an associate professor at Utrecht University and adjunct professor at the Oregon Graduate Institute.</p>
         <p>Erik is one of the designers of the standard functional programming language Haskell98 and more recently the Cw language.</p>
 
+emil-eifrem:
+    name: Emil Eifrem
+    title: |
+        <p>Founder of Neo4j</p>
+        <p>Expert in Graph Datasbases and NoSQL</p>
+    description: |
+        <p>After some unsuccessful attempts at demo programming in the 80s, Emil Eifrem found a hacker's home in the world of text role-playing games in the early days of the internet.</p>
+        <p>100 000 lines of spaghetti C, almost as many segfaults and several sleepless years later, he escaped into the warm embrace of Java 1.0a2 and has stayed there ever since. (He has no regrets but is secretly proud that the text game he founded is still played almost 15 years later.)</p>
+        <p>After a decade as a developer, mentor and architect at a consulting- and product company in southern Sweden, Emil's current focus is on evangelizing graph databases and preaching the demise of tabular solutions everywhere.</p>
+        <p>Links for Emil:</p>
+        <ul>
+            <li>Website: http://neotechnology.com/</li>
+            <li>Twitter: emileifrem</li>
+            <li>Blog: http://blogs.neotechnology.com/emil</li>
+            <li>Software: Neo4j</li>
+        </ul>
+        
 guy-steele:
     name: Guy L. Steele, Jr. 
     title: |
@@ -209,6 +226,21 @@ udi-dahan:
             <li>Software Passion: Simplicity</li>
         </ul>
 
-        
-
+ulf-wiger:
+    name: Ulf Wiger
+    title: |
+            <p>Bought the world's first Erlang licence</p>
+            <p>Specialist in the Architecture and Design of Carrier-Class Telecom Systems</p>
+            <p>CTO, Erlang Solutions Ltd. Sweden</p>
+    description: |
+        <p>Languages & Community</p>
+        <p>Ulf Wiger became one of the first commercial users of Erlang (certainly the first in North America) when he bought a license in 1993. At the time, he was busy designing disaster response systems in Alaska. In 1996, he joined Ericsson and became Chief Designer of the AXD 301 development. At nearly 2 million lines of Erlang code, AXD 301 is the most complex system ever built in Erlang, and probably the most complex commercial system built in any functional language. In recent years, Ulf has been involved in several products based on the AXD 301 architecture, and has been an active member of the Open Source Erlang community. In February 2009, Ulf began his new job as CTO of Erlang Solutions Ltd.</p>
+        <p>Senior Specialist in the Architecture and Design of carrier-class systems. Has had the rare opportunity to influence a world-class product from conception through product release, several years of feature upgrades and maintenance, and finally a significant technology shift. Previous experience includes architecture and design of decision support technology for the US DOD and the Alaska Integrated Incident Management System.. A special interest is trying to bridge the cultures of research, Open Source development, and industrial design.</p>
+        <p>Software Passion: To expand my mind by meeting people from all walks of life. Hopefully, their minds will do a bit of expanding too...</p>
+        <p>Links for Ulf:</p>
+        <ul>
+            <li>Website: http://ulf.wiger.net/weblog/</li>
+            <li>Twitter: @uwiger</li>
+            <li>Blog: Ulf Wiger on Singing</li>
+        </ul>
 

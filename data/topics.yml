@@ -141,3 +141,28 @@ testing-javascript:
         <p>Keywords: Javascript, Testing, Craftsmanship, BestPractices, .NET, Design, TDD, XP</p>
         <p>Target Audience: Developers who are looking for a jump-start to automated testing in Javascript.</p>
         
+erlang-warps:
+    date: Thu 2:05PM
+    title: "Erlang Warps Your Mind: Concurrency-Oriented Programming"
+    speakers: ulf-wiger
+    description: |
+        <p>Languages & Concurrency</p>
+        <p>Erlang is a programming language designed for the Internet Age, although it pre-dates the Web. It is a language designed for multi-core computers, although it pre-dates them too. It is a "beacon language", to quote Haskell guru Simon Peyton-Jones, in that it more clearly than any other language demonstrates the benefits of concurrency-oriented programming. In this talk, I will try to show how learning Erlang will make you a better programmer.</p>
+        <p>Keywords: Erlang, Concurrency, Scalability, FaultTolerance, Architecture, Design, Languages</p>
+        <p>Target Audience: Programmers, architects, technology decision makers</p>
+
+afternoon-tea:
+    date: Thu 3:05PM
+    title: Afternoon Tea
+
+not-only:
+    date: Thur 3:20PM
+    title: Not Only SQL: Alternative Data Persistence and Neo4J
+    speakers: emil-eifrem
+    desciption: |
+        <p>Cloud Computing</p>
+        <p>The misnamed "NoSQL" movement is less of a rejection of the relational technology that has served us well for 40 years, but rather an embrace of persistence technologies that help us solve problems not well addressed by the classic RDBMS. This talk will provide an overview of the "NoSQL" landscape and in addition, describe both the technology behind and a significant deployment example of Neo4J, a graph-oriented alternative data store.</p>
+        <p>Keywords: Neo4J, GraphDB, NoSQL, Java, Database</p>
+        <p>Target Audience: Developers interested in alternative database solutions in general or specifically graph databases.</p>
+    
+    
