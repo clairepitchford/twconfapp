@@ -175,6 +175,22 @@ jutin-sheehy:
             <li>Presentations:  Embracing Concurrency At Scale Justin Sheehy on Riak</li>
         </ul>
 
+kresten-thorup:
+    name: Kresten Krab Thorup
+    title: |
+        <p>CTO of Trifork and Creator of Erjang</p>
+        <p>Trifork, Founder JAOO Conferences</p>
+    description: |
+        <p>Kresten Krab Thorup is CTO of Trifork, a public Danish company providing software solutions to government and financial services providers.  Trifork is also creator of the long-running JAOO conference, and co-creator of QCon.  As Trifork CTO Kresten in responsible for technical strategy in customer solutions, and spends most of the time acting as internal consultant, researching future technologies, as well as being editor for JAOO and QCon conferences. Kresten has also been a principal contributor to Trifork's own Java EE certified application server, where he authored the built-in CORBA ORB, a custom Java RMI implementation (now part of Apache Yoko), the transaction manager, the database connection management system, and the Java byte code rewriting subsystem.</p>
+        <p>Kresten has been a contributor to several open source projects, including GCC, GNU Objective-C, GNU Compiled Java, Emacs, and Apache Geronimo/Yoko.  Before joining Trifork, Kresten worked at NeXT Software (now acquired by Apple), where he was responsible for the development of the Objective-C tool chain, the debugger, and the runtime system. Kresten was on the committee for JSR-14 (adding generics to Java) which was closely related to the subject of his Ph.D. thesis.</p>
+        <p>Most recently, Kresten has founded the Erjang open source project (notice the J there), a virtual machine for Erlang running on the Java Virtual Machine.</p>
+        <p>Software Passion: My passion is creating software. The power of creation is the joy of conceiving a software solution, in the joy of good craftmanship in software construction, but most importantly the joy of seeing it’s effects unfold as it enters the real world. It is born…</p>
+        <ul>
+            <li>Website:  Trifork</li>
+            <li>Twitter:  drkrab</li>
+            <li>Blog:  Java to the Limit</li>
+        </ul>
+
 michael-nygard:
     name: Michael T. Nygard
     title: |
