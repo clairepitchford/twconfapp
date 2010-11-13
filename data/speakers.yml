@@ -143,6 +143,22 @@ j-rainsberger:
             <li>Other URL's: http://rubygems.org/gems/maruku-jbrains</li>
         </ul>
 
+jutin-sheehy:
+    name: Justin Sheehy
+    title: |
+        <p>CTO, Basho Technologies</p>
+        <p>Riak and Webmachine Committer</p>
+    description: |
+        <p>Justin Sheehy is the CTO of Basho Technologies, the company behind the creation of Webmachine and Riak. As Chief Technology Officer, Justin Sheehy directs Basho's technical strategy, including integration with other platforms and new research into storage and distributed systems. Most recently before Basho, he was a principal scientist at the MITRE Corporation and a senior architect for systems infrastructure at Akamai. At both of those companies he focused on multiple aspects of robust distributed systems, including scheduling algorithms, language-based formal models, and resilience.</p>
+        <p>Software Passion:  I am passionate about solving important problems by bringing ideas and techniques across technical domains in unusual ways.</p>
+        <p>Links for Justin:</p>
+        <ul>
+            <li>Website: http://www.basho.com/</li>
+            <li>Twitter:  @justinsheehy</li>
+            <li>Blog: http://blog.basho.com/</li>
+            <li>Presentations:  Embracing Concurrency At Scale Justin Sheehy on Riak</li>
+        </ul>
+
 neal-ford:
     name: Neal Ford
     title: |

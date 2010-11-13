@@ -177,5 +177,14 @@ strategic-design:
         <p>Keywords: DomainDriven, Architecture, Modeling, Design, DDD, DSL</p>
         <p>Target Audience: Executives, Managers, Leads, Architects</p>
         
-
+embracing-concurrency:
+    date: Thu 3:20PM
+    title: Embracing Concurrency at Scale
+    speakers: justin-sheehy
+    description: |
+        <p>Languages and Community</p>
+        <p>People have been talking about "scaling" and "distributed systems" a great deal lately. We need to clarify the meaning of these terms in order to have a worthwhile conversation about them. We will do so by discussing the details of how to actually produce practical, scalable, distributed systems.</p>
+        <p>That discussion will focus on methods for designing and building robust fundamentally-concurrent distributed systems. These approaches have been learned through building user-facing web applications, data storage and processing systems, and server management tools. We will look at practices that are "common knowledge" but too often forgotten, at lessons that the software industry at large has somehow missed, and at general "good practices" and rules that must be thrown away when moving into a distributed and concurrent world.</p>
+        <p>Keywords: DistributedComputing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
+        <p>Target Audience: programmers and system designers</p>
     
