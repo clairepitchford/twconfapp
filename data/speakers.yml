@@ -108,7 +108,24 @@ obie-fernandez:
             <li>Blog: http://blog.obiefernandez.com/content</li>
             <li>Books: The Rails Way</li>
         </ul>
-        
+ 
+pamela-fox:
+    name: Pamela Fox
+    title:  |
+           <p>Google API and App Engine Mashup Queen</p>
+           <p>Google, Developer Advocate</p>
+    description: |
+        <p>Pamela Fox loves to teach other developers how to use Google APIs. She spent her first 3 years at Google supporting the Maps API community and the last year working with the the innovative Wave API community.</p>
+        <p>Before Google, she graduated with her bachelors and masters in Computer Science from the University of Southern California, with minors in 3d animation and linguistics, and research projects in facial animation and LiDAR data visualization.</p>
+        <p>In her free time, she likes to play around with any one of Google's 80+ APIs, make drawings on her new Android phone, and learn the dance steps from pop music videos.</p>
+        <p>Software passion: Teaching people to create things, and creating things that teach people.</p>
+        <p>Links for Pamela:</p>
+        <ul>
+            <li>Website: http://imagine-it.org</li>
+            <li>Twitter: pamelafox</li>
+            <li>Blog: http://otherfancystuff.blogspot.com/</li>
+        <li>Presentations: http://www.youtube.com/watch?v=63wHBZWE7dE</li>
+
 rachel-reinitz:
     name: Rachel Reinitz
     title: |

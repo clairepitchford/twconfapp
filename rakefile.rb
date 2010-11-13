@@ -12,6 +12,7 @@ rescue LoadError
   task :default => [:schedule]
 end
 
+desc "import json"
 task :schedule do
   File.open(JSON_DATA_FILENAME, "w") do |f|
     JSONConverter.new(File.open(TOPIC_YAML_FILENAME),

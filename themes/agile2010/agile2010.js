@@ -70,17 +70,17 @@ function ConferenceSession(sessionID, rawSessionData) {
 }
 
 ConferenceSession.prototype.dateString = function () {
-  var dateString = "September ",
+  var dateString = "December ",
       dateParts = this.date.split(' '),
       time = dateParts[1],
       timeParts = time.split(":"),
       hours = timeParts[0],
       minutes = timeParts[1].substr(0, 2);
       
-  if (dateParts[0] === "Wed") {
-    dateString += "15, "; //15th of sept
+  if (dateParts[0] === "Thu") {
+    dateString += "2, "; //2nd of December
   } else {
-    dateString += "16, "; //16th of sept
+    dateString += "3, "; //3rd of December
   }
 
   dateString += "2010 ";
@@ -96,8 +96,8 @@ ConferenceSession.prototype.dateString = function () {
 
 function AgileConference(speakerData, sessionData) {
   this.days = [
-    {'full': "Wednesday", 'shortName': "Wed", 'cssClass': "current"},
-    {'full': "Thursday", 'shortName': "Thu"}
+    {'full': "Thursday", 'shortName': "Thu", 'cssClass': "current"},
+    {'full': "Friday", 'shortName': "Fri"}
   ];
   
   this.conferenceSpeakers = this.buildSpeakers(speakerData);
@@ -195,13 +195,13 @@ ConferenceDOMBuilder.prototype.updateSpeakersDOM = function () {
     if (this.conference.conferenceSpeakers.hasOwnProperty(speakerID)) {
       speaker = this.conference.conferenceSpeakers[speakerID];
       this.removeElement(speaker.speakerID);
-      this.buildSpeakerDOM(speaker).insertBefore("#Wednesday");
+      this.buildSpeakerDOM(speaker).insertBefore("#Thursday");
     }
   }
 };
 
 ConferenceDOMBuilder.prototype.buildSessionSpeakerList = function (session) {
-  var speakers = (session.speakers === null ? [] : session.speakers.split(',')),
+  var speakers = (session.speakers == null ? [] : session.speakers.split(',')),
       speakerList = $('<ul class="speaker" speakers="' + this.conference.getPrettySpeakersList(speakers) + '"></ul>'),
       i, speakerID, speaker, speakerItem;
 
@@ -262,7 +262,7 @@ ConferenceDOMBuilder.prototype.updateSessionsDOM = function () {
   for (var sessionID in this.conference.conferenceSessions) {
     if (this.conference.conferenceSessions.hasOwnProperty(sessionID)) {
       $("#" + sessionID).remove();
-      this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Wednesday");
+      this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Thursday");
     }
   }
 };
@@ -282,8 +282,8 @@ ConferenceDOMBuilder.prototype.updateDayMenu = function (day, dayDiv) {
 };
 
 ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
-  var topicKeys = {"Wed" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
-                   "Thu" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")},
+  var topicKeys = {"Thu" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Thu"),
+                   "Fri" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Fri")},
       topicList = $('ul.edgetoedge', dayDiv).empty(),
       previousDate = null,
       dayTopics = topicKeys[day.shortName],
@@ -300,7 +300,7 @@ ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
       previousDate = sessionDate;
     }
 
-    speakers = (session.speakers === null ? [] : session.speakers.split(','));
+    speakers = (session.speakers == undefined ? [] : session.speakers.split(','));
     topicList.append($('<li id="' + session.id + '-session">' +
 		   '<a href="#' + session.id + '" class="topic-link slide">' +
                            '<div class="arrow">' + session.title + '</div>' +
@@ -400,7 +400,7 @@ function registerIconChangeEvents() {
 
     // If no tab is selected, then we select the Schedule.
     if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
-      href = '#Wednesday';
+      href = '#Thursday';
     }
 
     $('#tabbar img.icon-img').each(function () {
@@ -594,7 +594,7 @@ $(document).ready(function () {
 //due to the fact that not all components are loaded before firing $.ready
 $(window).load(function () {
   $(document.body).trigger('orientationchange');
-  $('#Wednesday.current').trigger('pageAnimationStart');
+  $('#Thursday.current').trigger('pageAnimationStart');
 
   registerBookmarkReminderPopup();
 });
