@@ -196,3 +196,15 @@ distributed-programming:
        <p>Cloud Computing</p>
        <p>Google is known to operate one of the largest civilian computing infrastructures. These hardware resources are managed by a vast collection of software frameworks and tools, which form the basis for highly parallelized, reliable, low-latency, high-throughput applications. They also provide useful programming abstractions that speed up development and debugging. Some parts of this infrastructure, such as MapReduce, GFS, Sawzall, Chubby, Protocol Buffers, are available as open source projects or published in academic papers, while others are proprietary. Rather than dive into the dark corners of each of these tools, this talk tries to distill key design themes and patterns, which enable these unique capabilities, and can be re-used in other contexts.</p>
        <p>Keywords: CloudComputing, DistributedComputing, Concurrency, BigTable, MapReduce</p>
+
+release-it:
+    date: Thu 4:25PM
+    title: Release it! Design and Deploy Production-Ready Software
+    speakers: michael-nygard
+    description: |
+        <p>Best Practices</p>
+        <p>In this tutorial, you will learn how to create applications that survive the rigors of life in production. Too often, project teams aim to pass QA instead of aiming for success in production. Testing is not enough to prove that your software is ready for continuous availability in the corrosive environment of the Internet.</p>
+        <p>During this tutorial, you will receive an understanding of the architecture and design patterns that can produce high availability in distributed, multithreaded systems such as those based on Java EE, .Net, or Ruby on Rails. You will also learn about the antipatterns that can sabotage your systems availability and capacity.</p>
+        <p>Keywords: Architecture, EnterpriseComputing, Operations, Production, Deployment, Scalability, ConfigurationManagement</p>
+        <p>Target Audience: Experienced developers and architects working with web applications or service-oriented architectures.</p>
+

@@ -175,6 +175,24 @@ jutin-sheehy:
             <li>Presentations:  Embracing Concurrency At Scale Justin Sheehy on Riak</li>
         </ul>
 
+michael-nygard:
+    name: Michael T. Nygard
+    title: |
+        <p>Author of "Release It: Design and Deploy Production - Ready Software"</p>
+        <p>Winner of JOLT Productivity Award</p>
+    description: |
+        <p>Michael strives to raise the bar and ease the pain for developers across the country. He shares his passion and energy for improvement with everyone he meets, sometimes even with their permission. Michael has spent the better part of 20 years learning what it means to be a professional programmer who cares about art, quality, and craft. He's always ready to spend time with other developers who are fully engaged and devoted to their work--the "wide awake" developers. On the flip side, he cannot abide apathy or wasted potential.</p>
+        <p>Michael has been a professional programmer and architect for nearly 20 years. During that time, he has delivered running systems to the U. S. Government, the military, banking, finance, agriculture, and retail industries. More often than not, Michael has lived with the systems he built. This experience with the real world of operations changed his views about software architecture and development forever.</p>
+        <p>He worked through the birth and infancy of a Tier 1 retail site and has often served as "roving troubleshooter" for other online businesses. These experiences give him a unique perspective on building software for high performance and high reliability in the face of an actively hostile environment.</p>
+        <p>Most recently, Michael wrote "Release It! Design and Deploy Production-Ready Software", a book that realizes many of his thoughts about building software that does more than just pass QA, it survives the real world. Michael previously wrote numerous articles and editorials, spoke at Comdex, and co-authored one of the early Java books.</p>
+        <p>Software passion: My passion is for creating environments where everyone can be as creative and successful as they can.</p>
+        <p>Links for Michael:</p>
+        <ul>
+            <li>Websites: http://www.michaelnygard.com http://www.infoq.com/author/Michael-Nygard</li>
+            <li>Blog: http://www.michaelnygard.com/blog</li>
+            <li>Books:  Release It! Design and Deploy Production-Ready Software Beautiful Architecture 97 Things Every Software Architect Should Know</li>
+        </ul>
+
 neal-ford:
     name: Neal Ford
     title: |
