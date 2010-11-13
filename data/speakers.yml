@@ -28,6 +28,24 @@ ben-alex:
             <li>Books Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
         </ul>
 
+corey-haines:
+    name: Corey Haines
+    title: |
+        <p>Software Journeyman</p>
+        <p>Code Retreat Facilitator</p>
+    description: |
+        <p>Corey Haines has spent much of his 13+year professional career in the Microsoft ecosystem, until moving out of the corporate world and joining a small startup doing Ruby on Rails. After leaving the startup in 2008, he began a year-long journey, traveling the midwest and east coast of the United States on a pair-programming tour. He would spend anywhere from a day to a week at different places, pairing with people in exchange for room and board. While on the road, he has also focused on expanding and defining the message of the Software Craftsmanship movement, as it pertains to both professionalism and career development.</p>
+        <p>Corey has been practicing the Extreme Programming techniques for nearly 6 years; following the Behavior-Driven Development (BDD) techniques since the first rumblings of it in 2005. Lately, he has been actively mentoring others in the BDD workflow, as it pertains to day-to-day engineering practices, such as test-driven design, executable acceptance criteria and 'outside-in' development.</p>
+        <p>Nowadays, Corey travels to speak, study and facilitate Code Retreat events. During his travels, he is also collecting ideas for establishing a craftsmanship-based school of software development.</p>
+        <p>Software Passion: My passion is helping people, including myself, become more adept at the fundamentals of software development.</p>
+        <p>Links for Corey:</p> 
+        <ul>
+            <li>Website: www.coreyhaines.com</li>
+            <li>Twitter: coreyhaines</li>
+            <li>Blog: http://katas.softwarecraftsmanship.org/</li>
+            <li>Presentations:Beyond the Hype</li>
+        </ul>
+        
 erik-meijer:
     name: Erik Meijer
     title: |

@@ -125,6 +125,19 @@ googley-way:
     title: Writing Apps the Google-y Way
     speakers: pamela-fox
     description: |
+        <p>Cloud Computing</p>
         <p>Google App Engine is a framework that lets you build web apps on top of Google's scalable hosting and data storage infrastructure. When you start building an app on App Engine, you soon realize that you do things differently from the way you made apps for more "traditional" hosting setups, because of our scalability-oriented design. In this talk, we'll give an overview of App Engine, and then look at how you would handle things like offline processing, geographic queries, or storing files, and how you would design real world apps like a microblogging service or social network site.</p>
         <p>Keywords: AppEngine, Scalability, Architecture, Java, Python, CloudComputing, GoogleAPI , Experience, Web 2.0</p>
         <p>Target Audience:  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
+        
+testing-javascript:
+    date: Thu 2:05PM
+    title: Testing Your Javascript
+    speakers: corey-haines
+    description: |
+        <p>Best Practices</p>
+        <p>With the advent of new, fast virtual machines and frameworks for both in- and out-of-browser usage, Javascript has stepped into its rightful place as a productive, object-oriented language. More and more, we see full-featured applications being built entirely in this great language. Unfortunately, a lot of the coding habits remain from its humble origin as 'just an html scripting language.' Automated testing is accepted as standard in most other languages, why not in Javascript?</p>
+        <p>In this talk, we'll look at techniques and tools for testing your Javascript effectively. Just getting the tools set up can be daunting, so we'll spend some time looking at setup. Testing interactions with your HTML can be tricky, so we'll cover tips for effectively interacting with your web pages in your tests.</p>
+        <p>Keywords: Javascript, Testing, Craftsmanship, BestPractices, .NET, Design, TDD, XP</p>
+        <p>Target Audience: Developers who are looking for a jump-start to automated testing in Javascript.</p>
+        
