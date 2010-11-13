@@ -156,13 +156,26 @@ afternoon-tea:
     title: Afternoon Tea
 
 not-only:
-    date: Thur 3:20PM
-    title: Not Only SQL: Alternative Data Persistence and Neo4J
+    date: Thu 3:20PM
+    title: "Not Only SQL: Alternative Data Persistence and Neo4J"
     speakers: emil-eifrem
     desciption: |
         <p>Cloud Computing</p>
         <p>The misnamed "NoSQL" movement is less of a rejection of the relational technology that has served us well for 40 years, but rather an embrace of persistence technologies that help us solve problems not well addressed by the classic RDBMS. This talk will provide an overview of the "NoSQL" landscape and in addition, describe both the technology behind and a significant deployment example of Neo4J, a graph-oriented alternative data store.</p>
         <p>Keywords: Neo4J, GraphDB, NoSQL, Java, Database</p>
         <p>Target Audience: Developers interested in alternative database solutions in general or specifically graph databases.</p>
-    
+
+strategic-design:
+    date: Thu 3:20PM
+    title: "Strategic Design: Avoiding Responsibility Traps"
+    speakers: eric-evans
+    description: |
+        <p>Best Practices</p>
+        <p>As software development leaders, we need to think more strategically. Some design decisions affect the trajectory of the whole project or even the organization. These decisions arise in early chartering and throughout development, and they are about much more than architecture. This talk will examine these issues through the lens of the Strategic Design principles of domain-driven design (DDD), which systematize a few critical practices some successful teams do intuitively.</p>
+        <p>It is common for skilled teams to deliver software they are not proud of, due to compromises with legacy designs. Others toil for years, producing a platform that is never used to good advantage. These are strategic failures. On the other hand, there are projects with a direct explanation of how the software contributes to business goals. There are projects where designers work with a realistic view of the context of their development within the larger system, allowing them to maintain design clarity and integrity. These are strategic successes. Winning strategy starts with the domain.</p>
+        <p>Two DDD principles, "Context Mapping" and "Distilling the Core Domain", help you see your strategic situation more clearly and approach strategic design decisions more systematically. These techniques require extensive interaction with domain experts as well as the leaders of the organization, in discussions broader than functional requirements. They sometimes lead to priorities quite different from our most comfortable notions.</p>
+        <p>Keywords: DomainDriven, Architecture, Modeling, Design, DDD, DSL</p>
+        <p>Target Audience: Executives, Managers, Leads, Architects</p>
+        
+
     

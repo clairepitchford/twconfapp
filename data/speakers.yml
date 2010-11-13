@@ -45,7 +45,23 @@ corey-haines:
             <li>Blog: http://katas.softwarecraftsmanship.org/</li>
             <li>Presentations:Beyond the Hype</li>
         </ul>
-        
+
+eric-evans:
+    name: Eric Evans
+    title: |
+        <p>Mr. Domain-Driven Design</p>
+        <p>Author of Domain Driven Development</p>
+    description: |
+        <p>Eric Evans is a specialist in domain modeling and design in large business systems. Since the early 1990s, he has worked on many projects developing large business systems with objects and has been deeply involved in applying Agile processes on real projects.</p>
+        <p>Out of this range of experiences emerged the synthesis of principles and techniques shared in the book "Domain-Driven Design," Addison-Wesley 2003.</p>
+        <p>Eric now leads Domain Language, Inc., a consulting group which coaches and trains teams to make their development more productive and relevant through effective application of domain modeling and design.</p>
+        <p>Software Passion: Breaking My Own Domain Models</p>
+        <p>Links for Eric:</p> 
+        <ul>
+            <li>Website: http://www.domainlanguage.com/</li>
+            <li>Books: Domain-Driven Design</li>
+        </ul>
+
 erik-meijer:
     name: Erik Meijer
     title: |
