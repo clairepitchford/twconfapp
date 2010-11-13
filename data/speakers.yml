@@ -58,6 +58,22 @@ erik-meijer:
 
 guy-steele:
     name: Guy L. Steele, Jr. 
+    title: |
+        <p>Keynote Speaker</p>
+        <p>Language Designer and Author</p>
+        <p>Fellow Sun Labs, Oracle</p>
+    description: |
+        <p>"Richard Gabriel and Guy Steele are beasts in the world of computer science, and they are creative and witty geeks."</p>
+        <p>Guy L. Steele Jr. (Ph.D., MIT, 1980) is a Software Architect and heads the Programming Language Research Group within Sun Labs (now a part of Oracle) in Burlington, MA, USA. Before coming to Sun Labs in 1994, he held positions at Carnegie-Mellon University, Tartan Laboratories, and Thinking Machines Corporation.He is the author or co-author of several books on programming languages (Common Lisp, C, High Performance Fortran, the Java Language Specification) as well as "The Hacker's Dictionary" (also known on the Internet as the "Jargon File").</p>
+        <p>He has served as program chair for four ACM conferences on programming languages and also on the program committees of over 30 other conferences. He has served on accredited standards committees for the programming languages Common Lisp, C, Fortran, Scheme, and ECMAScript. He is an inventor or co-inventor on over 40 computer-related patents. He designed the original EMACS command set and was the first person to port TeX.</p>
+        <p>He is a Fellow of the American Association for Artificial Intelligence (1990) and a Fellow of the Association for Computing Machinery (1994). He has been awarded the ACM Grace Murray Hopper Award (1988), a Gordon Bell Prize (1990), and the ACM SIGPLAN Programming Languages Achievement Award (1996). He has been elected to the National Academy of Engineering of the United States of America (2001) and to the American Academy of Arts and Sciences (2002).</p>
+        <p>Software Passion: Designing languages that allow programmers to express their ideas clearly, effectively, conveniently, and as concisely as may be appropriate</p>
+        <p>Links for Guy:</p>
+        <ul>
+            <li>Websites: http://labs.oracle.com/projects/plrg   http://projectfortress.sun.com</li>
+            <li>Twitter: I am not a member of Twitter. I generally deal in ideas that require paragraphs, or perhaps full-blown essays, rather than single sentences.<li>
+            <li>Books: Coders at Work  The Java Language Specification Common LISP, The Language C: A Reference Manual</li>
+        </ul>
 
 josh-graham:
     name: Josh Graham
