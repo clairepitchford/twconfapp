@@ -86,7 +86,7 @@ largest-rails:
         <p>Target Audience:  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
 
 lunch:
-    date: Thu 12:20AM
+    date: Thu 12:20PM
     title: Lunch
     
 failed-soa:
@@ -304,3 +304,28 @@ developing-commercial:
         <p>In response to our more recent YOW! Night on mobile platforms we are pleased to add a workshop on mobile application development for Android and iPhone so that developers will have the opportunity to dig deep into development for these 2 hot platforms.</p>
         <p>Details will be posted shorty.</p>
         <p>Keywords:  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
+        
+monster-builds:
+    date: Fri 11:20AM
+    title: Monster Builds (and how to tame them)
+    speakers: chris-mountford
+    descriptions: |
+        <p>Tools</p>
+        <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
+        <p>As the number of features, tests, supported platforms and the number of developers and customers grows, there comes a time when you need serious engineering in your build if you want any hope of staying Agile.</p>
+        <p>In this presenation you will learn how to tame the monsters hiding in your builds, hopefully before they get out of control.</p>
+        <p>Keywords: BuildAutomation, ContinuousIntegration, CloudComputing, Tools, Java</p>
+        <p>Target Audience:  Development team members, team leaders and build specialists, primarily those who want the benefits of continuous integration to scale with their project.</p>
+
+lunch2:
+    date: Fri 12:20PM
+    title: Lunch
+
+emergence-ux:
+    date: Fri 1:00PM
+    title: The Emergence of UX in an Agile World
+    speakers: victor-rodrigues, xerxes-battiwalla
+    description: |
+        <p>As a provider of hearing solutions to hearing impaired people for almost 30 years, Cochlear is renowned worldwide as a technical innovator and as a great Australian success story. We share the story of our journey with Agile software development in an environment that is traditionally not comfortable with it. More compellingly we cover the emergence of user experience and user centered design and how it has integrated into almost every aspect of the product development and delivery cycle.</p>
+        <p>Keywords: Agile, UX, UserExperience, UserCenteredDesign, Process, Mobile, iPad</p>
+        <p>Target Audience: Developers, Managers, Thought Leaders, User Experience Architects</p>
