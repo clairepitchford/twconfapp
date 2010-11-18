@@ -10,4 +10,4 @@ Feature: As an Attendee, I want	the app to display the sessions for a particular
 		Examples:
 			| schedule_day | time_slot | title                                           			| speaker       |
 	  		| Thursday     | 09:00AM   | Keynote Address - Things I Wish I'd Known       			| Rod Johnson   | 
-	  		| Friday       | 10:15AM   | Designing and Implementing RESTful Application Protocols 	| Ian Robinson  |
+	  		| Friday       | 09:00AM   | Keynote Address: Exploring NoSQL 							| Erik Meijer   |

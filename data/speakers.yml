@@ -46,6 +46,31 @@ corey-haines:
             <li>Presentations:Beyond the Hype</li>
         </ul>
 
+daniel-bradby:
+    name: Daniel Bradby
+    title: Director of Methods and Collaboration at jTribe Mobile Services
+    description: |
+        <p>With a long list of references from Australia and around the world under his belt, Daniel has worked across industries and government organisations while also being involved in popular OpenSource projects such as Hibernate and Subclipse. Daniel carries a wealth of consulting and software development experience and has proven both technical expertise and leadership skill in numerous high-profile projects in Australia and the US.</p>
+        <p>Daniel's work at jTribe focuses on the Android and iOS mobile platforms and delivering successful projects for his clients on those platforms.</p>
+        <p>Links for Daniel:</p>
+        <ul>
+            <li>Website: http://www.jtribe.com.au</li>
+            <li>Blog:  http://blog.jtribe.com.au/?cat=89</li>
+            <li>Twitter: @dbradby</li>
+        </ul>
+
+dragos-manolescu:
+    name: Dragos Manolescu
+    title: |
+        <p>Principal Software Developer, Application Platform Group in Windows Phone Microsoft USA</p>
+    description: |
+        <p>Dragos Manolescu is Principal Software Developer in the Application Platform Group in Windows Phone. He was responsible for shaping the Windows Phone 7 API surface area, and most recently has been working on device health and performance. Dragos' previous experience at Microsoft include Live Labs, a conglomerate of engineers and scientists with which he worked on Volta (web development through recompiling), Political Streams (social media), and the Web Sandbox (mashup security), and patterns & practices with which he developed prescriptive guidance for developers. Prior to Microsoft he worked as a consultant, assistant professor, and Smalltalk developer. Dragos doesn't tweet, and updates his Facebook profile infrequently. Most search engines can easily point you to his fingerprints on the Internet, which include several books, papers and articles, as well as conferences and workshops. Dragos holds a PhD in Computer Science from the University of Illinois at Urbana. He lives in the Seattle area of Washington (the evergreen state) where he enjoys the proximity to mountains, forests, islands, and the Pacific.</p>
+        <p>Software passion: Cross-pollination of ideas, such as using FFTs for similarity search</p>
+        <p>Links for Dragos:</p>
+        <ul>
+            <li>Blog:http://blogs.msdn.com/b/dragoman/</li>
+        </ul>   
+ 
 eric-evans:
     name: Eric Evans
     title: |
@@ -140,6 +165,24 @@ ian-robinson:
             <li>Books: REST in Practice</li>
             <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
         </ul>
+
+jim-webber: 
+    name: Jim Webber
+    title: |
+        <p>Author of "Developing Enterprise Web Services - An Architect's Guide" and "REST in Practice"</p>
+        <p>Global Head of Architecture, ThoughtWorks</p>
+    description: |
+        <p>Dr. Jim Webber is the Global Head of Architecture for ThoughtWorks where he works with clients on delivering dependable service-oriented systems. Jim was formerly a senior researcher with the UK E-Science programme where he developed strategies for aligning Grid computing with Web Services practices and architectural patterns for dependable Service-Oriented computing. Jim has extensive Web Services architecture and development experience as an architect with Arjuna Technologies and was the lead developer with Hewlett-Packard on the industry's first Web Services Transaction solution.</p>
+        <p>Jim is an active speaker in the Web Services space and is co-author of the book "Developing Enterprise Web Services - An Architect's Guide" in addition to being a contributing author to other books and articles.</p>
+        <p>Jim holds a B.Sc. in Computing Science and Ph.D. in Parallel Computing both from the University of Newcastle upon Tyne.</p>
+        <p>Software passion: Connecting the world's systems, sharing the world's data, bringing sanity to software.</p>
+        <p>Links for Jim:</p>
+        <ul>
+            <li>Website: http://jim.webber.name/</li>
+            <li>Twitter: jimwebber</li>
+            <li>Blog: http://jim.webber.name/</li>
+            <li>Books: Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
+        </ul>
         
 josh-graham:
     name: Josh Graham
@@ -208,6 +251,15 @@ kresten-thorup:
             <li>Blog:  Java to the Limit</li>
         </ul>
 
+martin-nally:
+    name: Martin Nally
+    title: |
+        <p>Long-time developer of software development tools</p> 
+        <p>IBM Fellow, IBM Rational CTO</p>
+    description: |
+        <p>Martin Nally is the Chief Technology Officer for the Rational Software division of IBM and an IBM Fellow. Martin joined IBM in 1990 with 10 years prior industry experience. He has held several architecture and development positions in IBM including lead architect and developer for IBM VisualAge/Smalltalk and VisualAge/Java. Martin was one of a team of three that launched the IBM project that later became the Eclipse framework and he led the architecture, design and development of WebSphere Studio, IBM's flagship Eclipse-based developer tool-suite that later evolved into Rational Application Developer. He was chief architect for Rational before becoming CTO.</p>
+        <p>Software Passion:  My passion is finding simpler software solutions. Complex things take too long to build and are too hard to change - the world is too dynamic for complex solutions</p>
+    
 michael-nygard:
     name: Michael T. Nygard
     title: |
@@ -225,6 +277,20 @@ michael-nygard:
             <li>Blog: http://www.michaelnygard.com/blog</li>
             <li>Books:  Release It! Design and Deploy Production-Ready Software Beautiful Architecture 97 Things Every Software Architect Should Know</li>
         </ul>
+
+nathan-devries:
+    name: Nathan de Vries
+    title: Freelance iOS Developer
+    description: |
+        <p>Much like the idea that the best camera is the one that's with you, Nathan believes that the most exciting tech. is in and around thedevices we carry with us every day.</p>
+        <p>For this reason, Nathan has chosen the path of a freelance iOS developer, working with organisations who are trying to wrap their heads around the staggering trend towards mobile. He cut his teeth on WAP, J2ME & Symbian, but dropped everything in mid-2008 when Apple released the iPhone SDK. He never looked back.</p>
+        <p>Nathan maintains his sanity & creative energy by working with other highly motivated people in a fantastic co-working space in Surry Hills, Sydney.</p>
+        <p>Software Passion: Filling people's pockets with indispensable software.</p>
+        <ul>
+            <li>Blog: http://www.atnan.com/</li>
+            <li>Website: http://nathandevries.com</li>
+            <li>Twitter:  atnan</li>
+        </ul<
 
 neal-ford:
     name: Neal Ford
