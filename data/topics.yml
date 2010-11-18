@@ -370,3 +370,14 @@ management-2.0:
         <p>In this presentation, Richard will discuss the history of management science and how management techniques affect the performance of technology teams and IT divisions. He will demonstrate the fundamental differences between today's two prevalent management theories: Scientific Management Theory and Systems Management Theory. He will explore the foundations of management theory in philosophical thought, the development of management models through political and military leadership, and ultimately the application of management concepts in today's information age. Richard will investigate a number of case studies from IT and beyond, presenting empirical evidence that demonstrates a change in management philosophy can directly affect business results. This presentation is a must for anyone interested in or involved in enterprise level Agile adoption or simply with an interest in hearing more on 'Lean & Systems Thinking' from an experienced practitioner.</p>
         <p>Keywords: Lean, Coaching, Transformation, ChangeManagement, Management, Innovation</p>
         <p>Target Audience:  Engineers with an interest in how management theory can directly affect developer and team productivity; IT leaders interested in changing the command & control structure of their organisations in the pursuit of improved results; Coaches and change managers interested in introducing new tools and concepts to help deal with organisational change and adoption issues; Anyone interested in learning more about lean and systems thinking.</p>
+
+how-to:
+    date: Fri 2:05PM
+    title: "LMAX: How to do over 100K contended complex business transactions per second at less than 1ms latency"
+    speakers: dave-farley
+    descriptions: |
+        <p>Scaling</p>
+        <p>Conventional wisdom says that memory is fast, disk is slow, networks are slower and that fast systems must be highly concurrent to achieve maximum performance. Much of this is outdated and some of it is now wrong. Modern hardware is phenomenally fast, but we have become complacent and use it in extremely inefficient and inappropriate ways.</p>
+        <p>For world class performance on commodity hardware you need to take a holistic approach to software design. The good news is that all the stuff we learned in computer science 101 is what really matters, choose your data structures carefully, model your domain, understand your platform, work hard to have a clear separation of concerns, but as well as all of that, run your business logic on a single thread!?</p>
+        <p>Keywords: High-PerformanceTransactions, Java, Concurrency, Scalability, CaseStudy</p>
+        <p>Target Audience:  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>
