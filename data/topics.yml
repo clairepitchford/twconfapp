@@ -257,4 +257,11 @@ morning-tea2:
     title: Morning Tea
     
 restful-application:
-    date: Fri
+    date: Fri 10:15AM
+    title: Designing and Implementing RESTful Application Protocols
+    speakers: ian-robinson
+    description: |
+        <p>Web 2.0 Architecture</p>
+        <p>REST is ready for the enterprise. Imagine an information platform that is open and available to systems throughout the enterprise estate. A platform that eschews integration in favour of composition, connected data over siloed databases. A networked data structure with the power to implement valuable business behaviours: a distributed, hypermedia-driven application platform. Using techniques drawn from the forthcoming O'Reilly book 'REST in Practice', in this session I show how to model business processes as domain application protocols, implement them in terms of resource lifecycles, and execute them using HTTP idioms, media types and link relation values.</p>
+        <p>Keywords: BestPractices, REST, Web 2.0, Architecture, Design</p>
+        

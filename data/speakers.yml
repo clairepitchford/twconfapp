@@ -124,6 +124,23 @@ guy-steele:
             <li>Books: Coders at Work  The Java Language Specification Common LISP, The Language C: A Reference Manual</li>
         </ul>
 
+ian-robinson:
+    name: Ian Robinson
+    title: |
+        <p>Author of "REST in Practice"</p>
+        <p>Principal Consultant, ThoughtWorks</p>
+    description: |
+        <p>Ian Robinson is a Principal Consultant with ThoughtWorks, where he specializes in the design and delivery of service-oriented and distributed systems.</p>
+        <p>He has written guidance for Microsoft on implementing integration patterns with Microsoft technologies, and has published articles on business-oriented development methodologies and distributed systems design - most recently in The ThoughtWorks Anthology (Pragmatic Programmers, 2008).</p>
+        <p>He is currently co-authoring a book on RESTful enterprise integration.</p>
+        <p>Links:</p>
+        <ul>
+            <li>Website: http://iansrobinson.com/</li>
+            <li>Blog: http://iansrobinson.com/</li>
+            <li>Books: REST in Practice</li>
+            <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
+        </ul>
+        
 josh-graham:
     name: Josh Graham
     title: |
