@@ -228,7 +228,7 @@ break:
     title: Break
 
 keynote-50:
-    date: Thu 6:45
+    date: Thu 6:45PM
     title: "Keynote Adress: 50 in 50"
     speakers: guy-steele, richard-gabriel
     description: |
@@ -239,3 +239,22 @@ keynote-50:
 reception:
     date: Thu 8:00PM
     title: Reception
+    
+welcome2:
+    date: Fri 8:30AM
+    title: Welcome
+
+keynote-address2:
+    date: Fri 9:00AM
+    title: Keynote Address: "Exploring NoSQL"
+    speakers: erik-meijer
+    description: |
+        <p>In his hunt to make all data accessible, Erik has caught sight of noSQL.</p>
+        <p>Keywords:  C#, LINQ, NoSQL, Web 2.0, EnterpriseComputing, CloudComputing, .NET</p>
+
+morning-tea2:
+    date: Fri 10:00AM
+    title: Morning Tea
+    
+restful-application:
+    date: Fri
