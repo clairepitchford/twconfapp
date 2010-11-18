@@ -246,7 +246,7 @@ welcome2:
 
 keynote-address2:
     date: Fri 9:00AM
-    title: Keynote Address: "Exploring NoSQL"
+    title: "Keynote Address: Exploring NoSQL"
     speakers: erik-meijer
     description: |
         <p>In his hunt to make all data accessible, Erik has caught sight of noSQL.</p>
@@ -264,4 +264,43 @@ restful-application:
         <p>Web 2.0 Architecture</p>
         <p>REST is ready for the enterprise. Imagine an information platform that is open and available to systems throughout the enterprise estate. A platform that eschews integration in favour of composition, connected data over siloed databases. A networked data structure with the power to implement valuable business behaviours: a distributed, hypermedia-driven application platform. Using techniques drawn from the forthcoming O'Reilly book 'REST in Practice', in this session I show how to model business processes as domain application protocols, implement them in terms of resource lifecycles, and execute them using HTTP idioms, media types and link relation values.</p>
         <p>Keywords: BestPractices, REST, Web 2.0, Architecture, Design</p>
+
+building-windows:
+    date: Fri 10:15AM
+    title: Building Windows Phone 7 Applications
+    speakers: dragos-manolescu
+    description: |
+        <p>Mobile</p>
+        <p>Windows Phone 7 puts in your pocket powerful hardware and APIs familiar to .NET developers. In spite of these similarities the intrinsic differences between the phone and traditional PCs translate into differences between effective mobile and traditional code. In this talk I will cover some of the most interesting aspects of developing Windows Phone 7 applications. Understanding these the differences allows developers to leverage the phone's capabilities (such as the sensors) as well as managing the challenges of a mobile platform (such as the battery).</p>
+        <p>Keywords: .NET, Mobile, C#, Silverlight, AppMarket</p>
+        <p>Target Audience: Mobile application developers, Developers with interest in mobile application development</p>  
         
+leveraging-internet:
+    date: Fri 10:15AM
+    title: Leveraging Internet Technologies to Build a New Breed of Software Development Tools
+    speakers: martin-nally
+    description: |
+      <p>Tools</p>
+      <p>The internet has fundamentally changed the software development profession, but development tools and processes have struggled to keep pace. Learn how the internet and internet technologies like REST, linked data and RDF can be used to develop a breed of software development tools that are better adapted to development in the internet age and can solve a set of perennial problems that have limited the effectiveness of end-to-end development tool suites.</p>
+      <p>Keywords: REST, RDF, SPARQL, Tools, CloudComputing, Web2.0</p>
+      <p>Target Audience: Developers, Managers</p>
+
+lessons-learned:
+    date: Fri 11:20AM
+    title: Lessons Learned in Large HTTP-Centric Systems
+    speakers: jim-webber
+    descriptions: |
+        <p>Web 2.0 Architecture</p>
+        <p>This session explores using commodity HTTP middleware in building REST-ish systems at large scale using agile and devops-friendly techniques. Attendees will learn the architectural and cost fallacies of traditional middleware and see how F/OSS solutions can be used to delivery massive scalable solutions. The talk will cover two case studies building real systems in production and compare them with the cost/benefits of using vendor-proprietary middleware, which sadly makes the vendors look like an expensive and risky option!</p>
+        <p>Keywords: CaseStudy, EnterpriseComputing, Scalability, Agile, DevOps, SOA, BestPractices, CloudComputing</p>
+        <p>Target Audience: Architects or developers with an interest in large-scale distributed systems and decision makers who want to understand the cost benefits of HTTP-centric systems versus middleware-based systems</p>
+
+developing-commercial: 
+    date: Fri 11:20AM
+    title: Developing Commercial Apps for Android and iPhone
+    speakers: daniel-bradby, nathan-devries
+    description: |
+        <p>Mobile</p>
+        <p>In response to our more recent YOW! Night on mobile platforms we are pleased to add a workshop on mobile application development for Android and iPhone so that developers will have the opportunity to dig deep into development for these 2 hot platforms.</p>
+        <p>Details will be posted shorty.</p>
+        <p>Keywords:  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
