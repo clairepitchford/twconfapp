@@ -326,6 +326,16 @@ emergence-ux:
     title: The Emergence of UX in an Agile World
     speakers: victor-rodrigues, xerxes-battiwalla
     description: |
+        <p>Interaction and Visualization</p>
         <p>As a provider of hearing solutions to hearing impaired people for almost 30 years, Cochlear is renowned worldwide as a technical innovator and as a great Australian success story. We share the story of our journey with Agile software development in an environment that is traditionally not comfortable with it. More compellingly we cover the emergence of user experience and user centered design and how it has integrated into almost every aspect of the product development and delivery cycle.</p>
         <p>Keywords: Agile, UX, UserExperience, UserCenteredDesign, Process, Mobile, iPad</p>
         <p>Target Audience: Developers, Managers, Thought Leaders, User Experience Architects</p>
+ 
+emergent-design:
+    date: Fri 1:00PM
+    title: Emergent Design
+    speakers: neal-ford
+    description: |
+        <p>Best Practices</p>
+        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers four areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualizations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilizing them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping your code in sync with the problem domain.</p>
+        <p>Keywords: BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
