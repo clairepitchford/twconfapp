@@ -86,7 +86,7 @@ largest-rails:
         <p>Target Audience:  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
 
 lunch:
-    date: Thu 12:20AM
+    date: Thu 12:20PM
     title: Lunch
     
 failed-soa:
@@ -304,3 +304,80 @@ developing-commercial:
         <p>In response to our more recent YOW! Night on mobile platforms we are pleased to add a workshop on mobile application development for Android and iPhone so that developers will have the opportunity to dig deep into development for these 2 hot platforms.</p>
         <p>Details will be posted shorty.</p>
         <p>Keywords:  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
+        
+monster-builds:
+    date: Fri 11:20AM
+    title: Monster Builds (and how to tame them)
+    speakers: chris-mountford
+    descriptions: |
+        <p>Tools</p>
+        <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
+        <p>As the number of features, tests, supported platforms and the number of developers and customers grows, there comes a time when you need serious engineering in your build if you want any hope of staying Agile.</p>
+        <p>In this presenation you will learn how to tame the monsters hiding in your builds, hopefully before they get out of control.</p>
+        <p>Keywords: BuildAutomation, ContinuousIntegration, CloudComputing, Tools, Java</p>
+        <p>Target Audience:  Development team members, team leaders and build specialists, primarily those who want the benefits of continuous integration to scale with their project.</p>
+
+lunch2:
+    date: Fri 12:20PM
+    title: Lunch
+
+emergence-ux:
+    date: Fri 1:00PM
+    title: The Emergence of UX in an Agile World
+    speakers: victor-rodrigues, xerxes-battiwalla
+    description: |
+        <p>Interaction and Visualization</p>
+        <p>As a provider of hearing solutions to hearing impaired people for almost 30 years, Cochlear is renowned worldwide as a technical innovator and as a great Australian success story. We share the story of our journey with Agile software development in an environment that is traditionally not comfortable with it. More compellingly we cover the emergence of user experience and user centered design and how it has integrated into almost every aspect of the product development and delivery cycle.</p>
+        <p>Keywords: Agile, UX, UserExperience, UserCenteredDesign, Process, Mobile, iPad</p>
+        <p>Target Audience: Developers, Managers, Thought Leaders, User Experience Architects</p>
+ 
+emergent-design:
+    date: Fri 1:00PM
+    title: Emergent Design
+    speakers: neal-ford
+    description: |
+        <p>Best Practices</p>
+        <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers four areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualizations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilizing them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping your code in sync with the problem domain.</p>
+        <p>Keywords: BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
+
+fur-flies:
+    date: Fri 1:00PM
+    title: "When the Fur Flies: Dev and Ops Cooperation When the Worst Happens"
+    speakers: michael-nygard
+    description: |
+        <p>Development and Operations</p>
+        <p>There's nothing like a crisis to remove artificial barriers. In thissession, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the funof sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.</p>
+        <p>Keywords: Operations, Velocity, Disaster, Crisis, Deployment, Architecture, BestPractices</p>
+        <p>Target Audience: Developers, Managers, Architects</p>
+
+interactive-data:
+    date: Fri 2:05PM
+    title: Computational Information Design
+    speakers: nicolas-belmonte
+    descriptions: |
+        <p>Interaction & Visualization</p>
+        <p>The Web has never been more open to everyone. Open Data services exist in almost every web application: from social networking apps to governmental pages and the news, all this data can be instantly accessed by exposed APIs. However, although most of this data is offered in a simple interchange format, its structures are quite complex, ranging from complex networks to time-based information, hierarchical data or heavy graphs. Displaying this data in a manner that enables the viewer to gain some insight can be challenging, especially if we aim at providing some interaction and doing it in a cross-browser/cross-device manner. The JavaScript InfoVis Toolkit creates interactive data visualizations for the Web. It's based solely on Web Standards, leveraging the power of native browser technologies to provide insights on complex data. In this talk you will learn about the JavaScript InfoVis Toolkit and how it can help you create advanced data visualizations for the Web.</p>
+        <p>Keywords: JavaScript, Visualization, InfoVis, DataVis, VisualWeb<p>
+        <p>Target Audience: People wanting to create data visualizations for the web using major browsers and platforms.<p>
+
+management-2.0:
+    date: Fri 2:05PM
+    title: "Management 2.0: Leadership Models for an Information Age"
+    speakers: richard-durnall
+    descriptions: |
+        <p>Lean Software Management</p>
+        <p>Henry Ford changed the world through the manufacturing machinery he created over 100 years ago. Separating 'thinking' from 'doing', Mr Ford defined a management archetype for large western organisations that still persists over a century later. But as we move to an information age at break-neck speed, does command & control management still look as compelling?</p>
+        <p>In this presentation, Richard will discuss the history of management science and how management techniques affect the performance of technology teams and IT divisions. He will demonstrate the fundamental differences between today's two prevalent management theories: Scientific Management Theory and Systems Management Theory. He will explore the foundations of management theory in philosophical thought, the development of management models through political and military leadership, and ultimately the application of management concepts in today's information age. Richard will investigate a number of case studies from IT and beyond, presenting empirical evidence that demonstrates a change in management philosophy can directly affect business results. This presentation is a must for anyone interested in or involved in enterprise level Agile adoption or simply with an interest in hearing more on 'Lean & Systems Thinking' from an experienced practitioner.</p>
+        <p>Keywords: Lean, Coaching, Transformation, ChangeManagement, Management, Innovation</p>
+        <p>Target Audience:  Engineers with an interest in how management theory can directly affect developer and team productivity; IT leaders interested in changing the command & control structure of their organisations in the pursuit of improved results; Coaches and change managers interested in introducing new tools and concepts to help deal with organisational change and adoption issues; Anyone interested in learning more about lean and systems thinking.</p>
+
+how-to:
+    date: Fri 2:05PM
+    title: "LMAX: How to do over 100K contended complex business transactions per second at less than 1ms latency"
+    speakers: dave-farley
+    descriptions: |
+        <p>Scaling</p>
+        <p>Conventional wisdom says that memory is fast, disk is slow, networks are slower and that fast systems must be highly concurrent to achieve maximum performance. Much of this is outdated and some of it is now wrong. Modern hardware is phenomenally fast, but we have become complacent and use it in extremely inefficient and inappropriate ways.</p>
+        <p>For world class performance on commodity hardware you need to take a holistic approach to software design. The good news is that all the stuff we learned in computer science 101 is what really matters, choose your data structures carefully, model your domain, understand your platform, work hard to have a clear separation of concerns, but as well as all of that, run your business logic on a single thread!?</p>
+        <p>Keywords: High-PerformanceTransactions, Java, Concurrency, Scalability, CaseStudy</p>
+        <p>Target Audience:  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>

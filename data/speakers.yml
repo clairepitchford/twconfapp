@@ -28,6 +28,21 @@ ben-alex:
             <li>Books Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
         </ul>
 
+chris-mountford:
+    name: Chris Mountford
+    title: |
+        <p>Senior Software Engineer</p> 
+        <p>Atlassian</p>
+    description: |
+        <p>Chris started programming when he was 8 years old on a Vic-20, tediously typing in games in BASIC and wishing for a cassette drive. Since then he has worked on a range of development projects from startups to multinationals, from finance to education and currently works on JIRA at Atlassian in Sydney. Chris has spoken at a number of user groups and conferences including SyXPAC and the Sydney Scrum User group, Illawarra Java User Group, Web Directions and Atlassian Summit</p>
+        <p>Software Passion:  What I love most about software is that it's magic. The fact that code is so abstract and yet so rigorously and so effortlessly executed makes it like creating something from nothing.
+        <p>Links for Chris</p>
+        <ul>
+            <li>Website: http://www.blogger.com/profile/03560327085364406517</li>
+            <li>Twitter: chromosundrift</li>
+            <li>Blog: http://blog.chromosundrift.com/</li>
+        </ul> 
+        
 corey-haines:
     name: Corey Haines
     title: |
@@ -57,6 +72,20 @@ daniel-bradby:
             <li>Website: http://www.jtribe.com.au</li>
             <li>Blog:  http://blog.jtribe.com.au/?cat=89</li>
             <li>Twitter: @dbradby</li>
+        </ul>
+
+dave-farley:
+    name: Dave Farley
+    title: |
+        <p>Author of 'Continuous Delivery'</p>
+        <p>Head of Software Development at LMAX</p>
+    description: |
+        <p>Dave Farley has been having fun with computers for nearly 30 years. Over that period he has worked on most types of software, from firmware, through tinkering with operating systems and device drivers, to writing games, and commercial applications of all shapes and sizes. He started working in large scale distributed systems about 20 years ago, doing research into the development of loose-coupled, message-based systems - a forerunner of SOA. He has a wide range of experience leading the development of complex software in teams, both large and small, in the UK and USA. Dave was an early adopter of agile development techniques, employing iterative development, continuous integration and significant levels of automated testing on commercial projects from the early 1990s. He honed his approach to agile development in his four and a half year stint at ThoughtWorks where he was a technical principal working on some of their biggest and most challenging projects. Dave is currently working for the London Multi-Asset Exchange (LMAX), an organization that is building one of the highest performance financial exchanges in the world.</p>
+        <p>Software Passion:  Writing software that makes people go "Wow!"</p>
+        <p>Links for Dave:</p>
+        <ul>
+            <li>Website: http://www.lmax.com/</li>
+            <li>Books:Continuous Delivery</li>
         </ul>
 
 dragos-manolescu:
@@ -259,7 +288,7 @@ martin-nally:
     description: |
         <p>Martin Nally is the Chief Technology Officer for the Rational Software division of IBM and an IBM Fellow. Martin joined IBM in 1990 with 10 years prior industry experience. He has held several architecture and development positions in IBM including lead architect and developer for IBM VisualAge/Smalltalk and VisualAge/Java. Martin was one of a team of three that launched the IBM project that later became the Eclipse framework and he led the architecture, design and development of WebSphere Studio, IBM's flagship Eclipse-based developer tool-suite that later evolved into Rational Application Developer. He was chief architect for Rational before becoming CTO.</p>
         <p>Software Passion:  My passion is finding simpler software solutions. Complex things take too long to build and are too hard to change - the world is too dynamic for complex solutions</p>
-    
+
 michael-nygard:
     name: Michael T. Nygard
     title: |
@@ -308,7 +337,20 @@ neal-ford:
             <li>Blog: http://memeagora.blogspot.com</li>
             <li>Presentations: Emergent Design and Evolutionary Architecture 10 Ways To Improve Your Code Programming Languages and Platforms</li>
         </ul>
-        
+
+nicolas-belmonte:
+    name: Nicolas Garcia Belmonte
+    title: Author JavaScript InfoVis Toolkit and V8-GL
+    description: |
+        <p>Nicolas Garcia Belmonte is a Computer Science Engineer from the Buenos Aires Institute of Technology (ITBA), in Argentina. His main interests are Web Standards and Information Visualization. Nicolas is the creator of the JavaScript InfoVis Toolkit, a toolkit to create Interactive Data Visualizations for the Web and V8-GL, a hardware accelerated graphics library built on top of Google's V8 JavaScript Engine.</p>
+        <p>Software Passion:  Passionate about Web Standards and Information Visualization.</p>
+        <p>Links for Nicolas:</p>
+        <ul>
+            <li>Twitter: @philogb</li>
+            <li>Blog: http://blog.thejit.org</li>
+            <li>Software: JavaScript InfoVis Toolkit  V8-GL</li>
+        </ul>
+
 obie-fernandez:
     name: Obie Fernandez
     title: |
@@ -356,6 +398,23 @@ rachel-reinitz:
             <li>Articles:  "SOA lessons learned for Web 2.0" "Developing skills for the SOA world -- an expert who's been there tells all" Exploring the Enterprise Service Bus, Part 2: Why the ESB is a fundamental part of SOA</li>
         </ul>
 
+richard-durnall:
+    name: Richard Durnall
+    title: Head of Delivery for Realestate.com.au (REA)
+    description: |
+        <p>Richard Durnall is a Head of Delivery for REA Group based in Melbourne, Australia. The REA Group is entrenched as Australia's most popular commerical and residential real estate websites. Prior to joining REA, Richard was a Principal Consultant for ThoughtWorks based in Melbourne Australia, with over 13 years experience in the high-technology industry. Richard helps ThoughtWork's clients to improve the efficiency and effectiveness of their IT divisions by applying Lean and Agile techniques to their businesses.</p>
+        <p>Richard spent a number of years working in the Manufacturing & Supply Chain Systems Division of Ford Motor Company, working with a global team to introduce Lean principles to the manufacturing plants and re-align the IT systems to the new processes. Richard was lucky enough to work with a number of Lean experts, some ex-Toyota, and has been applying this knowledge in the IT domain for the last 5 years.</p>
+        <p>Richard is a frequent author on applying Lean management thinking to IT divisions at his site (www.richarddurnall.com) and presents frequently on the applications of Lean in IT.</p>
+        <p>Richard has spent a number of years working with Agile software development teams and uses his Lean knowledge to resolve the larger organisational issues often experienced by large organisations moving to new working practices.</p>
+        <p>Richard's clients include some of Australia's largest businesses in the financial services, government, print, on-line and service sectors.</p>
+        <p>Richard is a certified 6-Sigma practitioner and a chartered member of the British Computer Society.</p>
+        <p>Software Passion:  Building high-performing IT divisions. IT management, practice and theory.</p>
+        <p>Links for Richard:</p>
+        <ul>
+            <li>Twitter: rdurnall</li>
+            <li>Blog: www.richarddurnall.com</li>
+        </ul>
+ 
 richard-gabriel:
     name: Richard P. Gabriel
     title: |
@@ -391,7 +450,7 @@ rod-johnson:
             <li>Blog: http://blog.springsource.com/author/rodj/</li>
             <li>Books: Expert One-on-One J2EE Development without EJB</li>
         </ul>
-        
+
 udi-dahan:
     name: Udi Dahan
     title: |
@@ -422,5 +481,39 @@ ulf-wiger:
             <li>Website: http://ulf.wiger.net/weblog/</li>
             <li>Twitter: @uwiger</li>
             <li>Blog: Ulf Wiger on Singing</li>
+        </ul>
+
+victor-rodrigues:
+    name: Victor Rodrigues
+    title: |
+        <p>Agile methods practitioner and evangelist with a passion for the total end user experience</p>
+        <p>Head of Audiological Software Development for Cochlear</p>
+    description: |
+        <p>Head of Audiological Software Development for Cochlear, whom he has been with for 10 years. Victor Rodrigues has over 18 years' experience in the IT sector. Previously working in fields as diverse as manufacturing control systems, service station and postal management systems and medical devices, Victor introduced Scrum to the Cochlear software team four years ago, with positive results. Since then engineering teams throughout the organisation are using Agile practices and methods.</p>
+        <p>One of the keys to the success of the software his teams deliver are Agile practices and methods. Utilising the closer relationships with stakeholders that form using this process, the teams have been able to provide stakeholders the opportunity to shape the product during its development. This is complemented by the team's use and Victor's passion for user-centred interaction design.</p>
+        <p>He recently was invited to join a working group (commissioned by the Association for the Advancement of Medical Instrumentation (AAMI)) responsible for producing a technical information report on the use of Agile methods and practices in the medical device industry.</p>
+        <p>Software Passion: "Supporting software teams to perform at their best and evangelising the total end user experience."</p>
+        <p>Links for Victor:</p>
+        <ul>
+            <li>Twitter: @jeunj</li>
+            <li>Blog: http://beyondcomprehension.posterous.com/</li>
+        </ul>
+
+xerxes-battiwalla:
+    name: Xerxes Battiwalla
+    title: |
+        <p>Problem solver and bit-manipulator</p>
+        <p>Senior Developer, Cochlear</p>
+    description: |
+        <p>Since joining Cochlear in 2008, Xerxes has been involved in a number of software projects. With a focus on improving their audiological software, he is working to streamline software systems that aid in the fitting of Cochlear Implant recipients, restoring hearing to the deaf faster and with better overall outcomes.</p>
+        <p>Having been involved in commercial software development for nearly a decade, Xerxes has worked with a broad range of clients from freight forwarding giants such as TNT and FedEx to New Zealand Parliament and HSBC bank. Commencing his career developing a tolling violation system for Sydney's south-west motorway, the M5, his interests then broadened to the digital media space, joining OneDigital (now Isobar Digital Agency Network). During this time he was an integral part of the team that created the Pizza Hut corporate website and online ordering facility, and designed and implemented the Federal Government's Tourism Australia portal, part of a cross media campaign to attract overseas visitors.</p>
+        <p>Drawing on this range of experience in the web, desktop and mobile technology areas, his goal is to simplify processes and produce more intuitive software.</p>
+        <p>Outside the 9-5, Xerxes teaches the next generation of programmers, Computer Science students at the University Of Technology Sydney, helping to bridge the gap between academia and industry professionals.</p>
+        <p>Software Passion:  "My software passion: Making software simple and pain-free."</p>
+        <p>Links for Xerxes:</p> 
+        <ul>
+            <li>Website: http://www.xerxesb.com/</li>
+            <li>Twitter: @xerxesb</li>
+            <li>Blog: Untitled.Bat</li>
         </ul>
 
