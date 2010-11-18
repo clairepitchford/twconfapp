@@ -5,7 +5,7 @@ end
 
 Given /I have not previously rated the "(.*?)" session/ do |session_id|
   phone = SimPhone.new
-  phone.browser.eval_js('localStorage.removeItem("breakfast-rating")');
+  phone.browser.eval_js('localStorage.removeItem("#{session_id}-rating")');
 end
 
 When /I click the "Rate this session" icon for the "(\w+)" session/ do |session_id|
