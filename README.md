@@ -7,7 +7,7 @@ Building
 
 We have some dependencies.
 
-    $ gem install json nokogiri
+    $ bundle install
 
 I know. I know.
 
@@ -28,13 +28,16 @@ You know how to deploy that, right?
 (Hint: if you fork to your own account, you can use
 `http://[youTHESTARnamehere].github.com/agile2010/` to much the same result.
 
+Data generation
+---------------
+
+	rake schedule
+	
+	will turn the data stored in the YML files into defaultData.js which is <script> included into the application at runtime.
+	
 Testing
 ---------
 
     rake
 
 That runs Safari. And then does integration tests.
-
-But, you'll need:
-
-    $ gem install rspec cucumber safariwatir appscript
