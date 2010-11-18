@@ -339,3 +339,15 @@ emergent-design:
         <p>Best Practices</p>
         <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers four areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualizations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilizing them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping your code in sync with the problem domain.</p>
         <p>Keywords: BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
+
+fur-flies:
+    date: Fri 1:00PM
+    title: "When the Fur Flies: Dev and Ops Cooperation When the Worst Happens"
+    speakers: michael-nygard
+    description: |
+        <p>Development and Operations</p>
+        <p>There's nothing like a crisis to remove artificial barriers. In thissession, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the funof sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.</p>
+        <p>Keywords: Operations, Velocity, Disaster, Crisis, Deployment, Architecture, BestPractices</p>
+        <p>Target Audience: Developers, Managers, Architects</p>
+
+
