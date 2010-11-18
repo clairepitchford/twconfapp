@@ -350,4 +350,12 @@ fur-flies:
         <p>Keywords: Operations, Velocity, Disaster, Crisis, Deployment, Architecture, BestPractices</p>
         <p>Target Audience: Developers, Managers, Architects</p>
 
-
+interactive-data:
+    date: Fri 2:05PM
+    title: Computational Information Design
+    speakers: nicolas-belmonte
+    descriptions: |
+        <p>Interaction & Visualization</p>
+        <p>The Web has never been more open to everyone. Open Data services exist in almost every web application: from social networking apps to governmental pages and the news, all this data can be instantly accessed by exposed APIs. However, although most of this data is offered in a simple interchange format, its structures are quite complex, ranging from complex networks to time-based information, hierarchical data or heavy graphs. Displaying this data in a manner that enables the viewer to gain some insight can be challenging, especially if we aim at providing some interaction and doing it in a cross-browser/cross-device manner. The JavaScript InfoVis Toolkit creates interactive data visualizations for the Web. It's based solely on Web Standards, leveraging the power of native browser technologies to provide insights on complex data. In this talk you will learn about the JavaScript InfoVis Toolkit and how it can help you create advanced data visualizations for the Web.</p>
+        <p>Keywords: JavaScript, Visualization, InfoVis, DataVis, VisualWeb<p>
+        <p>Target Audience: People wanting to create data visualizations for the web using major browsers and platforms.<p>

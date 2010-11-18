@@ -324,6 +324,19 @@ neal-ford:
             <li>Presentations: Emergent Design and Evolutionary Architecture 10 Ways To Improve Your Code Programming Languages and Platforms</li>
         </ul>
 
+nicolas-belmonte:
+    name: Nicolas Garcia Belmonte
+    title: Author JavaScript InfoVis Toolkit and V8-GL
+    description: |
+        <p>Nicolas Garcia Belmonte is a Computer Science Engineer from the Buenos Aires Institute of Technology (ITBA), in Argentina. His main interests are Web Standards and Information Visualization. Nicolas is the creator of the JavaScript InfoVis Toolkit, a toolkit to create Interactive Data Visualizations for the Web and V8-GL, a hardware accelerated graphics library built on top of Google's V8 JavaScript Engine.</p>
+        <p>Software Passion:  Passionate about Web Standards and Information Visualization.</p>
+        <p>Links for Nicolas:</p>
+        <ul>
+            <li>Twitter: @philogb</li>
+            <li>Blog: http://blog.thejit.org</li>
+            <li>Software: JavaScript InfoVis Toolkit  V8-GL</li>
+        </ul>
+
 obie-fernandez:
     name: Obie Fernandez
     title: |
