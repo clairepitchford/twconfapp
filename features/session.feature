@@ -1,4 +1,4 @@
-Feature: As an Attendee, I want	the app to open on Wednesday schedule, so that I immediately see what sessions are on
+Feature: As an Attendee, I want	the app to display the sessions for a particular day
 
 	Scenario Outline: Sessions with only one session per time
 		Given I open the Schedule tab
@@ -8,6 +8,6 @@ Feature: As an Attendee, I want	the app to open on Wednesday schedule, so that I
 		And the speaker should be <speaker>
 		
 		Examples:
-			| schedule_day | time_slot | title                                           | speaker       |
-	  		| Wednesday    | 07:00AM   | Executive Breakfast with Jim Highsmith          | Jim Highsmith | 
-	  		| Thursday     | 09:00AM   | The Essence of Agile Software Development - CCH | Martin Fowler |
+			| schedule_day | time_slot | title                                           			| speaker       |
+	  		| Thursday     | 09:00AM   | Keynote Address - Things I Wish I'd Known       			| Rod Johnson   | 
+	  		| Friday       | 10:15AM   | Designing and Implementing RESTful Application Protocols 	| Ian Robinson  |
