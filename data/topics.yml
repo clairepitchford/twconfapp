@@ -381,9 +381,17 @@ how-to:
         <p>For world class performance on commodity hardware you need to take a holistic approach to software design. The good news is that all the stuff we learned in computer science 101 is what really matters, choose your data structures carefully, model your domain, understand your platform, work hard to have a clear separation of concerns, but as well as all of that, run your business logic on a single thread!?</p>
         <p>Keywords: High-PerformanceTransactions, Java, Concurrency, Scalability, CaseStudy</p>
         <p>Target Audience:  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>
-        
+
 afternoon-tea2:
     date: Fri 3:05PM
     title: Afternoon Tea
     
-    
+computational-information:
+    date: Fri 3:20PM
+    title: Computational Information Design
+    speakers: ben-fry
+    descriptions: |
+       <p>Interaction and Visualization</p>
+       <p>The ability to collect and store data continues to increase, but our ability to understand it remains unchanged. Data visualization makes use of our evolutionary proclivity for decoding visual images and employs this ability as a high-bandwidth means of getting data into our heads. In this talk, I'll present work I've developed ranging from illustrations of data for magazines and journals to software tools used by geneticists to interactive applications for Fortune 10 companies.</p>
+       <p>Keywords: Design, Visualization, InformationDesign, Processing, Java, VisualWeb, JavaScript</p>
+       <p>Target Audience: Anyone interested in understanding the mess of data around us.</p>

@@ -28,6 +28,25 @@ ben-alex:
             <li>Books Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
         </ul>
 
+ben-fry:
+    name: Ben Fry
+    title: |
+        <p>Author of "Visualizing Data" and "Processing"</p>
+        <p>Expert in Interactive Media and Visualization, Principal of Fathom, Design and Software Consultancy</p>
+    description: |
+        <p>Ben Fry received his doctoral degree from the Aesthetics + Computation Group at the MIT Media Laboratory, where his research focused on combining fields such as computer science, statistics, graphic design, and data visualization as a means for understanding information. After completing his thesis, he spent time developing tools for visualization of genetic data as a postdoc with Eric Lander at the Eli & Edythe L. Broad Insitute of MIT Harvard. During the 2006-2007 school year, Ben was the Nierenberg Chair of Design for the Carnegie Mellon School of Design. At the end of 2007, he finished writing Visualizing Data for O'Reilly.</p>
+        <p>With Casey Reas of UCLA, he currently develops Processing, an open source programming environment for teaching computational design and sketching interactive media software that won a Golden Nica from the Prix Ars Electronica in 2005. The project also received the 2005 Interactive Design prize from the Tokyo Type Director's Club. In 2006, Fry received a New Media Fellowship from the Rockefeller Foundation to support the project. Processing was also featured in the 2006 Cooper-Hewitt Design Triennial. In 2007, Reas and Fry published Processing: A Programming Handbook for Visual Designers and Artists with MIT Press. Processing 1.0 was released in November 2008, and is used by tens of thousands of people every week.</p>
+        <p>Fry's personal work has shown at the Whitney Biennial in 2002 and the Cooper Hewitt Design Triennial in 2003. Other pieces have appeared in the Museum of Modern Art in New York, at Ars Electronica in Linz, Austria and in the films Minority Report and The Hulk. His information graphics have also illustrated articles for the journal Nature, New York Magazine, The New York Times, Seed, and Communications of the ACM.</p>
+        <p>Ben Fry runs a design and software consultancy based in Cambridge, Massachusetts.</p>
+        <p>Software Passion: Creating ways to see data, and teaching others to do the same.</p>
+        <p>Links for Ben:</p>
+        <ul>
+            <liWebsite: http://benfry.com</li>
+            <li>Twitter: ben_fry</li>
+            <li>Books: Visualizing Data Processing Getting Started with Processing</li>
+            <li>Software: Processing</li>
+        </ul>
+
 chris-mountford:
     name: Chris Mountford
     title: |
@@ -42,7 +61,7 @@ chris-mountford:
             <li>Twitter: chromosundrift</li>
             <li>Blog: http://blog.chromosundrift.com/</li>
         </ul> 
-        
+
 corey-haines:
     name: Corey Haines
     title: |
@@ -212,7 +231,7 @@ jim-webber:
             <li>Blog: http://jim.webber.name/</li>
             <li>Books: Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
         </ul>
-        
+ 
 josh-graham:
     name: Josh Graham
     title: |
