@@ -1,5 +1,11 @@
+require 'yaml'
+
 Given /^the manifest "([^"]+)"$/ do |manifest_fn|
   @fn = manifest_fn
+end
+
+Given /^the speaker file "([^"]+)"$/ do |speaker_fn|
+  @speaker_fn = speaker_fn
 end
 
 Then /^all files in it should exist$/ do
@@ -25,3 +31,43 @@ Then /^all files in it should exist$/ do
     end
   end
 end
+
+#themes/agile2010/img/speakers/
+
+Then /^each speaker should have an image file associated with him or her$/ do
+  speakers = YAML::load(File.open(@speaker_fn))
+  speakers.keys.each do |speaker_name|
+    speaker_name.should satisfy { |fn| File.exist? 'themes/agile2010/img/speakers/' + fn + '.gif'}
+  end
+  
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

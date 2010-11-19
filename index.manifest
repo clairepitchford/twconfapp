@@ -11,7 +11,7 @@ jqtouch/jquery-1.4.2.min.js # e23a2a4e2d7c2b41ebcdd8ffc0679df7140eb7f52e1eebabf8
 jqtouch/jquery.json-2.2.min.js # 17499c3aa1c1ccede6c8b1e21b19a3dd01b518ccfd1c63205d4f9dc36edc060f
 
 themes/agile2010/agile2010.js # bcdec13914aa3b7a6f4e050ee03705682da3f2799f7ac5d828cad7659df7f4a6
-themes/agile2010/defaultData.js # 9749e6e2bcd9ecb06e24b363aa29908ac086266f708c2c3b9e81548fed419303
+themes/agile2010/defaultData.js # 4661e65bd33306e384db3d3b44e134f7c0d76bcfe623b8a2028d91f5fbe090e9
 
 themes/agile2010/SegmentedMenu.css # 17863ca1256b27ed5e0488baf0e2cc6b94c6b05f7c6721a005e4225e5e0bae27
 themes/agile2010/theme.css # a6a51ab7823fc1ce7859034aef20c15c53019b583298b14b7871d376d8e90b84
@@ -66,7 +66,6 @@ themes/agile2010/img/speakers/dan-ingalls.gif # fad51aa22ac70ec76a243e95c2590d70
 themes/agile2010/img/speakers/daniel-bradby.gif # d25977c752b050202da88e21b2ee546208a0bceb839503f035db6a1de56491e1
 themes/agile2010/img/speakers/dave-farley.gif # 0bb27112f4b2de8e77603d603944fc0eb96212b53cb918efa13a87d07f4a9b8e
 themes/agile2010/img/speakers/dragos-manolescu.gif # a6a7ca095454b24e21b5b00b369307adc409b090346d5517ac4c4d47b7b12cf1
-themes/agile2010/img/speakers/emil-efreim.gif # 1a19ce1049631b8d0f4d72bc21264b39e2c3496c8a73c1734fa90e057340e3fa
 themes/agile2010/img/speakers/eric-evans.gif # 7a4bd8b350701608dc1f94b63bc3725927e56b73d8574a1cf427cdbd9f1a8d31
 themes/agile2010/img/speakers/erik-meijer.gif # 7198cf0cef2e1d3f2fed3228b33d48528f9af432cc68e6c1194110bf21de14bd
 themes/agile2010/img/speakers/greg-flurry.gif # 0a70acc2c7bca9809da8e1346fcfdda4604a29dc1a295c9e1290b21e621ea66d
@@ -79,13 +78,13 @@ themes/agile2010/img/speakers/jim-webber.gif # 1ed35e3691d323a90c99ca2781e77959d
 themes/agile2010/img/speakers/joel-pobar.gif # e6565a25f61302b8d6e6c6c282f13b99087cbde49a373f3a4f4b019195f49bb3
 themes/agile2010/img/speakers/josh-graham.gif # 26111f7d137428501655751948e8015cc8c3e3c77f20a0995d16b71a00a68e96
 themes/agile2010/img/speakers/justin-sheehy.gif # 3686281e62cb2311c01c1ec58fa8e2c3985f11f121b559e2dceb11ccf17adfa7
-themes/agile2010/img/speakers/kresten-krab.gif # f911ee51159cd817525044685405659b13013c4386d0d9316eb007667be849af
+themes/agile2010/img/speakers/kresten-thorup.gif # f911ee51159cd817525044685405659b13013c4386d0d9316eb007667be849af
 themes/agile2010/img/speakers/martin-nally.gif # 4861e7a4a6c35c60f744564e0a7ff60612ad974d7483801f72e53c8e5715c5e2
 themes/agile2010/img/speakers/mary-poppendieck.gif # 092fab209f23e0eeca874b702bfe9ea59b208ef17fb6779ef8ceda4080bccfe2
-themes/agile2010/img/speakers/michael-nygaard.gif # 67a68a6c07dd4b323a4c3d4ee3f76dc5ef33de66fea110b3af76cb53ba947e9c
+themes/agile2010/img/speakers/michael-nygard.gif # 67a68a6c07dd4b323a4c3d4ee3f76dc5ef33de66fea110b3af76cb53ba947e9c
 themes/agile2010/img/speakers/nathan-devries.gif # f6796408932e44a4e936be4a5833611c01f840906268ee94d6479336b7b0167e
 themes/agile2010/img/speakers/neal-ford.gif # e74c4a649bb1dd415dc7119c9ece2440e3efc01b5e1536d704974ab381d14f19
-themes/agile2010/img/speakers/nicolas-garcias-belmonte.gif # ccb09c5945eb2274aa045991c7e0e5000b70d0cacfb9361a63547b534db0a6c0
+themes/agile2010/img/speakers/nicolas-belmonte.gif # ccb09c5945eb2274aa045991c7e0e5000b70d0cacfb9361a63547b534db0a6c0
 themes/agile2010/img/speakers/obie-fernandez.gif # 205f34fe6c7f074290508b1e11d7a962e6e269b146147795048f7e91f788a95e
 themes/agile2010/img/speakers/oren-eini.gif # 206473fa329d2479510c22d957a1054225acac24d9d862a76b6f367158b452d2
 themes/agile2010/img/speakers/pamela-fox.gif # 0e5cf5a7a2a37d3aef8166fceb13ed9ec79a45c492257223303d0a86b9b7855a
@@ -96,6 +95,8 @@ themes/agile2010/img/speakers/udi-dahan.gif # 887db21780e03ad5c13fe37d3d86703e7f
 themes/agile2010/img/speakers/ulf-wiger.gif # ce574fc9d8b968897b700269fdf13861499c971211f173cf3728ce367587efe9
 themes/agile2010/img/speakers/victor-rodrigues.gif # 1ef6e97287eabb3c06db25bc7aa647c03df8d011ed714baa428fe03e99a310c5
 themes/agile2010/img/speakers/xerxes-battiwalla.gif # 33b591324215cf952e5494fe60a9ea217c0473b0be884cafa592d24d11c08f7c
+
+
 
 
 

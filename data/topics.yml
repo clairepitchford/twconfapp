@@ -155,16 +155,6 @@ afternoon-tea:
     date: Thu 3:05PM
     title: Afternoon Tea
 
-not-only:
-    date: Thu 3:20PM
-    title: "Not Only SQL: Alternative Data Persistence and Neo4J"
-    speakers: emil-eifrem
-    desciption: |
-        <p>Cloud Computing</p>
-        <p>The misnamed "NoSQL" movement is less of a rejection of the relational technology that has served us well for 40 years, but rather an embrace of persistence technologies that help us solve problems not well addressed by the classic RDBMS. This talk will provide an overview of the "NoSQL" landscape and in addition, describe both the technology behind and a significant deployment example of Neo4J, a graph-oriented alternative data store.</p>
-        <p>Keywords: Neo4J, GraphDB, NoSQL, Java, Database</p>
-        <p>Target Audience: Developers interested in alternative database solutions in general or specifically graph databases.</p>
-
 strategic-design:
     date: Thu 3:20PM
     title: "Strategic Design: Avoiding Responsibility Traps"
