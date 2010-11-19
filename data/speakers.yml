@@ -47,6 +47,21 @@ ben-fry:
             <li>Software: Processing</li>
         </ul>
 
+brian-oliver:
+    name: Brian Oliver
+    title: |
+        <p>Scaling Solutions Expert</p>
+        <p>Global Solutions Architect, Oracle Coherence Engineering</p>
+    description: |
+        <p>Brian Oliver is a Global Solutions Architect at Oracle. He works within the Oracle Coherence Engineering group and predominantly focuses on enabling financial institutions across Europe and North America to implement massively scalable and high-performance Data Grid solutions.</p>
+        <p>Over the past 10 years he has been leading the development of large-scale multi-language and multi-currency Web, E-Commerce, Sports Gaming and Financial systems making extensive use of Java technologies. He's the founder of the Coherence SIG, probably the only regularly meeting Data Grid Special Interest Group in the world, and the Coherence Incubator, a site dedicated to providing reference implementations of architectural patterns on top of Oracle Coherence.</p>
+        <p>He's been using Java since 1996. He opens an IDE every couple of days to cook up new solutions. On alternate days he's in the air traveling around Europe and North America talking about Data Grids.</p>
+        <p>Links for Brian:</p>
+        <ul> 
+            <li>Blog: http://brianoliver.wordpress.com/</li>
+            <li>Presentations: Data Grid Design Patterns</li>
+        </ul>
+
 chris-mountford:
     name: Chris Mountford
     title: |
