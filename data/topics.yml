@@ -385,3 +385,12 @@ computational-information:
        <p>The ability to collect and store data continues to increase, but our ability to understand it remains unchanged. Data visualization makes use of our evolutionary proclivity for decoding visual images and employs this ability as a high-bandwidth means of getting data into our heads. In this talk, I'll present work I've developed ranging from illustrations of data for magazines and journals to software tools used by geneticists to interactive applications for Fortune 10 companies.</p>
        <p>Keywords: Design, Visualization, InformationDesign, Processing, Java, VisualWeb, JavaScript</p>
        <p>Target Audience: Anyone interested in understanding the mess of data around us.</p>
+
+row-together:
+    date: Fri 3:20PM
+    title: "Row Together, Row in the Right Direction, Row Faster: Improving alignment and throughput in software development"
+    speakers: jason-yip
+    descriptions: |
+        <p>How much does it matter that we're good at delivering if it turns out we're working on the wrong things?  Let's explore a way to think not just about individual projects, but rather the project delivery system (i.e., how projects are delivered in general).  You will learn concepts and simple techniques for aligning a work portfolio to a common strategy, determining a strategy if it doesn't exist, and linking all of this to efforts to improve throughput.</p>
+        <p>Keywords: Process, PortfolioManagement, StrategicAlignment, Lean, Agile</p>
+        <p>Target Audience:  People who are interested in improvement across projects, not just single projects.</p>

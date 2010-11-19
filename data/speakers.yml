@@ -198,6 +198,22 @@ ian-robinson:
             <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
         </ul>
 
+jason-yip:
+    name: Jason Yip
+    title: |
+        <p>Agile and Lean afficianado</p>
+        <p>Principal Consultant at ThoughtWorks</p>
+    description: |
+        <p>Jason is a popular speaker and a respected community builder. He has devoted much of his time to supporting users groups including, Sydney Limited WIP Society, SyXPAC, and Girl Geek Dinners. Jason has worked at ThoughtWorks for the past 9 years as a buildmaster, developer and Agile / Lean coach. He was one of the early committers on CruiseControl, the first Open Source Continuous Integration server, and is a prolific blogger and tweeter on Agile and Lean topics. Jason used to own the entire first results page on Google until some Hong Kong actor showed up.</p>
+        <p>Software Passion: Making software is about making people</p>
+        <p>Links for Jason:</p>
+        <ul>    
+            <li>Twitter: @jchyip</li>
+            <li>Blog: Making software is about making people</li>
+            <li>Presentations: http://www.slideshare.net/jchyip</li>
+            <li>Software: http://cruisecontrol.sf.net</li>
+        </ul>
+
 jim-webber: 
     name: Jim Webber
     title: |
@@ -322,7 +338,7 @@ nathan-devries:
             <li>Blog: http://www.atnan.com/</li>
             <li>Website: http://nathandevries.com</li>
             <li>Twitter:  atnan</li>
-        </ul<
+        </ul>
 
 neal-ford:
     name: Neal Ford
