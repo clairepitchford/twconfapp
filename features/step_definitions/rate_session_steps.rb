@@ -5,7 +5,7 @@ end
 
 Given /I have not previously rated the "(.*?)" session/ do |session_id|
   phone = SimPhone.new
-  phone.browser.eval_js('localStorage.removeItem("#{session_id}-rating")');
+  phone.browser.eval_js('localStorage.removeItem("#{session_id}-rating")')
 end
 
 When /I click the "Rate this session" icon for the "(\w+)" session/ do |session_id|
@@ -13,7 +13,7 @@ When /I click the "Rate this session" icon for the "(\w+)" session/ do |session_
 end
 
 Then /I am on the "(\w+)" session page/ do |session_id|
-  @phone.session?.should == "Executive Breakfast with Jim Highsmith"
+  @phone.session?.downcase.should == session_id.downcase
 end
 
 When /I click the second star icon/ do 
