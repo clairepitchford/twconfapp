@@ -344,17 +344,17 @@ interactive-data:
     date: Fri 2:05PM
     title: Computational Information Design
     speakers: nicolas-belmonte
-    descriptions: |
+    description: |
         <p>Interaction & Visualization</p>
         <p>The Web has never been more open to everyone. Open Data services exist in almost every web application: from social networking apps to governmental pages and the news, all this data can be instantly accessed by exposed APIs. However, although most of this data is offered in a simple interchange format, its structures are quite complex, ranging from complex networks to time-based information, hierarchical data or heavy graphs. Displaying this data in a manner that enables the viewer to gain some insight can be challenging, especially if we aim at providing some interaction and doing it in a cross-browser/cross-device manner. The JavaScript InfoVis Toolkit creates interactive data visualizations for the Web. It's based solely on Web Standards, leveraging the power of native browser technologies to provide insights on complex data. In this talk you will learn about the JavaScript InfoVis Toolkit and how it can help you create advanced data visualizations for the Web.</p>
         <p>Keywords: JavaScript, Visualization, InfoVis, DataVis, VisualWeb<p>
         <p>Target Audience: People wanting to create data visualizations for the web using major browsers and platforms.<p>
 
-management-2.0:
+management-two:
     date: Fri 2:05PM
     title: "Management 2.0: Leadership Models for an Information Age"
     speakers: richard-durnall
-    descriptions: |
+    description: |
         <p>Lean Software Management</p>
         <p>Henry Ford changed the world through the manufacturing machinery he created over 100 years ago. Separating 'thinking' from 'doing', Mr Ford defined a management archetype for large western organisations that still persists over a century later. But as we move to an information age at break-neck speed, does command & control management still look as compelling?</p>
         <p>In this presentation, Richard will discuss the history of management science and how management techniques affect the performance of technology teams and IT divisions. He will demonstrate the fundamental differences between today's two prevalent management theories: Scientific Management Theory and Systems Management Theory. He will explore the foundations of management theory in philosophical thought, the development of management models through political and military leadership, and ultimately the application of management concepts in today's information age. Richard will investigate a number of case studies from IT and beyond, presenting empirical evidence that demonstrates a change in management philosophy can directly affect business results. This presentation is a must for anyone interested in or involved in enterprise level Agile adoption or simply with an interest in hearing more on 'Lean & Systems Thinking' from an experienced practitioner.</p>
@@ -365,7 +365,7 @@ how-to:
     date: Fri 2:05PM
     title: "LMAX: How to do over 100K contended complex business transactions per second at less than 1ms latency"
     speakers: dave-farley
-    descriptions: |
+    description: |
         <p>Scaling</p>
         <p>Conventional wisdom says that memory is fast, disk is slow, networks are slower and that fast systems must be highly concurrent to achieve maximum performance. Much of this is outdated and some of it is now wrong. Modern hardware is phenomenally fast, but we have become complacent and use it in extremely inefficient and inappropriate ways.</p>
         <p>For world class performance on commodity hardware you need to take a holistic approach to software design. The good news is that all the stuff we learned in computer science 101 is what really matters, choose your data structures carefully, model your domain, understand your platform, work hard to have a clear separation of concerns, but as well as all of that, run your business logic on a single thread!?</p>
@@ -380,7 +380,7 @@ computational-information:
     date: Fri 3:20PM
     title: Computational Information Design
     speakers: ben-fry
-    descriptions: |
+    description: |
        <p>Interaction and Visualization</p>
        <p>The ability to collect and store data continues to increase, but our ability to understand it remains unchanged. Data visualization makes use of our evolutionary proclivity for decoding visual images and employs this ability as a high-bandwidth means of getting data into our heads. In this talk, I'll present work I've developed ranging from illustrations of data for magazines and journals to software tools used by geneticists to interactive applications for Fortune 10 companies.</p>
        <p>Keywords: Design, Visualization, InformationDesign, Processing, Java, VisualWeb, JavaScript</p>
@@ -390,7 +390,45 @@ row-together:
     date: Fri 3:20PM
     title: "Row Together, Row in the Right Direction, Row Faster: Improving alignment and throughput in software development"
     speakers: jason-yip
-    descriptions: |
+    description: |
+        <p>Lean Software Management</p>
         <p>How much does it matter that we're good at delivering if it turns out we're working on the wrong things?  Let's explore a way to think not just about individual projects, but rather the project delivery system (i.e., how projects are delivered in general).  You will learn concepts and simple techniques for aligning a work portfolio to a common strategy, determining a strategy if it doesn't exist, and linking all of this to efforts to improve throughput.</p>
         <p>Keywords: Process, PortfolioManagement, StrategicAlignment, Lean, Agile</p>
         <p>Target Audience:  People who are interested in improvement across projects, not just single projects.</p>
+
+scaling-applications:
+    date: Fri 3:20PM
+    title: "Scaling Applications: Complexity, Performance, Maintainability, Multi-Tenancy"
+    speakers: oren-eini
+    description: |
+        <p>Scaling</p>
+        <p>We are building the same types of systems as we built yesterday, the demands placed on our systems becomes more and more demanding. We need to handle more users, offer more intelligent behavior, provide different behavior for differenet clients, parallelize both development and deployment, handle partial failures in our applications, offer the operations team rich insight into our systems and the ability to tweak them at runtime and so much more.</p>
+        <p>Trying to build such application using the standard N-tiered architecture has proven to be hard, challenging and complex. In this session, you will learn how changing some of the underlying architectural concepts in how we build applications can lead to simpler solutions that scale extremely well. Those concepts include divide and conquer, background evaluation, one way messaging and ruthless application of the single responsibility principle. We will cover the full gamot, from building dynamic data models to customizing behaviors and adaptable user interface.</p>
+        <p>Keywords: Scaling, Multi-Tenancy, ESB, Database, SOA, .NET, Architecture</p>
+        <p>Target Audience: Developers, Managers</p>
+
+forty-years:
+    date: Fri 4:25PM
+    title: Forty Years of Fun with Computers
+    speakers: dan-ingalls
+    description: |
+        <p>Interaction and Vialization</p>
+        <p>Dan Ingalls has had the good fortune to create, or at least to assist at the birth of, a number of core technologies that we take for granted these days. In this talk he will present these from several perspectives: the forces that brought them forth, the qualities that give them power, and the liveliness that makes them all fun to this day.</p>
+        <p>Keywords: Smalltalk, Interaction, Visualization, VisualWeb, JavaScript, VisualLanguages, UX, MultiMedia</p>
+
+what-is:
+    date: Fri 4:25PM
+    title: What is this Thing Called 'Pull'?
+    speakers: mary-poppendieck
+    description: |
+        <p>Lean Software Management</p>
+        <p>Pull means a lot of things to a lot of people:</p>
+        <ul>
+            <li>Pull = Pursuing Passion</li>
+            <li>Pull = Putting Customers First</li>
+            <li>Pull = Producing Based on Demand</li>
+        </ul>
+        <p>These definitions of pull have something in common; they all contain a strong element of observation, orientation, decision, and action – the OODA loop. As the pace of business increases and unexpected events become common, pull becomes like an increasingly attractive alternative to push.</p>
+        <p>The problem is, pull doesn't work without preparation. Pull requires an environment that sends the correct signals, methods to rapidly detect the right patterns, and people who have the skills and training to make the right decisions. So the real challenge of pull is creating the environment, devising the patterns, and developing the people that ensure the right decisions are made and rapidly carried out, no matter what situation presents itself.</p>
+        <p>Keywords: Pull, Push, Passion, OODA, Customer, Demand, Uncertainty, Agile, Lean, Management, Leadership</p>
+        <p>Target Audience: Team Leads, Managers</p>

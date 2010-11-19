@@ -80,6 +80,24 @@ corey-haines:
             <li>Presentations:Beyond the Hype</li>
         </ul>
 
+dan-ingalls:
+    name: Dan Ingalls
+    title: |
+        <p>Principal Architect of Five Generations of Smalltalk</p>
+        <p>Fellow at SAP Palo Alto Research Centre</p>
+    description: |
+        <p>Dan Ingalls is the principal architect of five generations of Smalltalk environments. He designed the byte-coded virtual machine that made Smalltalk practical in 1976. He later conceived a Smalltalk written in itself and made portable and efficient by a Smalltalk-to-C translator, now known as the Squeak open-source Smalltalk. Dan also invented BitBlt, the general-purpose graphical operation that underlies most bitmap graphics systems today, as well as pop-up menus. His most recent work, the Lively Kernel, is a dynamic graphics and programming environment that runs entirely in a browser. Able to save its results and even new versions of itself as web pages, if offers the promise that wherever there is the web there is authoring. Dan received his B.A. in Physics from Harvard University, and his M.S. in Electrical Engineering from Stanford University. He is a recipient of the ACM Grace Hopper Award, and the ACM Software Systems Award.<p>
+        <p>Dan has recently joined SAP and is a member of the Chief Scientist team guiding the company’s technology vision, direction and execution.</p>
+        <p>Software Passion: Good software brings mathematics to life. If it doesn't it isn't</p>
+        <p>Links for Dan:</p>
+        <ul>
+            <li>Website: http://www.squeak.org http://www.lively-kernel.org/</li>
+            <li>Twitter: @DanIngalls</li>
+            <li>Blog: http://whatsup-di.blogspot.com/</li>
+            <li>Articles: The Lively Kernel</li>
+            <li>Presentations:  Floss Weekly 29  Dan Ingalls on the History of Smalltalk and the Lively Kernel Sanskrit and OCR</li>
+        </ul>
+
 daniel-bradby:
     name: Daniel Bradby
     title: Director of Methods and Collaboration at jTribe Mobile Services
@@ -308,6 +326,21 @@ martin-nally:
         <p>Martin Nally is the Chief Technology Officer for the Rational Software division of IBM and an IBM Fellow. Martin joined IBM in 1990 with 10 years prior industry experience. He has held several architecture and development positions in IBM including lead architect and developer for IBM VisualAge/Smalltalk and VisualAge/Java. Martin was one of a team of three that launched the IBM project that later became the Eclipse framework and he led the architecture, design and development of WebSphere Studio, IBM's flagship Eclipse-based developer tool-suite that later evolved into Rational Application Developer. He was chief architect for Rational before becoming CTO.</p>
         <p>Software Passion:  My passion is finding simpler software solutions. Complex things take too long to build and are too hard to change - the world is too dynamic for complex solutions</p>
 
+mary-poppendieck:
+    name: Mary Poppendieck
+    title: |
+        <p>Thought leader in the software industry</p>
+        <p>Respected Author of Lean Software Development</p>
+    description:    | 
+        <p>Mary Poppendieck has been in the Information Technology industry for over thirty years. She has managed software development, supply chain management, manufacturing operations, and new product development. She spearheaded the implementation of a Just-in-Time system in a 3M video tape manufacturing plant and led new product development teams, commercializing products ranging from digital controllers to 3M Light Fiber™.  Mary is a popular writer and speaker, and coauthor of the book Lean Software Development, which was awarded the Software Development Productivity Award in 2004. A sequel, Implementing Lean Software Development, was published in 2006. A third book, Leading Lean Software Development, was published in November 2009.</p>
+        <p>Software Passion: Putting Passion back into Programming</p>
+        <p>Links for Mary:</p>
+        <ul>
+            <li>Website:  http://www.poppendieck.com</li>
+            <li>Books:  Leading Lean Software Development: Results Are not the Point Implementing Lean Software Development: From Concept to Cash</li>
+            <li>Lean Software Development: An Agile Toolkit</li>
+        </ul>
+
 michael-nygard:
     name: Michael T. Nygard
     title: |
@@ -385,7 +418,26 @@ obie-fernandez:
             <li>Blog: http://blog.obiefernandez.com/content</li>
             <li>Books: The Rails Way</li>
         </ul>
- 
+
+oren-eini:
+    name: Oren Eini
+    title: |
+        <p>Wizard of Open Source .Net</p>
+        <p>Software Wizard at Hibernating Rhinos</p>
+    description: |
+        <p>Oren Eini is working for Hibernating Rhinos LTD, a Israeli based company producing developer productivity tools for OLTP applications such as NHibernate Profiler (nhprof.com), Linq to SQL Profiler(l2sprof.com), Entity Framework Profiler (efprof.com) and more.</p>
+        <p>Oren's main focus is on architecture and best practices that promote quality software and zero-friction development. Oren is the author of Rhino Mocks, one of the most popular mocking frameworks on the .NET platform, and is also a leading figure in other well known open source projects including the Castle project and NHibernate.</p>
+        <p>An internationally known presenter, Oren has spoken at conferences such as DevTeach, JAOO, QCon, Oredev, NDC and Progressive.NET and is the author of the book "DSLs in Boo: Domain Specific Languages in .NET", published by Manning. Oren, using his pseudonym as Ayende Rahien, is a frequent blogger at http://www.ayende.com/Blog/.</p>
+        <p>His hobbies include reading fantasy novels, reviewing code, and writing about himself in the third person. Oren is also a Microsoft MVP, a fact that he tends to forget when writing a bio.</p>
+        <p>Software Passion: Reinventing the wheel, in a maintainable form.</p>
+        <p>Links for Oren:</p>
+        <ul>
+            <li>Website: http://ayende.com</li>
+            <li>Twitter: @ayende</li>
+            <li>Blog: Unnatural acts on source code</li>
+            <li>Books: DSLs in Boo: Domain-Specific Languages in .NET</li>
+        </ul>
+
 pamela-fox:
     name: Pamela Fox
     title:  |
