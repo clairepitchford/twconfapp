@@ -1,11 +1,12 @@
 Given /the current time is set to "(.*?)"/ do |time_string|
-  phone = SimPhone.new 
-  phone.browser.eval_js('localStorage.setItem("_watir_tests_fake_time_string", "'+time_string+'");')
+  @phone = SimPhone.new 
+  @phone.browser.eval_js('localStorage.setItem("_watir_tests_fake_time_string", "'+time_string+'");')
 end
 
 Given /I have not previously rated the "(.*?)" session/ do |session_id|
-  phone = SimPhone.new
-  phone.browser.eval_js('localStorage.removeItem("#{session_id}-rating")')
+  @session_id = session_id
+  @phone = SimPhone.new
+  @phone.browser.eval_js(%&localStorage.removeItem("#{@session_id}-rating");&)
 end
 
 When /I click the "Rate this session" icon for the "(\w+)" session/ do |session_id|
@@ -22,5 +23,5 @@ end
 
 Then /two star icons should be red/ do
   @phone.red_stars?.should == 2
-  @phone.browser.eval_js('localStorage.removeItem("breakfast-rating");');
+  @phone.browser.eval_js(%&localStorage.removeItem("#{@session_id}-rating");&)
 end
