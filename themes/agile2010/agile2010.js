@@ -468,7 +468,7 @@ function registerTwitterEvents() {
 
   function requestTweets() {
     $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/agile2010/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
-    $.getScript("http://search.twitter.com/search.json?q=agileaus&callback=rebuildTweets");
+    $.getScript("http://search.twitter.com/search.json?q=&ors=yow2010+yow_2010+rapidFTR&callback=rebuildTweets");
   }
 
   $('#twitter').bind('pageAnimationStart', requestTweets);
