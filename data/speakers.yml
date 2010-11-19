@@ -384,19 +384,11 @@ pamela-fox:
             <li>Blog: http://otherfancystuff.blogspot.com/</li>
         <li>Presentations: http://www.youtube.com/watch?v=63wHBZWE7dE</li>
 
-rachel-reinitz:
-    name: Rachel Reinitz
-    title: |
-        <p>IBM Distinguished Engineer in WebSphere Services and Support</p> 
-        <p>Senior Consulting IT Specialist</p>
+greg-flurry:
+    name: Greg Flurry
+    title: IBM Distinguished Engineer, SOA and ESB
     desciption: |
-        <p>Rachel Reinitz is an IBM Distinguished Engineer in WebSphere Services and Support and a member of the IBM Academy of Technology. She has built much of IBM’s internal and external intellectual capital and education on SOA, Enterprise Service Bus, and Web services. Rachel focuses on how to get started with SOA and ESB best practices as one of IBM's top ESB experts. She consults with clients and ISVs on how SOA and ESB can be used to achieve their business and technical objectives. She is a frequent conference presenter and written many developerWorks articles on ESB and Web services. Rachel lives in the Bay Area in California, and enjoys hiking, socializing, and international travel.</p>
-        <p>Software Passion: Applying new technologies to solve customer challenges</p>
-        <p>Links for Rachel:</p>
-        <ul>
-            <li>Website: http://www.ibm.com/developerworks/websphere/community/authors/rachelreinitz_bio.html</li>
-            <li>Articles:  "SOA lessons learned for Web 2.0" "Developing skills for the SOA world -- an expert who's been there tells all" Exploring the Enterprise Service Bus, Part 2: Why the ESB is a fundamental part of SOA</li>
-        </ul>
+        <p>Greg Flurry is an IBM Distinguished Engineer in IBM's Business Process and Service Optimization (formerly SOA Advanced Technology) group. His responsibilities include working with clients on service oriented solutions and advancing IBM's service oriented product portfolio, especially in the area of connectivity and integration (ESB, adapters, service registry, ...). Greg has over 10 years of experience in SOA, starting with web services. Greg has worked with cross-industry clients worldwide, and is a trusted advisor in SOA and connectivity for several North American clients. Greg has over 30 patents and over 50 published papers. Greg's current focus is on federation and patterns in connectivity.</p>
 
 richard-durnall:
     name: Richard Durnall

@@ -59,9 +59,9 @@ the-rich:
 connectivity-complex:
     date: Thu 11:20AM
     title: Connectivity for Today's Complex World
-    speakers: rachel-reinitz
+    speakers: greg-flurry
     description: |
-        <p>Rachel works with many clients architecting and implementing connectivity solutions, particularly focused on Enterprise Service Bus.  In this session, Rachel will explore established architectures for ESB and new emerging architectures for connectivity/ESB including connectivity in and to the Cloud, federated service management, expanding role of appliances, hybrid buses using multiple technologies, and dynamic policy-driven ESBs.  She will use client examples to illustrate these relatively new connectivity architectures.</p>
+        <p>Greg works with many clients architecting and implementing connectivity solutions, particularly focused on Enterprise Service Bus.  In this session, Greg will explore established architectures for ESB and new emerging architectures for connectivity/ESB including connectivity in and to the Cloud, federated service management, expanding role of appliances, hybrid buses using multiple technologies, and dynamic policy-driven ESBs.  She will use client examples to illustrate these relatively new connectivity architectures.</p>
         <p>Keywords: SOA, Architecture, ESB, Connectivity, Management, ApplicationServer, CaseStudy</p>
         <p>Target Audience: Architects, technical leads, and IT managers who have experience with messaging, connectivity, B2B, SOA or ESB.</p>
         
@@ -385,3 +385,5 @@ how-to:
 afternoon-tea2:
     date: Fri 3:05PM
     title: Afternoon Tea
+    
+    
