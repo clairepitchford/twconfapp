@@ -1,8 +1,8 @@
 describe('AgileConference', function () {
   var sessionData = 
-        {"morningSession" : {'title':'test', 'date':'Wed 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'},
-        "afternoonSession" : {'title':'test', 'date':'Wed 05:30PM', 'description': 'afternoon session', 'speakers':'scott-robinson'},
-        "thursdaySession" : {'title':'thurs', 'date':'Thu 09:00AM', 'description': 'trhusday', 'speakers':'sam-tardif'}},
+        {"morningSession" : {'title':'test', 'date':'Thu 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'},
+        "afternoonSession" : {'title':'test', 'date':'Thu 05:30PM', 'description': 'afternoon session', 'speakers':'scott-robinson'},
+        "fridaySession" : {'title':'friday', 'date':'Fri 09:00AM', 'description': 'friday', 'speakers':'sam-tardif'}},
     
       speakerData = 
         {'sam-tardif' : {'name':'Sam Tardif', 'title':'dev', 'description':'dev'},
@@ -13,28 +13,28 @@ describe('AgileConference', function () {
       
       morningSession = conference.conferenceSessions['morningSession'],
       afternoonSession = conference.conferenceSessions['afternoonSession'],
-      thursdaySession = conference.conferenceSessions['thursdaySession'];
+      fridaySession = conference.conferenceSessions['fridaySession'];
 
-  it("should sort the wednesday morning session before the wednesday afternoon session", function () {
+  it("should sort the morning session before the afternoon session", function () {
     var sessions = [afternoonSession, morningSession];
     sessions.sort(conference.sortSessionsByTime);
     expect(sessions[0]).toBe(morningSession);
     expect(sessions[1]).toBe(afternoonSession);
   });
   
-  it("should sort the wednesday afternoon session before the thursday afternoon session", function() {
-    var sessions = [thursdaySession, afternoonSession];
+  it("should sort the thursday afternoon session before the friday afternoon session", function() {
+    var sessions = [fridaySession, afternoonSession];
     sessions.sort(conference.sortSessionsByTime);
     expect(sessions[0]).toBe(afternoonSession);
-    expect(sessions[1]).toBe(thursdaySession);
+    expect(sessions[1]).toBe(fridaySession);
   });
   
-  it("should return sessions that occur on wednesday", function () {
-    var sessions = [morningSession, afternoonSession, thursdaySession];
-    var wednesdaySessions = conference.getSortedSessionsForDay(sessions, "Wed");
-    expect(wednesdaySessions).toContain(morningSession);
-    expect(wednesdaySessions).toContain(afternoonSession);
-    expect(wednesdaySessions).not.toContain(thursdaySession);
+  it("should return sessions that occur on thursday", function () {
+    var sessions = [morningSession, afternoonSession, fridaySession];
+    var thursdaySessions = conference.getSortedSessionsForDay(sessions, "Thu");
+    expect(thursdaySessions).toContain(morningSession);
+    expect(thursdaySessions).toContain(afternoonSession);
+    expect(thursdaySessions).not.toContain(fridaySession);
   });
   
   it("should clean a speaker id containing whitespace", function () {

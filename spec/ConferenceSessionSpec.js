@@ -1,7 +1,7 @@
 describe('ConferenceSession', function () {
-  var wednesdaySession = new ConferenceSession(
-        'wednesday',
-        {'title':'test', 'date':'Wed 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'}),
+  var fridaySession = new ConferenceSession(
+        'friday',
+        {'title':'test', 'date':'Fri 07:00AM', 'description': 'morning session', 'speakers':'sam-tardif'}),
     
       thursdaySession = new ConferenceSession(
         'thursday',
@@ -9,7 +9,7 @@ describe('ConferenceSession', function () {
       
   
   it('should convert the raw date field to a date string that Javascripts Date object can use', function () {
-    expect(wednesdaySession.dateString()).toEqual('September 15, 2010 07:00:00');
-    expect(thursdaySession.dateString()).toEqual('September 16, 2010 13:00:00')
+    expect(thursdaySession.dateString()).toEqual('December 2, 2010 13:00:00');
+    expect(fridaySession.dateString()).toEqual('December 3, 2010 07:00:00');
   });
 });
