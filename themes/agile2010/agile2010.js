@@ -250,7 +250,7 @@ ConferenceDOMBuilder.prototype.buildSessionDOM = function (sessionID, session) {
     .append($('<div class="description"><span class="session-header">' + session.title + '</span><span class="session-header-rating">' + skipRatingWidget + '</span></div>'))
     .append($('div class="topic">' + session.topic + '</div>'))
     .append(this.buildSessionSpeakerList(session))
-    .append($('<div class="description">' + session.description + '</div>'))
+    .append($('<div class="description">' + (session.description == null ? '' : session.description) + '</div>'))
     .append($('<div class="feedback">' + buildRatingStarString(currentRating, 32) + '<p style="text-align: center">Rate this session</p><textarea style="display: block" placeholder="Your feedback..."></textarea><input type="hidden" class="rating" value="' + currentRating + '"/><p name="' + sessionID + '" class="feedbackform-submit">Send</p></div>'));
 
   sessionDiv.append(contentDiv);
