@@ -34,6 +34,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
       """
       scott-robinson:
           name: Scott Robinson
+          description: some blurb
       """
     And a topics YAML of:
       """
@@ -145,3 +146,20 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
               <p>YOUR EARS WILL BLEED</p>
       """
     Then there should be an error
+
+  Scenario: A speaker without a description shouldn't work
+    Given a speakers YAML of:
+		"""
+		speaker-name:
+		  title: Speaker Title Here
+		"""
+	And a topics YAML of:
+	      """
+	      professional-training:
+	          date: Thu 11:22PM
+	          title: Crooning and Swooning
+	          speakers: speaker-name
+	          description: |
+	              <p>YOUR EARS WILL BLEED</p>
+	      """
+   Then there should be an error
