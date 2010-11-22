@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-index.html # 60e343f1728cca8d0f72736ddb2bdbc1a4c62ecb0c67dee04c4664a468b465aa
+index.html # 97c4ce615ddc24d249b6eeb4c9389dfc7a6ab390c38df902247a4f806491e901
 
 jqtouch/extensions/jqt.scroll/jqt.scroll.css # ef2438724471334b2e3f0f0de75d300abeb2d5bb02a42b1251e161eb697772c6
 jqtouch/extensions/jqt.scroll/jqt.scroll.js # db1300ab4d964f8df59c9020320bd14136b94650e17e24c8398380eaaa584ebf
@@ -30,6 +30,8 @@ themes/agile2010/img/buzz_on.png # 8a4dba0598bb6a58ab86ceb9e43d5203c3215b9b90568
 themes/agile2010/img/chevron.png # 486b8f5a825dca50dece553b34125d8e523fb1d5198e7e47e0ff14e66b50660d
 themes/agile2010/img/grayButton.png # 039b9ffdab362c9129869b961dd2a5930976b90d61145f714ae7d43039bb0ed6
 themes/agile2010/img/greenButton.png # e4c4c3ce81202eeeb53d98d87a9d9bceaacf54216404a8835009fde7718005fc
+themes/agile2010/img/jasper_hotel_floorplan.png # a6e255f7b2fcc51761d7a66155efa7f9512595017a96bb0784e0907b6d0291c4
+themes/agile2010/img/jasper_hotel_map.png # 632891ed9ca652dfa29dc7cfede12c0f0cfdd01a767eb7eafea77ac6f5fcca48
 themes/agile2010/img/loading.gif # 67305df6f9eac36e0e22721187c6c13d5430fff281daa3a82ed287a6b2c995f1
 themes/agile2010/img/map.jpg # 54497d362b361588b20f77e93de554078a1c9191b660b4ad9072c600781383d2
 themes/agile2010/img/nav_bg.png # 78273ccce11868423a60bafa113e208b356d26a9eca7830346e3048b8d92bc8a
@@ -38,7 +40,6 @@ themes/agile2010/img/on_star.png # a04d672215f5f444e7a7142ae2187eb31258d5b992119
 themes/agile2010/img/poweredbyTW.png # e033ec8068e331781b9f11f19dcde6f65ccac8f331669f9587384173af41aeb3
 themes/agile2010/img/rate_this.png # 35f32120735dc98656bb27076c2727b9ab9e801a99d2ed35b13d8840564f091d
 themes/agile2010/img/reload.gif # 59afd33d201397ca104326e7c118b081531b5e80e48556b1d33789684d0d39cd
-themes/agile2010/img/rooms.gif # 2613c8dab9c7202efc064165505ced93d0b9a3f95948394171e3711afedf58f0
 themes/agile2010/img/rooms_off.png # be034a16fbb66db4b7ed79c1335e34d004c10e34181b9c694707c3ba98b7759f
 themes/agile2010/img/rooms_on.png # 66a55a55ebbc5277bd1e4d336bce75ddbc9303b8aefed4e2046655f907d5269b
 themes/agile2010/img/shed_off.png # 099c0c19b86ec9a0404848cbe86253ba2f4c37954234e28e6821cf17145bd6c1
