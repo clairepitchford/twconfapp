@@ -22,7 +22,7 @@ extreme-java:
     title: "Extreme Java Productivity: Enterprise Applications in Just Minutes"
     speakers: ben-alex
     description: |
-        <p>Enterprise Java</p>
+        <p><b>Enterprise Java</b></p>
         <p>Delight your customers and impress your colleagues by delivering enterprise Java applications faster than ever before. In this session we'll introduce Spring Roo, an open source tool that makes it easy to build applications using the Java language, standards and technologies you already know. In this demonstration-oriented session, we will cover:</p>
         <ul>    
             <li>Support for Java standards including JPA, Servlet Spec, JSP, JavaBean Validation, JavaMail, JMS etc</li>
@@ -31,20 +31,20 @@ extreme-java:
             <li>Extending Roo with add-ons - Removing Roo from your project in four clicks</l>
         </ul>
         <p>This session assumes basic Enterprise Java development knowledge.</p>
-        <p>Keywords: Java, JavaBean, JSP, EnterpriseComputing, Spring</p>
-        <p>Target Audience: Application developers, Java developers</p>        
+        <p><b>Keywords:</b> Java, JavaBean, JSP, EnterpriseComputing, Spring</p>
+        <p><b>Target Audience:</b> Application developers, Java developers</p>        
         
 state-art:
     date: Thu 10:15AM
     title: "The State of the Art .NET: 12 Months of Things to Learn"
     speakers: amanda-laucher, josh-graham
     description: |
-        <p>MS.NET</p>
+        <p><b>MS.NET</b></p>
         <p>For some people the .NET ecosystem comes along with some negative connotations related to closed-source, prescriptive, narrow solution architectures.</p>
         <p>Nonetheless, there is a rich array of interesting technology available when using .NET  whether on Windows or on Mono. Microsoft is investing in languages and frameworks, open-source innovations are being applied from other platforms, and very smart people using .NET as the best choice for their circumstance.</p>
         <p>This talk will showcase some of the very interesting languages, development tools, frameworks and architectural approaches (whether from Microsoft or from the Alpha Geeks in the .NET community) that you should have on your list of things to research, learn, and use over the next 12 months.</p>
-        <p>Keywords: .NET, OpenSource, Innovation, Mono, Tools, Languages, LINQ, F#, C#</p>
-        <p>Target Audience: MSDN subscribers looking for something more, .NET architects and developers, the .NET-curious</p>
+        <p><b>Keywords:</b> .NET, OpenSource, Innovation, Mono, Tools, Languages, LINQ, F#, C#</p>
+        <p><b>Target Audience:</b> MSDN subscribers looking for something more, .NET architects and developers, the .NET-curious</p>
     
 the-rich:
     date: Thu 10:15AM
