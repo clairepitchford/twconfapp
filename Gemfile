@@ -10,4 +10,5 @@ group :test do
 	gem "rspec", "1.3.1"
 	gem "rspec-expectations"
 	gem "cucumber", ">= 0.9.2"
+    gem "httparty"
 end
