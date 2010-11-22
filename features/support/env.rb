@@ -83,9 +83,10 @@ class CoreView
 end
 
 class SimPhone < CoreView
-  def initialize(topic_yaml = TOPIC_YAML_FILENAME, speaker_yaml = SPEAKER_YAML_FILENAME)
+  def initialize(config_yaml = CONFIG_YAML_FILENAME, topic_yaml = TOPIC_YAML_FILENAME, speaker_yaml = SPEAKER_YAML_FILENAME)
     File.open(JSON_DATA_FILENAME, "w") do |f|
-      JSONConverter.new(File.open(topic_yaml),
+      JSONConverter.new(File.open(config_yaml),
+                        File.open(topic_yaml),
                         File.open(speaker_yaml)).write f
     end
 

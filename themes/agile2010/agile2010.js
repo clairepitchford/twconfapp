@@ -1,4 +1,5 @@
 var NOW;
+var GlobalConfigurationMap;
 
 (function () {
   // sample fake time string: Wed Sep 15 2010 10:00:00
@@ -411,6 +412,7 @@ function registerIconChangeEvents() {
 }
 
 var rebuildTweets;
+var requestTweets;
 
 function registerTwitterEvents() {
   function differentialTime(date) {
@@ -466,9 +468,12 @@ function registerTwitterEvents() {
     $('#twitter-feed').html('<ul class="edgetoedge">' + postsHtml + '</ul>');
   };
 
-  function requestTweets() {
+  requestTweets = function () {
     $('#twitter-feed').html('<div style="text-align:center;"><img src="themes/agile2010/img/loading.gif" align="center" width="31" height="31" style="margin-top:50px"></div>');
-    $.getScript("http://search.twitter.com/search.json?q=&ors=yow2010+yow_2010+rapidFTR&callback=rebuildTweets");
+    var twitterAPI = GlobalConfigurationMap.twitter_search_api;
+    var hashtags = GlobalConfigurationMap.conference_hashtags;
+    $.getScript(twitterAPI+hashtags);
+    //$.getScript("http://search.twitter.com/search.json?q=&ors=yow2010+yow_2010+rapidFTR&callback=rebuildTweets");
   }
 
   $('#twitter').bind('pageAnimationStart', requestTweets);
@@ -582,7 +587,12 @@ function registerBookmarkReminderPopup() {
   });
 }
 
+function loadConfiguration() {
+  GlobalConfigurationMap = defaultConfigData.data
+}
+
 $(document).ready(function () {
+  loadConfiguration();
   buildDOM();
   registerJQTouchLiveEvents();
   registerIconChangeEvents();

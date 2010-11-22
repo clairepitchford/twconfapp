@@ -1,8 +1,4 @@
 require 'httparty' 
-
-
-##configr_steps.rb
-
 require 'yaml'
 
 Given /^the configuration file exists$/ do
@@ -21,11 +17,13 @@ class TwitterSearch
   format :plain
 end
 
+
 Then /^the Twitter API call should return tweets from Twitter$/ do
   tweet_search = @twitter_api + 'twitter'
   response = TwitterSearch.get(tweet_search)
   response.code.should == 200
   response.body.should_not be_nil
+  response.body.match(/error.+must enter a query/).should be_nil
 end
 
 Then /^the conference hashtag should exist within the configuration file$/ do

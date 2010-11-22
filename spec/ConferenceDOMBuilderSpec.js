@@ -14,17 +14,7 @@ describe('ConferenceDOMBuilder', function () {
 	
 	  it('should not return undefined when there is no session description', function () {
 		var sessionDOM = new ConferenceDOMBuilder(new AgileConference(null, null)).buildSessionDOM(sessionID,session);
-		console.log(sessionDOM.html())
-		console.log(sessionDOM);
-		console.log(sessionDOM.find('div.description'))
-		console.log(sessionDOM.find('div.description').html())
-		
-		
-		
 	    expect(getSummaryOfSession(sessionDOM)).toEqual('');
-		//expect(speakerList[0].className).toEqual("speaker");
-		//expect(speakerList[0].childElementCount).toEqual(0);
-		//expect(sessionDOM[0])
 	  });
 	
 	function getSummaryOfSession(sessionDOM){

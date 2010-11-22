@@ -12,10 +12,11 @@ rescue LoadError
   task :default => [:schedule]
 end
 
-desc "import json"
-task :schedule do
+desc "convert topic/spearker/config YML to JSON, process cache key for manifest, "
+task :generate do
   File.open(JSON_DATA_FILENAME, "w") do |f|
-    JSONConverter.new(File.open(TOPIC_YAML_FILENAME),
+    JSONConverter.new(File.open(CONFIG_YAML_FILENAME),
+                      File.open(TOPIC_YAML_FILENAME),
                       File.open(SPEAKER_YAML_FILENAME)).write f
   end
 
