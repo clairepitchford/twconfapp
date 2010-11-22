@@ -13,7 +13,7 @@ rescue LoadError
 end
 
 desc "convert topic/spearker/config YML to JSON, process cache key for manifest, "
-task :generate do
+task :schedule do
   File.open(JSON_DATA_FILENAME, "w") do |f|
     JSONConverter.new(File.open(CONFIG_YAML_FILENAME),
                       File.open(TOPIC_YAML_FILENAME),
