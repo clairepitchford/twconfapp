@@ -3,14 +3,16 @@ require 'json'
 require 'yaml'
 
 JSON_DATA_FILENAME = 'themes/agile2010/defaultData.js'
+CONFIG_YAML_FILENAME = 'data/config.yml'
 SPEAKER_YAML_FILENAME = 'data/speakers.yml'
 TOPIC_YAML_FILENAME = 'data/topics.yml'
 MANIFEST_IN_FILENAME = 'index.manifest.in'
 
 class JSONConverter
-  attr_reader :topics, :speakers
+  attr_reader :config, :topics, :speakers
 
-  def initialize(topics_yaml, speakers_yaml)
+  def initialize(config_yaml, topics_yaml, speakers_yaml)
+    @config = YAML::load(config_yaml) || {}
     @topics = YAML::load(topics_yaml) || {}
     @speakers = YAML::load(speakers_yaml) || {}
 
@@ -26,12 +28,19 @@ class JSONConverter
       speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
         raise "Topic #{t_id} points to a non-existant speaker #{s_id}" unless @speakers[s_id]
         raise "Speaker #{s_id} does not have a name" unless @speakers[s_id]['name']
+        raise "Speaker #{s_id} does not have a description" unless @speakers[s_id]['description']
       end
     end
+    puts 'topics processed: ' + @topics.keys.length.to_s
+    
+    
   end
 
   def write(out)
     out.write <<-EOF
+      var defaultConfigData = {
+        'data': #{@config.to_json}
+      }
       var defaultSpeakerData = { 
         'data': #{@speakers.to_json}
       }

@@ -16,3 +16,15 @@ Feature: As I'm a UX expert who is pained by the details, I'd like the tabbar ic
     Given I open the Schedule tab
     And open the Thursday schedule
     Then the highlighted button should be Schedule
+
+
+  Scenario Outline: The button should be highlighted and some texts should exist.
+		Given I open the <tab> tab
+		Then the highlighted button should be <tab>
+		And I should see the "<text>" blurb
+
+		Examples:
+			| tab   | text                      |
+			| About | ThoughtWorks are pioneers |
+			| Rooms | Jasper Hotel Floorplan    |
+			| Where | Jasper Hotel              |

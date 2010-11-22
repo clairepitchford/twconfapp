@@ -1,5 +1,18 @@
 Feature: As the organizer, I want to be able to enter a schedule and have it converted into the program.
 
+  Scenario: A basic configuration
+    Given a config YAML of:
+      """
+      yml_key_one: value_one
+      yml_second_key: second_value
+      """
+    When the files are converted
+    Then the key "yml_key_one" should exist
+    And the key "yml_second_key" should exist
+    And the value of "yml_key_one" should equal to "value_one"
+    And the value of "yml_second_key" should equal to "second_value"
+
+
   Scenario: A basic session.
     Given a topics YAML of:
       """
@@ -21,6 +34,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
       """
       scott-robinson:
           name: Scott Robinson
+          description: some blurb
       """
     And a topics YAML of:
       """
@@ -132,3 +146,20 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
               <p>YOUR EARS WILL BLEED</p>
       """
     Then there should be an error
+
+  Scenario: A speaker without a description shouldn't work
+    Given a speakers YAML of:
+		"""
+		speaker-name:
+		  title: Speaker Title Here
+		"""
+	And a topics YAML of:
+	      """
+	      professional-training:
+	          date: Thu 11:22PM
+	          title: Crooning and Swooning
+	          speakers: speaker-name
+	          description: |
+	              <p>YOUR EARS WILL BLEED</p>
+	      """
+   Then there should be an error

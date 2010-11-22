@@ -54,4 +54,14 @@ describe('AgileConference', function () {
     var prettyList = conference.getPrettySpeakersList(speakers);
     expect(prettyList).toEqual("Sam Tardif, Scott Robinson and Claire Pitchford");
   });
+
+
+  //want to test calling requestTweet
+  it("should call the twitter api as described in the (processed) config.yml", function (){
+	spyOn(jQuery, "getScript");
+	loadConfiguration();
+	requestTweets();
+	expect(jQuery.getScript).toHaveBeenCalledWith(GlobalConfigurationMap.twitter_search_api+GlobalConfigurationMap.conference_hashtags)
+});
+
 });
