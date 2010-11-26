@@ -60,7 +60,7 @@
 
 #jqt ul.segmented li a.selected {
    background-color:      #528CE7; /* For V2.2.1 */
-   background:            -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff6666), to(#cc3333));
+   background:            -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4488EE), to(#4466AA));
    color:                 #eee;
    overflow:              hidden;
 }
