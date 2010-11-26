@@ -251,11 +251,11 @@ a {
 }
 
 a:link {
-    color: black;
+    color: #3366CC;
 }
 
 a:visited {
-    color: black;
+    color: #336666;
 }
 
 a:hover {
@@ -475,6 +475,10 @@ div#jqt.landscape .toolbar > h1 {
 #jqt ul li {
     list-style-type: none;
     overflow: hidden;
+}
+
+#jqt ol li {
+    list-style-type: circle;
 }
 
 #jqt ul.segmented li {
