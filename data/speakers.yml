@@ -6,10 +6,10 @@ amanda-laucher:
     description: |
         <p>Amanda Laucher is a software developer/architect focusing on Microsoft technologies. She is currently based in Chicago working with Thoughtworks.</p>
         <p>Links for Amanda:</p>
-        <ul>
+        <ol>
             <li>Blog: http://pandamonial.grahamis.com/blog/</li>
             <li>Books: F# in Action</li>
-        </ul>
+        </ol>
 
 ben-alex:
     name: Ben Alex
@@ -21,12 +21,12 @@ ben-alex:
         <p>Ben's career history also includes other roles in software development and business. From 2005 until 2008, he led the establishment and exponential growth of SpringSource's operations in Asia-Pacific. Prior to SpringSource, Ben founded and grew a successful Australian software company, Acegi Technology Pty Limited. He has been a director and advisor to businesses in diverse industries including business services, intellectual property licensing and ecommerce.</p>
         <p>In recent years, Ben has presented at technology conferences including JavaOne, The Server Side Java Symposium, JAOO, Øredev, Google I/O, SpringOne and The Spring Experience. He is a regular guest presenter at user groups across the world, with recent appearances in Sydney, Melbourne, Brisbane, Canberra, Perth, Singapore, Wellington, Auckland, Christchurch and Stockholm. He also authored the security chapter of the Wiley book, "Professional J2EE Development with Spring Framework"</p>
         <p>Links for Ben:</p>
-        <ul>
+        <ol>
             <li>Website http://www.springsource.org/roo</li>
             <li>Twitter benalexau</li>
             <li>Blog http://blog.springsource.com/main/author/bena/</li>
             <li>Books Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
-        </ul>
+        </ol>
 
 ben-fry:
     name: Ben Fry
@@ -40,12 +40,12 @@ ben-fry:
         <p>Ben Fry runs a design and software consultancy based in Cambridge, Massachusetts.</p>
         <p>Software Passion: Creating ways to see data, and teaching others to do the same.</p>
         <p>Links for Ben:</p>
-        <ul>
+        <ol>
             <liWebsite: http://benfry.com</li>
             <li>Twitter: ben_fry</li>
             <li>Books: Visualizing Data Processing Getting Started with Processing</li>
             <li>Software: Processing</li>
-        </ul>
+        </ol>
 
 brian-oliver:
     name: Brian Oliver
@@ -57,10 +57,10 @@ brian-oliver:
         <p>Over the past 10 years he has been leading the development of large-scale multi-language and multi-currency Web, E-Commerce, Sports Gaming and Financial systems making extensive use of Java technologies. He's the founder of the Coherence SIG, probably the only regularly meeting Data Grid Special Interest Group in the world, and the Coherence Incubator, a site dedicated to providing reference implementations of architectural patterns on top of Oracle Coherence.</p>
         <p>He's been using Java since 1996. He opens an IDE every couple of days to cook up new solutions. On alternate days he's in the air traveling around Europe and North America talking about Data Grids.</p>
         <p>Links for Brian:</p>
-        <ul> 
+        <ol> 
             <li>Blog: http://brianoliver.wordpress.com/</li>
             <li>Presentations: Data Grid Design Patterns</li>
-        </ul>
+        </ol>
 
 chris-mountford:
     name: Chris Mountford
@@ -71,11 +71,11 @@ chris-mountford:
         <p>Chris started programming when he was 8 years old on a Vic-20, tediously typing in games in BASIC and wishing for a cassette drive. Since then he has worked on a range of development projects from startups to multinationals, from finance to education and currently works on JIRA at Atlassian in Sydney. Chris has spoken at a number of user groups and conferences including SyXPAC and the Sydney Scrum User group, Illawarra Java User Group, Web Directions and Atlassian Summit</p>
         <p>Software Passion:  What I love most about software is that it's magic. The fact that code is so abstract and yet so rigorously and so effortlessly executed makes it like creating something from nothing.
         <p>Links for Chris</p>
-        <ul>
+        <ol>
             <li>Website: http://www.blogger.com/profile/03560327085364406517</li>
             <li>Twitter: chromosundrift</li>
             <li>Blog: http://blog.chromosundrift.com/</li>
-        </ul> 
+        </ol> 
 
 corey-haines:
     name: Corey Haines
@@ -88,12 +88,12 @@ corey-haines:
         <p>Nowadays, Corey travels to speak, study and facilitate Code Retreat events. During his travels, he is also collecting ideas for establishing a craftsmanship-based school of software development.</p>
         <p>Software Passion: My passion is helping people, including myself, become more adept at the fundamentals of software development.</p>
         <p>Links for Corey:</p> 
-        <ul>
+        <ol>
             <li>Website: www.coreyhaines.com</li>
             <li>Twitter: coreyhaines</li>
             <li>Blog: http://katas.softwarecraftsmanship.org/</li>
             <li>Presentations:Beyond the Hype</li>
-        </ul>
+        </ol>
 
 dan-ingalls:
     name: Dan Ingalls
@@ -105,13 +105,13 @@ dan-ingalls:
         <p>Dan has recently joined SAP and is a member of the Chief Scientist team guiding the company’s technology vision, direction and execution.</p>
         <p>Software Passion: Good software brings mathematics to life. If it doesn't it isn't</p>
         <p>Links for Dan:</p>
-        <ul>
+        <ol>
             <li>Website: http://www.squeak.org http://www.lively-kernel.org/</li>
             <li>Twitter: @DanIngalls</li>
             <li>Blog: http://whatsup-di.blogspot.com/</li>
             <li>Articles: The Lively Kernel</li>
             <li>Presentations:  Floss Weekly 29  Dan Ingalls on the History of Smalltalk and the Lively Kernel Sanskrit and OCR</li>
-        </ul>
+        </ol>
 
 daniel-bradby:
     name: Daniel Bradby
@@ -120,11 +120,11 @@ daniel-bradby:
         <p>With a long list of references from Australia and around the world under his belt, Daniel has worked across industries and government organisations while also being involved in popular OpenSource projects such as Hibernate and Subclipse. Daniel carries a wealth of consulting and software development experience and has proven both technical expertise and leadership skill in numerous high-profile projects in Australia and the US.</p>
         <p>Daniel's work at jTribe focuses on the Android and iOS mobile platforms and delivering successful projects for his clients on those platforms.</p>
         <p>Links for Daniel:</p>
-        <ul>
+        <ol>
             <li>Website: http://www.jtribe.com.au</li>
             <li>Blog:  http://blog.jtribe.com.au/?cat=89</li>
             <li>Twitter: @dbradby</li>
-        </ul>
+        </ol>
 
 dave-farley:
     name: Dave Farley
@@ -135,10 +135,10 @@ dave-farley:
         <p>Dave Farley has been having fun with computers for nearly 30 years. Over that period he has worked on most types of software, from firmware, through tinkering with operating systems and device drivers, to writing games, and commercial applications of all shapes and sizes. He started working in large scale distributed systems about 20 years ago, doing research into the development of loose-coupled, message-based systems - a forerunner of SOA. He has a wide range of experience leading the development of complex software in teams, both large and small, in the UK and USA. Dave was an early adopter of agile development techniques, employing iterative development, continuous integration and significant levels of automated testing on commercial projects from the early 1990s. He honed his approach to agile development in his four and a half year stint at ThoughtWorks where he was a technical principal working on some of their biggest and most challenging projects. Dave is currently working for the London Multi-Asset Exchange (LMAX), an organization that is building one of the highest performance financial exchanges in the world.</p>
         <p>Software Passion:  Writing software that makes people go "Wow!"</p>
         <p>Links for Dave:</p>
-        <ul>
+        <ol>
             <li>Website: http://www.lmax.com/</li>
             <li>Books:Continuous Delivery</li>
-        </ul>
+        </ol>
 
 dragos-manolescu:
     name: Dragos Manolescu
@@ -148,9 +148,9 @@ dragos-manolescu:
         <p>Dragos Manolescu is Principal Software Developer in the Application Platform Group in Windows Phone. He was responsible for shaping the Windows Phone 7 API surface area, and most recently has been working on device health and performance. Dragos' previous experience at Microsoft include Live Labs, a conglomerate of engineers and scientists with which he worked on Volta (web development through recompiling), Political Streams (social media), and the Web Sandbox (mashup security), and patterns & practices with which he developed prescriptive guidance for developers. Prior to Microsoft he worked as a consultant, assistant professor, and Smalltalk developer. Dragos doesn't tweet, and updates his Facebook profile infrequently. Most search engines can easily point you to his fingerprints on the Internet, which include several books, papers and articles, as well as conferences and workshops. Dragos holds a PhD in Computer Science from the University of Illinois at Urbana. He lives in the Seattle area of Washington (the evergreen state) where he enjoys the proximity to mountains, forests, islands, and the Pacific.</p>
         <p>Software passion: Cross-pollination of ideas, such as using FFTs for similarity search</p>
         <p>Links for Dragos:</p>
-        <ul>
+        <ol>
             <li>Blog:http://blogs.msdn.com/b/dragoman/</li>
-        </ul>   
+        </ol>   
  
 eric-evans:
     name: Eric Evans
@@ -163,10 +163,10 @@ eric-evans:
         <p>Eric now leads Domain Language, Inc., a consulting group which coaches and trains teams to make their development more productive and relevant through effective application of domain modeling and design.</p>
         <p>Software Passion: Breaking My Own Domain Models</p>
         <p>Links for Eric:</p> 
-        <ul>
+        <ol>
             <li>Website: http://www.domainlanguage.com/</li>
             <li>Books: Domain-Driven Design</li>
-        </ul>
+        </ol>
 
 erik-meijer:
     name: Erik Meijer
@@ -189,14 +189,14 @@ gregor-hohpe:
         <p>Gregor Hohpe is a software architect with Google, Inc. Gregor is a widely recognized thought leader on asynchronous messaging and service-oriented architectures. He co-authored the seminal book "Enterprise Integration Patterns"(Addison-Wesley, 2004), followed by "Integration Patterns" and "Enterprise Solution Patterns", both published by Microsoft Press. He was nominated a Microsoft MVP (Most Valuable Professional) Solution Architect for his contributions to the developer community and recognized as an active member of the patterns community by the Hillside Group. In 2005, Joel Spolsky selected Gregor's article "Starbucks Does Not Use Two-phase Commit" for his "Best Software Writing" (APress).</p>
         <p>Gregor speaks regularly at technical conferences around the world. He likes to cut through the hype surrounding service-oriented architectures and captures nuggets of advice in the form of design patterns that can help developers avoid costly mistakes. Find out more about his work at eaipatterns.com</p>
         <p>Links for Gregor:</p>
-        <ul>
+        <ol>
             <li>Website:  http://www.hohpe.com/Gregor/Work/index.html</li>
             <li>Books:  Enterprise Integration Patterns</li>
             <li>Presentations:  Hooking Stuff Together - Programming the Cloud</li>
-        </ul>
+        </ol>
 
 guy-steele:
-    name: Guy L. Steele, Jr. 
+    name: Guy L. Steele Jr. 
     title: |
         <p>Keynote Speaker</p>
         <p>Language Designer and Author</p>
@@ -208,11 +208,11 @@ guy-steele:
         <p>He is a Fellow of the American Association for Artificial Intelligence (1990) and a Fellow of the Association for Computing Machinery (1994). He has been awarded the ACM Grace Murray Hopper Award (1988), a Gordon Bell Prize (1990), and the ACM SIGPLAN Programming Languages Achievement Award (1996). He has been elected to the National Academy of Engineering of the United States of America (2001) and to the American Academy of Arts and Sciences (2002).</p>
         <p>Software Passion: Designing languages that allow programmers to express their ideas clearly, effectively, conveniently, and as concisely as may be appropriate</p>
         <p>Links for Guy:</p>
-        <ul>
+        <ol>
             <li>Websites: http://labs.oracle.com/projects/plrg   http://projectfortress.sun.com</li>
             <li>Twitter: I am not a member of Twitter. I generally deal in ideas that require paragraphs, or perhaps full-blown essays, rather than single sentences.<li>
             <li>Books: Coders at Work  The Java Language Specification Common LISP, The Language C: A Reference Manual</li>
-        </ul>
+        </ol>
 
 ian-robinson:
     name: Ian Robinson
@@ -224,12 +224,12 @@ ian-robinson:
         <p>He has written guidance for Microsoft on implementing integration patterns with Microsoft technologies, and has published articles on business-oriented development methodologies and distributed systems design - most recently in The ThoughtWorks Anthology (Pragmatic Programmers, 2008).</p>
         <p>He is currently co-authoring a book on RESTful enterprise integration.</p>
         <p>Links:</p>
-        <ul>
+        <ol>
             <li>Website: http://iansrobinson.com/</li>
             <li>Blog: http://iansrobinson.com/</li>
             <li>Books: REST in Practice</li>
             <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
-        </ul>
+        </ol>
 
 jason-yip:
     name: Jason Yip
@@ -240,12 +240,12 @@ jason-yip:
         <p>Jason is a popular speaker and a respected community builder. He has devoted much of his time to supporting users groups including, Sydney Limited WIP Society, SyXPAC, and Girl Geek Dinners. Jason has worked at ThoughtWorks for the past 9 years as a buildmaster, developer and Agile / Lean coach. He was one of the early committers on CruiseControl, the first Open Source Continuous Integration server, and is a prolific blogger and tweeter on Agile and Lean topics. Jason used to own the entire first results page on Google until some Hong Kong actor showed up.</p>
         <p>Software Passion: Making software is about making people</p>
         <p>Links for Jason:</p>
-        <ul>    
+        <ol>    
             <li>Twitter: @jchyip</li>
             <li>Blog: Making software is about making people</li>
             <li>Presentations: http://www.slideshare.net/jchyip</li>
             <li>Software: http://cruisecontrol.sf.net</li>
-        </ul>
+        </ol>
 
 jim-webber: 
     name: Jim Webber
@@ -258,12 +258,12 @@ jim-webber:
         <p>Jim holds a B.Sc. in Computing Science and Ph.D. in Parallel Computing both from the University of Newcastle upon Tyne.</p>
         <p>Software passion: Connecting the world's systems, sharing the world's data, bringing sanity to software.</p>
         <p>Links for Jim:</p>
-        <ul>
+        <ol>
             <li>Website: http://jim.webber.name/</li>
             <li>Twitter: jimwebber</li>
             <li>Blog: http://jim.webber.name/</li>
             <li>Books: Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
-        </ul>
+        </ol>
  
 josh-graham:
     name: Josh Graham
@@ -275,9 +275,9 @@ josh-graham:
         <p>He has spoken at and chaired conferences on SOA, enterprise architecture, agile software delivery, and technology innovation.</p>            <p>After spending time on 5 continents during 2009 for ThoughtWorks and wanting to "stay at home for a little bit", Josh opened the Chicago office of Hashrocket at the beginning of 2010 (although plans to still visit 5 continents in 2010).</p>
         <p>Josh organizes speakerconf. You may have met Josh already at a bar.</p>                
         <p>Links for Josh:</p>
-        <ul>
+        <ol>
             <li>Blog: http://grahamis.com/blog/</li>
-        </ul>
+        </ol>
         
 j-rainsberger:
     name: J.B. Rainsberger
@@ -291,17 +291,17 @@ j-rainsberger:
         <p>J.B. helps software organizations better satisfy their customers and the businesses they support. Expert at delivering successful software, he writes, teaches and speaks about why delivering better software is important, but not enough. He helps clients improve their bottom line by coaching teams as well as leading change programs. He helps software organizations off the treadmill of over-commitment and under-delivery, addressing all aspects of software delivery including understanding the business, gelling the team and even writing great code. Learn more about how Joe will inspire your software organization at jbrains.ca, at conferences world-wide, or by writing him directly at get.started@jbrains.ca</p>
         <p>Software Passion:  I only want to develop the smallest amount of greatest software my stakeholders need.</p>
         <p>Links for J.B.:</p>
-        <ul>
+        <ol>
             <li>Websites: http://blog.jbrains.ca/ http://www.weliveherenow.net</li>
             <li>Twitter: jbrains</li>
             <li>Blogs: http://blog.thecodewhisperer.com</li>
             <li>Books: JUnit Recipes</li>
             <li>Articles: J.B. Rainsberger: "Integrated Tests are a Scam"</li>
             <li>Other URL's: http://rubygems.org/gems/maruku-jbrains</li>
-        </ul>
+        </ol>
 
 justin-sheehy:
-    name: Justin Sheehy
+    name: Justin Sheehy<ol>
     title: |
         <p>CTO, Basho Technologies</p>
         <p>Riak and Webmachine Committer</p>
@@ -309,12 +309,12 @@ justin-sheehy:
         <p>Justin Sheehy is the CTO of Basho Technologies, the company behind the creation of Webmachine and Riak. As Chief Technology Officer, Justin Sheehy directs Basho's technical strategy, including integration with other platforms and new research into storage and distributed systems. Most recently before Basho, he was a principal scientist at the MITRE Corporation and a senior architect for systems infrastructure at Akamai. At both of those companies he focused on multiple aspects of robust distributed systems, including scheduling algorithms, language-based formal models, and resilience.</p>
         <p>Software Passion:  I am passionate about solving important problems by bringing ideas and techniques across technical domains in unusual ways.</p>
         <p>Links for Justin:</p>
-        <ul>
+        <ol>
             <li>Website: http://www.basho.com/</li>
             <li>Twitter:  @justinsheehy</li>
             <li>Blog: http://blog.basho.com/</li>
             <li>Presentations:  Embracing Concurrency At Scale Justin Sheehy on Riak</li>
-        </ul>
+        </ol>
 
 kresten-thorup:
     name: Kresten Krab Thorup
@@ -326,11 +326,11 @@ kresten-thorup:
         <p>Kresten has been a contributor to several open source projects, including GCC, GNU Objective-C, GNU Compiled Java, Emacs, and Apache Geronimo/Yoko.  Before joining Trifork, Kresten worked at NeXT Software (now acquired by Apple), where he was responsible for the development of the Objective-C tool chain, the debugger, and the runtime system. Kresten was on the committee for JSR-14 (adding generics to Java) which was closely related to the subject of his Ph.D. thesis.</p>
         <p>Most recently, Kresten has founded the Erjang open source project (notice the J there), a virtual machine for Erlang running on the Java Virtual Machine.</p>
         <p>Software Passion: My passion is creating software. The power of creation is the joy of conceiving a software solution, in the joy of good craftmanship in software construction, but most importantly the joy of seeing it’s effects unfold as it enters the real world. It is born…</p>
-        <ul>
+        <ol>
             <li>Website:  Trifork</li>
             <li>Twitter:  drkrab</li>
             <li>Blog:  Java to the Limit</li>
-        </ul>
+        </ol>
 
 martin-nally:
     name: Martin Nally
@@ -350,11 +350,11 @@ mary-poppendieck:
         <p>Mary Poppendieck has been in the Information Technology industry for over thirty years. She has managed software development, supply chain management, manufacturing operations, and new product development. She spearheaded the implementation of a Just-in-Time system in a 3M video tape manufacturing plant and led new product development teams, commercializing products ranging from digital controllers to 3M Light Fiber™.  Mary is a popular writer and speaker, and coauthor of the book Lean Software Development, which was awarded the Software Development Productivity Award in 2004. A sequel, Implementing Lean Software Development, was published in 2006. A third book, Leading Lean Software Development, was published in November 2009.</p>
         <p>Software Passion: Putting Passion back into Programming</p>
         <p>Links for Mary:</p>
-        <ul>
+        <ol>
             <li>Website:  http://www.poppendieck.com</li>
             <li>Books:  Leading Lean Software Development: Results Are not the Point Implementing Lean Software Development: From Concept to Cash</li>
             <li>Lean Software Development: An Agile Toolkit</li>
-        </ul>
+        </ol>
 
 michael-nygard:
     name: Michael T. Nygard
@@ -368,11 +368,11 @@ michael-nygard:
         <p>Most recently, Michael wrote "Release It! Design and Deploy Production-Ready Software", a book that realizes many of his thoughts about building software that does more than just pass QA, it survives the real world. Michael previously wrote numerous articles and editorials, spoke at Comdex, and co-authored one of the early Java books.</p>
         <p>Software passion: My passion is for creating environments where everyone can be as creative and successful as they can.</p>
         <p>Links for Michael:</p>
-        <ul>
+        <ol>
             <li>Websites: http://www.michaelnygard.com http://www.infoq.com/author/Michael-Nygard</li>
             <li>Blog: http://www.michaelnygard.com/blog</li>
             <li>Books:  Release It! Design and Deploy Production-Ready Software Beautiful Architecture 97 Things Every Software Architect Should Know</li>
-        </ul>
+        </ol>
 
 nathan-devries:
     name: Nathan de Vries
@@ -382,11 +382,11 @@ nathan-devries:
         <p>For this reason, Nathan has chosen the path of a freelance iOS developer, working with organisations who are trying to wrap their heads around the staggering trend towards mobile. He cut his teeth on WAP, J2ME & Symbian, but dropped everything in mid-2008 when Apple released the iPhone SDK. He never looked back.</p>
         <p>Nathan maintains his sanity & creative energy by working with other highly motivated people in a fantastic co-working space in Surry Hills, Sydney.</p>
         <p>Software Passion: Filling people's pockets with indispensable software.</p>
-        <ul>
+        <ol>
             <li>Blog: http://www.atnan.com/</li>
             <li>Website: http://nathandevries.com</li>
             <li>Twitter:  atnan</li>
-        </ul>
+        </ol>
 
 neal-ford:
     name: Neal Ford
@@ -398,12 +398,12 @@ neal-ford:
         <p>His language proficiencies include Java, C#/.NET, Ruby, Groovy, functional languages, Scheme, Object Pascal, C++, and C. His primary consulting focus is the design and construction of large-scale enterprise applications. Neal has taught on-site classes nationally and internationally to all phases of the military and to many Fortune 500 companies. He is also an internationally acclaimed speaker, having spoken at over 100 developer conferences worldwide, delivering more than 600 talks. If you have an insatiable curiosity about Neal, visit his web site at www.nealford.com. He welcomes feedback and can be reached at nford@thoughtworks.com.</p>
         <p>Software Passion: Revolutionizing the way people build and think about building software to handle complicated problems.</p>
         <p>Links for Neal:</p> 
-        <ul>
+        <ol>
             <li>Website: http://www.nealford.com</li>
             <li>Twitter: neal4d</li>
             <li>Blog: http://memeagora.blogspot.com</li>
             <li>Presentations: Emergent Design and Evolutionary Architecture 10 Ways To Improve Your Code Programming Languages and Platforms</li>
-        </ul>
+        </ol>
 
 nicolas-belmonte:
     name: Nicolas Garcia Belmonte
@@ -412,11 +412,11 @@ nicolas-belmonte:
         <p>Nicolas Garcia Belmonte is a Computer Science Engineer from the Buenos Aires Institute of Technology (ITBA), in Argentina. His main interests are Web Standards and Information Visualization. Nicolas is the creator of the JavaScript InfoVis Toolkit, a toolkit to create Interactive Data Visualizations for the Web and V8-GL, a hardware accelerated graphics library built on top of Google's V8 JavaScript Engine.</p>
         <p>Software Passion:  Passionate about Web Standards and Information Visualization.</p>
         <p>Links for Nicolas:</p>
-        <ul>
+        <ol>
             <li>Twitter: @philogb</li>
             <li>Blog: http://blog.thejit.org</li>
             <li>Software: JavaScript InfoVis Toolkit  V8-GL</li>
-        </ul>
+        </ol>
 
 obie-fernandez:
     name: Obie Fernandez
@@ -427,12 +427,12 @@ obie-fernandez:
         <p>Obie Fernandez is Founder and CEO of Hashrocket, one of the world's leading Rails-based web design and development consultancies, headquartered in Jacksonville, FL. He is a widely recognized technology leader and frequent speaker at industry events and is Addison Wesley's Series Editor for the bestselling Professional Ruby Series. Prior to Hashrocket, as a senior consultant at ThoughtWorks, Obie specialized in complex custom enterprise software projects. He has been hacking computers since he got his first Commodore VIC-20 in the eighties, and found himself in the right place and time as a programmer on some of the first Java enterprise projects of the mid-nineties.</p>
         <p>Software Passion: I have a passion for making the world of software development a more fun and productive place!</p>
         <p>Links for Obie:</p>
-        <ul>
+        <ol>
             <li>Websites:  http://hashrocket.com http://obiefernandez.com</li>
             <li>Twitter: obie</li>
             <li>Blog: http://blog.obiefernandez.com/content</li>
             <li>Books: The Rails Way</li>
-        </ul>
+        </ol>
 
 oren-eini:
     name: Oren Eini
@@ -446,12 +446,12 @@ oren-eini:
         <p>His hobbies include reading fantasy novels, reviewing code, and writing about himself in the third person. Oren is also a Microsoft MVP, a fact that he tends to forget when writing a bio.</p>
         <p>Software Passion: Reinventing the wheel, in a maintainable form.</p>
         <p>Links for Oren:</p>
-        <ul>
+        <ol>
             <li>Website: http://ayende.com</li>
             <li>Twitter: @ayende</li>
             <li>Blog: Unnatural acts on source code</li>
             <li>Books: DSLs in Boo: Domain-Specific Languages in .NET</li>
-        </ul>
+        </ol>
 
 pamela-fox:
     name: Pamela Fox
@@ -464,7 +464,7 @@ pamela-fox:
         <p>In her free time, she likes to play around with any one of Google's 80+ APIs, make drawings on her new Android phone, and learn the dance steps from pop music videos.</p>
         <p>Software passion: Teaching people to create things, and creating things that teach people.</p>
         <p>Links for Pamela:</p>
-        <ul>
+        <ol>
             <li>Website: http://imagine-it.org</li>
             <li>Twitter: pamelafox</li>
             <li>Blog: http://otherfancystuff.blogspot.com/</li>
@@ -488,10 +488,10 @@ richard-durnall:
         <p>Richard is a certified 6-Sigma practitioner and a chartered member of the British Computer Society.</p>
         <p>Software Passion:  Building high-performing IT divisions. IT management, practice and theory.</p>
         <p>Links for Richard:</p>
-        <ul>
+        <ol>
             <li>Twitter: rdurnall</li>
             <li>Blog: www.richarddurnall.com</li>
-        </ul>
+        </ol>
  
 richard-gabriel:
     name: Richard P. Gabriel
@@ -503,11 +503,11 @@ richard-gabriel:
         Richard P. Gabriel received a PhD in Computer Science from Stanford University in 1981, and an MFA in Poetry from Warren Wilson College in 1998. He has been a researcher at Stanford University, company president and Chief Technical Officer at Lucid, Inc., vice president of Development at ParcPlace-Digitalk, a management consultant for several startups, a Distinguished Engineer at Sun Microsystems, a Consulting Professor of Computer Science at Stanford University, and lead guitarist for a rock 'n' roll band. He is a Distinguished Engineer at IBM Research, looking into the architecture, design, and implementation of extraordinarily large, self-sustaining systems as well as development techniques for building them. Until recently he was President of the Hillside Group, a nonprofit that nurtures the software patterns community by holding conferences, publishing books, and awarding scholarships. He is on Hillside's Board of Directors. He helped design and implement a variety of dialects of Lisp. He is author of four books ("Performance and Evaluation of Lisp Systems," MIT Press; "Patterns of Software: Tales from the Software Community," Oxford University Press; "Writers' Workshops and the Work of Making Things," Addison-Wesley Press; and "Innovation Happens Elsewhere: Open Source as Business Strategy," Morgan Kaufmann), and a poetry chapbook ("Drive On," Hollyridge Press), with two books of poetry in preparation: "Leaf of my Puzzled Desire" and "Drive On." He has published more than 100 scientific, technical, and semi-popular papers, articles, and essays on computing. He has won several awards, including the AAAI/ACM Allen Newell Award. He is a poet. He lives in California.</p>
         <p>Software Passion: Passionate about every dirty aspect of software creation</p>
         <p>Links for Richard:</p>
-        <ul>
+        <ol>
             <li>Website: www.dreamsongs.com</li>
             <li>Twitter: @rpg</li>
             <li>Books: Performance and Evaluation of Lisp Systems  Patterns of Software  Innovation Happens Elsewhere Writers' Workshops and the Work of Making Things Drive on</li>
-        </ul>
+        </ol>
 
 rod-johnson:
     name: Rod Johnson
@@ -523,12 +523,12 @@ rod-johnson:
         <p>Rod is SVP, Middleware and GM of the SpringSource division at VMware.</p> 
         <p>Rods Software Passion: Innovation. Pragmatism. New challenges.<p>
         <p>Links for Rod:</p>
-        <ul>
+        <ol>
             <li>Website: http://www.springsource.com</li>
             <li>Twitter: @springrod</li>
             <li>Blog: http://blog.springsource.com/author/rodj/</li>
             <li>Books: Expert One-on-One J2EE Development without EJB</li>
-        </ul>
+        </ol>
 
 udi-dahan:
     name: Udi Dahan
@@ -538,11 +538,11 @@ udi-dahan:
         <p>Udi Dahan is The Software Simplist, an internationally renowned expert on software architecture and design. A solutions architecture and connected systems MVP, 5 years in a row, Mr. Dahan is also one of 33 experts in Europe recognized by the International .NET Association, an author and trainer for the International Association of Software Architects, and an SOA, Web Services, and XML Guru recommended by Dr. Dobb’s – the world’s largest software magazine.</p>
         <p>When not consulting, speaking, or training, Udi leads the development of NServiceBus, the most popular open-source service bus for .NET</p>
         <p>Links for Udi:<p>
-        <ul>
+        <ol>
             <li>Website:  http://www.udidahan.com/</li>
             <li>Blog: http://www.udidahan.com/?blog=true</li>
             <li>Software Passion: Simplicity</li>
-        </ul>
+        </ol>
 
 ulf-wiger:
     name: Ulf Wiger
@@ -556,11 +556,11 @@ ulf-wiger:
         <p>Senior Specialist in the Architecture and Design of carrier-class systems. Has had the rare opportunity to influence a world-class product from conception through product release, several years of feature upgrades and maintenance, and finally a significant technology shift. Previous experience includes architecture and design of decision support technology for the US DOD and the Alaska Integrated Incident Management System.. A special interest is trying to bridge the cultures of research, Open Source development, and industrial design.</p>
         <p>Software Passion: To expand my mind by meeting people from all walks of life. Hopefully, their minds will do a bit of expanding too...</p>
         <p>Links for Ulf:</p>
-        <ul>
+        <ol>
             <li>Website: http://ulf.wiger.net/weblog/</li>
             <li>Twitter: @uwiger</li>
             <li>Blog: Ulf Wiger on Singing</li>
-        </ul>
+        </ol>
 
 victor-rodrigues:
     name: Victor Rodrigues
@@ -573,10 +573,10 @@ victor-rodrigues:
         <p>He recently was invited to join a working group (commissioned by the Association for the Advancement of Medical Instrumentation (AAMI)) responsible for producing a technical information report on the use of Agile methods and practices in the medical device industry.</p>
         <p>Software Passion: "Supporting software teams to perform at their best and evangelising the total end user experience."</p>
         <p>Links for Victor:</p>
-        <ul>
+        <ol>
             <li>Twitter: @jeunj</li>
             <li>Blog: http://beyondcomprehension.posterous.com/</li>
-        </ul>
+        </ol>
 
 xerxes-battiwalla:
     name: Xerxes Battiwalla
@@ -590,9 +590,9 @@ xerxes-battiwalla:
         <p>Outside the 9-5, Xerxes teaches the next generation of programmers, Computer Science students at the University Of Technology Sydney, helping to bridge the gap between academia and industry professionals.</p>
         <p>Software Passion:  "My software passion: Making software simple and pain-free."</p>
         <p>Links for Xerxes:</p> 
-        <ul>
+        <ol>
             <li>Website: http://www.xerxesb.com/</li>
             <li>Twitter: @xerxesb</li>
             <li>Blog: Untitled.Bat</li>
-        </ul>
+        </ol>
 

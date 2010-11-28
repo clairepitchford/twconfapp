@@ -24,12 +24,12 @@ extreme-java:
     description: |
         <p><b>Enterprise Java</b></p>
         <p>Delight your customers and impress your colleagues by delivering enterprise Java applications faster than ever before. In this session we'll introduce Spring Roo, an open source tool that makes it easy to build applications using the Java language, standards and technologies you already know. In this demonstration-oriented session, we will cover:</p>
-        <ul>    
+        <ol>    
             <li>Support for Java standards including JPA, Servlet Spec, JSP, JavaBean Validation, JavaMail, JMS etc</li>
             <li>Transparently reverse engineering and synchronising database schemas - Automatic Google Web Toolkit (GWT) UIs</li>
             <li>Automatic JUnit tests, Maven builds, JSP pages, toString() methods etc - Deploying to clouds such as Google App Engine</li>
             <li>Extending Roo with add-ons - Removing Roo from your project in four clicks</l>
-        </ul>
+        </ol>
         <p>This session assumes basic Enterprise Java development knowledge.</p>
         <p><b>Keywords:</b> Java, JavaBean, JSP, EnterpriseComputing, Spring</p>
         <p><b>Target Audience:</b> Application developers, Java developers</p>        
@@ -423,11 +423,11 @@ what-is:
     description: |
         <p>Lean Software Management</p>
         <p>Pull means a lot of things to a lot of people:</p>
-        <ul>
+        <ol>
             <li>Pull = Pursuing Passion</li>
             <li>Pull = Putting Customers First</li>
             <li>Pull = Producing Based on Demand</li>
-        </ul>
+        </ol>
         <p>These definitions of pull have something in common; they all contain a strong element of observation, orientation, decision, and action – the OODA loop. As the pace of business increases and unexpected events become common, pull becomes like an increasingly attractive alternative to push.</p>
         <p>The problem is, pull doesn't work without preparation. Pull requires an environment that sends the correct signals, methods to rapidly detect the right patterns, and people who have the skills and training to make the right decisions. So the real challenge of pull is creating the environment, devising the patterns, and developing the people that ensure the right decisions are made and rapidly carried out, no matter what situation presents itself.</p>
         <p>Keywords: Pull, Push, Passion, OODA, Customer, Demand, Uncertainty, Agile, Lean, Management, Leadership</p>

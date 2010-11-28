@@ -25,6 +25,6 @@ Feature: As I'm a UX expert who is pained by the details, I'd like the tabbar ic
 
 		Examples:
 			| tab   | text                      |
-			| About | ThoughtWorks are pioneers |
+			| About | ThoughtWorks              |
 			| Rooms | Jasper Hotel Floorplan    |
 			| Where | Jasper Hotel              |
