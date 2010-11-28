@@ -51,10 +51,10 @@ the-rich:
     title: "The Rich Get Richer: Rails 3"
     speakers: obie-fernandez
     description: |
-        <p>Ruby</p>
+        <p><b>Ruby</b></p>
         <p>You will learn about the changes in Rails 3 that make your life as a web developer easier. Most of the significant changes have to do with the implementation of Rails under the covers. We'll look at what those changes are and how they affect you. We'll also take a look at which APIs changed, from initialization hooks to query generation with Arel, a relational algebra library. Other topics include the new ActiveModel library, the influence of Merb on Rails 3, its overall Modularity and Bundler.</p>
-        <p>Keywords: Ruby, RubyonRails, XP</p>
-        <p>Target audience: Developers with at least minimal knowledge of Rails that haven't kept up to date with what's new in Rails 3</p>
+        <p><b>Keywords:</b> Ruby, RubyonRails, XP</p>
+        <p><b>Target audience:</b> Developers with at least minimal knowledge of Rails that haven't kept up to date with what's new in Rails 3</p>
     
 connectivity-complex:
     date: Thu 11:20AM
