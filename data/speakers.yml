@@ -426,12 +426,12 @@ obie-fernandez:
         <p>CEO and Founder of Hashrocket</p>
     description: |
         <p>Obie Fernandez is Founder and CEO of Hashrocket, one of the world's leading Rails-based web design and development consultancies, headquartered in Jacksonville, FL. He is a widely recognized technology leader and frequent speaker at industry events and is Addison Wesley's Series Editor for the bestselling Professional Ruby Series. Prior to Hashrocket, as a senior consultant at ThoughtWorks, Obie specialized in complex custom enterprise software projects. He has been hacking computers since he got his first Commodore VIC-20 in the eighties, and found himself in the right place and time as a programmer on some of the first Java enterprise projects of the mid-nineties.</p>
-        <p>Software Passion: I have a passion for making the world of software development a more fun and productive place!</p>
-        <p>Links for Obie:</p>
+        <p><b>Software Passion:</b> I have a passion for making the world of software development a more fun and productive place!</p>
+        <p><b>Links for Obie:</b></p>
         <ol>
-            <li>Websites:  http://hashrocket.com http://obiefernandez.com</li>
-            <li>Twitter: obie</li>
-            <li>Blog: http://blog.obiefernandez.com/content</li>
+            <li><a href="http://hashrocket.com http://obiefernandez.com" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/obie" target="_blank">@obie</a></li>
+            <li><a href="http://blog.obiefernandez.com/content" target="_blank">Blog</a></li>
             <li>Books: The Rails Way</li>
         </ol>
 
@@ -445,12 +445,12 @@ oren-eini:
         <p>Oren's main focus is on architecture and best practices that promote quality software and zero-friction development. Oren is the author of Rhino Mocks, one of the most popular mocking frameworks on the .NET platform, and is also a leading figure in other well known open source projects including the Castle project and NHibernate.</p>
         <p>An internationally known presenter, Oren has spoken at conferences such as DevTeach, JAOO, QCon, Oredev, NDC and Progressive.NET and is the author of the book "DSLs in Boo: Domain Specific Languages in .NET", published by Manning. Oren, using his pseudonym as Ayende Rahien, is a frequent blogger at http://www.ayende.com/Blog/.</p>
         <p>His hobbies include reading fantasy novels, reviewing code, and writing about himself in the third person. Oren is also a Microsoft MVP, a fact that he tends to forget when writing a bio.</p>
-        <p>Software Passion: Reinventing the wheel, in a maintainable form.</p>
-        <p>Links for Oren:</p>
+        <p><b>Software Passion:</b> Reinventing the wheel, in a maintainable form.</p>
+        <p><b>Links for Oren:</b></p>
         <ol>
-            <li>Website: http://ayende.com</li>
-            <li>Twitter: @ayende</li>
-            <li>Blog: Unnatural acts on source code</li>
+            <li><a href="http://ayende.com" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/ayende" target="_blank">@ayende</a></li>
+            <li><a href="http://ayende.com/blog/default.aspx" target="_blank">Blog</a></li>
             <li>Books: DSLs in Boo: Domain-Specific Languages in .NET</li>
         </ol>
 
@@ -463,13 +463,13 @@ pamela-fox:
         <p>Pamela Fox loves to teach other developers how to use Google APIs. She spent her first 3 years at Google supporting the Maps API community and the last year working with the the innovative Wave API community.</p>
         <p>Before Google, she graduated with her bachelors and masters in Computer Science from the University of Southern California, with minors in 3d animation and linguistics, and research projects in facial animation and LiDAR data visualization.</p>
         <p>In her free time, she likes to play around with any one of Google's 80+ APIs, make drawings on her new Android phone, and learn the dance steps from pop music videos.</p>
-        <p>Software passion: Teaching people to create things, and creating things that teach people.</p>
-        <p>Links for Pamela:</p>
+        <p><b>Software passion:</b> Teaching people to create things, and creating things that teach people.</p>
+        <p><b>Links for Pamela:</b></p>
         <ol>
-            <li>Website: http://imagine-it.org</li>
-            <li>Twitter: pamelafox</li>
-            <li>Blog: http://otherfancystuff.blogspot.com/</li>
-        <li>Presentations: http://www.youtube.com/watch?v=63wHBZWE7dE</li>
+            <li><a href="http://imagine-it.org" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/pamelafox" target="_blank">@pamelafox</a></li>
+            <li><a href="http://otherfancystuff.blogspot.com/" target="_blank">Blog</a></li>
+            <li><a href="http://www.youtube.com/watch?v=63wHBZWE7dE" target="_blank">Presentations</a></li>
 
 greg-flurry:
     name: Greg Flurry
