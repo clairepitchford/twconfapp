@@ -61,29 +61,30 @@ connectivity-complex:
     title: Connectivity for Today's Complex World
     speakers: greg-flurry
     description: |
+        <p><b>Enterprise Java</b></p>
         <p>Greg works with many clients architecting and implementing connectivity solutions, particularly focused on Enterprise Service Bus.  In this session, Greg will explore established architectures for ESB and new emerging architectures for connectivity/ESB including connectivity in and to the Cloud, federated service management, expanding role of appliances, hybrid buses using multiple technologies, and dynamic policy-driven ESBs.  She will use client examples to illustrate these relatively new connectivity architectures.</p>
-        <p>Keywords: SOA, Architecture, ESB, Connectivity, Management, ApplicationServer, CaseStudy</p>
-        <p>Target Audience: Architects, technical leads, and IT managers who have experience with messaging, connectivity, B2B, SOA or ESB.</p>
+        <p><b>Keywords:</b> SOA, Architecture, ESB, Connectivity, Management, ApplicationServer, CaseStudy</p>
+        <p><b>Target Audience:</b> Architects, technical leads, and IT managers who have experience with messaging, connectivity, B2B, SOA or ESB.</p>
         
 rx-curing:
     date: Thu 11:20AM
     title: "Rx: Curing Your Asynchronous Programming Blues"
     speakers: erik-meijer
     description: |
-        <p>MS.Net</p>
+        <p><b>MS.Net<b/></p>
         <p>Asynchronous, event-driven "reactive" programming is way too hard in today's world of development tools and frameworks. The huge amount of manual and error-prone plumbing leads to incomprehensible and hard to maintain code. As we reach out to services in the cloud, the desire for asynchronous computation is ever increasing, requiring a fresh look on the problems imposed by reactive programming. Centered around the concept of observable data sources, Rx provides a framework that takes care of the hard parts of reactive programming. Instead of focusing on the hard parts, you now can start dreaming about the endless possibilities of composing queries over asynchronous data sources, piggybacking on convenient LINQ syntax. In this session, we'll cover the design philosophy of Rx, rooted on the deep duality between the interactive IEnumerable interface and the new reactive IObservable interface in .NET 4. From this core understanding, we'll start looking at various combinators and operators defined over observable collections, as provided by Rx, driving concepts home by a bunch of samples. Finally, if time permits, we'll look at the Reactive Extensions for JavaScript which allows us to take the concepts we already know from Rx and apply them to JavaScript and have deep integration with libraries such as jQuery.  Democratizing asynchronous programming starts today. Don't miss out on it!</p>
-        <p>Keywords: Concurrency, JavaScript, C#, LINQ, NoSQL, Web2.0, EnterpriseComputing, CloudComputing, .NET</p>
-        <p>Target audience: Anyone that writes code that involves UI or Web services</p>
+        <p><b>Keywords:</b> Concurrency, JavaScript, C#, LINQ, NoSQL, Web2.0, EnterpriseComputing, CloudComputing, .NET</p>
+        <p><b>Target audience:</b> Anyone that writes code that involves UI or Web services</p>
         
 largest-rails:
     date: Thu 11:20AM
     title: "Rails in the Large: How We're Building (One of) the Largest Rails Apps in the World (for an Enterprise)"
     speakers: neal-ford
     description: |
-        <p>Ruby</p>
+        <p><b>Ruby</b></p>
         <p>While others have been debating whether Rails can scale to enterprise levels, we've been demonstrating it. ThoughtWorks is running one of the largest Rails projects in the world, for an Enterprise. This session discusses tactics, techniques, best practices, and other things we've learned from scaling rails development. I discuss infrastructure, testing, messaging, optimization, performance, and the results of lots of lessons learned, including killer rock-scissors-paper tricks to help you avoid babysitting the view tests!</p>
-        <p>Keywords: Ruby, Ruby on Rails, Process, Agile, BestPractices, Architecture, Design, Craftsmanship</p>
-        <p>Target Audience:  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
+        <p><b>Keywords:</b> Ruby, Ruby on Rails, Process, Agile, BestPractices, Architecture, Design, Craftsmanship</p>
+        <p><b>Target Audience:</b>  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
 
 lunch:
     date: Thu 12:20PM
@@ -94,62 +95,62 @@ failed-soa:
     title: Avoid a Failed SOA - Business and Autonomous Components to the Rescue
     speakers: udi-dahan
     description: |
-        <p>Enterprise</p>
+        <p><b>Enterprise</b></p>
         <p>Calling everything a service makes the term meaningless. Now, we've got 13 different kinds of services and no clue when to use which one. Is a single operation a service? Is a single endpoint a service? What about cross cutting functions like authorization and data access? If you've been wondering about these sorts of questions, then this talk is for you. If you've been looking for a top-down analysis and design process, then this talk is for you. If you've been looking for concrete guidance on how to choose technology for SOA, then this talk is for you. Join Udi as he describes the "missing links" in SOA: Business Components and Autonomous Components. It turns out that components are more important than ever in this new, service-oriented world.</p>
-        <p>Keywords: Architecture, SOA, .NET, BestPractices, Experience</p>
-        <p>Target Audience: Developers, architects, managers</p>
+        <p><b>Keywords:</b> Architecture, SOA, .NET, BestPractices, Experience</p>
+        <p><b>Target Audience:</b> Developers, architects, managers</p>
         
 integrated-tests:
     date: Thu 1:00PM
     title: Integrated Tests are a Scam
     speakers: j-rainsberger
     description: |
-        <p>Best Practices</p>
+        <p><b>Best Practices</b></p>
         <p>Integrated tests are a scam -- a self-replicating virus that threatens to infect your code base, your project, and your team with endless pain and suffering. In this session you will learn the reasons integrated tests will let you down and a simple, two-part strategy to regain control of your defect rate and your design.</p>
-        <p>Keywords: Craftsmanship, Design, IntegrationTesting, Agile, BestPractices, TDD, Testing</p>
-        <p>Target Audience:  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
+        <p><b>Keywords:</b> Craftsmanship, Design, IntegrationTesting, Agile, BestPractices, TDD, Testing</p>
+        <p><b>Target Audience:</b>  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
 
 fully-modular:
     date: Thu 1:00PM
     title: "Fully Modular, Statically Typed, Symmetric Multimethod Dispatch"
     speakers: guy-steele
     description: |
-        <p>Languages and Concurrency</p>
+        <p><b>Languages and Concurrency</b></p>
         <p>The Fortress programming language integrates traditional mathematical notation into an object-oriented framework based on traits with multiple inheritance, overloading (of both methods and functions) resolved by symmetric dynamic dispatch, static types, and separately compiled modules. A component/API system governs visibility of traits, objects, and functions, but it is desirable to regard overloadings that are visible to the callee as part of its implementation, even though they may not be visible to the caller. This complicates the rules for dispatch. Simply put, the same method name may refer to different methods in different compilation units, depending on the import and export declarations, and the implementation has to make it all work.</p>
         <p>Moreover, a longstanding problem with multiple inheritance is what to do when methods inherited from several parents conflict. Many approaches have been explored in the literature; some unfortunately violate the intuitively desirable requirement that the function or method invoked be the uniquely most specific one that is both accessible and applicable. Fortress detects potential overloading ambiguity at compile time and issues error messages explaining to the programmer what additional overloadings are needed to resolve the problem; therefore it is impossible for any function or method call to be ambiguous. This idea goes back nearly two decades, but Fortress appears to be the first programming language to adopt the idea and enforce it statically, even in the face of separate compilation. It enables a distributed implementation of dispatching that is easy to explain and allows selective export and selective optimization. In this way a single strategy meets the requirements of both the multimethod dispatch and the component visibility rules.</p>
-        <p>Keywords: Languages, Java, Fortress, ScientificComputing</p>
-        <p>Target Audience:  Developers with an interest in next-generation object-oriented languages</p>
+        <p><b>Keywords:</b> Languages, Java, Fortress, ScientificComputing</p>
+        <p><b>Target Audience:</b>  Developers with an interest in next-generation object-oriented languages</p>
      
 googley-way:
     date: Thu 2:05PM
     title: Writing Apps the Google-y Way
     speakers: pamela-fox
     description: |
-        <p>Cloud Computing</p>
+        <p><b>Cloud Computing</b></p>
         <p>Google App Engine is a framework that lets you build web apps on top of Google's scalable hosting and data storage infrastructure. When you start building an app on App Engine, you soon realize that you do things differently from the way you made apps for more "traditional" hosting setups, because of our scalability-oriented design. In this talk, we'll give an overview of App Engine, and then look at how you would handle things like offline processing, geographic queries, or storing files, and how you would design real world apps like a microblogging service or social network site.</p>
-        <p>Keywords: AppEngine, Scalability, Architecture, Java, Python, CloudComputing, GoogleAPI , Experience, Web 2.0</p>
-        <p>Target Audience:  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
+        <p><b>Keywords:</b> AppEngine, Scalability, Architecture, Java, Python, CloudComputing, GoogleAPI , Experience, Web 2.0</p>
+        <p><b>Target Audience:</b>  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
         
 testing-javascript:
     date: Thu 2:05PM
     title: Testing Your Javascript
     speakers: corey-haines
     description: |
-        <p>Best Practices</p>
+        <p><b>Best Practices</b></p>
         <p>With the advent of new, fast virtual machines and frameworks for both in- and out-of-browser usage, Javascript has stepped into its rightful place as a productive, object-oriented language. More and more, we see full-featured applications being built entirely in this great language. Unfortunately, a lot of the coding habits remain from its humble origin as 'just an html scripting language.' Automated testing is accepted as standard in most other languages, why not in Javascript?</p>
         <p>In this talk, we'll look at techniques and tools for testing your Javascript effectively. Just getting the tools set up can be daunting, so we'll spend some time looking at setup. Testing interactions with your HTML can be tricky, so we'll cover tips for effectively interacting with your web pages in your tests.</p>
-        <p>Keywords: Javascript, Testing, Craftsmanship, BestPractices, .NET, Design, TDD, XP</p>
-        <p>Target Audience: Developers who are looking for a jump-start to automated testing in Javascript.</p>
+        <p><b>Keywords:</b> Javascript, Testing, Craftsmanship, BestPractices, .NET, Design, TDD, XP</p>
+        <p><b>Target Audience:</b> Developers who are looking for a jump-start to automated testing in Javascript.</p>
         
 erlang-warps:
     date: Thu 2:05PM
     title: "Erlang Warps Your Mind: Concurrency-Oriented Programming"
     speakers: ulf-wiger
     description: |
-        <p>Languages & Concurrency</p>
+        <p><b>Languages & Concurrency</b></p>
         <p>Erlang is a programming language designed for the Internet Age, although it pre-dates the Web. It is a language designed for multi-core computers, although it pre-dates them too. It is a "beacon language", to quote Haskell guru Simon Peyton-Jones, in that it more clearly than any other language demonstrates the benefits of concurrency-oriented programming. In this talk, I will try to show how learning Erlang will make you a better programmer.</p>
-        <p>Keywords: Erlang, Concurrency, Scalability, FaultTolerance, Architecture, Design, Languages</p>
-        <p>Target Audience: Programmers, architects, technology decision makers</p>
+        <p><b>Keywords:</b> Erlang, Concurrency, Scalability, FaultTolerance, Architecture, Design, Languages</p>
+        <p><b>Target Audience:</b> Programmers, architects, technology decision makers</p>
 
 afternoon-tea:
     date: Thu 3:05PM
@@ -160,58 +161,58 @@ strategic-design:
     title: "Strategic Design: Avoiding Responsibility Traps"
     speakers: eric-evans
     description: |
-        <p>Best Practices</p>
+        <p><b>Best Practices</b></p>
         <p>As software development leaders, we need to think more strategically. Some design decisions affect the trajectory of the whole project or even the organization. These decisions arise in early chartering and throughout development, and they are about much more than architecture. This talk will examine these issues through the lens of the Strategic Design principles of domain-driven design (DDD), which systematize a few critical practices some successful teams do intuitively.</p>
         <p>It is common for skilled teams to deliver software they are not proud of, due to compromises with legacy designs. Others toil for years, producing a platform that is never used to good advantage. These are strategic failures. On the other hand, there are projects with a direct explanation of how the software contributes to business goals. There are projects where designers work with a realistic view of the context of their development within the larger system, allowing them to maintain design clarity and integrity. These are strategic successes. Winning strategy starts with the domain.</p>
         <p>Two DDD principles, "Context Mapping" and "Distilling the Core Domain", help you see your strategic situation more clearly and approach strategic design decisions more systematically. These techniques require extensive interaction with domain experts as well as the leaders of the organization, in discussions broader than functional requirements. They sometimes lead to priorities quite different from our most comfortable notions.</p>
-        <p>Keywords: DomainDriven, Architecture, Modeling, Design, DDD, DSL</p>
-        <p>Target Audience: Executives, Managers, Leads, Architects</p>
+        <p><b>Keywords:</b> DomainDriven, Architecture, Modeling, Design, DDD, DSL</p>
+        <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>
         
 embracing-concurrency:
     date: Thu 3:20PM
     title: Embracing Concurrency at Scale
     speakers: justin-sheehy
     description: |
-        <p>Languages and Community</p>
+        <p><b>Languages and Community</b></p>
         <p>People have been talking about "scaling" and "distributed systems" a great deal lately. We need to clarify the meaning of these terms in order to have a worthwhile conversation about them. We will do so by discussing the details of how to actually produce practical, scalable, distributed systems.</p>
         <p>That discussion will focus on methods for designing and building robust fundamentally-concurrent distributed systems. These approaches have been learned through building user-facing web applications, data storage and processing systems, and server management tools. We will look at practices that are "common knowledge" but too often forgotten, at lessons that the software industry at large has somehow missed, and at general "good practices" and rules that must be thrown away when moving into a distributed and concurrent world.</p>
-        <p>Keywords: DistributedComputing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
-        <p>Target Audience: programmers and system designers</p>
+        <p><b>Keywords:</b> Distributed Computing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
+        <p><b>Target Audience:</b> programmers and system designers</p>
  
 distributed-programming:
     date: Thu 4:25PM
     title: Distributed Programming the Google Way
     speakers: gregor-hohpe
     description: |
-       <p>Cloud Computing</p>
+       <p><b>Cloud Computing</b></p>
        <p>Google is known to operate one of the largest civilian computing infrastructures. These hardware resources are managed by a vast collection of software frameworks and tools, which form the basis for highly parallelized, reliable, low-latency, high-throughput applications. They also provide useful programming abstractions that speed up development and debugging. Some parts of this infrastructure, such as MapReduce, GFS, Sawzall, Chubby, Protocol Buffers, are available as open source projects or published in academic papers, while others are proprietary. Rather than dive into the dark corners of each of these tools, this talk tries to distill key design themes and patterns, which enable these unique capabilities, and can be re-used in other contexts.</p>
-       <p>Keywords: CloudComputing, DistributedComputing, Concurrency, BigTable, MapReduce</p>
+       <p><b>Keywords:</b> CloudComputing, DistributedComputing, Concurrency, BigTable, MapReduce</p>
 
 release-it:
     date: Thu 4:25PM
     title: Release it! Design and Deploy Production-Ready Software
     speakers: michael-nygard
     description: |
-        <p>Best Practices</p>
+        <p><b>Best Practices</b></p>
         <p>In this tutorial, you will learn how to create applications that survive the rigors of life in production. Too often, project teams aim to pass QA instead of aiming for success in production. Testing is not enough to prove that your software is ready for continuous availability in the corrosive environment of the Internet.</p>
         <p>During this tutorial, you will receive an understanding of the architecture and design patterns that can produce high availability in distributed, multithreaded systems such as those based on Java EE, .Net, or Ruby on Rails. You will also learn about the antipatterns that can sabotage your systems availability and capacity.</p>
-        <p>Keywords: Architecture, EnterpriseComputing, Operations, Production, Deployment, Scalability, ConfigurationManagement</p>
-        <p>Target Audience: Experienced developers and architects working with web applications or service-oriented architectures.</p>
+        <p><b>Keywords:</b> Architecture, EnterpriseComputing, Operations, Production, Deployment, Scalability, ConfigurationManagement</p>
+        <p><b>Target Audience:</b> Experienced developers and architects working with web applications or service-oriented architectures.</p>
 
 domain-modelling:
     date: Thu 4:25PM
     title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
     speakers: kresten-thorup
     description: |
-        <p>Languages and Community</p>
+        <p><b>Languages and Community</b></p>
         <p>Erlang is a programming language which has been picking up steam the last few years, in particular in domains that require a lot of coordination in the application logic. The language supports a simple and consistent set of features for writing concurrent distributed systems.</p>
         <p>Over the last few years, I have been meeting "Erlang people" more and more often, and I have been getting the impression that they have a magical ability to reason intuitively about concurrent systems in a way that I have not. It corresponds somewhat to the way we "object heads" think intuitively about classes and objects - just in terms of processes. That bothered me, so I wanted to learn Erlang.</p>
         <p>Being a language implementor, the most obvious way to do that is to just go ahead and implement an Erlang VM, right? The result of this "little exercise" is Erjang, an open-source JVM-based Erlang VM. It has turned into a non-trivial project, Erjang is now +50k lines of Java code, and it runs substantial erlang programs.</p>
         <p>This adventure to Erlang-land have taught me many things about how "Erlang people" think. I am beginning to understand how they think in processes/actors, how they model things and how they handle the complexity that arises in concurrent systems.</p>
         <p>In the first part of my talk, I'll go through some of these lessons, some of the aha!'s and the insights into Erlang's secret sauce, and present some of the patterns Erlang'ers use to describe and model systems.</p>
         <p>Secondly, I'll take you through some of the highlights of the Erjang VM; which is just another angle at describing how Erlang and Java differs.</p>
-        <p>Keywords: Erlang, JVM, Concurrency, Scalability, Languages</p>
-        <p>Target Audience: Java developers (preferrably ones that have felt the pain of concurrency)</p>
+        <p><b>Keywords:</b> Erlang, JVM, Concurrency, Scalability, Languages</p>
+        <p><b>Target Audience:</b> Java developers (preferrably ones that have felt the pain of concurrency)</p>
 
 break:
     date: Thu 5:25PM
@@ -222,9 +223,10 @@ keynote-50:
     title: "Keynote Address: 50 in 50"
     speakers: guy-steele, richard-gabriel
     description: |
+        <p><b>Keynote Address</b></p>
         <p>Languages - what's to learn from them? Relics of the past; we know how to design them / to use them. Types / messages / invocation / loops / numbers / methods / big ol' libraries / lots of = signs. Heh, but what is programming, and what role do programming languages play in that process? We have learned a lot over the last five decades: organizing principles, established conventions, theory, fashions, and fads. "Those who cannot remember the past are condemned to repeat it." In this talk we survey what we think are the most important lessons of the past that future programmers, and future programming language designers, ought not forget. We illustrate each lesson by discussing specific programming languages of the past, and endeavor to shine what light we can on the future.</p>
-        <p>Keywords: Languages, Patterns, Design, Architecure, Experience</p>
-        <p>Target Audience: People not afraid of finding out just how weird our predecessors were and who enjoy theater style.</p>
+        <p><b>Keywords:</b> Languages, Patterns, Design, Architecure, Experience</p>
+        <p><b>Target Audience:</b> People not afraid of finding out just how weird our predecessors were and who enjoy theater style.</p>
 
 reception:
     date: Thu 8:00PM
@@ -239,8 +241,9 @@ keynote-address2:
     title: "Keynote Address: Exploring NoSQL"
     speakers: erik-meijer
     description: |
+        <p><b>Keynote Address</b></p>
         <p>In his hunt to make all data accessible, Erik has caught sight of noSQL.</p>
-        <p>Keywords:  C#, LINQ, NoSQL, Web 2.0, EnterpriseComputing, CloudComputing, .NET</p>
+        <p><b>Keywords:</b>  C#, LINQ, NoSQL, Web 2.0, EnterpriseComputing, CloudComputing, .NET</p>
 
 morning-tea2:
     date: Fri 10:00AM
@@ -251,61 +254,61 @@ restful-application:
     title: Designing and Implementing RESTful Application Protocols
     speakers: ian-robinson
     description: |
-        <p>Web 2.0 Architecture</p>
+        <p><b>Web 2.0 Architecture</b></p>
         <p>REST is ready for the enterprise. Imagine an information platform that is open and available to systems throughout the enterprise estate. A platform that eschews integration in favour of composition, connected data over siloed databases. A networked data structure with the power to implement valuable business behaviours: a distributed, hypermedia-driven application platform. Using techniques drawn from the forthcoming O'Reilly book 'REST in Practice', in this session I show how to model business processes as domain application protocols, implement them in terms of resource lifecycles, and execute them using HTTP idioms, media types and link relation values.</p>
-        <p>Keywords: BestPractices, REST, Web 2.0, Architecture, Design</p>
+        <p><b>Keywords:</b> BestPractices, REST, Web 2.0, Architecture, Design</p>
 
 building-windows:
     date: Fri 10:15AM
     title: Building Windows Phone 7 Applications
     speakers: dragos-manolescu
     description: |
-        <p>Mobile</p>
+        <p><b>Mobile</b></p>
         <p>Windows Phone 7 puts in your pocket powerful hardware and APIs familiar to .NET developers. In spite of these similarities the intrinsic differences between the phone and traditional PCs translate into differences between effective mobile and traditional code. In this talk I will cover some of the most interesting aspects of developing Windows Phone 7 applications. Understanding these the differences allows developers to leverage the phone's capabilities (such as the sensors) as well as managing the challenges of a mobile platform (such as the battery).</p>
-        <p>Keywords: .NET, Mobile, C#, Silverlight, AppMarket</p>
-        <p>Target Audience: Mobile application developers, Developers with interest in mobile application development</p>  
+        <p><b>Keywords:</b> .NET, Mobile, C#, Silverlight, AppMarket</p>
+        <p><b>Target Audience:</b> Mobile application developers, Developers with interest in mobile application development</p>  
         
 leveraging-internet:
     date: Fri 10:15AM
     title: Leveraging Internet Technologies to Build a New Breed of Software Development Tools
     speakers: martin-nally
     description: |
-      <p>Tools</p>
+      <p><b>Tools</b></p>
       <p>The internet has fundamentally changed the software development profession, but development tools and processes have struggled to keep pace. Learn how the internet and internet technologies like REST, linked data and RDF can be used to develop a breed of software development tools that are better adapted to development in the internet age and can solve a set of perennial problems that have limited the effectiveness of end-to-end development tool suites.</p>
-      <p>Keywords: REST, RDF, SPARQL, Tools, CloudComputing, Web2.0</p>
-      <p>Target Audience: Developers, Managers</p>
+      <p><b>Keywords:</b> REST, RDF, SPARQL, Tools, CloudComputing, Web2.0</p>
+      <p><b>Target Audience:</b> Developers, Managers</p>
 
 lessons-learned:
     date: Fri 11:20AM
     title: Lessons Learned in Large HTTP-Centric Systems
     speakers: jim-webber
     descriptions: |
-        <p>Web 2.0 Architecture</p>
+        <p><b>Web 2.0 Architecture</b></p>
         <p>This session explores using commodity HTTP middleware in building REST-ish systems at large scale using agile and devops-friendly techniques. Attendees will learn the architectural and cost fallacies of traditional middleware and see how F/OSS solutions can be used to delivery massive scalable solutions. The talk will cover two case studies building real systems in production and compare them with the cost/benefits of using vendor-proprietary middleware, which sadly makes the vendors look like an expensive and risky option!</p>
-        <p>Keywords: CaseStudy, EnterpriseComputing, Scalability, Agile, DevOps, SOA, BestPractices, CloudComputing</p>
-        <p>Target Audience: Architects or developers with an interest in large-scale distributed systems and decision makers who want to understand the cost benefits of HTTP-centric systems versus middleware-based systems</p>
+        <p><b>Keywords:</b> CaseStudy, EnterpriseComputing, Scalability, Agile, DevOps, SOA, BestPractices, CloudComputing</p>
+        <p><b>Target Audience:</b> Architects or developers with an interest in large-scale distributed systems and decision makers who want to understand the cost benefits of HTTP-centric systems versus middleware-based systems</p>
 
 developing-commercial: 
     date: Fri 11:20AM
     title: Developing Commercial Apps for Android and iPhone
     speakers: daniel-bradby, nathan-devries
     description: |
-        <p>Mobile</p>
+        <p><b>Mobile</b></p>
         <p>In response to our more recent YOW! Night on mobile platforms we are pleased to add a workshop on mobile application development for Android and iPhone so that developers will have the opportunity to dig deep into development for these 2 hot platforms.</p>
         <p>Details will be posted shorty.</p>
-        <p>Keywords:  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
+        <p><b>Keywords:</b>  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
         
 monster-builds:
     date: Fri 11:20AM
     title: Monster Builds (and how to tame them)
     speakers: chris-mountford
     descriptions: |
-        <p>Tools</p>
+        <p><b>Tools</b></p>
         <p>Continuous Integration is great but what happens when your builds get out of control? What happens when you have too many build plans, that take way too long to execute? How do you keep a handle on growing complexity and how do you measure and control build reliability? How do you stop builds growing into a rampaging monster and running amok destroying the city with its death rays and bullet-proof teeth?</p>
         <p>As the number of features, tests, supported platforms and the number of developers and customers grows, there comes a time when you need serious engineering in your build if you want any hope of staying Agile.</p>
         <p>In this presenation you will learn how to tame the monsters hiding in your builds, hopefully before they get out of control.</p>
-        <p>Keywords: BuildAutomation, ContinuousIntegration, CloudComputing, Tools, Java</p>
-        <p>Target Audience:  Development team members, team leaders and build specialists, primarily those who want the benefits of continuous integration to scale with their project.</p>
+        <p><b>Keywords:</b> BuildAutomation, ContinuousIntegration, CloudComputing, Tools, Java</p>
+        <p><b>Target Audience:</b>  Development team members, team leaders and build specialists, primarily those who want the benefits of continuous integration to scale with their project.</p>
 
 lunch2:
     date: Fri 12:20PM
@@ -316,61 +319,61 @@ emergence-ux:
     title: The Emergence of UX in an Agile World
     speakers: victor-rodrigues, xerxes-battiwalla
     description: |
-        <p>Interaction and Visualization</p>
+        <p><b>Interaction and Visualization</b></p>
         <p>As a provider of hearing solutions to hearing impaired people for almost 30 years, Cochlear is renowned worldwide as a technical innovator and as a great Australian success story. We share the story of our journey with Agile software development in an environment that is traditionally not comfortable with it. More compellingly we cover the emergence of user experience and user centered design and how it has integrated into almost every aspect of the product development and delivery cycle.</p>
-        <p>Keywords: Agile, UX, UserExperience, UserCenteredDesign, Process, Mobile, iPad</p>
-        <p>Target Audience: Developers, Managers, Thought Leaders, User Experience Architects</p>
+        <p><b>Keywords:</b> Agile, UX, UserExperience, UserCenteredDesign, Process, Mobile, iPad</p>
+        <p><b>Target Audience:</b> Developers, Managers, Thought Leaders, User Experience Architects</p>
  
 emergent-design:
     date: Fri 1:00PM
     title: Emergent Design
     speakers: neal-ford
     description: |
-        <p>Best Practices</p>
+        <p><b>Best Practices</b></p>
         <p>This session describes the current thinking about emergent design, discovering design in code. The hazard of Big Design Up Front in software is that you don't yet know what you don't know, and design decisions made too early are just speculations without facts. Emergent design techniques allow you to wait until the last responsible moment to make design decisions. This talk covers four areas: emergent design enablers, battling things that make emergent design hard, finding idiomatic patterns, and how to leverage the patterns you find. It includes both proactive (test-driven development) and reactive (refactoring, metrics, visualizations, tests) approaches to discovering design, and discusses the use of custom attributes, DSLs, and other techniques for utilizing them. The goal of this talk is to provide nomenclature, strategies, and techniques for allowing design to emerge from projects as they proceed, keeping your code in sync with the problem domain.</p>
-        <p>Keywords: BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
+        <p><b>Keywords:</b> BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
 
 fur-flies:
     date: Fri 1:00PM
     title: "When the Fur Flies: Dev and Ops Cooperation When the Worst Happens"
     speakers: michael-nygard
     description: |
-        <p>Development and Operations</p>
+        <p><b>Development and Operations</b></p>
         <p>There's nothing like a crisis to remove artificial barriers. In thissession, Michael will present an experience report about development and operations coming together after a failed launch. Aside from the funof sharing war stories and comparing scars, what can we learn about climbing out of a crater after the worst has already happened? Can we capture the special magic of a firefighting mission during more sedate times? Beyond all of that, come find out how to stay out of the crater to begin with.</p>
-        <p>Keywords: Operations, Velocity, Disaster, Crisis, Deployment, Architecture, BestPractices</p>
-        <p>Target Audience: Developers, Managers, Architects</p>
+        <p><b>Keywords:</b> Operations, Velocity, Disaster, Crisis, Deployment, Architecture, BestPractices</p>
+        <p><b>Target Audience:</b> Developers, Managers, Architects</p>
 
 interactive-data:
     date: Fri 2:05PM
     title: Computational Information Design
     speakers: nicolas-belmonte
     description: |
-        <p>Interaction & Visualization</p>
+        <p><b>Interaction & Visualization</b></p>
         <p>The Web has never been more open to everyone. Open Data services exist in almost every web application: from social networking apps to governmental pages and the news, all this data can be instantly accessed by exposed APIs. However, although most of this data is offered in a simple interchange format, its structures are quite complex, ranging from complex networks to time-based information, hierarchical data or heavy graphs. Displaying this data in a manner that enables the viewer to gain some insight can be challenging, especially if we aim at providing some interaction and doing it in a cross-browser/cross-device manner. The JavaScript InfoVis Toolkit creates interactive data visualizations for the Web. It's based solely on Web Standards, leveraging the power of native browser technologies to provide insights on complex data. In this talk you will learn about the JavaScript InfoVis Toolkit and how it can help you create advanced data visualizations for the Web.</p>
-        <p>Keywords: JavaScript, Visualization, InfoVis, DataVis, VisualWeb<p>
-        <p>Target Audience: People wanting to create data visualizations for the web using major browsers and platforms.<p>
+        <p><b>Keywords:</b> JavaScript, Visualization, InfoVis, DataVis, VisualWeb<p>
+        <p><b>Target Audience:</b> People wanting to create data visualizations for the web using major browsers and platforms.<p>
 
 management-two:
     date: Fri 2:05PM
     title: "Management 2.0: Leadership Models for an Information Age"
     speakers: richard-durnall
     description: |
-        <p>Lean Software Management</p>
+        <p><b>Lean Software Management</b></p>
         <p>Henry Ford changed the world through the manufacturing machinery he created over 100 years ago. Separating 'thinking' from 'doing', Mr Ford defined a management archetype for large western organisations that still persists over a century later. But as we move to an information age at break-neck speed, does command & control management still look as compelling?</p>
         <p>In this presentation, Richard will discuss the history of management science and how management techniques affect the performance of technology teams and IT divisions. He will demonstrate the fundamental differences between today's two prevalent management theories: Scientific Management Theory and Systems Management Theory. He will explore the foundations of management theory in philosophical thought, the development of management models through political and military leadership, and ultimately the application of management concepts in today's information age. Richard will investigate a number of case studies from IT and beyond, presenting empirical evidence that demonstrates a change in management philosophy can directly affect business results. This presentation is a must for anyone interested in or involved in enterprise level Agile adoption or simply with an interest in hearing more on 'Lean & Systems Thinking' from an experienced practitioner.</p>
-        <p>Keywords: Lean, Coaching, Transformation, ChangeManagement, Management, Innovation</p>
-        <p>Target Audience:  Engineers with an interest in how management theory can directly affect developer and team productivity; IT leaders interested in changing the command & control structure of their organisations in the pursuit of improved results; Coaches and change managers interested in introducing new tools and concepts to help deal with organisational change and adoption issues; Anyone interested in learning more about lean and systems thinking.</p>
+        <p><b>Keywords:</b> Lean, Coaching, Transformation, ChangeManagement, Management, Innovation</p>
+        <p><b>Target Audience:</b>  Engineers with an interest in how management theory can directly affect developer and team productivity; IT leaders interested in changing the command & control structure of their organisations in the pursuit of improved results; Coaches and change managers interested in introducing new tools and concepts to help deal with organisational change and adoption issues; Anyone interested in learning more about lean and systems thinking.</p>
 
 how-to:
     date: Fri 2:05PM
     title: "LMAX: How to do over 100K contended complex business transactions per second at less than 1ms latency"
     speakers: dave-farley
     description: |
-        <p>Scaling</p>
+        <p><b>Scaling</b></p>
         <p>Conventional wisdom says that memory is fast, disk is slow, networks are slower and that fast systems must be highly concurrent to achieve maximum performance. Much of this is outdated and some of it is now wrong. Modern hardware is phenomenally fast, but we have become complacent and use it in extremely inefficient and inappropriate ways.</p>
         <p>For world class performance on commodity hardware you need to take a holistic approach to software design. The good news is that all the stuff we learned in computer science 101 is what really matters, choose your data structures carefully, model your domain, understand your platform, work hard to have a clear separation of concerns, but as well as all of that, run your business logic on a single thread!?</p>
-        <p>Keywords: High-PerformanceTransactions, Java, Concurrency, Scalability, CaseStudy</p>
-        <p>Target Audience:  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>
+        <p><b>Keywords:</b> High-PerformanceTransactions, Java, Concurrency, Scalability, CaseStudy</p>
+        <p><b>Target Audience:</b>  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>
 
 afternoon-tea2:
     date: Fri 3:05PM
@@ -381,47 +384,47 @@ computational-information:
     title: Computational Information Design
     speakers: ben-fry
     description: |
-       <p>Interaction and Visualization</p>
+       <p><b>Interaction and Visualization</b></p>
        <p>The ability to collect and store data continues to increase, but our ability to understand it remains unchanged. Data visualization makes use of our evolutionary proclivity for decoding visual images and employs this ability as a high-bandwidth means of getting data into our heads. In this talk, I'll present work I've developed ranging from illustrations of data for magazines and journals to software tools used by geneticists to interactive applications for Fortune 10 companies.</p>
-       <p>Keywords: Design, Visualization, InformationDesign, Processing, Java, VisualWeb, JavaScript</p>
-       <p>Target Audience: Anyone interested in understanding the mess of data around us.</p>
+       <p><b>Keywords:</b> Design, Visualization, InformationDesign, Processing, Java, VisualWeb, JavaScript</p>
+       <p><b>Target Audience:</b> Anyone interested in understanding the mess of data around us.</p>
 
 row-together:
     date: Fri 3:20PM
     title: "Row Together, Row in the Right Direction, Row Faster: Improving alignment and throughput in software development"
     speakers: jason-yip
     description: |
-        <p>Lean Software Management</p>
+        <p><b>Lean Software Management</b></p>
         <p>How much does it matter that we're good at delivering if it turns out we're working on the wrong things?  Let's explore a way to think not just about individual projects, but rather the project delivery system (i.e., how projects are delivered in general).  You will learn concepts and simple techniques for aligning a work portfolio to a common strategy, determining a strategy if it doesn't exist, and linking all of this to efforts to improve throughput.</p>
-        <p>Keywords: Process, PortfolioManagement, StrategicAlignment, Lean, Agile</p>
-        <p>Target Audience:  People who are interested in improvement across projects, not just single projects.</p>
+        <p><b>Keywords:</b> Process, PortfolioManagement, StrategicAlignment, Lean, Agile</p>
+        <p><b>Target Audience:</b>  People who are interested in improvement across projects, not just single projects.</p>
 
 scaling-applications:
     date: Fri 3:20PM
     title: "Scaling Applications: Complexity, Performance, Maintainability, Multi-Tenancy"
     speakers: oren-eini
     description: |
-        <p>Scaling</p>
+        <p><b>Scaling</b></p>
         <p>We are building the same types of systems as we built yesterday, the demands placed on our systems becomes more and more demanding. We need to handle more users, offer more intelligent behavior, provide different behavior for differenet clients, parallelize both development and deployment, handle partial failures in our applications, offer the operations team rich insight into our systems and the ability to tweak them at runtime and so much more.</p>
         <p>Trying to build such application using the standard N-tiered architecture has proven to be hard, challenging and complex. In this session, you will learn how changing some of the underlying architectural concepts in how we build applications can lead to simpler solutions that scale extremely well. Those concepts include divide and conquer, background evaluation, one way messaging and ruthless application of the single responsibility principle. We will cover the full gamot, from building dynamic data models to customizing behaviors and adaptable user interface.</p>
-        <p>Keywords: Scaling, Multi-Tenancy, ESB, Database, SOA, .NET, Architecture</p>
-        <p>Target Audience: Developers, Managers</p>
+        <p><b>Keywords:</b> Scaling, Multi-Tenancy, ESB, Database, SOA, .NET, Architecture</p>
+        <p><b>Target Audience:</b> Developers, Managers</p>
 
 forty-years:
     date: Fri 4:25PM
     title: Forty Years of Fun with Computers
     speakers: dan-ingalls
     description: |
-        <p>Interaction and Vialization</p>
+        <p><b>Interaction and Vialization</b></p>
         <p>Dan Ingalls has had the good fortune to create, or at least to assist at the birth of, a number of core technologies that we take for granted these days. In this talk he will present these from several perspectives: the forces that brought them forth, the qualities that give them power, and the liveliness that makes them all fun to this day.</p>
-        <p>Keywords: Smalltalk, Interaction, Visualization, VisualWeb, JavaScript, VisualLanguages, UX, MultiMedia</p>
+        <p><b>Keywords:</b> Smalltalk, Interaction, Visualization, VisualWeb, JavaScript, VisualLanguages, UX, MultiMedia</p>
 
 what-is:
     date: Fri 4:25PM
     title: What is this Thing Called 'Pull'?
     speakers: mary-poppendieck
     description: |
-        <p>Lean Software Management</p>
+        <p><b>Lean Software Management</b></p>
         <p>Pull means a lot of things to a lot of people:</p>
         <ol>
             <li>Pull = Pursuing Passion</li>
@@ -430,15 +433,16 @@ what-is:
         </ol>
         <p>These definitions of pull have something in common; they all contain a strong element of observation, orientation, decision, and action – the OODA loop. As the pace of business increases and unexpected events become common, pull becomes like an increasingly attractive alternative to push.</p>
         <p>The problem is, pull doesn't work without preparation. Pull requires an environment that sends the correct signals, methods to rapidly detect the right patterns, and people who have the skills and training to make the right decisions. So the real challenge of pull is creating the environment, devising the patterns, and developing the people that ensure the right decisions are made and rapidly carried out, no matter what situation presents itself.</p>
-        <p>Keywords: Pull, Push, Passion, OODA, Customer, Demand, Uncertainty, Agile, Lean, Management, Leadership</p>
-        <p>Target Audience: Team Leads, Managers</p>
+        <p><b>Keywords:</b> Pull, Push, Passion, OODA, Customer, Demand, Uncertainty, Agile, Lean, Management, Leadership</p>
+        <p><b>Target Audience:</b> Team Leads, Managers</p>
 
 performance-scalability:
     date: Fri 4:25PM
     title: "Performance and Scalability Revisited: In-Memory Data Grids"
     speakers: brian-oliver
     descriptions: |
-        <p>Scaling</p>uilding scalable, highly-available applications that perform well is not an easy task. These features cannot be simply “bolted” onto an existing application – they have to be architected into it. Unfortunately, the things we need to do to achieve them are often in conflict with each other, and finding the right balance is crucial.</p>
+        <p><b>Scaling</b></p>
+        <p>Building scalable, highly-available applications that perform well is not an easy task. These features cannot be simply “bolted” onto an existing application – they have to be architected into it. Unfortunately, the things we need to do to achieve them are often in conflict with each other, and finding the right balance is crucial.</p>
         <p>In this session we will discuss why scaling web applications is difficult and will look at some of solutions we have come up with in the past to deal with the issues involved. We will then look at how in-memory data grids can make our jobs easier by providing a solid architectural foundation to build our applications on top of.</p>
         <p>If you are new to in-memory data grids, you are guaranteed to leave the presentation eager to learn more. However, even if you are already using one you will likely walk out with a few ideas on how to improve performance and scalability of your applications.</p>
-        <p>Keywords: BestPractices, Database, EnterpriseComputing, CloudComputing</p>
+        <p><b>Keywords:</b> BestPractices, Database, EnterpriseComputing, CloudComputing</p>
