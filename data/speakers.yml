@@ -5,9 +5,9 @@ amanda-laucher:
         <p>Geek, ThoughtWorks</p>
     description: |
         <p>Amanda Laucher is a software developer/architect focusing on Microsoft technologies. She is currently based in Chicago working with Thoughtworks.</p>
-        <p>Links for Amanda:</p>
+        <p><b>Links for Amanda:</b></p>
         <ol>
-            <li>Blog: http://pandamonial.grahamis.com/blog/</li>
+            <li><a href="http://pandamonial.grahamis.com/blog/" target="_blank">Blog</a></li>
             <li>Books: F# in Action</li>
         </ol>
 
@@ -20,12 +20,12 @@ ben-alex:
         <p>Dr. Ben Alex is a Senior Staff Engineer with VMware (SpringSource Division), and has been working professionally in software since 1995. Ben founded the Spring Security project in 2003 and led its development into a popular, open-source security framework that is used in numerous government, banking and military installations. More recently Ben founded and serves as lead of the Spring Roo and Spring Shell projects, both of which deliver significant productivity and usability benefits to those using Spring technologies.</p>
         <p>Ben's career history also includes other roles in software development and business. From 2005 until 2008, he led the establishment and exponential growth of SpringSource's operations in Asia-Pacific. Prior to SpringSource, Ben founded and grew a successful Australian software company, Acegi Technology Pty Limited. He has been a director and advisor to businesses in diverse industries including business services, intellectual property licensing and ecommerce.</p>
         <p>In recent years, Ben has presented at technology conferences including JavaOne, The Server Side Java Symposium, JAOO, Øredev, Google I/O, SpringOne and The Spring Experience. He is a regular guest presenter at user groups across the world, with recent appearances in Sydney, Melbourne, Brisbane, Canberra, Perth, Singapore, Wellington, Auckland, Christchurch and Stockholm. He also authored the security chapter of the Wiley book, "Professional J2EE Development with Spring Framework"</p>
-        <p>Links for Ben:</p>
+        <p><b>Links for Ben:</b></p>
         <ol>
-            <li>Website http://www.springsource.org/roo</li>
-            <li>Twitter benalexau</li>
-            <li>Blog http://blog.springsource.com/main/author/bena/</li>
-            <li>Books Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
+            <li><a href="http://www.springsource.org/roo" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/benalexau" target="_blank">@benalexau</a></li>
+            <li><a href="http://blog.springsource.com/main/author/bena/" target="_blank">Blog</a></li>
+            <li>Books: Author of Security Chapter in Professional J2EE Development with Spring Framework</li>    
         </ol>
 
 ben-fry:
@@ -38,11 +38,11 @@ ben-fry:
         <p>With Casey Reas of UCLA, he currently develops Processing, an open source programming environment for teaching computational design and sketching interactive media software that won a Golden Nica from the Prix Ars Electronica in 2005. The project also received the 2005 Interactive Design prize from the Tokyo Type Director's Club. In 2006, Fry received a New Media Fellowship from the Rockefeller Foundation to support the project. Processing was also featured in the 2006 Cooper-Hewitt Design Triennial. In 2007, Reas and Fry published Processing: A Programming Handbook for Visual Designers and Artists with MIT Press. Processing 1.0 was released in November 2008, and is used by tens of thousands of people every week.</p>
         <p>Fry's personal work has shown at the Whitney Biennial in 2002 and the Cooper Hewitt Design Triennial in 2003. Other pieces have appeared in the Museum of Modern Art in New York, at Ars Electronica in Linz, Austria and in the films Minority Report and The Hulk. His information graphics have also illustrated articles for the journal Nature, New York Magazine, The New York Times, Seed, and Communications of the ACM.</p>
         <p>Ben Fry runs a design and software consultancy based in Cambridge, Massachusetts.</p>
-        <p>Software Passion: Creating ways to see data, and teaching others to do the same.</p>
-        <p>Links for Ben:</p>
+        <p><b>Software Passion:</b> Creating ways to see data, and teaching others to do the same.</p>
+        <p><b>Links for Ben:</b></p>
         <ol>
-            <liWebsite: http://benfry.com</li>
-            <li>Twitter: ben_fry</li>
+            <li><a href="http://benfry.com" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/ben_fry" target="_blank">@ben_fry</a></li>
             <li>Books: Visualizing Data Processing Getting Started with Processing</li>
             <li>Software: Processing</li>
         </ol>
@@ -56,9 +56,9 @@ brian-oliver:
         <p>Brian Oliver is a Global Solutions Architect at Oracle. He works within the Oracle Coherence Engineering group and predominantly focuses on enabling financial institutions across Europe and North America to implement massively scalable and high-performance Data Grid solutions.</p>
         <p>Over the past 10 years he has been leading the development of large-scale multi-language and multi-currency Web, E-Commerce, Sports Gaming and Financial systems making extensive use of Java technologies. He's the founder of the Coherence SIG, probably the only regularly meeting Data Grid Special Interest Group in the world, and the Coherence Incubator, a site dedicated to providing reference implementations of architectural patterns on top of Oracle Coherence.</p>
         <p>He's been using Java since 1996. He opens an IDE every couple of days to cook up new solutions. On alternate days he's in the air traveling around Europe and North America talking about Data Grids.</p>
-        <p>Links for Brian:</p>
+        <p><b>Links for Brian:</b></p>
         <ol> 
-            <li>Blog: http://brianoliver.wordpress.com/</li>
+            <li><a href="http://brianoliver.wordpress.com/" target="_blank">Blog</a></li>
             <li>Presentations: Data Grid Design Patterns</li>
         </ol>
 
@@ -69,12 +69,12 @@ chris-mountford:
         <p>Atlassian</p>
     description: |
         <p>Chris started programming when he was 8 years old on a Vic-20, tediously typing in games in BASIC and wishing for a cassette drive. Since then he has worked on a range of development projects from startups to multinationals, from finance to education and currently works on JIRA at Atlassian in Sydney. Chris has spoken at a number of user groups and conferences including SyXPAC and the Sydney Scrum User group, Illawarra Java User Group, Web Directions and Atlassian Summit</p>
-        <p>Software Passion:  What I love most about software is that it's magic. The fact that code is so abstract and yet so rigorously and so effortlessly executed makes it like creating something from nothing.
-        <p>Links for Chris</p>
+        <p><b>Software Passion:</b>  What I love most about software is that it's magic. The fact that code is so abstract and yet so rigorously and so effortlessly executed makes it like creating something from nothing.
+        <p><b>Links for Chris</b></p>
         <ol>
-            <li>Website: http://www.blogger.com/profile/03560327085364406517</li>
-            <li>Twitter: chromosundrift</li>
-            <li>Blog: http://blog.chromosundrift.com/</li>
+            <li><a href="http://www.blogger.com/profile/03560327085364406517" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/chromosundrift" target="_blank">@chromosundrift</a></li>
+            <li><a href="http://blog.chromosundrift.com/" target="_blank">Blog</a></li>
         </ol> 
 
 corey-haines:
@@ -89,9 +89,9 @@ corey-haines:
         <p>Software Passion: My passion is helping people, including myself, become more adept at the fundamentals of software development.</p>
         <p>Links for Corey:</p> 
         <ol>
-            <li>Website: www.coreyhaines.com</li>
-            <li>Twitter: coreyhaines</li>
-            <li>Blog: http://katas.softwarecraftsmanship.org/</li>
+            <li><a href="www.coreyhaines.com" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/coreyhaines" target="_blank">@coreyhaines</a></li>
+            <li><a href="http://katas.softwarecraftsmanship.org/" target="_blank">Blog</a></li>
             <li>Presentations:Beyond the Hype</li>
         </ol>
 
@@ -103,12 +103,12 @@ dan-ingalls:
     description: |
         <p>Dan Ingalls is the principal architect of five generations of Smalltalk environments. He designed the byte-coded virtual machine that made Smalltalk practical in 1976. He later conceived a Smalltalk written in itself and made portable and efficient by a Smalltalk-to-C translator, now known as the Squeak open-source Smalltalk. Dan also invented BitBlt, the general-purpose graphical operation that underlies most bitmap graphics systems today, as well as pop-up menus. His most recent work, the Lively Kernel, is a dynamic graphics and programming environment that runs entirely in a browser. Able to save its results and even new versions of itself as web pages, if offers the promise that wherever there is the web there is authoring. Dan received his B.A. in Physics from Harvard University, and his M.S. in Electrical Engineering from Stanford University. He is a recipient of the ACM Grace Hopper Award, and the ACM Software Systems Award.<p>
         <p>Dan has recently joined SAP and is a member of the Chief Scientist team guiding the company’s technology vision, direction and execution.</p>
-        <p>Software Passion: Good software brings mathematics to life. If it doesn't it isn't</p>
-        <p>Links for Dan:</p>
+        <p><b>Software Passion:</b> Good software brings mathematics to life. If it doesn't it isn't</p>
+        <p><b>Links for Dan:</b></p>
         <ol>
-            <li>Website: http://www.squeak.org http://www.lively-kernel.org/</li>
-            <li>Twitter: @DanIngalls</li>
-            <li>Blog: http://whatsup-di.blogspot.com/</li>
+            <li><a href="http://www.squeak.org http://www.lively-kernel.org/" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/daningalls" target="_blank">@DanIngalls</a></li>
+            <li><a href="http://whatsup-di.blogspot.com/" target="_blank">Blog</a></li>
             <li>Articles: The Lively Kernel</li>
             <li>Presentations:  Floss Weekly 29  Dan Ingalls on the History of Smalltalk and the Lively Kernel Sanskrit and OCR</li>
         </ol>
@@ -119,11 +119,11 @@ daniel-bradby:
     description: |
         <p>With a long list of references from Australia and around the world under his belt, Daniel has worked across industries and government organisations while also being involved in popular OpenSource projects such as Hibernate and Subclipse. Daniel carries a wealth of consulting and software development experience and has proven both technical expertise and leadership skill in numerous high-profile projects in Australia and the US.</p>
         <p>Daniel's work at jTribe focuses on the Android and iOS mobile platforms and delivering successful projects for his clients on those platforms.</p>
-        <p>Links for Daniel:</p>
+        <p><b>Links for Daniel:</b></p>
         <ol>
-            <li>Website: http://www.jtribe.com.au</li>
-            <li>Blog:  http://blog.jtribe.com.au/?cat=89</li>
-            <li>Twitter: @dbradby</li>
+            <li><a href="http://www.jtribe.com.au" target="_blank">Website</a></li>
+            <li><a href="http://blog.jtribe.com.au/?cat=89" target="_blank">Blog</a></li>
+            <li><a href="http://twitter.com/dbradby" target="_blank">@dbradby</a></li>
         </ol>
 
 dave-farley:
@@ -133,10 +133,10 @@ dave-farley:
         <p>Head of Software Development at LMAX</p>
     description: |
         <p>Dave Farley has been having fun with computers for nearly 30 years. Over that period he has worked on most types of software, from firmware, through tinkering with operating systems and device drivers, to writing games, and commercial applications of all shapes and sizes. He started working in large scale distributed systems about 20 years ago, doing research into the development of loose-coupled, message-based systems - a forerunner of SOA. He has a wide range of experience leading the development of complex software in teams, both large and small, in the UK and USA. Dave was an early adopter of agile development techniques, employing iterative development, continuous integration and significant levels of automated testing on commercial projects from the early 1990s. He honed his approach to agile development in his four and a half year stint at ThoughtWorks where he was a technical principal working on some of their biggest and most challenging projects. Dave is currently working for the London Multi-Asset Exchange (LMAX), an organization that is building one of the highest performance financial exchanges in the world.</p>
-        <p>Software Passion:  Writing software that makes people go "Wow!"</p>
-        <p>Links for Dave:</p>
+        <p><b>Software Passion:</b>  Writing software that makes people go "Wow!"</p>
+        <p><b>Links for Dave:</b></p>
         <ol>
-            <li>Website: http://www.lmax.com/</li>
+            <li><a href="http://www.lmax.com/" target="_blank">Website</a></li>
             <li>Books:Continuous Delivery</li>
         </ol>
 
@@ -146,10 +146,10 @@ dragos-manolescu:
         <p>Principal Software Developer, Application Platform Group in Windows Phone Microsoft USA</p>
     description: |
         <p>Dragos Manolescu is Principal Software Developer in the Application Platform Group in Windows Phone. He was responsible for shaping the Windows Phone 7 API surface area, and most recently has been working on device health and performance. Dragos' previous experience at Microsoft include Live Labs, a conglomerate of engineers and scientists with which he worked on Volta (web development through recompiling), Political Streams (social media), and the Web Sandbox (mashup security), and patterns & practices with which he developed prescriptive guidance for developers. Prior to Microsoft he worked as a consultant, assistant professor, and Smalltalk developer. Dragos doesn't tweet, and updates his Facebook profile infrequently. Most search engines can easily point you to his fingerprints on the Internet, which include several books, papers and articles, as well as conferences and workshops. Dragos holds a PhD in Computer Science from the University of Illinois at Urbana. He lives in the Seattle area of Washington (the evergreen state) where he enjoys the proximity to mountains, forests, islands, and the Pacific.</p>
-        <p>Software passion: Cross-pollination of ideas, such as using FFTs for similarity search</p>
-        <p>Links for Dragos:</p>
+        <p><b>Software passion:</b> Cross-pollination of ideas, such as using FFTs for similarity search</p>
+        <p><b>Links for Dragos:</b></p>
         <ol>
-            <li>Blog:http://blogs.msdn.com/b/dragoman/</li>
+            <li><a href="http://blogs.msdn.com/b/dragoman/" target="_blank">Blog</a></li>
         </ol>   
  
 eric-evans:
@@ -161,10 +161,10 @@ eric-evans:
         <p>Eric Evans is a specialist in domain modeling and design in large business systems. Since the early 1990s, he has worked on many projects developing large business systems with objects and has been deeply involved in applying Agile processes on real projects.</p>
         <p>Out of this range of experiences emerged the synthesis of principles and techniques shared in the book "Domain-Driven Design," Addison-Wesley 2003.</p>
         <p>Eric now leads Domain Language, Inc., a consulting group which coaches and trains teams to make their development more productive and relevant through effective application of domain modeling and design.</p>
-        <p>Software Passion: Breaking My Own Domain Models</p>
-        <p>Links for Eric:</p> 
+        <p><b>Software Passion:</b> Breaking My Own Domain Models</p>
+        <p><b>Links for Eric:</b></p> 
         <ol>
-            <li>Website: http://www.domainlanguage.com/</li>
+            <li><a href="http://www.domainlanguage.com/" target="_blank">Website</a></li>
             <li>Books: Domain-Driven Design</li>
         </ol>
 
@@ -188,9 +188,9 @@ gregor-hohpe:
     description: |
         <p>Gregor Hohpe is a software architect with Google, Inc. Gregor is a widely recognized thought leader on asynchronous messaging and service-oriented architectures. He co-authored the seminal book "Enterprise Integration Patterns"(Addison-Wesley, 2004), followed by "Integration Patterns" and "Enterprise Solution Patterns", both published by Microsoft Press. He was nominated a Microsoft MVP (Most Valuable Professional) Solution Architect for his contributions to the developer community and recognized as an active member of the patterns community by the Hillside Group. In 2005, Joel Spolsky selected Gregor's article "Starbucks Does Not Use Two-phase Commit" for his "Best Software Writing" (APress).</p>
         <p>Gregor speaks regularly at technical conferences around the world. He likes to cut through the hype surrounding service-oriented architectures and captures nuggets of advice in the form of design patterns that can help developers avoid costly mistakes. Find out more about his work at eaipatterns.com</p>
-        <p>Links for Gregor:</p>
+        <p><b>Links for Gregor:</b></p>
         <ol>
-            <li>Website:  http://www.hohpe.com/Gregor/Work/index.html</li>
+            <li><a href="http://www.hohpe.com/Gregor/Work/index.html" target="_blank">Website</a></li>
             <li>Books:  Enterprise Integration Patterns</li>
             <li>Presentations:  Hooking Stuff Together - Programming the Cloud</li>
         </ol>
@@ -206,10 +206,10 @@ guy-steele:
         <p>Guy L. Steele Jr. (Ph.D., MIT, 1980) is a Software Architect and heads the Programming Language Research Group within Sun Labs (now a part of Oracle) in Burlington, MA, USA. Before coming to Sun Labs in 1994, he held positions at Carnegie-Mellon University, Tartan Laboratories, and Thinking Machines Corporation.He is the author or co-author of several books on programming languages (Common Lisp, C, High Performance Fortran, the Java Language Specification) as well as "The Hacker's Dictionary" (also known on the Internet as the "Jargon File").</p>
         <p>He has served as program chair for four ACM conferences on programming languages and also on the program committees of over 30 other conferences. He has served on accredited standards committees for the programming languages Common Lisp, C, Fortran, Scheme, and ECMAScript. He is an inventor or co-inventor on over 40 computer-related patents. He designed the original EMACS command set and was the first person to port TeX.</p>
         <p>He is a Fellow of the American Association for Artificial Intelligence (1990) and a Fellow of the Association for Computing Machinery (1994). He has been awarded the ACM Grace Murray Hopper Award (1988), a Gordon Bell Prize (1990), and the ACM SIGPLAN Programming Languages Achievement Award (1996). He has been elected to the National Academy of Engineering of the United States of America (2001) and to the American Academy of Arts and Sciences (2002).</p>
-        <p>Software Passion: Designing languages that allow programmers to express their ideas clearly, effectively, conveniently, and as concisely as may be appropriate</p>
-        <p>Links for Guy:</p>
+        <p><b>Software Passion:</b> Designing languages that allow programmers to express their ideas clearly, effectively, conveniently, and as concisely as may be appropriate</p>
+        <p><b>Links for Guy:</b></p>
         <ol>
-            <li>Websites: http://labs.oracle.com/projects/plrg   http://projectfortress.sun.com</li>
+            <li><a href="http://labs.oracle.com/projects/plrg" target="_blank">Website</a> and <a href="http://projectfortress.sun.com" target="_blank">Website</a></li>
             <li>Twitter: I am not a member of Twitter. I generally deal in ideas that require paragraphs, or perhaps full-blown essays, rather than single sentences.<li>
             <li>Books: Coders at Work  The Java Language Specification Common LISP, The Language C: A Reference Manual</li>
         </ol>
@@ -223,10 +223,10 @@ ian-robinson:
         <p>Ian Robinson is a Principal Consultant with ThoughtWorks, where he specializes in the design and delivery of service-oriented and distributed systems.</p>
         <p>He has written guidance for Microsoft on implementing integration patterns with Microsoft technologies, and has published articles on business-oriented development methodologies and distributed systems design - most recently in The ThoughtWorks Anthology (Pragmatic Programmers, 2008).</p>
         <p>He is currently co-authoring a book on RESTful enterprise integration.</p>
-        <p>Links:</p>
+        <p><b>Links for Ian:</b></p>
         <ol>
-            <li>Website: http://iansrobinson.com/</li>
-            <li>Blog: http://iansrobinson.com/</li>
+            <li><a href="http://iansrobinson.com/" target="_blank">Website</a></li>
+            <li><a href=http://iansrobinson.com/" target="_blank">Blog</a></li>
             <li>Books: REST in Practice</li>
             <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
         </ol>
@@ -238,11 +238,11 @@ jason-yip:
         <p>Principal Consultant at ThoughtWorks</p>
     description: |
         <p>Jason is a popular speaker and a respected community builder. He has devoted much of his time to supporting users groups including, Sydney Limited WIP Society, SyXPAC, and Girl Geek Dinners. Jason has worked at ThoughtWorks for the past 9 years as a buildmaster, developer and Agile / Lean coach. He was one of the early committers on CruiseControl, the first Open Source Continuous Integration server, and is a prolific blogger and tweeter on Agile and Lean topics. Jason used to own the entire first results page on Google until some Hong Kong actor showed up.</p>
-        <p>Software Passion: Making software is about making people</p>
-        <p>Links for Jason:</p>
+        <p><b>Software Passion:</b> Making software is about making people</p>
+        <p><b>Links for Jason:</b></p>
         <ol>    
-            <li>Twitter: @jchyip</li>
-            <li>Blog: Making software is about making people</li>
+            <li><a href="http://twitter.com/jchyip" target="_blank">@jchyip</a></li>
+            <li><a href="http://jchyip.blogspot.com/" target="_blank">Blog: Making software is about making people</a></li>
             <li>Presentations: http://www.slideshare.net/jchyip</li>
             <li>Software: http://cruisecontrol.sf.net</li>
         </ol>
@@ -256,13 +256,13 @@ jim-webber:
         <p>Dr. Jim Webber is the Global Head of Architecture for ThoughtWorks where he works with clients on delivering dependable service-oriented systems. Jim was formerly a senior researcher with the UK E-Science programme where he developed strategies for aligning Grid computing with Web Services practices and architectural patterns for dependable Service-Oriented computing. Jim has extensive Web Services architecture and development experience as an architect with Arjuna Technologies and was the lead developer with Hewlett-Packard on the industry's first Web Services Transaction solution.</p>
         <p>Jim is an active speaker in the Web Services space and is co-author of the book "Developing Enterprise Web Services - An Architect's Guide" in addition to being a contributing author to other books and articles.</p>
         <p>Jim holds a B.Sc. in Computing Science and Ph.D. in Parallel Computing both from the University of Newcastle upon Tyne.</p>
-        <p>Software passion: Connecting the world's systems, sharing the world's data, bringing sanity to software.</p>
-        <p>Links for Jim:</p>
+        <p><b>Software passion:</b> Connecting the world's systems, sharing the world's data, bringing sanity to software.</p>
+        <p><b>Links for Jim:</b></p>
         <ol>
-            <li>Website: http://jim.webber.name/</li>
-            <li>Twitter: jimwebber</li>
-            <li>Blog: http://jim.webber.name/</li>
-            <li>Books: Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
+            <li><a href="http://jim.webber.name/" target="_blank">Website</a></li>
+            <li><a href="http://twitter.com/jimwebber" target="_blank">@jimwebber</a></li>
+            <li><a href="http://jim.webber.name/" target="_blank">Blog</a></li>
+            <li>Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
         </ol>
  
 josh-graham:
@@ -274,9 +274,9 @@ josh-graham:
         <p>Josh Graham is a crazy Aussie with over 20 years experience in the software industry (as many years as he's been drinking legally).</p>
         <p>He has spoken at and chaired conferences on SOA, enterprise architecture, agile software delivery, and technology innovation.</p>            <p>After spending time on 5 continents during 2009 for ThoughtWorks and wanting to "stay at home for a little bit", Josh opened the Chicago office of Hashrocket at the beginning of 2010 (although plans to still visit 5 continents in 2010).</p>
         <p>Josh organizes speakerconf. You may have met Josh already at a bar.</p>                
-        <p>Links for Josh:</p>
+        <p><b>Links for Josh:</b></p>
         <ol>
-            <li>Blog: http://grahamis.com/blog/</li>
+            <li><a href="http://grahamis.com/blog/" target="_blank">Blog</a></li>
         </ol>
         
 j-rainsberger:
