@@ -538,11 +538,11 @@ udi-dahan:
     description: |
         <p>Udi Dahan is The Software Simplist, an internationally renowned expert on software architecture and design. A solutions architecture and connected systems MVP, 5 years in a row, Mr. Dahan is also one of 33 experts in Europe recognized by the International .NET Association, an author and trainer for the International Association of Software Architects, and an SOA, Web Services, and XML Guru recommended by Dr. Dobb’s – the world’s largest software magazine.</p>
         <p>When not consulting, speaking, or training, Udi leads the development of NServiceBus, the most popular open-source service bus for .NET</p>
-        <p>Links for Udi:<p>
+        <p><b>Software Passion: Simplicity</b></p>
+        <b>Links for Udi:</b><p>
         <ol>
-            <li>Website:  http://www.udidahan.com/</li>
-            <li>Blog: http://www.udidahan.com/?blog=true</li>
-            <li>Software Passion: Simplicity</li>
+            <li>a href="http://www.udidahan.com/" target="_blank">Website</a></li>
+            <li>a href="http://www.udidahan.com/?blog=true" target="_blank">Blog</a></li>
         </ol>
 
 ulf-wiger:
@@ -555,11 +555,11 @@ ulf-wiger:
         <p>Languages & Community</p>
         <p>Ulf Wiger became one of the first commercial users of Erlang (certainly the first in North America) when he bought a license in 1993. At the time, he was busy designing disaster response systems in Alaska. In 1996, he joined Ericsson and became Chief Designer of the AXD 301 development. At nearly 2 million lines of Erlang code, AXD 301 is the most complex system ever built in Erlang, and probably the most complex commercial system built in any functional language. In recent years, Ulf has been involved in several products based on the AXD 301 architecture, and has been an active member of the Open Source Erlang community. In February 2009, Ulf began his new job as CTO of Erlang Solutions Ltd.</p>
         <p>Senior Specialist in the Architecture and Design of carrier-class systems. Has had the rare opportunity to influence a world-class product from conception through product release, several years of feature upgrades and maintenance, and finally a significant technology shift. Previous experience includes architecture and design of decision support technology for the US DOD and the Alaska Integrated Incident Management System.. A special interest is trying to bridge the cultures of research, Open Source development, and industrial design.</p>
-        <p>Software Passion: To expand my mind by meeting people from all walks of life. Hopefully, their minds will do a bit of expanding too...</p>
-        <p>Links for Ulf:</p>
+        <p><b>Software Passion:</b> To expand my mind by meeting people from all walks of life. Hopefully, their minds will do a bit of expanding too...</p>
+        <p><b>Links for Ulf:</b></p>
         <ol>
-            <li>Website: http://ulf.wiger.net/weblog/</li>
-            <li>Twitter: @uwiger</li>
+            <li>a href="http://ulf.wiger.net/weblog/" target="_blank">Website</a></li>
+            <li>a href="http://twitter.com/uwiger" target="_blank">@uwiger</a></li>
             <li>Blog: Ulf Wiger on Singing</li>
         </ol>
 
@@ -572,11 +572,11 @@ victor-rodrigues:
         <p>Head of Audiological Software Development for Cochlear, whom he has been with for 10 years. Victor Rodrigues has over 18 years' experience in the IT sector. Previously working in fields as diverse as manufacturing control systems, service station and postal management systems and medical devices, Victor introduced Scrum to the Cochlear software team four years ago, with positive results. Since then engineering teams throughout the organisation are using Agile practices and methods.</p>
         <p>One of the keys to the success of the software his teams deliver are Agile practices and methods. Utilising the closer relationships with stakeholders that form using this process, the teams have been able to provide stakeholders the opportunity to shape the product during its development. This is complemented by the team's use and Victor's passion for user-centred interaction design.</p>
         <p>He recently was invited to join a working group (commissioned by the Association for the Advancement of Medical Instrumentation (AAMI)) responsible for producing a technical information report on the use of Agile methods and practices in the medical device industry.</p>
-        <p>Software Passion: "Supporting software teams to perform at their best and evangelising the total end user experience."</p>
-        <p>Links for Victor:</p>
+        <p><b>Software Passion:</b> "Supporting software teams to perform at their best and evangelising the total end user experience."</p>
+        <p><b>Links for Victor:</b></p>
         <ol>
-            <li>Twitter: @jeunj</li>
-            <li>Blog: http://beyondcomprehension.posterous.com/</li>
+            <li>a href="http://twitter.com/jeunja" target="_blank">@jeunj</a></li>
+            <li>a href="http://beyondcomprehension.posterous.com/" target="_blank">"Blog</a></li>
         </ol>
 
 xerxes-battiwalla:
@@ -589,11 +589,11 @@ xerxes-battiwalla:
         <p>Having been involved in commercial software development for nearly a decade, Xerxes has worked with a broad range of clients from freight forwarding giants such as TNT and FedEx to New Zealand Parliament and HSBC bank. Commencing his career developing a tolling violation system for Sydney's south-west motorway, the M5, his interests then broadened to the digital media space, joining OneDigital (now Isobar Digital Agency Network). During this time he was an integral part of the team that created the Pizza Hut corporate website and online ordering facility, and designed and implemented the Federal Government's Tourism Australia portal, part of a cross media campaign to attract overseas visitors.</p>
         <p>Drawing on this range of experience in the web, desktop and mobile technology areas, his goal is to simplify processes and produce more intuitive software.</p>
         <p>Outside the 9-5, Xerxes teaches the next generation of programmers, Computer Science students at the University Of Technology Sydney, helping to bridge the gap between academia and industry professionals.</p>
-        <p>Software Passion:  "My software passion: Making software simple and pain-free."</p>
-        <p>Links for Xerxes:</p> 
+        <p><b>Software Passion:</b> "My software passion: Making software simple and pain-free."</p>
+        <p><b>Links for Xerxes:</b></p> 
         <ol>
-            <li>Website: http://www.xerxesb.com/</li>
-            <li>Twitter: @xerxesb</li>
-            <li>Blog: Untitled.Bat</li>
+            <li>a href="http://www.xerxesb.com/" target="_blank">Website</a></li>
+            <li>a href="http://twitter.com/xerxesb" target="_blank">@xerxesb</a></li>
+            <li>a href="http://tumblr.xerxesb.com/post/193671042/unit-testsUntitled.Bat" target="_blank">Blog</a></li>
         </ol>
 
