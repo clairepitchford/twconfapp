@@ -256,8 +256,17 @@ jason-yip:
         <ol>    
             <li><a href="http://twitter.com/jchyip" target="_blank">@jchyip</a></li>
             <li><a href="http://jchyip.blogspot.com/" target="_blank">Blog: Making software is about making people</a></li>
-            <li>Presentations: http://www.slideshare.net/jchyip</li>
-            <li>Software: http://cruisecontrol.sf.net</li>
+            <li>Presentations: 
+              <a href="http://www.slideshare.net/jchyip" target="_blank">
+                Slides
+              </a>
+            </li>
+            <li>Software: 
+              <a href="http://cruisecontrol.sf.net" target="_blank">
+              http://cruisecontrol.sf.net
+              </a>
+            </li>
+              
         </ol>
 
 jim-webber: 
