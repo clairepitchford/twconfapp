@@ -146,7 +146,7 @@ testing-javascript:
 erlang-warps:
     date: Thu 2:05PM
     title: "Erlang Warps Your Mind: Concurrency-Oriented Programming"
-    speakers: ulf-wiger
+    speakers: francesco-cesarini
     description: |
         <p><b>Languages & Concurrency</b></p>
         <p>Erlang is a programming language designed for the Internet Age, although it pre-dates the Web. It is a language designed for multi-core computers, although it pre-dates them too. It is a "beacon language", to quote Haskell guru Simon Peyton-Jones, in that it more clearly than any other language demonstrates the benefits of concurrency-oriented programming. In this talk, I will try to show how learning Erlang will make you a better programmer.</p>

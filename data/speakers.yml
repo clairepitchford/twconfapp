@@ -178,6 +178,19 @@ erik-meijer:
         <p>Prior to joining Microsoft he was an associate professor at Utrecht University and adjunct professor at the Oregon Graduate Institute.</p>
         <p>Erik is one of the designers of the standard functional programming language Haskell98 and more recently the Cw language.</p>
 
+francesco-cesarini:
+    name: Francesco Cesarini
+    title: Founder of Erlang Solutions
+    description: |
+        <p>Francesco Cesarini has used Erlang on a daily basis for over 15 years, having started his career as an intern at Ericsson’s computer science laboratory, the birthplace of Erlang. He moved on to Ericsson’s Erlang training and consulting arm working on the first release of the OTP middleware, applying it to turnkey solutions and flagship telecom applications.</p>
+        <p>In 1999, soon after Erlang was released as open source, he founded Erlang Solutions. With offices in the UK, Sweden, Poland (and soon the US), they have become the world leaders in Erlang based consulting, contracting, training, systems development and support services. In 2008, they launched the Erlang Factory conferences. At Erlang Solutions, Francesco has worked on major Erlang based projects both within and outside Ericsson, and in his current role as CSO, is setting the strategy and vision of the company while supervising the technical teams.</p>
+        <p>Francesco is active in the Erlang community not only through regularly talks, seminars and tutorials at conferences worldwide, but also through his involvement in international research projects. He organises local Erlang user groups and with the help of his colleagues, runs the trapexit Erlang community website. He is the co-author of Erlang Programming, a book published by O’Reilly Media in 2009. With whatever time he has left over, he teaches Erlang to graduates and undergraduates at Oxford University and the IT University of Gothenburg. You can follow his ramblings (mainly on Erlang and Erlang Solutions) on twitter.</p>
+        <p><b>Links for Francesco:</b></p>
+        <ol>
+            <li><a href="http://twitter.com/francescoc" target="_blank">@francescoc</a></li>
+            <li><a href="http://oreilly.com/catalog/9780596518189" target="_blank">Book</a></li>
+            <li><a href="http://www.erlang-solutions.com/" target="_blank">Erlang Solutions:</a></li>
+        </ol>
 
 gregor-hohpe:
     name: Gregor Hohpe
@@ -544,24 +557,6 @@ udi-dahan:
         <ol>
             <li><a href="http://www.udidahan.com/" target="_blank">Website</a></li>
             <li><a href="http://www.udidahan.com/?blog=true" target="_blank">Blog</a></li>
-        </ol>
-
-ulf-wiger:
-    name: Ulf Wiger
-    title: |
-            <p>Bought the world's first Erlang licence</p>
-            <p>Specialist in the Architecture and Design of Carrier-Class Telecom Systems</p>
-            <p>CTO, Erlang Solutions Ltd. Sweden</p>
-    description: |
-        <p>Languages & Community</p>
-        <p>Ulf Wiger became one of the first commercial users of Erlang (certainly the first in North America) when he bought a license in 1993. At the time, he was busy designing disaster response systems in Alaska. In 1996, he joined Ericsson and became Chief Designer of the AXD 301 development. At nearly 2 million lines of Erlang code, AXD 301 is the most complex system ever built in Erlang, and probably the most complex commercial system built in any functional language. In recent years, Ulf has been involved in several products based on the AXD 301 architecture, and has been an active member of the Open Source Erlang community. In February 2009, Ulf began his new job as CTO of Erlang Solutions Ltd.</p>
-        <p>Senior Specialist in the Architecture and Design of carrier-class systems. Has had the rare opportunity to influence a world-class product from conception through product release, several years of feature upgrades and maintenance, and finally a significant technology shift. Previous experience includes architecture and design of decision support technology for the US DOD and the Alaska Integrated Incident Management System.. A special interest is trying to bridge the cultures of research, Open Source development, and industrial design.</p>
-        <p><b>Software Passion:</b> To expand my mind by meeting people from all walks of life. Hopefully, their minds will do a bit of expanding too...</p>
-        <p><b>Links for Ulf:</b></p>
-        <ol>
-            <li><a href="http://ulf.wiger.net/weblog/" target="_blank">Website</a></li>
-            <li><a href="http://twitter.com/uwiger" target="_blank">@uwiger</a></li>
-            <li><a href="hhttp://uwiger.blogspot.com/" target="_blank">Blog</a></li>
         </ol>
 
 victor-rodrigues:
