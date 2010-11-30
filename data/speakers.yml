@@ -487,11 +487,11 @@ richard-durnall:
         <p>Richard has spent a number of years working with Agile software development teams and uses his Lean knowledge to resolve the larger organisational issues often experienced by large organisations moving to new working practices.</p>
         <p>Richard's clients include some of Australia's largest businesses in the financial services, government, print, on-line and service sectors.</p>
         <p>Richard is a certified 6-Sigma practitioner and a chartered member of the British Computer Society.</p>
-        <p>Software Passion:  Building high-performing IT divisions. IT management, practice and theory.</p>
-        <p>Links for Richard:</p>
+        <p><b>Software Passion:</b>  Building high-performing IT divisions. IT management, practice and theory.</p>
+        <p><b>Links for Richard:</b></p>
         <ol>
-            <li>Twitter: rdurnall</li>
-            <li>Blog: www.richarddurnall.com</li>
+            <li>a href="http://twitter.com/rdurnall" target="_blank">@rdurnall</a></li>
+            <li>a href="www.richarddurnall.com" target="_blank">Blog</a></li>
         </ol>
  
 richard-gabriel:
@@ -502,11 +502,11 @@ richard-gabriel:
     description : |
         <p>"Richard Gabriel and Guy Steele are beasts in the world of computer science, and they are creative and witty geeks."</p>
         Richard P. Gabriel received a PhD in Computer Science from Stanford University in 1981, and an MFA in Poetry from Warren Wilson College in 1998. He has been a researcher at Stanford University, company president and Chief Technical Officer at Lucid, Inc., vice president of Development at ParcPlace-Digitalk, a management consultant for several startups, a Distinguished Engineer at Sun Microsystems, a Consulting Professor of Computer Science at Stanford University, and lead guitarist for a rock 'n' roll band. He is a Distinguished Engineer at IBM Research, looking into the architecture, design, and implementation of extraordinarily large, self-sustaining systems as well as development techniques for building them. Until recently he was President of the Hillside Group, a nonprofit that nurtures the software patterns community by holding conferences, publishing books, and awarding scholarships. He is on Hillside's Board of Directors. He helped design and implement a variety of dialects of Lisp. He is author of four books ("Performance and Evaluation of Lisp Systems," MIT Press; "Patterns of Software: Tales from the Software Community," Oxford University Press; "Writers' Workshops and the Work of Making Things," Addison-Wesley Press; and "Innovation Happens Elsewhere: Open Source as Business Strategy," Morgan Kaufmann), and a poetry chapbook ("Drive On," Hollyridge Press), with two books of poetry in preparation: "Leaf of my Puzzled Desire" and "Drive On." He has published more than 100 scientific, technical, and semi-popular papers, articles, and essays on computing. He has won several awards, including the AAAI/ACM Allen Newell Award. He is a poet. He lives in California.</p>
-        <p>Software Passion: Passionate about every dirty aspect of software creation</p>
-        <p>Links for Richard:</p>
+        <p><b>Software Passion:</b> Passionate about every dirty aspect of software creation</p>
+        <p><b>Links for Richard:</b></p>
         <ol>
-            <li>Website: www.dreamsongs.com</li>
-            <li>Twitter: @rpg</li>
+            <li>a href="www.dreamsongs.com" target="_blank">Website</a></li>
+            <li>a href="http://twitter.com/rpg" target="_blank">@rpg</a></li>
             <li>Books: Performance and Evaluation of Lisp Systems  Patterns of Software  Innovation Happens Elsewhere Writers' Workshops and the Work of Making Things Drive on</li>
         </ol>
 
@@ -522,12 +522,12 @@ rod-johnson:
         <p>Rod is a member of the Java Community Process (JCP) Executive Committee (EC). EC members guide the evolution of the Java technologies by approving and voting on all technology proposals. They are also responsible for defining the JCP's rules of governance and the legal agreement between members and the organization.</p>
         <p>Rod holds a BA with Honors in Computer Science, Mathematics and Musicology as well as a Phd from the University of Sydney.</p>
         <p>Rod is SVP, Middleware and GM of the SpringSource division at VMware.</p> 
-        <p>Rods Software Passion: Innovation. Pragmatism. New challenges.<p>
-        <p>Links for Rod:</p>
+        <p><b>Software Passion:</b> Innovation. Pragmatism. New challenges.<p>
+        <p><b>Links for Rod:</b></p>
         <ol>
-            <li>Website: http://www.springsource.com</li>
-            <li>Twitter: @springrod</li>
-            <li>Blog: http://blog.springsource.com/author/rodj/</li>
+            <li>a href="http://www.springsource.com" target="_blank">Website</a></li>
+            <li>a href="http://twitter.com/springrod" target="_blank">@springrod</a></li>
+            <li>a href="http://blog.springsource.com/author/rodj/" target="_blank">Blog</a></li>
             <li>Books: Expert One-on-One J2EE Development without EJB</li>
         </ol>
 
