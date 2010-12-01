@@ -156,7 +156,7 @@ afternoon-tea:
     date: Thu 3:05PM
     title: Afternoon Tea
 
-    googley-way:
+googley-way:
         date: Thu 3:20PM
         title: Writing Apps the Google-y Way
         speakers: pamela-fox
@@ -179,7 +179,7 @@ strategic-design:
         <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>       
 
 domain-modelling:
-    date: Thu 4:25PM
+    date: Thu 3:20PM
     title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
     speakers: kresten-thorup
     description: |
