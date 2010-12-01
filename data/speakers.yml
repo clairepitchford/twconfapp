@@ -240,7 +240,7 @@ ian-robinson:
         <p><b>Links for Ian:</b></p>
         <ol>
             <li><a href="http://iansrobinson.com/" target="_blank">Website</a></li>
-            <li><a href=http://iansrobinson.com/" target="_blank">Blog</a></li>
+            <li><a href="http://iansrobinson.com/" target="_blank">Blog</a></li>
             <li>Books: REST in Practice</li>
             <li>Presentation: Ian Robinson and Jim Webber on Web-Based Integration</li>
         </ol>
@@ -315,7 +315,7 @@ j-rainsberger:
         <p><b>Links for J.B.:</b></p>
         <ol>
             <li><a href="http://blog.jbrains.ca/" target="_blank"> and <a href="http://www.weliveherenow.net" target="_blank">Websites</a></li>
-            <li><a href="http://twitter.com/" target="_blank">jbrains@jbrains</a></li>
+            <li><a href="http://twitter.com/jbrains" target="_blank">@jbrains</a></li>
             <li><a href="http://blog.thecodewhisperer.com" target="_blank">Blog</a></li>
             <li>Books: JUnit Recipes</li>
             <li>Articles: J.B. Rainsberger: "Integrated Tests are a Scam"</li>
@@ -391,7 +391,8 @@ michael-nygard:
         <p><b>Software passion:</b> My passion is for creating environments where everyone can be as creative and successful as they can.</p>
         <p><b>Links for Michael:</b></p>
         <ol>
-            <li><a href="http://www.michaelnygard.com http://www.infoq.com/author/Michael-Nygard" target="_blank">Website</a></li>
+            <li><a href="http://www.michaelnygard.com" target="_blank">Website</a></li>
+            <li><a href="http://www.infoq.com/author/Michael-Nygard" target="_blank">Website</a></li>
             <li><a href="http://www.michaelnygard.com/blog" target="_blank">Blog</a></li>
             <li>Books:  Release It! Design and Deploy Production-Ready Software Beautiful Architecture 97 Things Every Software Architect Should Know</li>
         </ol>
@@ -528,7 +529,7 @@ richard-gabriel:
         <p><b>Software Passion:</b> Passionate about every dirty aspect of software creation</p>
         <p><b>Links for Richard:</b></p>
         <ol>
-            <li>a href="www.dreamsongs.com" target="_blank">Website</a></li>
+            <li>a href="http://www.dreamsongs.com" target="_blank">Website</a></li>
             <li>a href="http://twitter.com/rpg" target="_blank">@rpg</a></li>
             <li>Books: Performance and Evaluation of Lisp Systems  Patterns of Software  Innovation Happens Elsewhere Writers' Workshops and the Work of Making Things Drive on</li>
         </ol>
