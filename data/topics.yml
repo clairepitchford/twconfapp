@@ -176,19 +176,23 @@ strategic-design:
         <p>It is common for skilled teams to deliver software they are not proud of, due to compromises with legacy designs. Others toil for years, producing a platform that is never used to good advantage. These are strategic failures. On the other hand, there are projects with a direct explanation of how the software contributes to business goals. There are projects where designers work with a realistic view of the context of their development within the larger system, allowing them to maintain design clarity and integrity. These are strategic successes. Winning strategy starts with the domain.</p>
         <p>Two DDD principles, "Context Mapping" and "Distilling the Core Domain", help you see your strategic situation more clearly and approach strategic design decisions more systematically. These techniques require extensive interaction with domain experts as well as the leaders of the organization, in discussions broader than functional requirements. They sometimes lead to priorities quite different from our most comfortable notions.</p>
         <p><b>Keywords:</b> DomainDriven, Architecture, Modeling, Design, DDD, DSL</p>
-        <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>
-        
-embracing-concurrency:
-    date: Thu 3:20PM
-    title: Embracing Concurrency at Scale
-    speakers: justin-sheehy
+        <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>       
+
+domain-modelling:
+    date: Thu 4:25PM
+    title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
+    speakers: kresten-thorup
     description: |
         <p><b>Languages and Community</b></p>
-        <p>People have been talking about "scaling" and "distributed systems" a great deal lately. We need to clarify the meaning of these terms in order to have a worthwhile conversation about them. We will do so by discussing the details of how to actually produce practical, scalable, distributed systems.</p>
-        <p>That discussion will focus on methods for designing and building robust fundamentally-concurrent distributed systems. These approaches have been learned through building user-facing web applications, data storage and processing systems, and server management tools. We will look at practices that are "common knowledge" but too often forgotten, at lessons that the software industry at large has somehow missed, and at general "good practices" and rules that must be thrown away when moving into a distributed and concurrent world.</p>
-        <p><b>Keywords:</b> Distributed Computing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
-        <p><b>Target Audience:</b> programmers and system designers</p>
- 
+        <p>Erlang is a programming language which has been picking up steam the last few years, in particular in domains that require a lot of coordination in the application logic. The language supports a simple and consistent set of features for writing concurrent distributed systems.</p>
+        <p>Over the last few years, I have been meeting "Erlang people" more and more often, and I have been getting the impression that they have a magical ability to reason intuitively about concurrent systems in a way that I have not. It corresponds somewhat to the way we "object heads" think intuitively about classes and objects - just in terms of processes. That bothered me, so I wanted to learn Erlang.</p>
+        <p>Being a language implementor, the most obvious way to do that is to just go ahead and implement an Erlang VM, right? The result of this "little exercise" is Erjang, an open-source JVM-based Erlang VM. It has turned into a non-trivial project, Erjang is now +50k lines of Java code, and it runs substantial erlang programs.</p>
+        <p>This adventure to Erlang-land have taught me many things about how "Erlang people" think. I am beginning to understand how they think in processes/actors, how they model things and how they handle the complexity that arises in concurrent systems.</p>
+        <p>In the first part of my talk, I'll go through some of these lessons, some of the aha!'s and the insights into Erlang's secret sauce, and present some of the patterns Erlang'ers use to describe and model systems.</p>
+        <p>Secondly, I'll take you through some of the highlights of the Erjang VM; which is just another angle at describing how Erlang and Java differs.</p>
+        <p><b>Keywords:</b> Erlang, JVM, Concurrency, Scalability, Languages</p>
+        <p><b>Target Audience:</b> Java developers (preferrably ones that have felt the pain of concurrency)</p> 
+
 distributed-programming:
     date: Thu 4:25PM
     title: Distributed Programming the Google Way
@@ -209,20 +213,16 @@ release-it:
         <p><b>Keywords:</b> Architecture, EnterpriseComputing, Operations, Production, Deployment, Scalability, ConfigurationManagement</p>
         <p><b>Target Audience:</b> Experienced developers and architects working with web applications or service-oriented architectures.</p>
 
-domain-modelling:
-    date: Thu 4:25PM
-    title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
-    speakers: kresten-thorup
+embracing-concurrency:
+    date: Thu 4:205PM
+    title: Embracing Concurrency at Scale
+    speakers: justin-sheehy
     description: |
         <p><b>Languages and Community</b></p>
-        <p>Erlang is a programming language which has been picking up steam the last few years, in particular in domains that require a lot of coordination in the application logic. The language supports a simple and consistent set of features for writing concurrent distributed systems.</p>
-        <p>Over the last few years, I have been meeting "Erlang people" more and more often, and I have been getting the impression that they have a magical ability to reason intuitively about concurrent systems in a way that I have not. It corresponds somewhat to the way we "object heads" think intuitively about classes and objects - just in terms of processes. That bothered me, so I wanted to learn Erlang.</p>
-        <p>Being a language implementor, the most obvious way to do that is to just go ahead and implement an Erlang VM, right? The result of this "little exercise" is Erjang, an open-source JVM-based Erlang VM. It has turned into a non-trivial project, Erjang is now +50k lines of Java code, and it runs substantial erlang programs.</p>
-        <p>This adventure to Erlang-land have taught me many things about how "Erlang people" think. I am beginning to understand how they think in processes/actors, how they model things and how they handle the complexity that arises in concurrent systems.</p>
-        <p>In the first part of my talk, I'll go through some of these lessons, some of the aha!'s and the insights into Erlang's secret sauce, and present some of the patterns Erlang'ers use to describe and model systems.</p>
-        <p>Secondly, I'll take you through some of the highlights of the Erjang VM; which is just another angle at describing how Erlang and Java differs.</p>
-        <p><b>Keywords:</b> Erlang, JVM, Concurrency, Scalability, Languages</p>
-        <p><b>Target Audience:</b> Java developers (preferrably ones that have felt the pain of concurrency)</p>
+        <p>People have been talking about "scaling" and "distributed systems" a great deal lately. We need to clarify the meaning of these terms in order to have a worthwhile conversation about them. We will do so by discussing the details of how to actually produce practical, scalable, distributed systems.</p>
+        <p>That discussion will focus on methods for designing and building robust fundamentally-concurrent distributed systems. These approaches have been learned through building user-facing web applications, data storage and processing systems, and server management tools. We will look at practices that are "common knowledge" but too often forgotten, at lessons that the software industry at large has somehow missed, and at general "good practices" and rules that must be thrown away when moving into a distributed and concurrent world.</p>
+        <p><b>Keywords:</b> Distributed Computing, Scalability, Concurrency, Web2.0, Architecture, NoSQL</p>
+        <p><b>Target Audience:</b> programmers and system designers</p>
 
 break:
     date: Thu 5:25PM
