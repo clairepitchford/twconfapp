@@ -214,7 +214,7 @@ release-it:
         <p><b>Target Audience:</b> Experienced developers and architects working with web applications or service-oriented architectures.</p>
 
 embracing-concurrency:
-    date: Thu 4:205PM
+    date: Thu 4:20PM
     title: Embracing Concurrency at Scale
     speakers: justin-sheehy
     description: |
