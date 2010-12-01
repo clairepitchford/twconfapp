@@ -456,3 +456,7 @@ performance-scalability:
         <p>In this session we will discuss why scaling web applications is difficult and will look at some of solutions we have come up with in the past to deal with the issues involved. We will then look at how in-memory data grids can make our jobs easier by providing a solid architectural foundation to build our applications on top of.</p>
         <p>If you are new to in-memory data grids, you are guaranteed to leave the presentation eager to learn more. However, even if you are already using one you will likely walk out with a few ideas on how to improve performance and scalability of your applications.</p>
         <p><b>Keywords:</b> BestPractices, Database, EnterpriseComputing, CloudComputing</p>
+
+farewell-drinks:
+    date: Fri 5:30PM
+    title: Farewell Drinks

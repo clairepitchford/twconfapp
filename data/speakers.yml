@@ -106,7 +106,8 @@ dan-ingalls:
         <p><b>Software Passion:</b> Good software brings mathematics to life. If it doesn't it isn't</p>
         <p><b>Links for Dan:</b></p>
         <ol>
-            <li><a href="http://www.squeak.org http://www.lively-kernel.org/" target="_blank">Website</a></li>
+            <li><a href="http://www.squeak.org" target="_blank">Website</a></li>
+            <li><a href="http://www.lively-kernel.org/"_blank">Website</a></li>
             <li><a href="http://twitter.com/daningalls" target="_blank">@DanIngalls</a></li>
             <li><a href="http://whatsup-di.blogspot.com/" target="_blank">Blog</a></li>
             <li>Articles: The Lively Kernel</li>
@@ -281,9 +282,8 @@ jim-webber:
         <p><b>Software passion:</b> Connecting the world's systems, sharing the world's data, bringing sanity to software.</p>
         <p><b>Links for Jim:</b></p>
         <ol>
-            <li><a href="http://jim.webber.name/" target="_blank">Website</a></li>
+            <li><a href="http://jim.webber.name/" target="_blank">Website and Blog</a></li>
             <li><a href="http://twitter.com/jimwebber" target="_blank">@jimwebber</a></li>
-            <li><a href="http://jim.webber.name/" target="_blank">Blog</a></li>
             <li>Developing Enterprise Web Services - An Architect's Guide REST in Practice</li>
         </ol>
  
@@ -514,7 +514,7 @@ richard-durnall:
         <p><b>Links for Richard:</b></p>
         <ol>
             <li><a href="http://twitter.com/rdurnall" target="_blank">@rdurnall</a></li>
-            <li><a href="www.richarddurnall.com" target="_blank">Blog</a></li>
+            <li><a href="http://www.richarddurnall.com/" target="_blank">Blog</a></li>
         </ol>
  
 richard-gabriel:
@@ -580,7 +580,7 @@ victor-rodrigues:
         <p><b>Software Passion:</b> "Supporting software teams to perform at their best and evangelising the total end user experience."</p>
         <p><b>Links for Victor:</b></p>
         <ol>
-            <li><a href="http://twitter.com/jeunja" target="_blank">@jeunj</a></li>
+            <li><a href="http://twitter.com/jeunj" target="_blank">@jeunj</a></li>
             <li><a href="http://beyondcomprehension.posterous.com/" target="_blank">"Blog</a></li>
         </ol>
 
