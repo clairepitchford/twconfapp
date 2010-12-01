@@ -111,7 +111,7 @@ integrated-tests:
         <p><b>Keywords:</b> Craftsmanship, Design, IntegrationTesting, Agile, BestPractices, TDD, Testing</p>
         <p><b>Target Audience:</b>  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
 
-how-to:
+how-tothink:
     date: Thu 1:00PM
     title: "How to Think about Parallel Programming---Not!"
     speakers: guy-steele
@@ -156,15 +156,15 @@ afternoon-tea:
     date: Thu 3:05PM
     title: Afternoon Tea
 
-    googley-way:
-        date: Thu 3:20PM
-        title: Writing Apps the Google-y Way
-        speakers: pamela-fox
-        description: |
-            <p><b>Cloud Computing</b></p>
-            <p>Google App Engine is a framework that lets you build web apps on top of Google's scalable hosting and data storage infrastructure. When you start building an app on App Engine, you soon realize that you do things differently from the way you made apps for more "traditional" hosting setups, because of our scalability-oriented design. In this talk, we'll give an overview of App Engine, and then look at how you would handle things like offline processing, geographic queries, or storing files, and how you would design real world apps like a microblogging service or social network site.</p>
-            <p><b>Keywords:</b> AppEngine, Scalability, Architecture, Java, Python, CloudComputing, GoogleAPI , Experience, Web 2.0</p>
-            <p><b>Target Audience:</b>  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
+googley-way:
+    date: Thu 3:20PM
+    title: Writing Apps the Google-y Way
+    speakers: pamela-fox
+    description: |
+        <p><b>Cloud Computing</b></p>
+        <p>Google App Engine is a framework that lets you build web apps on top of Google's scalable hosting and data storage infrastructure. When you start building an app on App Engine, you soon realize that you do things differently from the way you made apps for more "traditional" hosting setups, because of our scalability-oriented design. In this talk, we'll give an overview of App Engine, and then look at how you would handle things like offline processing, geographic queries, or storing files, and how you would design real world apps like a microblogging service or social network site.</p>
+        <p><b>Keywords:</b> AppEngine, Scalability, Architecture, Java, Python, CloudComputing, GoogleAPI , Experience, Web 2.0</p>
+        <p><b>Target Audience:</b>  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
 
 strategic-design:
     date: Thu 3:20PM
@@ -179,7 +179,7 @@ strategic-design:
         <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>       
 
 domain-modelling:
-    date: Thu 4:25PM
+    date: Thu 3:20PM
     title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
     speakers: kresten-thorup
     description: |
@@ -214,7 +214,7 @@ release-it:
         <p><b>Target Audience:</b> Experienced developers and architects working with web applications or service-oriented architectures.</p>
 
 embracing-concurrency:
-    date: Thu 4:20PM
+    date: Thu 4:25PM
     title: Embracing Concurrency at Scale
     speakers: justin-sheehy
     description: |
