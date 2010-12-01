@@ -111,7 +111,7 @@ integrated-tests:
         <p><b>Keywords:</b> Craftsmanship, Design, IntegrationTesting, Agile, BestPractices, TDD, Testing</p>
         <p><b>Target Audience:</b>  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
 
-how-to:
+how-tothink:
     date: Thu 1:00PM
     title: "How to Think about Parallel Programming---Not!"
     speakers: guy-steele
