@@ -30,6 +30,7 @@ class JSONConverter
         raise "Speaker #{s_id} does not have a name" unless @speakers[s_id]['name']
         raise "Speaker #{s_id} does not have a description" unless @speakers[s_id]['description']
       end
+      puts 'process:' + t_id
     end
     puts 'topics processed: ' + @topics.keys.length.to_s
     
