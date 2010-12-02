@@ -1,3 +1,3 @@
 twitter_search_api: http://search.twitter.com/search.json?callback=rebuildTweets&q=&ors=
 
-conference_hashtags: rapidFTR+yow2010+yow_2010+yowaus
+conference_hashtags: rapidFTR+yow2010+yow_2010+yowaus+yow_oz
