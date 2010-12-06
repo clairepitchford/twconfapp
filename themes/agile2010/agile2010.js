@@ -78,10 +78,10 @@ ConferenceSession.prototype.dateString = function () {
       hours = timeParts[0],
       minutes = timeParts[1].substr(0, 2);
       
-  if (dateParts[0] === "Thu") {
-    dateString += "2, "; //2nd of December
+  if (dateParts[0] === "Wed") {
+    dateString += "8, "; //8th of December
   } else {
-    dateString += "3, "; //3rd of December
+    dateString += "9, "; //9th of December
   }
 
   dateString += "2010 ";
@@ -97,8 +97,8 @@ ConferenceSession.prototype.dateString = function () {
 
 function AgileConference(speakerData, sessionData) {
   this.days = [
-    {'full': "Thursday", 'shortName': "Thu", 'cssClass': "current"},
-    {'full': "Friday", 'shortName': "Fri"}
+    {'full': "Wednesday", 'shortName': "Wed", 'cssClass': "current"},
+    {'full': "Thursday", 'shortName': "Thu"}
   ];
   
   this.conferenceSpeakers = this.buildSpeakers(speakerData);
@@ -196,7 +196,7 @@ ConferenceDOMBuilder.prototype.updateSpeakersDOM = function () {
     if (this.conference.conferenceSpeakers.hasOwnProperty(speakerID)) {
       speaker = this.conference.conferenceSpeakers[speakerID];
       this.removeElement(speaker.speakerID);
-      this.buildSpeakerDOM(speaker).insertBefore("#Thursday");
+      this.buildSpeakerDOM(speaker).insertBefore("#Wednesday");
     }
   }
 };
@@ -263,7 +263,7 @@ ConferenceDOMBuilder.prototype.updateSessionsDOM = function () {
   for (var sessionID in this.conference.conferenceSessions) {
     if (this.conference.conferenceSessions.hasOwnProperty(sessionID)) {
       $("#" + sessionID).remove();
-      this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Thursday");
+      this.buildSessionDOM(sessionID, this.conference.conferenceSessions[sessionID]).insertBefore("#Wednesday");
     }
   }
 };
@@ -283,8 +283,8 @@ ConferenceDOMBuilder.prototype.updateDayMenu = function (day, dayDiv) {
 };
 
 ConferenceDOMBuilder.prototype.updateTopicList = function (day, dayDiv) {
-  var topicKeys = {"Thu" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Thu"),
-                   "Fri" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Fri")},
+  var topicKeys = {"Wed" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Wed"),
+                   "Thu" : this.conference.getSortedSessionsForDay(this.conference.conferenceSessions, "Thu")},
       topicList = $('ul.edgetoedge', dayDiv).empty(),
       previousDate = null,
       dayTopics = topicKeys[day.shortName],
@@ -401,7 +401,7 @@ function registerIconChangeEvents() {
 
     // If no tab is selected, then we select the Schedule.
     if (! ($('#tabbar a').is('a[href=' + href + ']'))) {
-      href = '#Thursday';
+      href = '#Wednesday';
     }
 
     $('#tabbar img.icon-img').each(function () {
@@ -604,7 +604,7 @@ $(document).ready(function () {
 //due to the fact that not all components are loaded before firing $.ready
 $(window).load(function () {
   $(document.body).trigger('orientationchange');
-  $('#Thursday.current').trigger('pageAnimationStart');
+  $('#Wednesday.current').trigger('pageAnimationStart');
 
   registerBookmarkReminderPopup();
 });

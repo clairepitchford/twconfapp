@@ -1,13 +1,13 @@
 registration:
-    date: Thu 08:00AM
+    date: Wed 08:00AM
     title: Registration
     
 welcome:
-    date: Thu 08:30AM
+    date: Wed 08:30AM
     title: Welcome
 
 kenote-address:    
-    date: Thu 09:00AM
+    date: Wed 09:00AM
     title: Keynote Address - Things I Wish I'd Known
     speakers: rod-johnson
     description: |
@@ -15,11 +15,11 @@ kenote-address:
         <p>Australian technologist and entrepreneur Rod Johnson will talk candidly about some of the lessons he's learnt over 15 years in IT, some of the mistakes he's made and observed others making, and some of the things that proved to work. The talk will cover both business and technical topics and reflect Rod's experience writing books on Java programming, creating and leading the popular Spring Framework and building a successful venture-funded software company, acquired in 2009 by VMware, where Rod is today an executive.</p>
 
 morning-tea:
-    date: Thu 10:00AM
+    date: Wed 10:00AM
     title: Morning Tea
             
 extreme-java:
-    date: Thu 10:15AM
+    date: Wed 10:15AM
     title: "Extreme Java Productivity: Enterprise Applications in Just Minutes"
     speakers: ben-alex
     description: |
@@ -36,7 +36,7 @@ extreme-java:
         <p><b>Target Audience:</b> Application developers, Java developers</p>        
         
 state-art:
-    date: Thu 10:15AM
+    date: Wed 10:15AM
     title: "The State of the Art .NET: 12 Months of Things to Learn"
     speakers: amanda-laucher, josh-graham
     description: |
@@ -48,7 +48,7 @@ state-art:
         <p><b>Target Audience:</b> MSDN subscribers looking for something more, .NET architects and developers, the .NET-curious</p>
     
 the-rich:
-    date: Thu 10:15AM
+    date: Wed 10:15AM
     title: "The Rich Get Richer: Rails 3"
     speakers: obie-fernandez
     description: |
@@ -58,7 +58,7 @@ the-rich:
         <p><b>Target audience:</b> Developers with at least minimal knowledge of Rails that haven't kept up to date with what's new in Rails 3</p>
     
 connectivity-complex:
-    date: Thu 11:20AM
+    date: Wed 11:20AM
     title: Connectivity for Today's Complex World
     speakers: greg-flurry
     description: |
@@ -68,7 +68,7 @@ connectivity-complex:
         <p><b>Target Audience:</b> Architects, technical leads, and IT managers who have experience with messaging, connectivity, B2B, SOA or ESB.</p>
         
 rx-curing:
-    date: Thu 11:20AM
+    date: Wed 11:20AM
     title: "Rx: Curing Your Asynchronous Programming Blues"
     speakers: erik-meijer
     description: |
@@ -78,7 +78,7 @@ rx-curing:
         <p><b>Target audience:</b> Anyone that writes code that involves UI or Web services</p>
         
 largest-rails:
-    date: Thu 11:20AM
+    date: Wed 11:20AM
     title: "Rails in the Large: How We're Building (One of) the Largest Rails Apps in the World (for an Enterprise)"
     speakers: neal-ford
     description: |
@@ -88,21 +88,13 @@ largest-rails:
         <p><b>Target Audience:</b>  Developers interested in how we combine agility and large-scale enterprise development using Ruby on Rails.</p>
 
 lunch:
-    date: Thu 12:20PM
+    date: Wed 12:20PM
     title: Lunch
-    
-failed-soa:
-    date: Thu 1:00PM
-    title: Avoid a Failed SOA - Business and Autonomous Components to the Rescue
-    speakers: udi-dahan
-    description: |
-        <p><b>Enterprise</b></p>
-        <p>Calling everything a service makes the term meaningless. Now, we've got 13 different kinds of services and no clue when to use which one. Is a single operation a service? Is a single endpoint a service? What about cross cutting functions like authorization and data access? If you've been wondering about these sorts of questions, then this talk is for you. If you've been looking for a top-down analysis and design process, then this talk is for you. If you've been looking for concrete guidance on how to choose technology for SOA, then this talk is for you. Join Udi as he describes the "missing links" in SOA: Business Components and Autonomous Components. It turns out that components are more important than ever in this new, service-oriented world.</p>
-        <p><b>Keywords:</b> Architecture, SOA, .NET, BestPractices, Experience</p>
-        <p><b>Target Audience:</b> Developers, architects, managers</p>
+
+        
         
 integrated-tests:
-    date: Thu 1:00PM
+    date: Wed 1:00PM
     title: Integrated Tests are a Scam
     speakers: j-rainsberger
     description: |
@@ -112,7 +104,7 @@ integrated-tests:
         <p><b>Target Audience:</b>  Programmers finding themselves frustrated that their tests don't find their integration mistakes; Anyone finding himself buried under an ever-growing mountain of complex, brittle tests.</p>
 
 how-tothink:
-    date: Thu 1:00PM
+    date: Wed 1:00PM
     title: "How to Think about Parallel Programming---Not!"
     speakers: guy-steele
     description: |
@@ -125,14 +117,25 @@ how-tothink:
         <p><b>Target audience:</b> Developers with an interest in parallelism and/or computer history</p>
 
 why-nosql:
-    date: Thu 2:05PM
+    date: Wed 1:00PM
     title: Why NoSQL and Why Riak?
     speakers: justin-sheehy
     description: |
         <p>This talk will explain the confusing and oddly-named "NoSQL" database movement and will provide an overview of the various database technologies lumped into that category. Justin will give advice on how to determine which if any of these systems might be relevant to your own use case. We will then narrow the conversation to one of the many discussed systems, Riak, and describe the technology and business choices behind it.  The audience will emerge with a better understanding of alternative databases in general and Riak in specific.</p>
 
+
+how-tocloud:
+    date: Wed 2:05PM
+    title: How to Cloud Enable a Million Desktop Clients
+    speakers: simon-raikallen
+    description: |
+        <p>Traditional business software is on the move, and this move is online. Businesses are becoming more dynamic and are relying more and more on external partners and collaborators. Workforces are becoming more mobile, and global markets are becoming more accessible. So it's only natural that the software applications that support this activity and help businesses achieve their goals adapts to these needs.</p>
+        <p>Simon presents some of the issues and challenges faced during an initiative to cloud-enable a million existing desktop clients and discusses the architecture developed to enable this move. He talks about the needs of today's real world user, how to work with unreliable networks and occasionally connected users, and yet still keep business moving forward. He also discusses database and app server tenancy and scalability in the cloud.</p>
+        <p><b>Keywords:</b> CloudComputing, Architecture, Scalability, Azure</p>
+
+
 testing-javascript:
-    date: Thu 2:05PM
+    date: Wed 2:05PM
     title: Testing Your Javascript
     speakers: corey-haines
     description: |
@@ -143,7 +146,7 @@ testing-javascript:
         <p><b>Target Audience:</b> Developers who are looking for a jump-start to automated testing in Javascript.</p>
         
 erlang-warps:
-    date: Thu 2:05PM
+    date: Wed 2:05PM
     title: "Erlang Warps Your Mind: Concurrency-Oriented Programming"
     speakers: francesco-cesarini
     description: |
@@ -153,11 +156,11 @@ erlang-warps:
         <p><b>Target Audience:</b> Programmers, architects, technology decision makers</p>
 
 afternoon-tea:
-    date: Thu 3:05PM
+    date: Wed 3:05PM
     title: Afternoon Tea
 
 googley-way:
-    date: Thu 3:20PM
+    date: Wed 3:20PM
     title: Writing Apps the Google-y Way
     speakers: pamela-fox
     description: |
@@ -167,7 +170,7 @@ googley-way:
         <p><b>Target Audience:</b>  Developers who are building App Engine apps or thinking of using App Engine for an upcoming project, and who want to learn how they might architect the backend for their application to work best on top of Google's hosting infrastructure.</p>
 
 strategic-design:
-    date: Thu 3:20PM
+    date: Wed 3:20PM
     title: "Strategic Design: Avoiding Responsibility Traps"
     speakers: eric-evans
     description: |
@@ -179,7 +182,7 @@ strategic-design:
         <p><b>Target Audience:</b> Executives, Managers, Leads, Architects</p>       
 
 domain-modelling:
-    date: Thu 3:20PM
+    date: Wed 3:20PM
     title: Domain Modelling with Processes - Adventures of an 'object head' in Erlang Land
     speakers: kresten-thorup
     description: |
@@ -194,7 +197,7 @@ domain-modelling:
         <p><b>Target Audience:</b> Java developers (preferrably ones that have felt the pain of concurrency)</p> 
 
 distributed-programming:
-    date: Thu 4:25PM
+    date: Wed 4:25PM
     title: Distributed Programming the Google Way
     speakers: gregor-hohpe
     description: |
@@ -203,7 +206,7 @@ distributed-programming:
        <p><b>Keywords:</b> CloudComputing, DistributedComputing, Concurrency, BigTable, MapReduce</p>
 
 release-it:
-    date: Thu 4:25PM
+    date: Wed 4:25PM
     title: Release it! Design and Deploy Production-Ready Software
     speakers: michael-nygard
     description: |
@@ -214,7 +217,7 @@ release-it:
         <p><b>Target Audience:</b> Experienced developers and architects working with web applications or service-oriented architectures.</p>
 
 embracing-concurrency:
-    date: Thu 4:25PM
+    date: Wed 4:25PM
     title: Embracing Concurrency at Scale
     speakers: justin-sheehy
     description: |
@@ -225,11 +228,11 @@ embracing-concurrency:
         <p><b>Target Audience:</b> programmers and system designers</p>
 
 break:
-    date: Thu 5:25PM
+    date: Wed 5:25PM
     title: Break
 
 keynote-50:
-    date: Thu 6:45PM
+    date: Wed 6:15PM
     title: "Keynote Address: 50 in 50"
     speakers: guy-steele, richard-gabriel
     description: |
@@ -239,15 +242,15 @@ keynote-50:
         <p><b>Target Audience:</b> People not afraid of finding out just how weird our predecessors were and who enjoy theater style.</p>
 
 reception:
-    date: Thu 8:00PM
+    date: Wed 7:45PM
     title: Reception
     
 welcome2:
-    date: Fri 8:30AM
+    date: Thu 8:30AM
     title: Welcome
 
 keynote-address2:
-    date: Fri 9:00AM
+    date: Thu 9:00AM
     title: "Keynote Address: Exploring NoSQL"
     speakers: erik-meijer
     description: |
@@ -256,11 +259,11 @@ keynote-address2:
         <p><b>Keywords:</b>  C#, LINQ, NoSQL, Web 2.0, EnterpriseComputing, CloudComputing, .NET</p>
 
 morning-tea2:
-    date: Fri 10:00AM
+    date: Thu 10:00AM
     title: Morning Tea
     
 restful-application:
-    date: Fri 10:15AM
+    date: Thu 10:15AM
     title: Designing and Implementing RESTful Application Protocols
     speakers: ian-robinson
     description: |
@@ -269,7 +272,7 @@ restful-application:
         <p><b>Keywords:</b> BestPractices, REST, Web 2.0, Architecture, Design</p>
 
 building-windows:
-    date: Fri 10:15AM
+    date: Thu 10:15AM
     title: Building Windows Phone 7 Applications
     speakers: dragos-manolescu
     description: |
@@ -279,7 +282,7 @@ building-windows:
         <p><b>Target Audience:</b> Mobile application developers, Developers with interest in mobile application development</p>  
         
 leveraging-internet:
-    date: Fri 10:15AM
+    date: Thu 10:15AM
     title: Leveraging Internet Technologies to Build a New Breed of Software Development Tools
     speakers: martin-nally
     description: |
@@ -289,7 +292,7 @@ leveraging-internet:
       <p><b>Target Audience:</b> Developers, Managers</p>
 
 lessons-learned:
-    date: Fri 11:20AM
+    date: Thu 11:20AM
     title: Lessons Learned in Large HTTP-Centric Systems
     speakers: jim-webber
     descriptions: |
@@ -299,8 +302,8 @@ lessons-learned:
         <p><b>Target Audience:</b> Architects or developers with an interest in large-scale distributed systems and decision makers who want to understand the cost benefits of HTTP-centric systems versus middleware-based systems</p>
 
 developing-commercial: 
-    date: Fri 11:20AM
-    title: Developing Commercial Apps for Android and iPhone
+    date: Thu 11:20AM
+    title: iPhone & Android - From Concept to Delivery
     speakers: daniel-bradby, nathan-devries
     description: |
         <p><b>Mobile</b></p>
@@ -309,7 +312,7 @@ developing-commercial:
         <p><b>Keywords:</b>  Mobile, iPhone, Android, Design, BestPractices, AppMarket</p>
         
 monster-builds:
-    date: Fri 11:20AM
+    date: Thu 11:20AM
     title: Monster Builds (and how to tame them)
     speakers: chris-mountford
     descriptions: |
@@ -321,11 +324,11 @@ monster-builds:
         <p><b>Target Audience:</b>  Development team members, team leaders and build specialists, primarily those who want the benefits of continuous integration to scale with their project.</p>
 
 lunch2:
-    date: Fri 12:20PM
+    date: Thu 12:20PM
     title: Lunch
 
 emergence-ux:
-    date: Fri 1:00PM
+    date: Thu 1:00PM
     title: The Emergence of UX in an Agile World
     speakers: victor-rodrigues, xerxes-battiwalla
     description: |
@@ -335,7 +338,7 @@ emergence-ux:
         <p><b>Target Audience:</b> Developers, Managers, Thought Leaders, User Experience Architects</p>
  
 emergent-design:
-    date: Fri 1:00PM
+    date: Thu 1:00PM
     title: Emergent Design
     speakers: neal-ford
     description: |
@@ -344,7 +347,7 @@ emergent-design:
         <p><b>Keywords:</b> BestPractices, Architecture, Design, Craftsmanship, Agile, XP</p>
 
 fur-flies:
-    date: Fri 1:00PM
+    date: Thu 1:00PM
     title: "When the Fur Flies: Dev and Ops Cooperation When the Worst Happens"
     speakers: michael-nygard
     description: |
@@ -354,8 +357,8 @@ fur-flies:
         <p><b>Target Audience:</b> Developers, Managers, Architects</p>
 
 interactive-data:
-    date: Fri 2:05PM
-    title: Computational Information Design
+    date: Thu 2:05PM
+    title: Creating Interactive Data Visualizations for the Web with the JavaScript InfoVis Toolkit 2.0
     speakers: nicolas-belmonte
     description: |
         <p><b>Interaction & Visualization</b></p>
@@ -364,7 +367,7 @@ interactive-data:
         <p><b>Target Audience:</b> People wanting to create data visualizations for the web using major browsers and platforms.<p>
 
 management-two:
-    date: Fri 2:05PM
+    date: Thu 2:05PM
     title: "Management 2.0: Leadership Models for an Information Age"
     speakers: richard-durnall
     description: |
@@ -375,7 +378,7 @@ management-two:
         <p><b>Target Audience:</b>  Engineers with an interest in how management theory can directly affect developer and team productivity; IT leaders interested in changing the command & control structure of their organisations in the pursuit of improved results; Coaches and change managers interested in introducing new tools and concepts to help deal with organisational change and adoption issues; Anyone interested in learning more about lean and systems thinking.</p>
 
 how-to:
-    date: Fri 2:05PM
+    date: Thu 2:05PM
     title: "LMAX: How to do over 100K contended complex business transactions per second at less than 1ms latency"
     speakers: dave-farley
     description: |
@@ -386,11 +389,11 @@ how-to:
         <p><b>Target Audience:</b>  Developers interested in how to stretch the boundaries of what is possible on modern hardware</p>
 
 afternoon-tea2:
-    date: Fri 3:05PM
+    date: Thu 3:05PM
     title: Afternoon Tea
     
 computational-information:
-    date: Fri 3:20PM
+    date: Thu 3:20PM
     title: Computational Information Design
     speakers: ben-fry
     description: |
@@ -400,7 +403,7 @@ computational-information:
        <p><b>Target Audience:</b> Anyone interested in understanding the mess of data around us.</p>
 
 row-together:
-    date: Fri 3:20PM
+    date: Thu 3:20PM
     title: "Row Together, Row in the Right Direction, Row Faster: Improving alignment and throughput in software development"
     speakers: jason-yip
     description: |
@@ -410,7 +413,7 @@ row-together:
         <p><b>Target Audience:</b>  People who are interested in improvement across projects, not just single projects.</p>
 
 scaling-applications:
-    date: Fri 3:20PM
+    date: Thu 3:20PM
     title: "Scaling Applications: Complexity, Performance, Maintainability, Multi-Tenancy"
     speakers: oren-eini
     description: |
@@ -421,7 +424,7 @@ scaling-applications:
         <p><b>Target Audience:</b> Developers, Managers</p>
 
 forty-years:
-    date: Fri 4:25PM
+    date: Thu 4:25PM
     title: Forty Years of Fun with Computers
     speakers: dan-ingalls
     description: |
@@ -430,7 +433,7 @@ forty-years:
         <p><b>Keywords:</b> Smalltalk, Interaction, Visualization, VisualWeb, JavaScript, VisualLanguages, UX, MultiMedia</p>
 
 what-is:
-    date: Fri 4:25PM
+    date: Thu 4:25PM
     title: What is this Thing Called 'Pull'?
     speakers: mary-poppendieck
     description: |
@@ -447,7 +450,7 @@ what-is:
         <p><b>Target Audience:</b> Team Leads, Managers</p>
 
 performance-scalability:
-    date: Fri 4:25PM
+    date: Thu 4:25PM
     title: "Performance and Scalability Revisited: In-Memory Data Grids"
     speakers: brian-oliver
     descriptions: |
@@ -458,5 +461,5 @@ performance-scalability:
         <p><b>Keywords:</b> BestPractices, Database, EnterpriseComputing, CloudComputing</p>
 
 farewell-drinks:
-    date: Fri 5:30PM
+    date: Thu 5:30PM
     title: Farewell Drinks

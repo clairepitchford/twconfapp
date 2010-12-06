@@ -7,8 +7,8 @@ Feature: As an Attendee, I want the sessions to appear in order on the schedule 
 		
 		Examples:
 			| schedule_day	| early_session	| later_session |
-			| Thursday		| 10:00AM		| 10:15AM		|
-			| Thursday		| 03:20PM		| 04:25PM		|
-			| Friday		| 09:00AM		| 10:15AM		|
+			| Wednesday		| 10:00AM		| 10:15AM		|
+			| Wednesday		| 03:20PM		| 04:25PM		|
+			| Thursday		| 09:00AM		| 10:15AM		|
 			# | Friday		| 09:00AM		| 01:00PM		|
 			# | Friday		| 11:15AM		| 01:00PM		|

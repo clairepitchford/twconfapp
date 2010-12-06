@@ -23,14 +23,14 @@ class JSONConverter
         puts "Topic #{t_id} has invalid date of '#{data['date']}'"
         raise
       end
-      raise "Topic #{t_id} is not on Thursday or Friday." unless [4, 5].include? t.wday
+      raise "Topic #{t_id} is not on Wednesday or Thursday." unless [3, 4].include? t.wday
 
       speakers = (data['speakers'] || '').split(',').map { |s| s.strip }.each do |s_id|
         raise "Topic #{t_id} points to a non-existant speaker #{s_id}" unless @speakers[s_id]
         raise "Speaker #{s_id} does not have a name" unless @speakers[s_id]['name']
         raise "Speaker #{s_id} does not have a description" unless @speakers[s_id]['description']
       end
-      puts 'process:' + t_id
+      #puts 'process:' + t_id
     end
     puts 'topics processed: ' + @topics.keys.length.to_s
     

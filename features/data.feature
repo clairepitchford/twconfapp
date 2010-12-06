@@ -17,7 +17,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
     Given a topics YAML of:
       """
       open-house:
-          date: Fri 01:23AM
+          date: Wed 01:23AM
           title: Something Amazing
           speakers:
           description: |
@@ -25,7 +25,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
       """
     When the files are converted
     Then the first session ID should be "open-house"
-    And the day should be Friday
+    And the day should be Wednesday
     And the number of speakers should be 0
     And there should be a description
 
@@ -69,7 +69,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
     And a topics YAML of:
       """
       laser-therapy:
-          date: Fri 10:10AM
+          date: Wed 10:10AM
           title: LASER THERAPY
           speakers: scott-robinson, sam-tardif
           description: |
@@ -77,7 +77,7 @@ Feature: As the organizer, I want to be able to enter a schedule and have it con
       """
     When the files are converted
     Then the first session ID should be "laser-therapy"
-    And the day should be Friday
+    And the day should be Wednesday
     And the number of speakers should be 2
     And there should be a description
 

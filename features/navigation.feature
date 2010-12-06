@@ -24,7 +24,7 @@ Feature: As I'm a UX expert who is pained by the details, I'd like the tabbar ic
 		And I should see the "<text>" blurb
 
 		Examples:
-			| tab   | text                      |
-			| About | ThoughtWorks              |
-			| Rooms | Jasper Hotel Floorplan    |
-			| Where | Jasper Hotel              |
+			| tab   | text                        |
+			| About | ThoughtWorks                |
+			| Rooms | Royal On The Park Floorplan |
+			| Where | Royal On The Park           |
