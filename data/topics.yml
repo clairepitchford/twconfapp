@@ -1,11 +1,14 @@
 registration:
     date: Mon 08:00AM
     title: Registration
-    
-welcome:
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
+
+    welcome:
     date: Mon 08:30AM
     title: Welcome
-
+    
 kenote-address:    
     date: Mon 09:00AM
     title: Keynote Address - Things I Wish I'd Known
@@ -17,7 +20,10 @@ kenote-address:
 morning-tea:
     date: Mon 10:00AM
     title: Morning Tea
-            
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>            
+
 extreme-java:
     date: Mon 10:15AM
     title: "Extreme Java Productivity: Enterprise Applications in Just Minutes"
@@ -34,7 +40,7 @@ extreme-java:
         <p>This session assumes basic Enterprise Java development knowledge.</p>
         <p><b>Keywords:</b> Java, JavaBean, JSP, EnterpriseComputing, Spring</p>
         <p><b>Target Audience:</b> Application developers, Java developers</p>        
-        
+
 state-art:
     date: Mon 10:15AM
     title: "The State of the Art .NET: 12 Months of Things to Learn"
@@ -89,10 +95,10 @@ largest-rails:
 
 lunch:
     date: Mon 12:20PM
-    title: Lunch
+    title: Lunchdescription: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
 
-        
-        
 integrated-tests:
     date: Mon 1:00PM
     title: Integrated Tests are a Scam
@@ -158,6 +164,9 @@ erlang-warps:
 afternoon-tea:
     date: Mon 3:05PM
     title: Afternoon Tea
+    description: |  
+        <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+        <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
 
 googley-way:
     date: Mon 3:20PM
@@ -230,6 +239,9 @@ embracing-concurrency:
 break:
     date: Mon 5:25PM
     title: Break
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
 
 keynote-50:
     date: Mon 6:15PM
@@ -248,6 +260,9 @@ reception:
 welcome2:
     date: Tue 8:30AM
     title: Welcome
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
 
 keynote-address2:
     date: Tue 9:00AM
@@ -261,6 +276,9 @@ keynote-address2:
 morning-tea2:
     date: Tue 10:00AM
     title: Morning Tea
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
     
 restful-application:
     date: Tue 10:15AM
@@ -326,6 +344,9 @@ monster-builds:
 lunch2:
     date: Tue 12:20PM
     title: Lunch
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
 
 emergence-ux:
     date: Tue 1:00PM
@@ -391,6 +412,9 @@ how-to:
 afternoon-tea2:
     date: Tue 3:05PM
     title: Afternoon Tea
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
     
 computational-information:
     date: Tue 3:20PM
@@ -463,3 +487,6 @@ performance-scalability:
 farewell-drinks:
     date: Tue 5:30PM
     title: Farewell Drinks
+    description: |  
+           <p>Come join us at the ThoughtWorks booth for a slushie and some lollies! :)</p>
+           <p>Solve one of our unsolvable puzzles, or show us a cool yoyo trick to go in to the draw to win a Samsung Galaxy Tab!</p>
