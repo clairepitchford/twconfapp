@@ -97,8 +97,8 @@ ConferenceSession.prototype.dateString = function () {
 
 function AgileConference(speakerData, sessionData) {
   this.days = [
-    {'full': "Monday", 'shortName': "Wed", 'cssClass': "current"},
-    {'full': "Tuesday", 'shortName': "Thu"}
+    {'full': "Monday", 'shortName': "Mon", 'cssClass': "current"},
+    {'full': "Tuesday", 'shortName': "Tue"}
   ];
   
   this.conferenceSpeakers = this.buildSpeakers(speakerData);
@@ -604,7 +604,7 @@ $(document).ready(function () {
 //due to the fact that not all components are loaded before firing $.ready
 $(window).load(function () {
   $(document.body).trigger('orientationchange');
-  $('#Wednesday.current').trigger('pageAnimationStart');
+  $('#Monday.current').trigger('pageAnimationStart');
 
   registerBookmarkReminderPopup();
 });
